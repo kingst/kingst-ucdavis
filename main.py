@@ -16,7 +16,7 @@ class W18Ecs188(webapp2.RequestHandler):
         template = JINJA_ENVIRONMENT.get_template('classes/w18-ecs188/' + page)
         nav = [{'page': 'index.html', 'label': 'Home'},
                {'page': 'lectures.html', 'label': 'Lectures'},
-               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'quizzes.html', 'label': 'Quizzes and reports'},
                {'page': 'final_paper.html', 'label': 'Final paper'},
                {'page': 'final_presentation.html', 'label': 'Final presentation'}]
         self.response.write(template.render({'nav_title': 'ECS 188',
