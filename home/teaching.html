@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+    <style> body { padding-top: 3.5rem; } </style>
+
+    <style>
+      .jumbotron {
+        background-image: url(/assets/background.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color: white;
+        border-radius: 0;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <main role="main">
+
+      {% include 'templates/nav.html' %}
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container text-center">
+          <h1 class="display-3">Sam King</h1>
+          <h2>Computer Science @ UC Davis</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Current quarter</h2>
+            <table class="table table-striped table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Class</th>
+                  <th>Quarter</th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for cls in classes %}
+              <tr>
+                <td><a href="{{cls.page}}">{{cls.title}}</a></td>
+                <td>{{cls.quarter}}</td>
+              </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <hr>
+      </div> <!-- /container -->
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>
