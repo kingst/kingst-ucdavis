@@ -25,13 +25,22 @@
                 <tr>
                   <th>Date</th>
                   <th>Topic</th>
-                  <th>Required</th>
-                  <th>Optional</th>
+                  <th>Required reading</th>
+                  <th>Optional reading</th>
                   <th>Discussion leaders</th>
                 </tr>
               </thead>
 
               <tbody>
+		{% for row in reading_list %}
+		<tr>
+		  <td>{{row.date}}</td>
+		  <td>{{row.topic}}</td>
+		  <td>{{row.required_reading|string|safe}}</td>
+		  <td>{{row.optional_reading|string|safe}}</td>
+		  <td>{{row.disc_leaders}}</td>
+		</tr>
+		{% endfor %}
               </tbody>
 
             </table>

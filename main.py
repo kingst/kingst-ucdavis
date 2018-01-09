@@ -1,6 +1,12 @@
-import os
+import csv
 import jinja2
+import json
+import os
+import sys
 import webapp2
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 JINJA_ENVIRONMENT = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
@@ -30,16 +36,19 @@ class W18Ecs251(webapp2.RequestHandler):
         if page is None or len(page) == 0:
             page = 'index.html'
 
+        reading_list = csv.DictReader(open('classes/w18-ecs251/reading_list.csv'))
+
         template = JINJA_ENVIRONMENT.get_template('classes/w18-ecs251/' + page)
         nav = [{'page': 'index.html', 'label': 'Home'},
                {'page': 'grading.html', 'label': 'Grading'},
                {'page': 'lectures.html', 'label': 'Lectures'},
-               {'page': 'quizzes.html', 'label': 'Quizzes and reports'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
                {'page': 'research_project.html', 'label': 'Research project'},
                {'page': 'presentations.html', 'label': 'Presentations'}]
         self.response.write(template.render({'nav_title': 'ECS 251',
                                              'page': page,
-                                             'nav': nav}))
+                                             'nav': nav,
+                                             'reading_list': reading_list}))
 
 
 class Home(webapp2.RequestHandler):
