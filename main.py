@@ -24,13 +24,36 @@ class W18Ecs188(webapp2.RequestHandler):
                                              'page': page,
                                              'nav': nav}))
 
+
+class W18Ecs251(webapp2.RequestHandler):
+    def get(self, page):
+        if page is None or len(page) == 0:
+            page = 'index.html'
+
+        template = JINJA_ENVIRONMENT.get_template('classes/w18-ecs251/' + page)
+        nav = [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes and reports'},
+               {'page': 'research_project.html', 'label': 'Research project'},
+               {'page': 'presentations.html', 'label': 'Presentations'}]
+        self.response.write(template.render({'nav_title': 'ECS 251',
+                                             'page': page,
+                                             'nav': nav}))
+
+
 class Home(webapp2.RequestHandler):
     def get(self, page):
         if page is None or len(page) == 0:
             page = 'teaching.html'
 
         template = JINJA_ENVIRONMENT.get_template('home/' + page)
-        classes = [{'title': 'ECS 188', 'quarter': 'Winter 18', 'page': '/classes/w18-ecs188/index.html'}]
+        classes = [{'title': 'ECS 251',
+                    'quarter': 'Winter 18',
+                    'page': '/classes/w18-ecs251/index.html'},
+                   {'title': 'ECS 188',
+                    'quarter': 'Winter 18',
+                    'page': '/classes/w18-ecs188/index.html'}]
         nav = [{'page': '/', 'label': 'Home'},
                {'page': '/', 'label': 'Research'},
                {'page': 'teaching.html', 'label': 'Teaching'}]
@@ -42,6 +65,7 @@ class Home(webapp2.RequestHandler):
 
 app = webapp2.WSGIApplication(
     [(r'/classes/w18-ecs188/(.*)', W18Ecs188),
+     (r'/classes/w18-ecs251/(.*)', W18Ecs251),
      (r'/(.*)', Home)],
      debug=False)
 
