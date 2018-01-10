@@ -24,6 +24,7 @@
               <thead class="thead-dark">
                 <tr>
                   <th>Date</th>
+                  <th>Slides</th>
                   <th>Topic</th>
                   <th>Required reading</th>
                   <th>Optional reading</th>
@@ -35,6 +36,7 @@
 		{% for row in reading_list %}
 		<tr>
 		  <td>{{row.date}}</td>
+		  <td>{{row.slides|string|safe}}</td>
 		  <td>{{row.topic}}</td>
 		  <td>{{row.required_reading|string|safe}}</td>
 		  <td>{{row.optional_reading|string|safe}}</td>
