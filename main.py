@@ -19,6 +19,8 @@ class W18Ecs188(webapp2.RequestHandler):
         if page is None or len(page) == 0:
             page = 'index.html'
 
+        reading_list = csv.DictReader(open('classes/w18-ecs188/reading_list.csv'))
+
         template = JINJA_ENVIRONMENT.get_template('classes/w18-ecs188/' + page)
         nav = [{'page': 'index.html', 'label': 'Home'},
                {'page': 'grading.html', 'label': 'Grading'},
@@ -28,7 +30,8 @@ class W18Ecs188(webapp2.RequestHandler):
                {'page': 'presentations.html', 'label': 'Presentations'}]
         self.response.write(template.render({'nav_title': 'ECS 188',
                                              'page': page,
-                                             'nav': nav}))
+                                             'nav': nav,
+                                             'reading_list': reading_list}))
 
 
 class W18Ecs251(webapp2.RequestHandler):
