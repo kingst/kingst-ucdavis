@@ -1,28 +1,48 @@
-date,topic,slides,required_reading,optional_reading,disc_leaders,row_class
-1/9,Intro,"[<a href=""https://docs.google.com/presentation/d/1Fq-Btlza9ZoiB1VBo0F8SgoZGJSAJ5XyXs0qxB7XxpU/edit?usp=sharing"">gdoc</a>]",,,,
-1/11,VMM1,,"<a href=""/assets/ecs251/chen01.pdf"">When virtual is better than real</a>, Peter M. Chen, Brian D. Noble, Proceedings of the 2001 Workshop on Hot Topics in Operating Systems, May 2001.
+date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
+Monday 1/8,Why ethics in technology?,"[<a href=""https://docs.google.com/presentation/d/1lWNT3QD5rTTyV8WM7o9b3ANo7qL0HkPHb_mPnTEGKis/edit#slide=id.p"">gdoc</a>]",None,"Read on next entry what you need to do for Friday Watch an interesting video on the progression of information technologies. Do compare the <a href=""http://www.youtube.com/watch?v=cL9Wu2kWwSY"">Did you know? (2008)</a> version with the <a href=""https://www.youtube.com/watch?annotation_id=annotation_1871640555&feature=iv&src_vid=XrJjfDUzD7M&v=uqZiIO0YI7Y"">Did you know (2016)</a> version!",Sam,
+Wednesday 1/10,Discuss the Terrell Bynum paper,"[<a href=""https://docs.google.com/presentation/d/1LibEZ0uHQ5kHshhli3Em9VFTQL5cbeHie1wE3GyHki4/edit#slide=id.p"">gdoc</a>]","Read the <a href=""http://plato.stanford.edu/entries/ethics-computer/"">History of Computer and Information Ethics</a> [<a href=""/assets/ecs188/computer_and_information_ethics.pdf"">pdf</a>] by Terrell Bynum","Additional reading material:
+<ul>
+<li><a href=""http://plato.stanford.edu/entries/morality-definition/"">The definition of morality</a> [<a href=""/assets/ecs188/the_definition_of_morality.pdf"">pdf</a>] for a philosophical definition of morality as a foundation to ethics.</li>
+<li><a href=""http://stanford.library.usyd.edu.au/archives/spr2006/entries/ethics-computer/"">Computer Ethics: Basic Concepts and Historical Overview</a> [<a href=""/assets/ecs188/computer_ethics_basic_concepts.pdf"">pdf</a>] for an older overview.</li>
+<li><a href=""/assets/ecs188/weiner_humanuse.pdf"">The human use of human beings (Weiner, 2nd edition)</a>.</li>
+</ul>",Sam,
+Friday 1/12,Discuss if we should allow students to take smart drugs,"[<a href=""https://docs.google.com/presentation/d/1KsiDlu1fJjKVv40v-JJq4XXmRzDbbYbfhUaO8SjqOYY/edit#slide=id.p"">gdoc</a>]","Come to class prepared to debate both positions: <i>""Yes, students should be allowed""</i> and <i>""No, students should not be allowed""</i>. Read <a href=""/assets/ecs188/Greely_08.pdf"">Towards responsible use of cognitive-enhancing drugs by the healthy</a> (Greely et al, 2008).","Possible reading to support your arguments:
+<ul>
+<li><a href=""http://www.mercurynews.com/2016/07/09/hacking-the-brain-silicon-valley-entrepreneurs-turn-to-fasting-and-smart-drugs/"">Hacking the brain</a> [<a href=""/assets/ecs188/hacking_the_brain.pdf"">pdf</a>] ; an article in the Mercury news on smart drugs in Silicon Valley.</li>
+<li><a href=""/assets/ecs188/Husain_2011.pdf"">Cognitive enhancement by drugs in health and disease (a review)</a> (Husain and Mehta, 2011).</li>
+<li><a href=""/assets/ecs188/Dubljevic_13.pdf"">Regulation of Amphetamine and Methylphenidate for Enhancement Use by Healthy Adults</a> (Dubljevic, 2013).</li>
+<li><a href=""/assets/ecs188/Greely_13.pdf"">Some First Steps Toward Responsible Use of Cognitive-Enhancing Drugs by the Healthy</a> (Greely, 2013). A commentary on the paper by Dubljevic.</li>
+</ul>",Sam,
+Monday 1/15,"No class, MLK Day",,None,,,table-danger
+Wednesday 1/17,Apple should comply to the FBI,,"Read the <a href=""http://www.apple.com/customer-letter/"">Apple letter</a> to its customers about the case and the article from Wired magazine on <a href=""http://www.wired.com/2016/02/apple-fbi-privacy-security/"">The Apple-FBI fight is not about privacy versus security. Do not be misled.</a>
 <br><br>
-<a href=""/assets/ecs251/dunlap01.pdf"">ReVirt: enabling intrusion analysis through virtual-machine logging and replay</a>. Dunlap, G. W., King, S. T., Cinar, S., Basrai, M. A., and Chen, P. M. 2002. In Proceedings of the 5th Symposium on Operating Systems Design and Implementation","<a href=""/assets/ecs251/garfinkel07.pdf"">When Virtual is Harder than Real: Security Challenges in Virtual Machine Based Computing Environments</a> by Tal Garfinkel and Mendel Rosenblum 10th Workshop on Hot Topics in Operating Systems (HOTOS-X).",Sam,
-1/16,VMM2,,"<a href=""/assets/ecs251/whitaker02.pdf"">Scale and performance in the Denali isolation kernel</a>. Whitaker, A., Shaw, M., and Gribble, S. D. 2002. In Proceedings of the 5th Symposium on Operating Systems Design and Implementation","<a href=""/assets/ecs251/bugnion97.pdf"">Disco: running commodity operating systems on scalable multiprocessors</a>. Bugnion, E., Devine, S., and Rosenblum, M. 1997. In Proceedings of the Sixteenth ACM Symposium on Operating Systems Principles (Saint Malo, France, October 05 - 08, 1997)
-<br><br>
-<a href=""/assets/ecs251/barham03.pdf"">Xen and the art of virtualization</a>. Barham, P., Dragovic, B., Fraser, K., Hand, S., Harris, T., Ho, A., Neugebauer, R., Pratt, I., and Warfield, A. 2003. In Proceedings of the Nineteenth ACM Symposium on Operating Systems Principles (Bolton Landing, NY, USA, October 19 - 22, 2003). SOSP '03.",Sam,
-1/18,Exo1,,"<a href=""/assets/ecs251/kaashoek97.pdf"">Application performance and flexibility on exokernel systems</a>. M. Frans Kaashoek, Dawson R. Engler, Gregory R. Ganger, Héctor M. Briceño, Russell Hunt, David Mazières, Thomas Pinckney, Robert Grimm, John Jannotti, and Kenneth Mackenzie. In the Proceedings of the 16th ACM Symposium on Operating Systems Principles (SOSP '97), Saint-Malô, France, October 1997.","<a href=""/assets/ecs251/tang10.pdf"">Trust and Protection in the Illinois Browser Operating System</a>, Shuo Tang, Haohui Mai, and Samuel T. King, Proceedings of the 2010 Symposium on Operating Systems Design and Implementation",Sam,
-1/23,Mono1,,"Nathan Dautenhahn, Theodoros Kasampalis, Will Dietz, John Criswell, and Vikram Adve. Nested Kernel: An
-Operating System Architecture for Intra-Kernel Privilege Separation. In Proceedings of the Twentieth International
-Conference on Architectural Support for Programming Languages and Operating Systems, (ASPLOS ’15), pages
-191–206, New York, NY, USA, 2015. ACM","Secure Virtual Architecture: A Safe Execution Environment for Commodity Operating Systems. John Criswell, Andrew Lenharth, Dinakar Dhurjati, and Vikram Adve. Proceedings of the Twenty First ACM Symposium on Operating Systems Principles (SOSP '07), Stevenson, WA, October 2007. ",,
-1/25,Mono2,,"Adam Belay, Andrea Bittau, Ali Mashtizadeh, David Terei, David Mazières, and Christos Kozyrakis. 2012. Dune: Safe User-level Access to Privileged CPU Features. In Proceedings of the 10th Symposium on Operating Systems Design and Implementation (OSDI).",,,
-1/30,FullStack1,,"Ilias Marinos, Robert N. M. Watson, Mark Handley, and Randal Ray Stewart. Disk|Crypt|Net: rethinking the stack for high performance video streaming. ACM SIGCOMM 2017 Conference (SIGCOMM'17). Los Angeles, CA, USA, August 21-25, 2017.",,"Kevin Jesse, Austin Chau, Chia-Cheng Yen",
-2/1,Formal1,,"Hyperkernel: Push-Button Verification of an OS Kernel. Luke Nelson, Helgi Sigurbjarnarson, Kaiyuan Zhang, Dylan Johnson, James Bornholt, Emina Torlak, and Xi Wang. In Proceedings of the 26th ACM Symposium on Operating Systems Principles (SOSP), Shanghai, China, October 2017.","Verifying Security Invariants in ExpressOS. Haohui Mai, Edgar Pek, Hui Xue, Samuel T. King, and P. Madhusudan. 18th Int'l Conf. on Architectural Support for Prog. Lang. and Operating Sys. (ASPLOS), 2013","Doug Sherman, Sean Alling, Joseph Kotlarek",
-2/6,Google1,,"MapReduce: Simplified Data Processing on Large Clusters. Jeffrey Dean and Sanjay Ghemawat. OSDI'04: Sixth Symposium on Operating System Design and Implementation, San Francisco, CA, December, 2004. ",,"Hanxing Zhang, Xixuan Li, Dixit Paudel, Liwei Wu",
-2/8,Google2,,"Native Client: A Sandbox for Portable, Untrusted x86 Native Code, Bennet Yee, David Sehr, Gregory Dardyk, J. Bradley Chen, Robert Muth, Tavis Ormandy, Shiki Okasaka, Neha Narula, Nicholas Fullagar, Security and Privacy, IEEE Symposium on, pp. 79-93, 2009 30th IEEE Symposium on Security and Privacy, 2009",,"Ayush Jain, Navin Adhe, Jingxian Liao, Quan Zou",
-2/13,Google3,,"Spanner: Google's Globally-Distributed Database. James C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher Frost, JJ Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser, Peter Hochschild, Wilson Hsieh, Sebastian Kanthak, Eugene Kogan, Hongyi Li, Alexander Lloyd, Sergey Melnik, David Mwaura, David Nagle, Sean Quinlan, Rajesh Rao, Lindsay Rolig, Yasushi Saito, Michal Szymaniak, Christopher Taylor, Ruth Wang, and Dale Woodford. Published in the Proceedings of OSDI'12: Tenth Symposium on Operating System Design and Implementation, Hollywood, CA, October, 2012.",Big Table,"Hari Venugopalan, Songjie Bi, Jinhua Cao, Sanchit Aggarwal",
-2/15,Google4,,"The Case for Learned Index Structures. Tim Kraska, Alex Beutel, Ed H. Chi, Jeff Dean, Neoklis Polyzotis. arXiv (2017)",,Sean Alling,
-2/20,uKern1,,"Chris Grier, Shuo Tang, Samuel T. King. Secure Web Browsing with the OP Web Browser. IEEE Symposium on Security and Privacy 2008","A safety-oriented platform for Web applications. R.S. Cox ; J.G. Hansen ; S.D. Gribble ; H.M. Levy, Published in the 2006 IEEE Symposium on Security and Privacy","Navpreet Kaur, Nehal Agrawal. Sean Alling",
-2/22,Auth1,,"N. Karapanos, C. Marforio, C. Soriente, and S. Capkun. Sound-proof: Usable two-factor authentication based on ambient sound. In 24th USENIX Security Symposium (USENIX Security 15), pages 483–498, Washington, D.C., 2015. USENIX Association.",,Zainul Abi Din，Liyang Zhong,
-2/27,Dist1,,"Time, Clocks, and the Ordering of Events in a Distributed System by Leslie Lamport. Communications of the ACM, 1978.",,"Farhana Sarker, Wen-Chi Hung, Huan-Ting Yen, Ethan Hou",
-3/1,Sec1,,CryptDB,,,
-3/6,Presentations1,,,,,
-3/8,Presentations2,,,,,
-3/13,Presentations3,,,,,
-3/15,Presentations4,,,,,
+Come to class prepared to debate both positions: <i>""Yes, Apple should comply""</i> and <i>""No, Apple should not comply""</i>","Possible readings to support your arguments:
+<ul>
+<li>In support of the FBI: transcript of a NPR <a href=""http://www.npr.org/2016/02/24/467711098/transcript-nprs-interview-with-cia-director-john-brennan"">interview with CIA director John Brennan</a></li>
+<li>A view from our Canadian neighbours: <a href=""http://www.cbc.ca/news/technology/apple-fbi-explainer-1.3459952"">Apple's privacy fight with the FBI explained</a></li>
+</ul>",Sam,
+Friday 1/19,Gender and bias in tech,,"(a) Read <a href=""https://www.theatlantic.com/magazine/archive/2017/04/why-is-silicon-valley-so-awful-to-women/517788/https://www.theatlantic.com/magazine/archive/2017/04/why-is-silicon-valley-so-awful-to-women/517788/"">Why Is Silicon Valley So Awful to Women?</a> [<a href=""/assets/ecs188/mundy.pdf"">pdf</a>] by Lizy Mundy (2017). (b) Read <a href=""/assets/ecs188/damore.pdf"">Google’s Ideological Echo Chamber</a> by James Damore (2017). (c) spend an hour or so to research reaction to (b) and to form your own opinion on it.","Listen to <a href=""https://www.npr.org/2017/10/09/556116385/nature-nurture-and-our-evolving-debates-about-gender"">The Edge of Gender</a> by Shankar Vedantam (2017).",Sam,
+Monday 1/22,MQI,,,<b>Final paper Milestone 1 due</b>,Sam,table-warning
+Wednesday 1/24,,,,,,
+Friday 1/26,,,,,,
+Monday 1/29,,,,,,
+Wednesday 1/31,,,,,,
+Friday 2/2,,,,,Kris Quon,
+Monday 2/5,,,,,,
+Wednesday 2/7,,,,,,
+Friday 2/9,,,,,,
+Monday 2/12,BlackMirror1,,,,Kris Quon,
+Wednesday 2/14,BlackMirror2,,,,,
+Friday 2/16,BlackMirror3,,,<b>Final paper Milestone 2 due</b>,,table-warning
+Monday 2/19,"No class, President's Day",,,,,table-danger
+Wednesday 2/21,,,,,,
+Friday 2/23,,,,,,
+Monday 2/26,,,,,,
+Wednesday 2/28,,,,,,
+Friday 3/2,,,,,,
+Monday 3/5,,,,,,
+Wednesday 3/7,,,,<b>Final paper due</b>,,table-warning
+Friday 3/9,"No class, prep for presentations",,,,,table-danger
+Monday 3/12,Presentations,,None,None,,table-info
+Wednesday 3/14,Presentations,,None,None,,table-info
+Friday 3/16,Presentations,,None,None,,table-info
