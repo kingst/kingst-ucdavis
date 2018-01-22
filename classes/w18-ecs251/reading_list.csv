@@ -21,7 +21,7 @@ Conference on Architectural Support for Programming Languages and Operating Syst
 2/20,uKern1,,"Chris Grier, Shuo Tang, Samuel T. King. Secure Web Browsing with the OP Web Browser. IEEE Symposium on Security and Privacy 2008","A safety-oriented platform for Web applications. R.S. Cox ; J.G. Hansen ; S.D. Gribble ; H.M. Levy, Published in the 2006 IEEE Symposium on Security and Privacy","Navpreet Kaur, Jonathan Castello",
 2/22,Auth1,,"N. Karapanos, C. Marforio, C. Soriente, and S. Capkun. Sound-proof: Usable two-factor authentication based on ambient sound. In 24th USENIX Security Symposium (USENIX Security 15), pages 483–498, Washington, D.C., 2015. USENIX Association.",,"Liyang Zhong, Quan Zou, Jingxian Liao,Zheng Zhang, Xiaoju Guo",
 2/27,Dist1,,"Time, Clocks, and the Ordering of Events in a Distributed System by Leslie Lamport. Communications of the ACM, 1978.",,"Farhana Sarker, Wen-Chi Hung, Huan-Ting Yen, Ethan Hou, Wei-Pang Jan",
-3/1,Sec1,,CryptDB,,Abdulhai Naqvi,
+3/1,Dist2,,"<a href=""/assets/ecs251/ripple_consensus_protocol.pdf"">The Ripple Protocol Consensus Algorithm</a>",,Abdulhai Naqvi,
 3/6,Presentations1,,,,,
 3/8,Presentations2,,,,,
 3/13,Presentations3,,,,,
