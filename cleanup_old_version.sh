@@ -8,7 +8,7 @@ do
     if [ $COUNT -gt "2" ]
     then
       echo "Going to delete version $VERSION of the $1 project."
-      #gcloud app versions delete $VERSION --project=$1 -q
+      gcloud app versions delete $VERSION --project=$1 -q
     else
       echo "Going to keep version $VERSION of the $1 project."
     fi
