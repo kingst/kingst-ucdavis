@@ -7,6 +7,11 @@ else
     exit
 fi
 
+if [ "$(git symbolic-ref --short HEAD)" != "master" ]; then
+    echo 'not on master branch, bailing'
+    exit
+fi
+
 gcloud app deploy --project=kingst-ucd --promote
 gcloud app deploy --project=kingst-ucdavis --promote
 ./cleanup_old_version.sh kingst-ucdavis
