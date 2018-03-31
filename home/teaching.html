@@ -53,6 +53,25 @@
               </tbody>
             </table>
           </div>
+          <div class="col-md-12">
+            <h2>Past classes</h2>
+            <table class="table table-striped table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Class</th>
+                  <th>Quarter</th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for cls in past_classes %}
+              <tr>
+                <td><a href="{{cls.page}}">{{cls.title}}</a></td>
+                <td>{{cls.quarter}}</td>
+              </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
         </div>
         <hr>
       </div> <!-- /container -->

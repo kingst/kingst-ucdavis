@@ -13,6 +13,25 @@ JINJA_ENVIRONMENT = jinja2.Environment(
     extensions=['jinja2.ext.autoescape'],
     autoescape=True)
 
+class S18Ecs188(webapp2.RequestHandler):
+    def get(self, page):
+        if page is None or len(page) == 0:
+            page = 'index.html'
+
+        reading_list = csv.DictReader(open('classes/s18-ecs188/reading_list.csv'))
+
+        template = JINJA_ENVIRONMENT.get_template('classes/s18-ecs188/' + page)
+        nav = [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes and reports'},
+               {'page': 'final_paper.html', 'label': 'Final paper'},
+               {'page': 'presentations.html', 'label': 'Presentations'}]
+        self.response.write(template.render({'nav_title': 'ECS 188',
+                                             'page': page,
+                                             'nav': nav,
+                                             'reading_list': reading_list}))
+
 
 class W18Ecs188(webapp2.RequestHandler):
     def get(self, page):
@@ -60,7 +79,10 @@ class Home(webapp2.RequestHandler):
             page = 'teaching.html'
 
         template = JINJA_ENVIRONMENT.get_template('home/' + page)
-        classes = [{'title': 'ECS 251',
+        classes = [{'title': 'ECS 188',
+                    'quarter': 'Spring 18',
+                    'page': '/classes/s18-ecs188/index.html'}]
+        past_classes = [{'title': 'ECS 251',
                     'quarter': 'Winter 18',
                     'page': '/classes/w18-ecs251/index.html'},
                    {'title': 'ECS 188',
@@ -70,6 +92,7 @@ class Home(webapp2.RequestHandler):
                {'page': '/', 'label': 'Research'},
                {'page': 'teaching.html', 'label': 'Teaching'}]
         self.response.write(template.render({'classes': classes,
+                                             'past_classes': past_classes,
                                              'nav_title': 'Sam King',
                                              'nav': nav,
                                              'page': page}))
@@ -77,6 +100,7 @@ class Home(webapp2.RequestHandler):
 
 app = webapp2.WSGIApplication(
     [(r'/classes/w18-ecs188/(.*)', W18Ecs188),
+     (r'/classes/s18-ecs188/(.*)', S18Ecs188),
      (r'/classes/w18-ecs251/(.*)', W18Ecs251),
      (r'/(.*)', Home)],
      debug=False)
