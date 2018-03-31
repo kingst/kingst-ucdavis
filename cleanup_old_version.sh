@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSIONS=$(gcloud app versions list --project=$1 --sort-by '~LAST_DEPLOYED' --format 'value(version.id)')
+VERSIONS=$(gcloud app versions list --project=$1 --sort-by '~version' --format 'value(version.id)')
 COUNT=0
 echo "Keeping the $2 latest versions of the $1 service"
 for VERSION in $VERSIONS
