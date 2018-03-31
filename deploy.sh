@@ -1,14 +1,14 @@
 #!/bin/bash
 
+if [ "$(git symbolic-ref --short HEAD)" != "master" ]; then
+    echo 'will only deploy from master, bailing'
+    exit
+fi
+
 if [ -z "$(git status --porcelain)" ]; then 
     echo 'git status is clean, deploying...'
 else 
     echo 'uncommitted changes, run `git status` for more information'
-    exit
-fi
-
-if [ "$(git symbolic-ref --short HEAD)" != "master" ]; then
-    echo 'not on master branch, bailing'
     exit
 fi
 
