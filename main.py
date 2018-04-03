@@ -73,10 +73,11 @@ class W18Ecs251(webapp2.RequestHandler):
                                              'reading_list': reading_list}))
 
 
+
 class Home(webapp2.RequestHandler):
     def get(self, page):
         if page is None or len(page) == 0:
-            page = 'teaching.html'
+            page = 'main.html'
 
         template = JINJA_ENVIRONMENT.get_template('home/' + page)
         classes = [{'title': 'ECS 188',
@@ -89,13 +90,14 @@ class Home(webapp2.RequestHandler):
                     'quarter': 'Winter 18',
                     'page': '/classes/w18-ecs188/index.html'}]
         nav = [{'page': '/', 'label': 'Home'},
-               {'page': '/', 'label': 'Research'},
+               {'page': 'research.html', 'label': 'Research'},
                {'page': 'teaching.html', 'label': 'Teaching'}]
         self.response.write(template.render({'classes': classes,
                                              'past_classes': past_classes,
                                              'nav_title': 'Sam King',
                                              'nav': nav,
                                              'page': page}))
+
 
 
 app = webapp2.WSGIApplication(

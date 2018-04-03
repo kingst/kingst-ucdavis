@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+    <style> body { padding-top: 3.5rem; } </style>
+
+    <style>
+      .jumbotron {
+        background-image: url(/assets/background.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color: white;
+        border-radius: 0;
+      }
+    </style>
+    <link href="/assets/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <main role="main">
+
+      {% include 'templates/nav.html' %}
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container text-center">
+          <h1 class="display-3">Sam King</h1>
+          <h2>Computer Science @ UC Davis</h2>
+        </div>
+      </div>
+
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12 mycol">
+          <h3 class="text-center">In the press</h3>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6" id="browser">
+	  <div class="row left"><div class="col-md-12 mycol">
+          <h3 class="text-center">Secure web browsers</h3>
+          <p><b>OP web browser (<a href="dl/op.pdf">pdf</a>).</b> This paper
+          was the first browser paper from my group, we were the first
+          to rethink modern web browser architectures to improve
+          security. We also used formal methods to help vet our
+          system, and proposed new mechanisms and policies for coping
+          with compromised browser plugins.</p>
+
+          <p>Gazelle (<a href="dl/wang09.pdf">pdf</a>). Extended the basic OP
+          architecture and had some new ideas on dealing with display
+          security.</p>
+
+          <p>Alhambra (<a href="dl/tang10.pdf">pdf</a>). Applied
+          deterministic replay to web browsers to enable browser
+          developers to test new security policies.</p>
+
+          <p>Vex (<a href="dl/Bandhakavi10.pdf">pdf</a>). Tested
+          browser extensions for potential security
+          vulnerabilities. Key insight: many vulnerabilities could be
+          expressed as information flows. We found several previously
+          unknown and subtle vulnerabilities.</p>
+
+          <p><b>IBOS (<a href="dl/ibos.pdf">pdf</a>)</b>. Built a new browser
+          and a new OS specifically for more secure browsers. Our
+          specialized OS reduced the trusted computing base for our
+          browser by 2-3 orders of magnitude when compared to other
+          modern systems.</p>
+
+          <p>ExpressOS (<a href="dl/mai13.pdf">pdf</a>). Built a new
+          OS that included strong formal verification, with support
+          for the Android system call interface and
+          libraries. Although not strictly a browser, this work builds
+          on top of our previous work on secure web browsers directly.</p>
+
+          <p>Cocktail (<a href="dl/cocktail.pdf">pdf</a>). Uses three
+          commodity browsers in concert to add security and
+          reliability.</p>
+
+	  </div></div>
+        </div>
+
+	<div class="col-md-6">
+	  <div class="row right">
+	    <div class="col-md-12 mycol">
+          <h3 class="text-center">Malicious hardware</h3>
+          <p><b>IMP (<a href="dl/king08.pdf">pdf</a>)</b>. Designed and implemented
+          the first processor with hardware backdoors. We learned a
+          lot about the threat from this experience.</p>
+
+          <p><b>BlueChip (<a href="dl/bluechip.pdf">pdf</a>)</b>. Developed a hardware /
+          software system for removing suspicious circuits from
+          hardware designs. Surprising result: we removed legitimate
+          hardware from a hardware design and used software to make
+          forward progress safely.</p>
+
+          <p>Defeating UCI
+          (<a href="dl/Sturton11.pdf">pdf</a>). Performed a detailed
+          security analysis of the UCI algorithm. We found some subtle
+          and clever circuits that showed how to evade our UCI
+          algorithm.</p>
+
+          <p>SPECS (<a href="dl/hicks15.pdf">pdf</a>). Hardware
+          support for enforcing security invariants in a modern
+          processor. Includes a study of modern processor errata to
+          classify them into security and non-security critical bugs.
+	    </div>
+	  </div>
+
+
+	  <div class="row right">
+            <div class="col-md-12 mycol">
+          <h3 class="text-center">Deterministic replay</h3>
+          <p>Capo (<a href="dl/montesinos09.pdf">pdf</a>). Built the
+          first system to combine HW and SW replay systems. We found
+          some subtle and interesting interactions when we combined
+          the two.</p>
+
+          <p>QuickRec (<a href="dl/quickrec.pdf">pdf</a>). A hardware prototype from
+          Intel of record and replay support that uses the Capo HW/SW
+          interface and Capo software.</p>
+            </div>
+	  </div>
+	</div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mycol">
+          <h3 class="text-center">Machine learning for systems and security</h3>
+
+          <p>Laika (<a href="dl/cozzie08.pdf">pdf</a>). Built a system
+          for extracting data structures out of process heaps and
+          stacks <i>without</i> using symbols. We found that data
+          structures were fairly good at identifying processes, even
+          for code-polymorphic malware.</p>
+
+          <p>Macho (<a href="dl/cozzie11.pdf">pdf</a>). Built a system for
+          programming using natural language, examples, and a large
+          database of source code. This is still early research, but
+          we already generated a few simple coreutils applications.
+
+        </div>
+      </div>
+      </div>
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+    <style> body { padding-top: 3.5rem; } </style>
+
+    <style>
+      .jumbotron {
+        background-image: url(/assets/background.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color: white;
+        border-radius: 0;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <main role="main">
+
+      {% include 'templates/nav.html' %}
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container text-center">
+          <h1 class="display-3">Sam King</h1>
+          <h2>Computer Science @ UC Davis</h2>
+        </div>
+      </div>
+
+      <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <h3 class="text-center">Overview information</h3>
+
+	  <p>
+	    In general, I'm interested in research on computer
+	    security. I tend to apply techniques from a wide range of
+	    areas within computer science (operating systems,
+	    architecture, machine learning) in order to solve security
+	    problems.
+	  </p>
+
+	  <p>
+	    I spent four years in industry with two of them as the
+	    Head of Accounts at Twitter and two as Head of Fraud and
+	    Identity at Lyft, but now I'm back in academia at UC
+	    Davis. If you're interested, I wrote
+	    a <a href="https://eng.lyft.com/stopping-fraudsters-by-changing-products-452240f2d2cc">blog
+	    post</a> that talks about some of the lessons learned from
+	    my time in industry.
+	  </p>
+
+	  <p>
+	    Currently, I'm working on digital identities, fraud, fake
+	    accounts, and robot
+	    security. My <a href="research.html">Research</a> page shows
+	    a nice summary of some of my past projects.
+	  </p>
+
+	  <p>
+	    You can reach me
+	    via <a href="https://www.linkedin.com/in/sam-king-093613/">LinkedIn</a>, <a href="https://twitter.com/stk">Twitter</a>,
+	    or <a href="mailto:kingst@ucdavis.edu">email
+	    (kingst@ucdavis.edu)</a>.
+	  </p>
+        </div>
+      </div>
+      </div>
+
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>
