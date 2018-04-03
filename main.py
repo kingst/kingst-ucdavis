@@ -79,6 +79,16 @@ class Home(webapp2.RequestHandler):
         if page is None or len(page) == 0:
             page = 'main.html'
 
+        publication_list = csv.DictReader(open('home/publications.csv'))
+
+        def publication_to_listing(publication):
+            url = '/assets/dl/' + publication['paper']
+            anchor = '<a href="' + url + '">"'
+            end_anchor = '</a>'
+            return publication['publication'].replace('{start_title}', anchor).replace('{end_title}', end_anchor)
+
+        publications = [publication_to_listing(x) for x in publication_list]
+
         template = JINJA_ENVIRONMENT.get_template('home/' + page)
         classes = [{'title': 'ECS 188',
                     'quarter': 'Spring 18',
@@ -91,9 +101,11 @@ class Home(webapp2.RequestHandler):
                     'page': '/classes/w18-ecs188/index.html'}]
         nav = [{'page': '/', 'label': 'Home'},
                {'page': 'research.html', 'label': 'Research'},
+               {'page': 'publications.html', 'label': 'Publications'},
                {'page': 'teaching.html', 'label': 'Teaching'}]
         self.response.write(template.render({'classes': classes,
                                              'past_classes': past_classes,
+                                             'publications': publications,
                                              'nav_title': 'Sam King',
                                              'nav': nav,
                                              'page': page}))
