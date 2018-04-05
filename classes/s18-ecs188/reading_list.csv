@@ -1,6 +1,6 @@
 date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
-Monday 4/2,Why ethics in technology?,,None,"Read on next entry what you need to do for Friday Watch an interesting video on the progression of information technologies. Do compare the <a href=""http://www.youtube.com/watch?v=cL9Wu2kWwSY"">Did you know? (2008)</a> version with the <a href=""https://www.youtube.com/watch?annotation_id=annotation_1871640555&feature=iv&src_vid=XrJjfDUzD7M&v=uqZiIO0YI7Y"">Did you know (2016)</a> version!",Sam,
-Wednesday 4/4,Discuss the Terrell Bynum paper,,"Read the <a href=""http://plato.stanford.edu/entries/ethics-computer/"">History of Computer and Information Ethics</a> [<a href=""/assets/ecs188/computer_and_information_ethics.pdf"">pdf</a>] by Terrell Bynum","Additional reading material:
+Monday 4/2,Why ethics in technology?,"[<a href=""https://docs.google.com/presentation/d/14Y4lfjLUw4cNIUbG320QrFDkU9-tVNN8q50vgOAggQY/edit#slide=id.p"">gdoc</a>]",None,"Read on next entry what you need to do for Friday Watch an interesting video on the progression of information technologies. Do compare the <a href=""http://www.youtube.com/watch?v=cL9Wu2kWwSY"">Did you know? (2008)</a> version with the <a href=""https://www.youtube.com/watch?annotation_id=annotation_1871640555&feature=iv&src_vid=XrJjfDUzD7M&v=uqZiIO0YI7Y"">Did you know (2016)</a> version!",Sam,
+Wednesday 4/4,Discuss the Terrell Bynum paper,"[<a href=""https://docs.google.com/presentation/d/12SE53DzYU78f9upwKEa5a1-7REnw7vFb2WKUGauBCow/edit#slide=id.p"">gdoc</a>]","Read the <a href=""http://plato.stanford.edu/entries/ethics-computer/"">History of Computer and Information Ethics</a> [<a href=""/assets/ecs188/computer_and_information_ethics.pdf"">pdf</a>] by Terrell Bynum","Additional reading material:
 <ul>
 <li><a href=""http://plato.stanford.edu/entries/morality-definition/"">The definition of morality</a> [<a href=""/assets/ecs188/the_definition_of_morality.pdf"">pdf</a>] for a philosophical definition of morality as a foundation to ethics.</li>
 <li><a href=""http://stanford.library.usyd.edu.au/archives/spr2006/entries/ethics-computer/"">Computer Ethics: Basic Concepts and Historical Overview</a> [<a href=""/assets/ecs188/computer_ethics_basic_concepts.pdf"">pdf</a>] for an older overview.</li>
@@ -25,7 +25,7 @@ Come to class prepared to debate both positions: <i>""Yes, Apple should comply""
 Friday 4/13,Gender and bias in tech,,"(a) Read <a href=""https://www.theatlantic.com/magazine/archive/2017/04/why-is-silicon-valley-so-awful-to-women/517788/https://www.theatlantic.com/magazine/archive/2017/04/why-is-silicon-valley-so-awful-to-women/517788/"">Why Is Silicon Valley So Awful to Women?</a> [<a href=""/assets/ecs188/mundy.pdf"">pdf</a>] by Lizy Mundy (2017). (b) Read <a href=""/assets/ecs188/damore.pdf"">Google’s Ideological Echo Chamber</a> by James Damore (2017). (c) spend an hour or so to research reaction to (b) and to form your own opinion on it.","Listen to <a href=""https://www.npr.org/2017/10/09/556116385/nature-nurture-and-our-evolving-debates-about-gender"">The Edge of Gender</a> by Shankar Vedantam (2017).",Sam,
 Friday 4/13 Discussion,No discussion,,,,,table-danger
 Monday 4/16,AI,,"(a) <a href=""/assets/ecs188/joy.pdf"">Read Why the Future Doesn’t Need Us</a> (2000) by Bill Joy. (b) Read a response to this, <a href=""/assets/ecs188/kurzweil.pdf"">Promise and Peril</a> (2001) by Ray Kurzweil.",,,
-Wednesday 4/18,Dangers of tech: smartphones,,"Read: (a) <a href=""/assets/ecs188/smartphone.pdf"">Have Smartphones Destroyed a Generation?</a> by J. Twenge (2017); (b) <a href=""https://www.vice.com/en_us/article/vv5jkb/the-secret-ways-social-media-is-built-for-addiction"">Your Addiction to Social Media is No Accident</a> by J. Morgans (2017); (c) <a href=""https://journal.thriveglobal.com/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3"">How Technology is Hijacking Your Mind</a> by T. Harris (2016); and listen to the Fresh Air audio (d) <a href=""http://www.npr.org/sections/alltechconsidered/2017/03/13/519977607/irresistible-by-design-its-no-accident-you-cant-stop-looking-at-the-screen"">‘Irresistible’ by Design</a> (2017).",,,
+Wednesday 4/18,Dangers of tech: smartphones,,"Read: (a) <a href=""/assets/ecs188/smartphone.pdf"">Have Smartphones Destroyed a Generation?</a> by J. Twenge (2017); (b) <a href=""https://www.vice.com/en_us/article/vv5jkb/the-secret-ways-social-media-is-built-for-addiction"">Your Addiction to Social Media is No Accident</a> by J. Morgans (2017); (c) <a href=""https://journal.thriveglobal.com/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3"">How Technology is Hijacking Your Mind</a> by T. Harris (2016); and listen to the Fresh Air audio (d) <a href=""http://www.npr.org/sections/alltechconsidered/2017/03/13/519977607/irresistible-by-design-its-no-accident-you-cant-stop-looking-at-the-screen"">‘Irresistible’ by Design</a> (2017).",,"Anushka Singh, Lana Vanzine",
 Friday 4/20,Dangers of tech: Google,,"Read the paper ""<a href=""/assets/ecs188/carr.pdf"">Is Google making us stupid</a>?"" by Nicholas Carr as well as the article: <a href=""http://discovermagazine.com/2009/feb/15-how-google-is-making-us-smarter"">How Google is making us smarter</a> by Carl Zimmer.",,,
 Friday 4/20 Discussion,No discussion,,,,,table-danger
 Monday 4/23,Money: cryptocurrencies,,"Read <a href=""https://www.theatlantic.com/technology/archive/2017/05/blockchain-of-command/528543/"">Cryptocurrency Might be a Path to Authoritarianism</a> by Ian Bogost in The Atlantic",,,
@@ -34,18 +34,18 @@ Friday 4/27,Money: 2007 financial meltdown,,"In class: watch ""The Big Short""",
 Friday 4/27 Discussion,Money: 2007 financial meltdown,,"In class: watch ""The Big Short""",,,
 Monday 4/30,<i>Student selection</i>,,,,,
 Wednesday 5/2,<i>Student selection</i>,,,,,
-Friday 5/4,<i>Student selection</i>,,,,,
+Friday 5/4,BlackMirror,,"S4E4 ""Hang the DJ""",,"Julius Ramos, Garrett Boseck",
 Friday 5/4 Discussion,No discussion,,,,,table-danger
-Monday 5/7,BlackMirror1,,"S1E3 ""The Entire History of You""",,,
+Monday 5/7,BlackMirror1,,"S1E3 ""The Entire History of You""",,Bishal Thapa,
 Wednesday 5/9,BlackMirror2,,"S4E2 ""Arkangel""",,,
-Friday 5/11,BlackMirror3,,"S4E1 ""USS Callister""",,,
+Friday 5/11,BlackMirror3,,"S4E1 ""USS Callister""",,"Sarmad Farooq, Karishma Tangella",
 Friday 5/11 Discussion,No discussion,,,,,table-danger
 Monday 5/14,Privacy,,"Read <a href=""http://plato.stanford.edu/entries/it-privacy/"">Privacy and Information Technology</a>, an article from the Stanford encyclopedia of phylosophy, 2014.",,,
 Wednesday 5/16,Big data,,"(a) Watch <a href=""https://www.youtube.com/watch?v=GAXLHM-1Psk"">Haunted by Data</a> by Maciej Ceglowski (2015) (20 mins). (b) Watch <a href=""https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end#t-6134"">The era of blind faith in big data must end</a> by Cathy O’Neil (2017) (13 mins). (c) Watch <a href=""http://autonomousweapons.org/slaughterbots/"">Slaughterbots</a> by Stuart Russell (2017) (8 mins) (fiction). (d) Read <a href=""https://thenewinquiry.com/the-anxieties-of-big-data/"">The Anxieties of Big Data</a> by Kate Crawford (2014).",,,
 Friday 5/18,Anonymous,,"In class: Watch ""We are Legion""",,None,
 Friday 5/18 Discussion,Anonymous,,"In cass: Watch ""We are Legion""",,None,
 Monday 5/21,No class,,"Start reading the paper for 5/23, it's long",,,table-danger
-Wednesday 5/23,Surveillance,,"Read <a href=""/assets/ecs188/moral-fn.pdf"">The Moral Character of Cryptographic Work</a> (endnotes instead of footnotes) by Phillip Rogaway (2015)",,,
+Wednesday 5/23,Surveillance,,"Read <a href=""/assets/ecs188/moral-fn.pdf"">The Moral Character of Cryptographic Work</a> (endnotes instead of footnotes) by Phillip Rogaway (2015)",,Va,
 Friday 5/25,Aaron Swartz,,"In class: Watch ""The Internet's Own Boy""",,None,
 Friday 5/25 Discussion,Aaron Swartz,,"In class: Watch ""The Internet's Own Boy""",,None,
 Monday 5/28,Bad company,,"(a) Read <a href=""https://www.theatlantic.com/magazine/archive/2016/01/what-was-volkswagen-thinking/419127/"">What was Volkswagen Thinking?</a> by Justin Renteria (2016). (b) Spend half an hour more to read something you find online about the Volkswagen emissions scandal. ",,,
@@ -53,7 +53,7 @@ Wednesday 5/30,Bad company,,"Was Facebook unethical for publishing research with
 <ul>
 <li>James Grimmelmann (Law professor, University of Maryland <a href=""http://laboratorium.net/archive/2014/06/28/as_flies_to_wanton_boys"">Blog post</a> about this subject.</li>
 <li><a href=""http://www.universityworldnews.com/article.php?story=20150109205518594"">Big data scientists face ethical challenges after Facebook study</a>, University World News, Jan. 2015.</li>
-</ul>",,,
+</ul>",,Spencer Grossarth,
 Friday 6/1,Presentations,,,,,table-info
 Friday 6/1 Discussion,Presentations,,,,,table-info
 Monday 6/4,Presentations,,,,,table-info
