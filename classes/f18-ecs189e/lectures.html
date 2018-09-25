@@ -27,7 +27,7 @@
 
               <tbody>
 		{% for row in reading_list %}
-		<tr>
+		<tr class="{{row.table_class}}">
 		  <td>{{row.date}}</td>
 		  <td>{{row.slides|string|safe}}</td>
 		  <td>{{row.topic}}</td>
