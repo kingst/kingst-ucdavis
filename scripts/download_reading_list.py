@@ -38,7 +38,7 @@ def main():
     headers = { 'Authorization': 'Bearer ' + creds.access_token }
     params = { 'format': 'csv',
                'gid': 0 } 
-    queryParams = urllib.urlencode(params)
+    queryParams = urllib.parse.urlencode(params)
     url = exportUrl + '?' + queryParams
     response = requests.get(url, headers = headers)
     with open(sys.argv[1], 'wb') as csvFile:
