@@ -1,15 +1,16 @@
 date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 Wednesday 9/26,Intro,"[<a href=""https://docs.google.com/presentation/d/1PNHHIf9BcVARIkkS767twNBZiLrRmWDSWyj8aqi1EjQ/edit#slide=id.g4245a41982_0_97"">gdoc</a>]",,,,
 Friday 9/28,No class,,,,,table-danger
-Monday 10/1,First iOS app,"[<a href=""https://docs.google.com/presentation/d/11uuBqYJ68obdJBk5K3OGs8PRKrPfalXOBwI7T9xz-Q8/edit#slide=id.p"">gdoc</a>]",,"<a href=""https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316"">Stanford CS193 Lecture 3 on Swift</a>
-<br><br>
-<a href=""https://developer.apple.com/swift/"">Apple's Swift page</a>
-<br><br>
-<a href=""https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/"">O'Reilly Swift book</a>. I haven't read this, but in general O'Reilly books tend to be quite good.
-<br><br>
+Monday 10/1,First iOS app,"[<a href=""https://docs.google.com/presentation/d/11uuBqYJ68obdJBk5K3OGs8PRKrPfalXOBwI7T9xz-Q8/edit#slide=id.p"">gdoc</a>]",,"<ul>
+<li><a href=""https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316"">Stanford CS193 Lecture 3 on Swift</a></li>
+<li><a href=""https://developer.apple.com/swift/"">Apple's Swift page</a></li>
+<li><a href=""https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/"">O'Reilly Swift book</a>. I haven't read this, but in general O'Reilly books tend to be quite good.</li>
+</ul>
 Plus, there are many many resources online for how to learn Swift.",,
-Wednesday 10/3,"UI Widgets, auto layout, swift",,,"<a href=""https://developer.apple.com/documentation/swift/optional"">Apple's Optional Docs</a>
-<br><br>
+Wednesday 10/3,"UI Widgets, auto layout, swift",,,"<ul>
+<li><a href=""https://developer.apple.com/documentation/swift/optional"">Apple's Optional Docs</a></li>
+<li><a href=""https://developer.apple.com/design/adaptivity/"">Apple tutorials on autolayout</a></li>
+</ul>
 <b>Homework 1 out</b>",,
 Friday 10/5,,,,,,
 Monday 10/8,Navigation,,,,,
