@@ -7,13 +7,17 @@ Monday 10/1,First iOS app,"[<a href=""https://docs.google.com/presentation/d/11u
 <li><a href=""https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/"">O'Reilly Swift book</a>. I haven't read this, but in general O'Reilly books tend to be quite good.</li>
 </ul>
 Plus, there are many many resources online for how to learn Swift.",,
-Wednesday 10/3,"UI Widgets, auto layout, swift",,,"<ul>
+Wednesday 10/3,"UI Widgets, auto layout, swift","[<a href=""https://docs.google.com/spreadsheets/d/1AnVDk9A2ey3CtFI9tfSi2-avhxMEKDXH1G_YUyJAH9Q/edit#gid=0"">gdoc</a>]",,"<ul>
 <li><a href=""https://developer.apple.com/documentation/swift/optional"">Apple's Optional Docs</a></li>
 <li><a href=""https://developer.apple.com/design/adaptivity/"">Apple tutorials on autolayout</a></li>
 </ul>
 <b>Homework 1 out</b>",,
-Friday 10/5,,,,,,
-Monday 10/8,"protocols, delegates, and TableViews",,,,,
+Friday 10/5,"Optionals, high order functions, and closures",,,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.",,
+Monday 10/8,"protocols, delegates, and TableViews",,,"<ul>
+<li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
+<li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
+<li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Extensions.html"">Extensions</a></li>
+</ul>",,
 Wednesday 10/10,Navigation,,,"<b>Homework 1 in, homework 2 out</b>",,
 Friday 10/12,,,,,,
 Monday 10/15,Blockchain,,,,,
