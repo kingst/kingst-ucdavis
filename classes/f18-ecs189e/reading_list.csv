@@ -13,13 +13,13 @@ Wednesday 10/3,"UI Widgets, auto layout, swift","[<a href=""https://docs.google.
 </ul>
 <b>Homework 1 out</b>",,
 Friday 10/5,"Optionals, high order functions, and closures",,,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.",,
-Monday 10/8,"protocols, delegates, and TableViews",,,"<ul>
+Monday 10/8,"protocols, delegates","[<a href=""https://docs.google.com/presentation/d/13q_itjLitMU3OvTHzye_b2xcjUCBo3ZpBaouxhziQYA/edit#slide=id.p"">gdoc</a>]",,"<ul>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
 <li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Extensions.html"">Extensions</a></li>
 </ul>",,
-Wednesday 10/10,Navigation,,,"<b>Homework 1 in, homework 2 out</b>",,
-Friday 10/12,,,,,,
+Wednesday 10/10,extensions,"[<a href=""https://docs.google.com/presentation/d/1PEv0GKCSc5e-uFroj96JdMaNETYNOsGJAfMIpcuwKsw/edit#slide=id.p"">gdoc</a>] [<a href=""https://github.com/ECS189E/LectureProgramming/tree/804d1eca3e2d7e1b366b14e0bf48310a35ada7e4"">Source</a>]",,"<b>Homework 1 in, homework 2 out</b>",,
+Friday 10/12,Navigation and tableviews,,,,,
 Monday 10/15,Blockchain,,,,,
 Wednesday 10/17,"VC Lifecycles, apps vs processes",,,"<b>Homework 2 in, homework 3 out</b>",,
 Friday 10/19,,,,,,
