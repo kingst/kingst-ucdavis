@@ -29,10 +29,10 @@ Friday 10/26,,"[<a href=""https://docs.google.com/presentation/d/1SEnBZUzsZ1Lv1E
 Monday 10/29,,,,,,
 Wednesday 10/31,Threads intro,"[<a href=""https://drive.google.com/open?id=1zltyywxDMrZ_tYo0zyBUpH8xNW4Fwz9u"">Slides</a>]",,,,
 Friday 11/2,Threads intro,,,"Storage security Security threads and concurrency Networking and APIs TBD: closures, blockchain, VC lifecycle, apps vs processes, Event driven programming, Ethics, Notifications",,
-Monday 11/5,GCD,,,"<b>Homework 3 in</b>
+Monday 11/5,Project intro,"[<a href=""https://docs.google.com/presentation/d/1mui3lfGgE2tZ1J9mH2FB59PUYTOqlvxOtO4w3p4f7h4/edit?usp=sharing"">Slides</a>]",,"<b>Homework 3 in</b>
 <b>Project proposals due</b>",,
-Wednesday 11/7,AsyncTask + Process Abstraction & VC + App Lifecycle,,,,,
-Friday 11/9,,,,,,
+Wednesday 11/7,GCD,,,,,
+Friday 11/9,AsyncTask + Process Abstraction & VC + App Lifecycle,,,,,
 Monday 11/12,,,,,,table-danger
 Wednesday 11/14,Milestone 1 meetings,,,<b>Milestone 1 due Tuesday 11/13<b>,,
 Friday 11/16,Milestone 1 meetings,,,,,
