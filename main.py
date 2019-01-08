@@ -107,7 +107,7 @@ class W19Ecs251(webapp2.RequestHandler):
                {'page': 'lectures.html', 'label': 'Lectures'},
                {'page': 'quizzes.html', 'label': 'Quizzes'},
                {'page': 'research_project.html', 'label': 'Research project'},
-               {'page': 'presentations.html', 'label': 'Presentations'}]
+               {'page': 'homework.html', 'label': 'Homework'}]
         self.response.write(template.render({'nav_title': 'ECS 251',
                                              'page': page,
                                              'nav': nav,

@@ -14,9 +14,6 @@ if len(sys.argv) != 2:
 # If modifying these scopes, delete the file token.json.
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 
-# The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = '1AnVDk9A2ey3CtFI9tfSi2-avhxMEKDXH1G_YUyJAH9Q'
-SAMPLE_RANGE_NAME = 'Class Data!A2:E'
 
 def main():
     """Shows basic usage of the Sheets API.
@@ -30,7 +27,7 @@ def main():
     service = build('sheets', 'v4', http=creds.authorize(Http()))
 
     # Call the Sheets API
-    SPREADSHEET_ID = '1AnVDk9A2ey3CtFI9tfSi2-avhxMEKDXH1G_YUyJAH9Q'
+    SPREADSHEET_ID = '144BfKUx05W-f-vArSqaZFMVKYKVmy1nK3VL_gWNmi_U'
     result = service.spreadsheets().get(spreadsheetId = SPREADSHEET_ID).execute()
     spreadsheetUrl = result['spreadsheetUrl']
 
