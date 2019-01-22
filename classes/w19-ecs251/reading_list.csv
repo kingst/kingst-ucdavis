@@ -3,13 +3,13 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,row_class
 1/10,History,"[<a href=""/assets/w19-ecs251/history.pdf"">pdf</a>]",OSTEP chapter 2.6 and chapter 5,,,
 1/15,Threads1,"[<a href=""/assets/w19-ecs251/thread00-intro.pdf"">pdf</a>]",OSTEP chapter 4,,,
 1/17,Threads2,"[<a href=""/assets/w19-ecs251/thread01-cooperating.pdf"">pdf</a>]",OSTEP chapter 26 <b>Quiz 1 in class</b>,,,
-1/22,Threads3,,<b>Project groups due</b>,,,
-1/24,,,"<b>Project choice due</b>, <b>Quiz 2 in class</b>",,,
-1/29,Threads4,,,,,
-1/31,VirtualMem1,,<b>Quiz 3 in class</b>,,,
-2/5,VirtualMem2,,,,,
-2/7,VMM,,"<a href=""/assets/ecs251/whitaker02.pdf"">Scale and performance in the Denali isolation kernel</a>. Whitaker, A., Shaw, M., and Gribble, S. D. 2002. In Proceedings of the 5th Symposium on Operating Systems Design and Implementation <br><b>Project proposal due</b>, <b>Quiz 4 in class</b>",,,
-2/12,Exokernel,,"<a href=""/assets/ecs251/kaashoek97.pdf"">Application performance and flexibility on exokernel systems</a>. M. Frans Kaashoek, Dawson R. Engler, Gregory R. Ganger, Héctor M. Briceño, Russell Hunt, David Mazières, Thomas Pinckney, Robert Grimm, John Jannotti, and Kenneth Mackenzie. In the Proceedings of the 16th ACM Symposium on Operating Systems Principles (SOSP '97), Saint-Malô, France, October 1997. <br><b>Sprint planning 1 due</b>",,,
+1/22,Threads3,"[<a href=""/assets/w19-ecs251/thread02-sync.pdf"">pdf</a>]","OSTEP chapter 28, 29 <b>Project groups due</b>",,,
+1/24,NO CLASS,,<b>Project choice due</b>,,,table-danger
+1/29,Threads4,,<b>Quiz 2 in class</b>,,,
+1/31,,,,,,
+2/5,,,<b>Quiz 3 in class</b>,,,
+2/7,VMM,,"<a href=""/assets/ecs251/whitaker02.pdf"">Scale and performance in the Denali isolation kernel</a>. Whitaker, A., Shaw, M., and Gribble, S. D. 2002. In Proceedings of the 5th Symposium on Operating Systems Design and Implementation <br><b>Project proposal due</b>, ",,,
+2/12,Exokernel,,"<a href=""/assets/ecs251/kaashoek97.pdf"">Application performance and flexibility on exokernel systems</a>. M. Frans Kaashoek, Dawson R. Engler, Gregory R. Ganger, Héctor M. Briceño, Russell Hunt, David Mazières, Thomas Pinckney, Robert Grimm, John Jannotti, and Kenneth Mackenzie. In the Proceedings of the 16th ACM Symposium on Operating Systems Principles (SOSP '97), Saint-Malô, France, October 1997. <br><b>Sprint planning 1 due</b><b>Quiz 4 in class</b>",,,
 2/14,Monolithic,,"Nathan Dautenhahn, Theodoros Kasampalis, Will Dietz, John Criswell, and Vikram Adve. Nested Kernel: An
 Operating System Architecture for Intra-Kernel Privilege Separation. In Proceedings of the Twentieth International
 Conference on Architectural Support for Programming Languages and Operating Systems, (ASPLOS ’15), pages
