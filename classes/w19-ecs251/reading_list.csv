@@ -9,15 +9,18 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,row_class
 1/31,Threads5,,,,,
 2/5,Threads6,,<b>Quiz 3 in class</b>,,,
 2/7,VMM,,"<a href=""/assets/ecs251/whitaker02.pdf"">Scale and performance in the Denali isolation kernel</a>. Whitaker, A., Shaw, M., and Gribble, S. D. 2002. In Proceedings of the 5th Symposium on Operating Systems Design and Implementation <br><b>Project proposal due</b>, ",,,
-2/12,Exokernel,,"<a href=""/assets/ecs251/kaashoek97.pdf"">Application performance and flexibility on exokernel systems</a>. M. Frans Kaashoek, Dawson R. Engler, Gregory R. Ganger, Héctor M. Briceño, Russell Hunt, David Mazières, Thomas Pinckney, Robert Grimm, John Jannotti, and Kenneth Mackenzie. In the Proceedings of the 16th ACM Symposium on Operating Systems Principles (SOSP '97), Saint-Malô, France, October 1997. <br><b>Sprint planning 1 due,</b> <b>Quiz 4 in class</b>",,,
+2/12,Exokernel,,"<a href=""/assets/ecs251/kaashoek97.pdf"">Application performance and flexibility on exokernel systems</a>. M. Frans Kaashoek, Dawson R. Engler, Gregory R. Ganger, Héctor M. Briceño, Russell Hunt, David Mazières, Thomas Pinckney, Robert Grimm, John Jannotti, and Kenneth Mackenzie. In the Proceedings of the 16th ACM Symposium on Operating Systems Principles (SOSP '97), Saint-Malô, France, October 1997.",,,
+2/13,Discussion,,<b>Quiz 4 on VMM and Exokernel</b>,,,
 2/14,Monolithic,,"Nathan Dautenhahn, Theodoros Kasampalis, Will Dietz, John Criswell, and Vikram Adve. Nested Kernel: An
 Operating System Architecture for Intra-Kernel Privilege Separation. In Proceedings of the Twentieth International
 Conference on Architectural Support for Programming Languages and Operating Systems, (ASPLOS ’15), pages
 191–206, New York, NY, USA, 2015. ACM",,,
 2/19,BigTable,,"<a href=""https://research.google.com/archive/bigtable-osdi06.pdf"">Bigtable: A Distributed Storage System for Structured Data.</a>  Fay Chang , Jeffrey Dean , Sanjay Ghemawat , Wilson C. Hsieh , Deborah A. Wallach , Mike Burrows , Tushar Chandra , Andrew Fikes , Robert E. Gruber, OSDI'06: Seventh Symposium on Operating System Design and Implementation,
-Seattle, WA, November, 2006. <br><b>Sprint planning 2 due</b>",,,
+Seattle, WA, November, 2006.",,,
+2/20,Discussion,,<b>Quiz 5 on Nested Kernel + BigTable</b>,,,
 2/21,Raft,,In Search of an Understandable Consensus Algorithm by Diego Ongaro and John Ousterhout. 2014 USENIX Annual Technical Conference.,,,
-2/26,Spanner,,"Spanner: Google's Globally-Distributed Database. James C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher Frost, JJ Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser, Peter Hochschild, Wilson Hsieh, Sebastian Kanthak, Eugene Kogan, Hongyi Li, Alexander Lloyd, Sergey Melnik, David Mwaura, David Nagle, Sean Quinlan, Rajesh Rao, Lindsay Rolig, Yasushi Saito, Michal Szymaniak, Christopher Taylor, Ruth Wang, and Dale Woodford. Published in the Proceedings of OSDI'12: Tenth Symposium on Operating System Design and Implementation, Hollywood, CA, October, 2012. <br><b>Sprint planning 3 due</b>",,,
+2/26,Spanner,,"Spanner: Google's Globally-Distributed Database. James C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher Frost, JJ Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser, Peter Hochschild, Wilson Hsieh, Sebastian Kanthak, Eugene Kogan, Hongyi Li, Alexander Lloyd, Sergey Melnik, David Mwaura, David Nagle, Sean Quinlan, Rajesh Rao, Lindsay Rolig, Yasushi Saito, Michal Szymaniak, Christopher Taylor, Ruth Wang, and Dale Woodford. Published in the Proceedings of OSDI'12: Tenth Symposium on Operating System Design and Implementation, Hollywood, CA, October, 2012.",,,
+2/27,Discussion,,<b>Quiz 6 on Raft and Spanner</b>,,,
 2/28,Bitcoin,,"<a href=""https://bitcoin.org/bitcoin.pdf"">Bitcoin: A Peer-to-Peer Electronic Cash System</a>",,,
 3/5,Final presentations,,,,,table-warning
 3/7,Final presentations,,,,,table-warning
