@@ -186,7 +186,7 @@ app = webapp2.WSGIApplication(
      (r'/classes/s18-ecs188/(.*)', S18Ecs188),
      (r'/classes/w18-ecs251/(.*)', W18Ecs251),
      (r'/classes/w19-ecs251/(.*)', W19Ecs251),
-     (r'/classes/s19-ecs153/(.*)', W19Ecs153),
+     (r'/classes/s19-ecs153/(.*)', S19Ecs153),
      (r'/(.*)', Home)],
      debug=False)
 
