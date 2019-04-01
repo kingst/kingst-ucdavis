@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+    <style> body { padding-top: 3.5rem; } </style>
+  </head>
+
+  <body>
+
+    {% include 'templates/nav.html' %}
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">ECS 153 (Spring 2019)</h1>
+          <h2>Computer Security</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-12">
+            <h2>General information</h2>
+            <table class="table table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Information</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Lecture time and location
+                  </td>
+                  <td>
+                    Monday, Wednesday, and Friday from 11am - 11:50am
+                    in Olson 206
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Instructor
+                  </td>
+                  <td>
+                    Sam King
+                    (<a href="mailto:kingst@ucdavis.edu">kingst@ucdavis.edu</a>)
+                  </td>
+                </tr>
+                <tr><td>Sam's Office Hours</td><td>Monday and Wednesday noon - 1pm in 3061 Kemper</td></tr>
+                <tr>
+                  <td>
+		    TA
+                  </td>
+                  <td>
+		    Kurt Schneider
+                    (<a href="mailto:kmsch@ucdavis.edu">kmsch@ucdavis.edu</a>)
+                  </td>
+                </tr>
+                <tr><td>TA Office Hours</td><td>TBD</td></tr>
+		
+                <tr><td>Final</td><td>No final exam!</td></tr>
+                <tr><td>Canvas</td>
+                  <td>
+                    <a href="https://canvas.ucdavis.edu/courses/332866">
+                      https://canvas.ucdavis.edu/courses/332866
+                    </a>
+                  </td>
+                </tr>
+                <tr><td>Piazza</td>
+                  <td>
+		    Coming soon
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Overview</h2>
+            <p>
+	      This class focuses on computer security. Our goal is to
+	      train you how to think like an attacker so that you can
+	      better defend computer systems.
+            </p>
+
+            <p>
+              The prerequisite for this class is undergraduate
+              operating systems.
+            </p>
+
+            <h2>Lectures</h2>
+            <p>
+              You are responsible for knowing about all announcements
+              made in lecture. We will discuss expectations about the
+              project, suggestions for how to succeed, and grading
+              guidelines in class, and general class policy issues, so
+              make sure you don't miss any lectures.
+            </p>
+
+	    <h2>Textbooks</h2> The optional textbook is "Computer
+	    Security: Art and Science" by Matt Bishop. We will also
+	    include supplemental reading material in the lecture notes
+	    and schedule.
+
+          </div>
+        </div>
+
+        <hr>
+      </div> <!-- /container -->
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>

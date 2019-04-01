@@ -27,7 +27,7 @@ def main():
     service = build('sheets', 'v4', http=creds.authorize(Http()))
 
     # Call the Sheets API
-    SPREADSHEET_ID = '144BfKUx05W-f-vArSqaZFMVKYKVmy1nK3VL_gWNmi_U'
+    SPREADSHEET_ID = '1grgAgdH90op7TSvmxy-TjJiv-bDz2rY2EOV9GE3OWsY'
     result = service.spreadsheets().get(spreadsheetId = SPREADSHEET_ID).execute()
     spreadsheetUrl = result['spreadsheetUrl']
 
