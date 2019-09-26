@@ -1,47 +1,36 @@
 date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
-Wednesday 9/26,Intro,"[<a href=""https://docs.google.com/presentation/d/1PNHHIf9BcVARIkkS767twNBZiLrRmWDSWyj8aqi1EjQ/edit#slide=id.g4245a41982_0_97"">gdoc</a>]",,,,
-Friday 9/28,No class,,,,,table-danger
-Monday 10/1,First iOS app,"[<a href=""https://docs.google.com/presentation/d/11uuBqYJ68obdJBk5K3OGs8PRKrPfalXOBwI7T9xz-Q8/edit#slide=id.p"">gdoc</a>]",,"<ul>
+Thursday 9/26,Intro,"[<a href=""https://docs.google.com/presentation/d/1PNHHIf9BcVARIkkS767twNBZiLrRmWDSWyj8aqi1EjQ/edit#slide=id.g4245a41982_0_97"">gdoc</a>]",,,,
+Tuesday 10/1,First iOS app,,,"<ul>
 <li><a href=""https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316"">Stanford CS193 Lecture 3 on Swift</a></li>
 <li><a href=""https://developer.apple.com/swift/"">Apple's Swift page</a></li>
 <li><a href=""https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/"">O'Reilly Swift book</a>. I haven't read this, but in general O'Reilly books tend to be quite good.</li>
 </ul>
 Plus, there are many many resources online for how to learn Swift.",,
-Wednesday 10/3,"UI Widgets, auto layout, swift","[<a href=""https://docs.google.com/spreadsheets/d/1AnVDk9A2ey3CtFI9tfSi2-avhxMEKDXH1G_YUyJAH9Q/edit#gid=0"">gdoc</a>]",,"<ul>
-<li><a href=""https://developer.apple.com/documentation/swift/optional"">Apple's Optional Docs</a></li>
-<li><a href=""https://developer.apple.com/design/adaptivity/"">Apple tutorials on autolayout</a></li>
+Thursday 10/3,"UI Widgets, auto layout, Swift",,,"<ul>
+<li><a href=""https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316"">Stanford CS193 Lecture 3 on Swift</a></li>
+<li><a href=""https://developer.apple.com/swift/"">Apple's Swift page</a></li>
+<li><a href=""https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/"">O'Reilly Swift book</a>. I haven't read this, but in general O'Reilly books tend to be quite good.</li>
 </ul>
-<b>Homework 1 out</b>",,
-Friday 10/5,"Optionals, high order functions, and closures",,,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.",,
-Monday 10/8,"protocols, delegates","[<a href=""https://docs.google.com/presentation/d/13q_itjLitMU3OvTHzye_b2xcjUCBo3ZpBaouxhziQYA/edit#slide=id.p"">gdoc</a>]",,"<ul>
+Plus, there are many many resources online for how to learn Swift.",,
+Tuesday 10/8,More auto layout,,,,,
+Thursday 10/10,Optionals high order functions and closures,,,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.",,
+Tuesday 10/15,Closures,,,,,
+Thursday 10/17,Protocols and delegates,,,"<ul>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
 <li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Extensions.html"">Extensions</a></li>
 </ul>",,
-Wednesday 10/10,extensions,"[<a href=""https://docs.google.com/presentation/d/1PEv0GKCSc5e-uFroj96JdMaNETYNOsGJAfMIpcuwKsw/edit#slide=id.p"">gdoc</a>] [<a href=""https://github.com/ECS189E/LectureProgramming/tree/804d1eca3e2d7e1b366b14e0bf48310a35ada7e4"">Source</a>]",,"<b>Homework 1 in, homework 2 out</b>",,
-Friday 10/12,Tableviews + autolayout,"[<a href=""https://docs.google.com/presentation/d/18K9Lt7mekP53nm3c2iGHjyKzGafVr1I-XZj2-Vlb1Ps/edit#slide=id.p"">gdoc</a>][<a href=""https://github.com/ECS189E/LectureProgramming/commit/216537fd73f8ff1630b6270982e5d4de467a4ffe"">Source</a>]",,,,
-Monday 10/15,Tableviews,"[<a href=""https://youtu.be/S3cYCA3P9Yc"">Screen capture</a>][<a href=""https://docs.google.com/presentation/d/1e31tPP8M9uiWPfKBSxESmuTdKOm8-SnzdBTPSrH0UiY/edit#slide=id.p"">gdoc</a>][<a href=""https://github.com/ECS189E/LectureProgramming/commit/3cc2786cfeacf9b1361942d26547054b655ede22"">Source</a>]",,,,
-Wednesday 10/17,Navigation / multiple VCs,"[<a href=""https://youtu.be/HV4TBrrCayc"">Screen capture</a>][<a href=""https://docs.google.com/presentation/d/1dtIQy87zWkV0FR5tkIvS1uXB5SdyWS32UsaDwxVzUT0/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/ECS189E/LectureProgramming/commit/04d2a1dd2fe7a9fedf812fb357e7cbb768fb3f5d"">Source</a>]",,,,
-Friday 10/19,Navigation controllers,"[<a href=""https://github.com/ECS189E/LectureProgramming/commit/ad416c5dcf455995ac5d59460b72f1fe877548b4"">Source</a>][<a href=""https://youtu.be/nMwBMxv-YFg"">Screen capture</a>]",,,,
-Monday 10/22,,,,,,
-Wednesday 10/24,Closures,"[<a href=""https://github.com/ECS189E/LectureProgramming/commit/5a6cecb50b195fba3522faec17e6f6cb1cb7db17"">Source code</a>][<a href=""https://docs.google.com/presentation/d/1QeKCnrtylI51WB4Fxvq2OVK9Ngg8zEBBR1gMpVdScds/edit#slide=id.p"">Slides</a>]",,,,
-Friday 10/26,,"[<a href=""https://docs.google.com/presentation/d/1SEnBZUzsZ1Lv1EYKCASr0u8LF9-xWz7ZibhcoOO_m1E/edit#slide=id.g455f163b7a_0_35"">Slides</a>][<a href=""https://github.com/ECS189E/LectureProgramming/commit/fd2d25822cc8ce02d6078ab1144e680285422d8f"">Source</a>]",,"<b>Homework 2 in, homework 3 out</b>",,
-Monday 10/29,,,,,,
-Wednesday 10/31,Threads intro,"[<a href=""https://drive.google.com/open?id=1zltyywxDMrZ_tYo0zyBUpH8xNW4Fwz9u"">Slides</a>]",,,,
-Friday 11/2,Threads intro,,,"Storage security Security threads and concurrency Networking and APIs TBD: closures, blockchain, VC lifecycle, apps vs processes, Event driven programming, Ethics, Notifications",,
-Monday 11/5,Project intro,"[<a href=""https://docs.google.com/presentation/d/1mui3lfGgE2tZ1J9mH2FB59PUYTOqlvxOtO4w3p4f7h4/edit?usp=sharing"">Slides</a>]",,"<b>Homework 3 in</b>
-<b>Project proposals due</b>",,
-Wednesday 11/7,GCD,"[<a href=""https://github.com/ECS189E/LectureProgramming/commit/8574b6d273a48feb231cbe8f52e30ef150a8c932"">Source code</a>][<a href=""https://docs.google.com/presentation/d/1mui3lfGgE2tZ1J9mH2FB59PUYTOqlvxOtO4w3p4f7h4/edit#slide=id.g45bf308b95_0_202"">Slides</a>]",,,,
-Friday 11/9,AsyncTask + Process Abstraction & VC + App Lifecycle,"[<a href=""https://gist.github.com/kingst/8f959e5dde6f7c1b8e5b6ae1f79271d8"">Quiz 6 question 2 soln</a>][<a href=""https://docs.google.com/presentation/d/1TbUUFP3uQnybPhJYM6o2XAZm0bo1XSxe6A7mhxJ22LI/edit#slide=id.p"">Slides</a>]",,,,
-Monday 11/12,,,,,,table-danger
-Wednesday 11/14,School cancelled,,,<b>Milestone 1 due Tuesday 11/13<b>,,table-danger
-Friday 11/16,School cancelled,,,,,table-danger
-Monday 11/19,School cancelled,,,,,table-danger
-Wednesday 11/21,School cancelled,,,,,table-danger
-Friday 11/23,,,,,,table-danger
-Monday 11/26,Milestone 2 meetings,,,<b>Milestone 2 due</b>,,
-Wednesday 11/28,Milestone 2 meetings,,,,,
-Friday 11/30,Milestone 2 meetings + talk about final project,"[<a href=""https://docs.google.com/presentation/d/1YKtdvl7SGKgqrNAPVjxt4KoWBd14rdHcLNT2bNMXljM/edit#slide=id.g49826674e4_0_111"">Slides</a>]",,,,
-Monday 12/3,Security,,,,,
-Wednesday 12/5,TBD: Advanced topics,,,,,
-Friday 12/7,Demos,,,<b>Final project due</b>,,
+Tuesday 10/22,Extensions,,,,,
+Thursday 10/24,Tableviews,,,,,
+Tuesday 10/29,Navigation controllers,,,,,
+Thursday 10/31,Project intro,,,,,
+Tuesday 11/5,Threads,,,,,
+Thursday 11/7,Threads,,,,,
+Tuesday 11/12,GCD,,,,,
+Thursday 11/14,AsyncTask + Process Abstraction + VC and App lifecycle,,Project meetings,,,
+Tuesday 11/19,advanced topics,,,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications",,
+Thursday 11/21,advanced topics,,,,,
+Tuesday 11/26,advanced topics,,Project meetings,,,
+Thursday 11/28,no class,,,,,table-danger
+Tuesday 12/3,advanced topics,,,,,
+Thursday 12/5,Demos,,,,,
