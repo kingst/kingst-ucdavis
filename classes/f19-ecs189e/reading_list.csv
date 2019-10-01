@@ -1,6 +1,6 @@
 date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 Thursday 9/26,Intro,"[<a href=""https://docs.google.com/presentation/d/18GsJ2j9n4LgB6Z3WckX1lX-G3tr9AgUQtuYcVTPGsqM/edit#slide=id.g2d40f2458a_0_966"">gdoc</a>]",,,,
-Tuesday 10/1,First iOS app,,,"<ul>
+Tuesday 10/1,First iOS app,"[<a href=""https://docs.google.com/presentation/d/1uD6PtDjhdP9aa_IEYbXQYmfZl7sDEZrP5SPSaMt2OFE/edit#slide=id.g42fa3302a3_0_126"">slides</a>",,"<ul>
 <li><a href=""https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316"">Stanford CS193 Lecture 3 on Swift</a></li>
 <li><a href=""https://developer.apple.com/swift/"">Apple's Swift page</a></li>
 <li><a href=""https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/"">O'Reilly Swift book</a>. I haven't read this, but in general O'Reilly books tend to be quite good.</li>
