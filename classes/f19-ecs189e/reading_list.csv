@@ -10,7 +10,7 @@ Plus, there are many many resources online for how to learn Swift.
 
 <br><br><b>Homework 1 out</b>",,
 Tuesday 10/8,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/19kq0O768vTPQQCNc40flPq340j1CHZrlpsvINEIOxbA/edit#slide=id.p"">slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-08"">source</a>]",,,,
-Thursday 10/10,Optionals high order functions and closures,"[<a href=""https://docs.google.com/presentation/d/1wJjlVpZBvi6eBXkuPz-m5k74USgI-nCv1vMCfq3zve0/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-10"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.
+Thursday 10/10,Optionals high order functions and closures,"[<a href=""https://docs.google.com/presentation/d/1GBIHBOg9vOtnOy8zV-4kh-xKaEvoNO8b8wUYBUgwu0M/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-15"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.
 
 <br><br><b>Homework 2 out, Homework 1 in</b>",,
 Tuesday 10/15,Closures,,,,,
