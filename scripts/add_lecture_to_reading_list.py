@@ -34,7 +34,7 @@ def main():
     values = [['[<a href="{0}">Slides</a>][<a href="{1}">Source</a>]'.format(
                 sys.argv[1], sys.argv[2])]]
     body = { 'values': values }
-    range_name = 'C6'
+    range_name = 'C7'
     result = service.spreadsheets().values().update(
         spreadsheetId=SPREADSHEET_ID, range=range_name,
         valueInputOption='RAW', body=body).execute()
