@@ -10,28 +10,32 @@ Plus, there are many many resources online for how to learn Swift.
 
 <br><br><b>Homework 1 out</b>",,
 Tuesday 10/8,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/19kq0O768vTPQQCNc40flPq340j1CHZrlpsvINEIOxbA/edit#slide=id.p"">slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-08"">source</a>]",,,,
-Thursday 10/10,Optionals high order functions and closures,"[<a href=""https://docs.google.com/presentation/d/1wJjlVpZBvi6eBXkuPz-m5k74USgI-nCv1vMCfq3zve0/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-10"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.
-
+Thursday 10/10,Optionals high order functions and closures,"[<a href=""https://docs.google.com/presentation/d/1wJjlVpZBvi6eBXkuPz-m5k74USgI-nCv1vMCfq3zve0/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-10"">Source</a>]",,"
 <br><br><b>Homework 2 out, Homework 1 in</b>",,
-Tuesday 10/15,Closures,"[<a href=""https://docs.google.com/presentation/d/1GBIHBOg9vOtnOy8zV-4kh-xKaEvoNO8b8wUYBUgwu0M/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-15"">Source</a>]",,,,
-Thursday 10/17,Protocols and delegates,,,"<ul>
+Tuesday 10/15,High order functions (redo lecture),"[<a href=""https://docs.google.com/presentation/d/1GBIHBOg9vOtnOy8zV-4kh-xKaEvoNO8b8wUYBUgwu0M/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-15"">Source</a>]",,,,
+Thursday 10/17,Closures,,,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.
+
+
+<br><br><b>Homework 3 out, Homework 2 in</b>",,
+Tuesday 10/22,Protocols and delegates,,,"<ul>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
 <li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Extensions.html"">Extensions</a></li>
 </ul>
-
-<b>Homework 3 out, Homework 2 in</b>",,
-Tuesday 10/22,Extensions,,,,,
-Thursday 10/24,Tableviews,,,"<b>Homework 4 out, Homework 3 in</b>",,
-Tuesday 10/29,Navigation controllers,,,,,
+",,
+Thursday 10/24,Extensions,,,"<b>Homework 4 out, Homework 3 in</b>",,
+Tuesday 10/29,Tableviews,,,,,
 Thursday 10/31,Project intro,,,<b>Homework 4 in</b>,,
-Tuesday 11/5,Threads,,,,,
+Tuesday 11/5,Threads,,,"<b>Project proposal due</b>
+<b>Sprint planning due</b>",,
 Thursday 11/7,Threads,,,,,
-Tuesday 11/12,GCD,,,,,
-Thursday 11/14,AsyncTask + Process Abstraction + VC and App lifecycle,,Project meetings,,,
-Tuesday 11/19,advanced topics,,,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications",,
-Thursday 11/21,advanced topics,,,,,
-Tuesday 11/26,advanced topics,,Project meetings,,,
+Tuesday 11/12,GCD,,,<b>Sprint planning due</b>,,
+Thursday 11/14,,,Project meetings,<b>Milestone 1 due (due on 11/13)</b>,,
+Tuesday 11/19,AsyncTask + Process Abstraction + VC and App lifecycle,,,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications
+
+<b>Sprint planning due</b>",,
+Thursday 11/21,,,Project meetings,<b>Milestone 2 due (11/20)</b>,,
+Tuesday 11/26,advanced topics,,,<b>Sprint planning due</b>,,
 Thursday 11/28,no class,,,,,table-danger
-Tuesday 12/3,advanced topics,,,,,
+Tuesday 12/3,,,Optional meetings,<b>Sprint planning due</b>,,
 Thursday 12/5,Demos,,,,,
