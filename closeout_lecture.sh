@@ -9,12 +9,12 @@ slides_url=$1
 cwd=`pwd`
 
 cd ~/class/2019-fall-189e/LectureProgrammingFall2019
-#git commit -a -m "End of lecture"
-#today=`date +"%Y-%m-%d"`
-today='2019-10-17'
-#git tag ${today}
-#git push
-#git push --tags
+git commit -a -m "End of lecture"
+today=`date +"%Y-%m-%d"`
+#today='2019-10-17'
+git tag ${today}
+git push
+git push --tags
 
 github_url="https://github.com/kingst/LectureProgrammingFall2019/releases/tag/${today}"
 
