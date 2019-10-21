@@ -13,7 +13,7 @@ Tuesday 10/8,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/
 Thursday 10/10,Optionals high order functions and closures,"[<a href=""https://docs.google.com/presentation/d/1wJjlVpZBvi6eBXkuPz-m5k74USgI-nCv1vMCfq3zve0/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-10"">Source</a>]",,"
 <br><br><b>Homework 2 out, Homework 1 in</b>",,
 Tuesday 10/15,High order functions (redo lecture),"[<a href=""https://docs.google.com/presentation/d/1GBIHBOg9vOtnOy8zV-4kh-xKaEvoNO8b8wUYBUgwu0M/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-15"">Source</a>]",,,,
-Thursday 10/17,Closures,,,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.
+Thursday 10/17,Closures,"[<a href=""https://docs.google.com/presentation/d/1caeQluOcUEhA3CCRp-q-xaXD7LFFFZ0Y2idzjorxwqw/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-17"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.
 
 
 <br><br><b>Homework 3 out, Homework 2 in</b>",,

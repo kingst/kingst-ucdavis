@@ -51,7 +51,7 @@ def main():
     result = service.spreadsheets().values().update(
         spreadsheetId=SPREADSHEET_ID, range=range_name,
         valueInputOption='RAW', body=body).execute()
-     print('{0} cells updated.'.format(result.get('updatedCells')))
+    print('{0} cells updated.'.format(result.get('updatedCells')))
 
 
 if __name__ == '__main__':
