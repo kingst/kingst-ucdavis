@@ -34,11 +34,25 @@ def main():
     values = [['[<a href="{0}">Slides</a>][<a href="{1}">Source</a>]'.format(
                 sys.argv[1], sys.argv[2])]]
     body = { 'values': values }
-    range_name = 'C7'
+
+    col = 'C'
+    row = 7
+    range_name = '{0}{1}'.format(col, row)
+    result = service.spreadsheets().values().get(
+        spreadsheetId=SPREADSHEET_ID,
+        range=range_name).execute()
+    while len(result.get('values', [['']])[0][0]) != 0:
+        row += 1
+        range_name = '{0}{1}'.format(col, row)
+        result = service.spreadsheets().values().get(
+            spreadsheetId=SPREADSHEET_ID,
+            range=range_name).execute()
+
     result = service.spreadsheets().values().update(
         spreadsheetId=SPREADSHEET_ID, range=range_name,
         valueInputOption='RAW', body=body).execute()
-    print('{0} cells updated.'.format(result.get('updatedCells')))
+     print('{0} cells updated.'.format(result.get('updatedCells')))
+
 
 if __name__ == '__main__':
     main()
