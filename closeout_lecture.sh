@@ -5,6 +5,8 @@ if [ "$1" == "" ]; then
     exit
 fi
 
+gcloud config set account kingst@gmail.com
+
 slides_url=$1
 cwd=`pwd`
 
