@@ -1,5 +1,7 @@
 #!/bin/bash
 
+gcloud-kingst
+
 if [ "$(git symbolic-ref --short HEAD)" != "master" ]; then
     echo 'will only deploy from master, bailing'
     exit
