@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+  </head>
+
+  <body>
+
+    {% include 'templates/nav.html' %}
+
+    <main role="main">
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              Please add yourself to a lecture by editing
+              this <a href="https://docs.google.com/spreadsheets/d/1zIaIVQa37UjzVkfemddvJPGy5kwkkvoiZZO7hxEVujg/edit?usp=sharing">Google
+              Doc</a>. I periodically grab this data from Google Docs
+              and sync it to the course website, so it make take a
+              little time before your updates are reflected here.
+            </p>
+
+            <table class="table table-striped table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Date</th>
+                  <th>Slides</th>
+                  <th>Topic</th>
+                  <th>Required reading</th>
+                  <th>Optional reading</th>
+                  <th>Discussion leaders</th>
+                </tr>
+              </thead>
+
+              <tbody>
+		{% for row in reading_list %}
+		<tr>
+		  <td>{{row.date}}</td>
+		  <td>{{row.slides|string|safe}}</td>
+		  <td>{{row.topic}}</td>
+		  <td>{{row.required_reading|string|safe}}</td>
+		  <td>{{row.optional_reading|string|safe}}</td>
+		  <td>{{row.disc_leaders}}</td>
+		</tr>
+		{% endfor %}
+              </tbody>
+
+            </table>
+
+          </div>
+        </div>
+
+        <hr>
+      </div> <!-- /container -->
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>

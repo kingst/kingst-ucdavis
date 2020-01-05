@@ -1,0 +1,39 @@
+date,topic,slides,required_reading,optional_reading,disc_leaders,row_class
+1/6,Intro,,None,,Sam,
+1/8,Core OS,,"<a href=""/assets/ecs251/kaashoek97.pdf"">Application performance and flexibility on exokernel systems</a>. M. Frans Kaashoek, Dawson R. Engler, Gregory R. Ganger, Héctor M. Briceño, Russell Hunt, David Mazières, Thomas Pinckney, Robert Grimm, John Jannotti, and Kenneth Mackenzie. In the Proceedings of the 16th ACM Symposium on Operating Systems Principles (SOSP '97), Saint-Malô, France, October 1997.
+<br>
+<b>Research topic: how to read a paper</b>",,Sam,
+1/10,Core OS,,"<a href=""/assets/ecs251/whitaker02.pdf"">Scale and performance in the Denali isolation kernel</a>. Whitaker, A., Shaw, M., and Gribble, S. D. 2002. In Proceedings of the 5th Symposium on Operating Systems Design and Implementation",,Sam,
+1/13,Core OS,,"Shuo Tang, Haohui Mai, and Samuel T. King, <a href=""/assets/ecs251/tang10.pdf"">Trust and Protection in the Illinois Browser Operating System</a>. Proceedings of the 2010 Symposium on Operating Systems Design and Implementation (OSDI), October 2010.",,Sam,
+1/15,Quiz 1,,<b>Research topic: How to present</b>,,Sam,
+1/17,Core OS,,"<a href=""#"">ShortCut: accelerating mostly-deterministic code regions</a>, X Dou, PM Chen, J Flinn
+Proceedings of the 27th ACM Symposium on Operating Systems Principles, 2019",,,
+1/20,NO CLASS,,,,N/A,table-danger
+1/22,Quiz 2,,<b>Research topic: How to think of new ideas</b>,,Sam,
+1/24,Modern OS,,"Saba Eskandarian, Jonathan Cogan, Sawyer Birnbaum, Peh Chang Wei Brandon, Dillon Franke, Forest Fraser, Gaspar Garcia Jr., Eric Gong, Hung T. Nguyen, Taresh K. Sethi, Vishal Subbiah, Michael Backes, Giancarlo Pellegrino, Dan Boneh, <a href=""#"">Fidelius: Protecting User Secrets from Compromised Browsers</a>. IEEE Symposium on Security and Privacy 2019: 264-280",,,
+1/27,Modern OS,,"<a href=""#"">50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System</a>
+Joel Reardon, University of Calgary / AppCensus Inc.; Álvaro Feal, IMDEA Networks Institute / Universidad Carlos III Madrid; Primal Wijesekera, U.C. Berkeley / ICSI; Amit Elazari Bar On, U.C. Berkeley; Narseo Vallina-Rodriguez, IMDEA Networks Institute / ICSI / AppCensus Inc.; Serge Egelman, U.C. Berkeley / ICSI / AppCensus Inc. Usenix Security 2019",,,
+1/29,Quiz 3,,Research topic TBD,,Sam,
+1/31,Cryptocurrencies,,"<a href=""https://bitcoin.org/bitcoin.pdf"">Bitcoin: A Peer-to-Peer Electronic Cash System</a>",,,
+2/3,Cryptocurrencies,,MIT wallet paper,,,
+2/5,Quiz 4,,What to expect when you get a job + how to get a job,,Sam,
+2/7,Distributed Storage,,"""<a href=""""https://research.google.com/archive/bigtable-osdi06.pdf"""">Bigtable: A Distributed Storage System for Structured Data.</a>  Fay Chang , Jeffrey Dean , Sanjay Ghemawat , Wilson C. Hsieh , Deborah A. Wallach , Mike Burrows , Tushar Chandra , Andrew Fikes , Robert E. Gruber, OSDI'06: Seventh Symposium on Operating System Design and Implementation,
+Seattle, WA, November, 2006.""",,,
+2/10,Distributed Storage,,"<a href=""https://www.usenix.org/system/files/conference/atc14/atc14-paper-ongaro.pdf"">In Search of an Understandable Consensus Algorithm</a> by Diego Ongaro and John Ousterhout. 2014 USENIX Annual Technical Conference. [<a href=""https://www.usenix.org/node/184041"">Conference video</a>]",,,
+2/12,Quiz 5,,Meetings,,Sam,
+2/14,SPAM,,TBD,,,
+2/17,NO CLASS,,,,N/A,table-danger
+2/19,Quiz 6,,Meetings,,Sam,
+2/21,Authentication,,"N. Karapanos, C. Marforio, C. Soriente, and S. Capkun. Sound-proof: Usable two-factor authentication based on ambient sound. In 24th USENIX Security Symposium (USENIX Security 15), pages 483–498, Washington, D.C., 2015. USENIX Association.",,,
+2/24,Authentication,,"Progressive authentication: deciding when to authenticate on mobile phones
+Oriana Riva, Chuan Qin, Karin Strauss, Dimitrios Lymberopoulos
+21st USENIX Security Symposium | August 2012",,,
+2/26,Quiz 7,,Meetings,,Sam,
+2/28,Fraud,,"B. Reaves, L. Blue, H. Abdullah, L. Vargas, P. Traynor and T. Shrimpton. AuthentiCall: Efficient Identity and Content Authentication for Phone Calls, In Proceedings of the USENIX Security Symposium (SECURITY), 2017.",,,
+3/2,Fraud,,TBD (will announce the paper by Feb 1st),,,
+3/4,Quiz 8,,Meetings,,Sam,
+3/6,NO CLASS,,,,,table-danger
+3/9,Presentations,,,,,table-warning
+3/11,Presentations,,,,,table-warning
+3/13,Presentations,,,,,table-warning
+3/19,Final project due,,<b>Final project due @1pm</b>,,,

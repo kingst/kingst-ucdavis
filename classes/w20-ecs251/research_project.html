@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+  </head>
+
+  <body>
+
+    {% include 'templates/nav.html' %}
+
+    <main role="main">
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+
+          <div class="col-md-12">
+            <h2>Research Project</h2>
+            <p>
+              You will design and carry out a quarter-long research
+              project (done in teams). I hope that these projects will
+              lead to published papers. The timeline for the projects
+              is as follows:
+              <ul>
+                <li>
+                  <b>1/22:</b> inform me of your group's
+                  membership. Groups should generally consist of 3
+                  or 4 people. Your project partner will have a
+                  substantial effect on your experience in this
+                  course, so choose carefully.
+                </li>
+
+                <li>
+                  <b>1/24:</b> inform me of your project choice. This
+                  will be an email with a brief description of what
+                  you plan on doing for the quarter.
+                </li>
+
+                <li>
+                  <b>2/7:</b> project proposals are due (you can find
+                  more
+                  information <a href="#writing_an_intro">here</a>). Your
+                  proposal should state the problem your project will
+                  address, the motivation for why this is an
+                  interesting problem, the goal of your project, the
+                  relationship between your project and other work,
+                  the plan and methodology for your project, and the
+                  resources needed to carry out your project. Include
+                  a set of incremental milestones that you will
+                  achieve in carrying out the project and a schedule
+                  for meeting these milestones.
+                </li>
+
+                <li>
+                  <b>3/12 - 3/14:</b> Project presentations. You can find more information
+                  about presentations in class.
+                </li>
+
+                <li>
+                  <b>3/20:</b> Final project due.
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              Project groups should be 3-4 members. Any other group
+              size needs explicit approval by the professor.
+            </p>
+
+            <p>
+              This quarter I am not going to give out project
+              ideas. You are responsible for coming up with a research
+              idea by yourself, but I encourage you to start this
+              process early and to solicit feedback from me.
+            </p>
+
+            <p>
+              For any part of the project you turn in, you must usenix
+              two-column formatting. For an example, feel free to
+              start from the a latex template or you
+              can use the latex template that I personally use for my
+              papers (this one includes a makefile)
+              <a href="/assets/ecs251/latex-example.tgz">latex-example.tgz</a>. Note:
+              You are required to use LaTeX in this class.
+            </p>
+
+            <p>
+              About Latex, for those of you who are not familiar with it, try to
+              read tutorials like this:
+              http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/
+            </p>
+
+            <p>
+              For windows users, we suggest using MikTeX or Cygwin, or
+              http://www.latexeditor.org/index.html  that makes using
+              LaTeX a little easier.
+            </p>
+
+	    <h2>Final presentation grading</h2>
+	    See slides from lecture for more details on what we're expecting. We will grade you on:
+	    <ul>
+	      <li>Clarity and quality of presentation</li>
+	      <li>Ability to explain the problem and set the appropriate context</li>
+	      <li>Ability to explain the system you built</li>
+	      <li>Quality of the live demo</li>
+	      <li>How well you handle Q/A</li>
+	    </ul>
+
+	    <h2>Final project grading</h2> See slides from lecture for
+	    more details on what we're expecting. This quarter we're
+	    going to use slides and source code as the artifacts that
+	    you're going to turn in for your grade. We will grade you
+	    on:
+	    <ul>
+	      <li>Code quality. To get points you must include a
+	      README file in your repo that outlines the basic
+	      structure of your code and how the concepts from your
+	      project map to actual code. Also, we're expecting
+	      significant contributions in real source code from all
+	      group members.</li>
+	      <li>Clarity and quality of explanation</li>
+	      <li>How significant was the system you built. We've been
+	      giving all groups feedback on this during our weekly
+	      meetings, so I'm not expecting any surprises here.</li>
+	      <li>Result. Basic results will get you most of the
+	      points, but we're reserving a few points in this
+	      category for exceptional results.</li>
+	    </ul>
+
+	    <h2>Project meetings</h2>
+	    <p>
+	      In the second half of this quarter your group will have
+	      weekly meetings with Sam and the TA. <i>Before</i> this
+	      meeting we expect you to meet as a group and plan your
+	      week. These meetings can be short (30 minutes) but you
+	      must meet as a group to talk about what you did over the
+	      previous week, what you plan to do during the upcoming
+	      week, and any issues or problems that you've
+	      encountered.
+	    </p>
+	    <p>
+	      As a part of your grade, <i>before</i> your weekly
+	      meeting with the professor you must turn in a document
+	      that summarizes your meeting. In particular:
+	      <ul>
+		<li>You will use Trello to keep an up-to-date list of
+		what everyone is doing. Your Trello board will have a
+		list of tasks divided into four categories: up next
+		(priority order), in progress, blocked, and done.</li>
+		<li>You will submit a short summary for all group
+		members that includes a few sentences about (1) what
+		did they do last week, (2) what are they going to do
+		this week, and (3) any issues they're having / things
+		they're stuck on.</li>
+		<li>You will draft this document using Markdown and
+		github. You will submit a link to this document
+		directly in this assignment.</li>
+		<li>Your document will include a link to your Trello
+		board and any commits that team members submitted in
+		the previous week.</li>
+	      </ul>
+	      Please note that we are expecting all group members to
+	      commit meaningful code each week, which we will review
+	      in our weekly meetings.
+	    </p>
+
+	    <a name="writing_an_intro"></a>
+	    <h2 style="padding-top: 3.5em">Writing an intro</h2> There are many different ways to
+	    write a good introduction. I recommend you find your
+	    favorite papers and reverse engineer an outline for the
+	    introduction to get an idea of how other people write
+	    introductions. This is my approach to writing
+	    introductions:
+
+	    <ul>
+	      <li>1-2 paragraphs about what problem you are solving and why it is important.</li>
+	      <li>1-2 paragraphs about how other people have solved this problem and how they fall short.</li>
+	      <li>1 paragraph (optional) what is difficult about this problem.</li>
+	      <li>1-2 paragraphs about your plan on why it is better than current approaches.</li>
+	      <li>1 paragraph to summarize results, or for your project proposals summarize your anticipated results.</li>
+	    </ul>
+
+	    <h2>Project proposal</h2>
+	    Your project proposal should include the following sections:
+	    <ul>
+	      <li>Introduction.</li>
+	      <li>Timeline of what you plan to accomplish and by when.</li>
+	      <li>Evaluation plan.</li>
+	      <li>Anticipated results.</li>
+	      <li>You are required to use LaTeX for your project proposals and you must submit it in PDF format.</li>
+	    </ul>
+
+	    <p>
+	      You will be graded on the clarity and quality of your
+	      presentation, not on your research ideas. Grammar and
+	      spelling mistakes will affect your grade. I expect you
+	      to have a clear problem statement with citations that
+	      back up your claims as to why this is an important
+	      problem, a classification of the most closely related
+	      work and an explanation of why it does not solve the
+	      problem you are interested in, and a clear explanation
+	      of what you plan on doing and why you think it will
+	      solve the problem you are interested in. Overall you
+	      should turn in an introduction that rivals the quality
+	      of the introductions we read in class. The class staff
+	      will provide written feedback on your research ideas to
+	      give you a suggestions on how to proceed for the
+	      remainder of the semester.
+	    </p>
+
+          </div>
+
+        </div>
+        <hr>
+      </div> <!-- /container -->
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>
