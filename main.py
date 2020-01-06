@@ -189,10 +189,13 @@ class Home(webapp2.RequestHandler):
         publications = [publication_to_listing(x) for x in publication_list]
 
         template = JINJA_ENVIRONMENT.get_template('home/' + page)
-        classes = [{'title': 'ECS 189e',
+        classes = [{'title': 'ECS 251',
+                    'quarter': 'Winter 20',
+                    'page': '/classes/w20-ecs251/index.html'}]
+        past_classes = [{'title': 'ECS 189e',
                     'quarter': 'Fall 19',
-                    'page': '/classes/f19-ecs189e/index.html'}]
-        past_classes = [{'title': 'ECS 153',
+                         'page': '/classes/f19-ecs189e/index.html'},
+                        {'title': 'ECS 153',
                     'quarter': 'Spring 19',
                     'page': '/classes/s19-ecs153/index.html'},
                         {'title': 'ECS 251',
