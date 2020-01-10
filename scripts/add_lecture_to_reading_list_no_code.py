@@ -36,7 +36,7 @@ def main():
     body = { 'values': values }
 
     col = 'C'
-    row = 5
+    row = 1
     range_name = '{0}{1}'.format(col, row)
     result = service.spreadsheets().values().get(
         spreadsheetId=SPREADSHEET_ID,
