@@ -1,41 +1,42 @@
-date,topic,slides,required_reading,optional_reading,disc_leaders,row_class
-1/6,Intro,"[<a href=""https://docs.google.com/presentation/d/1H3uTuBMDpcQixlDxz0ifJEVqSvtNS_mQYksHEa5aUcw/edit?usp=sharing"">gdoc</a>]",None,,Sam,
-1/8,Core OS,"[<a href=""https://docs.google.com/presentation/d/1y4IaghREmPtqKFcas2T-cEcKXW5fzqAHW-pxdioI7tc/edit?usp=sharing"">gdoc</a>]","<a href=""/assets/ecs251/kaashoek97.pdf"">Application performance and flexibility on exokernel systems</a>. M. Frans Kaashoek, Dawson R. Engler, Gregory R. Ganger, Héctor M. Briceño, Russell Hunt, David Mazières, Thomas Pinckney, Robert Grimm, John Jannotti, and Kenneth Mackenzie. In the Proceedings of the 16th ACM Symposium on Operating Systems Principles (SOSP '97), Saint-Malô, France, October 1997. <br> <b>Research topic: how to read a paper</b>",,Sam,
-1/10,Core OS,"[<a href=""https://drive.google.com/file/d/1EWQ-DsrRfOnuJ9f_u3kJBkblQX5fiAzB/view?usp=sharing"">Slides</a>]",OS Fundamentals: VMMs. Optional readig: OSTEP Appendix B,,Sam,
-1/13,Core OS,"[<a href=""https://docs.google.com/presentation/d/1BtvjSWGMWFVYkWHzL8I9qdzADV2SOq7S6yJ9ITLYMFY/edit#slide=id.p"">Slides</a>]","<a href=""/assets/ecs251/whitaker02.pdf"">Scale and performance in the Denali isolation kernel</a>. Whitaker, A., Shaw, M., and Gribble, S. D. 2002. In Proceedings of the 5th Symposium on Operating Systems Design and Implementation",,Sam,
-1/15,Quiz 1,,"Shuo Tang, Haohui Mai, and Samuel T. King, <a href=""/assets/ecs251/tang10.pdf"">Trust and Protection in the Illinois Browser Operating System</a>. Proceedings of the 2010 Symposium on Operating Systems Design and Implementation (OSDI), October 2010.
-<br><br>
-<b>Research topic: How to present</b>",,Sam,
-1/17,Core OS,,"<a href=""https://dl.acm.org/doi/pdf/10.1145/3341301.3359659"">ShortCut: accelerating mostly-deterministic code regions</a>, X Dou, PM Chen, J Flinn
-Proceedings of the 27th ACM Symposium on Operating Systems Principles, 2019",,"Shiven Mian, Sandra Bae, Zee, Nan, Haixin, Kathleen Blanck, Shawn Qiu",
-1/20,NO CLASS,,,,N/A,table-danger
-1/22,Quiz 2,,<b>Research topic: How to think of new ideas</b>,,Sam,
-1/24,Modern OS,,"Saba Eskandarian, Jonathan Cogan, Sawyer Birnbaum, Peh Chang Wei Brandon, Dillon Franke, Forest Fraser, Gaspar Garcia Jr., Eric Gong, Hung T. Nguyen, Taresh K. Sethi, Vishal Subbiah, Michael Backes, Giancarlo Pellegrino, Dan Boneh, <a href=""https://ieeexplore.ieee.org/abstract/document/8835331"">Fidelius: Protecting User Secrets from Compromised Browsers</a>. IEEE Symposium on Security and Privacy 2019: 264-280",,"Yunqiu, Tony, Jingchao Fang, keyi wu, Binshuai Wang, Aron Sarmasi",
-1/27,Modern OS,,"<a href=""https://www.usenix.org/system/files/sec19-reardon.pdf"">50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System</a>
-Joel Reardon, University of Calgary / AppCensus Inc.; Álvaro Feal, IMDEA Networks Institute / Universidad Carlos III Madrid; Primal Wijesekera, U.C. Berkeley / ICSI; Amit Elazari Bar On, U.C. Berkeley; Narseo Vallina-Rodriguez, IMDEA Networks Institute / ICSI / AppCensus Inc.; Serge Egelman, U.C. Berkeley / ICSI / AppCensus Inc. Usenix Security 2019",,"Dhruvtara Bhogishetty, Jayneel Vora, Shubham Pandey, Anusha Bangi, Jailan Sabet",
-1/29,Quiz 3,,Research topic TBD,,Sam,
-1/31,Cryptocurrencies,,"<a href=""https://bitcoin.org/bitcoin.pdf"">Bitcoin: A Peer-to-Peer Electronic Cash System</a>",,"Nikhil Wadhwa, Prashanth Duggirala, Dhruv Krishnan, Priya Holani, Sajjad Rahnama",
-2/3,Cryptocurrencies,,"<a href=""https://pdos.csail.mit.edu/papers/notary:sosp19.pdf"">Notary: a device for secure transaction approval</a> Anish Athalye,
-Adam  Belay, M. Frans Kaashoek, Robert T Morris, Nickolai  Zeldovich, SOSP 2019",,"Jia-Wei Liang, Yi-Chen Liu, Yue Wu, Bokun Wang, Che-Yu Liu, Juanyi Xu, Muting Wu",
-2/5,Quiz 4,,What to expect when you get a job + how to get a job,,Sam,
-2/7,Distributed Storage,,"""<a href=""""https://research.google.com/archive/bigtable-osdi06.pdf"""">Bigtable: A Distributed Storage System for Structured Data.</a>  Fay Chang , Jeffrey Dean , Sanjay Ghemawat , Wilson C. Hsieh , Deborah A. Wallach , Mike Burrows , Tushar Chandra , Andrew Fikes , Robert E. Gruber, OSDI'06: Seventh Symposium on Operating System Design and Implementation,
-Seattle, WA, November, 2006.""",,"Pengcheng Ding, Sicheng Mu, Yalin Zhang, Neil Arakkal, Aakaash Kapoor",
-2/10,Distributed Storage,,"<a href=""https://www.usenix.org/system/files/conference/atc14/atc14-paper-ongaro.pdf"">In Search of an Understandable Consensus Algorithm</a> by Diego Ongaro and John Ousterhout. 2014 USENIX Annual Technical Conference. [<a href=""https://www.usenix.org/node/184041"">Conference video</a>]",,"lihang pan， Tao Wang, Sajjad Rahnama, Rohan Sogani",
-2/12,Quiz 5,,Meetings,,Sam,
-2/14,SPAM,,"<a href=""https://www.icsi.berkeley.edu/pubs/networking/traffickingfraudulent13.pdf"">Trafficking Fraudulent Accounts: The Role of the Underground Market in Twitter Spam and Abuse</a> Kurt Thomas,Damon McCoy, Chris Grier, Alek Kolcz,
-Vern Paxson, In 22th USENIX Security Symposium (USENIX Security 13), 2013",,"Julian Angeles, Matthew Farrer, Wenjing Fan, Zhuoer Tong, Alfred Liu",
-2/17,NO CLASS,,,,N/A,table-danger
-2/19,Quiz 6,,Meetings,,Sam,
-2/21,Authentication,,"N. Karapanos, C. Marforio, C. Soriente, and S. Capkun. <a href=""https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-karapanos.pdf"">Sound-proof: Usable two-factor authentication based on ambient sound</a>. In 24th USENIX Security Symposium (USENIX Security 15), pages 483–498, Washington, D.C., 2015. USENIX Association.",,"Kun Qian, Yu Li, Qiangyang Wu, Mingyang Zhou, Yuheng Li",
-2/24,Authentication,,"<a href=""https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final154.pdf"">Progressive authentication: deciding when to authenticate on mobile phones</a>
-Oriana Riva, Chuan Qin, Karin Strauss, Dimitrios Lymberopoulos
-21st USENIX Security Symposium | August 2012",,"Xiaorui Wang, Mengxiao Lin, Chuyuan Qu,Jiemin Wu, Yubo Wang, Haitian Chen",
-2/26,Quiz 7,,Meetings,,Sam,
-2/28,Authentication,,"B. Reaves, L. Blue, H. Abdullah, L. Vargas, P. Traynor and T. Shrimpton. <a href=""https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-reaves_paper.pdf"">AuthentiCall: Efficient Identity and Content Authentication for Phone Calls</a>, In Proceedings of the USENIX Security Symposium (SECURITY), 2017.",,"Shreyas Hosamane, Peter Rong, Jingyuan Li,Zixin Chi",
-3/2,Authentication,,TBD (will announce the paper by Feb 1st),,,
-3/4,Quiz 8,,Meetings,,Sam,
-3/6,NO CLASS,,,,,table-danger
-3/9,Presentations,,,,,table-warning
-3/11,Presentations,,,,,table-warning
-3/13,Presentations,,,,,table-warning
-3/19,Final project due,,<b>Final project due @1pm</b>,,,
+date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
+Thursday 9/26,Intro,"[<a href=""https://docs.google.com/presentation/d/18GsJ2j9n4LgB6Z3WckX1lX-G3tr9AgUQtuYcVTPGsqM/edit#slide=id.g2d40f2458a_0_966"">gdoc</a>]",,,,
+Tuesday 10/1,First iOS app,"[<a href=""https://docs.google.com/presentation/d/1uD6PtDjhdP9aa_IEYbXQYmfZl7sDEZrP5SPSaMt2OFE/edit#slide=id.g42fa3302a3_0_126"">slides</a>]",,,,
+Thursday 10/3,"UI Widgets, auto layout, Swift","[<a href=""https://docs.google.com/presentation/d/1Q649qLrzP6OkcL74w-_7Tp6i2Co59OOdIlGJwF3Xw24/edit?usp=sharing"">slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-03-lecture"">Source</a>]",,"<ul>
+<li><a href=""https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316"">Stanford CS193 Lecture 3 on Swift</a></li>
+<li><a href=""https://developer.apple.com/swift/"">Apple's Swift page</a></li>
+<li><a href=""https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/"">O'Reilly Swift book</a>. I haven't read this, but in general O'Reilly books tend to be quite good.</li>
+</ul>
+Plus, there are many many resources online for how to learn Swift.
+
+<br><br><b>Homework 1 out</b>",,
+Tuesday 10/8,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/19kq0O768vTPQQCNc40flPq340j1CHZrlpsvINEIOxbA/edit#slide=id.p"">slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-08"">source</a>]",,,,
+Thursday 10/10,Optionals high order functions and closures,"[<a href=""https://docs.google.com/presentation/d/1wJjlVpZBvi6eBXkuPz-m5k74USgI-nCv1vMCfq3zve0/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-10"">Source</a>]",,"
+<br><br><b>Homework 2 out, Homework 1 in</b>",,
+Tuesday 10/15,High order functions (redo lecture),"[<a href=""https://docs.google.com/presentation/d/1GBIHBOg9vOtnOy8zV-4kh-xKaEvoNO8b8wUYBUgwu0M/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-15"">Source</a>]",,,,
+Thursday 10/17,Closures,"[<a href=""https://docs.google.com/presentation/d/1caeQluOcUEhA3CCRp-q-xaXD7LFFFZ0Y2idzjorxwqw/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-17"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.
+
+
+<br><br><b>Homework 3 out, Homework 2 in</b>",,
+Tuesday 10/22,Protocols and delegates,"[<a href=""https://docs.google.com/presentation/d/1iySREtjV-OMiaUF9vWSJEDvb7KIWk7rw4FopxYeErWg/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-22"">Source</a>]",,"<ul>
+<li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
+<li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
+<li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Extensions.html"">Extensions</a></li>
+</ul>
+",,
+Thursday 10/24,protocols and delegates,"[<a href=""https://docs.google.com/presentation/d/1d45ElBihPG2ThpHdx5JjOAX14_aJzp4WTZR6V1DyuFE/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-24"">Source</a>]",,,,
+Tuesday 10/29,Extensions,"[<a href=""#"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-29"">Source</a>]",,"<b>Homework 4 out, Homework 3 in</b>",,
+Thursday 10/31,Project intro,"[<a href=""https://docs.google.com/presentation/d/1S-syUxlcLVpYPdc94rgvoFtu2li7IsW28SRKX4qSo3I/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-31"">Source</a>]",,,,
+Tuesday 11/5,Threads,"[<a href=""https://docs.google.com/presentation/d/10Y6CzAsc_aZ8uo2IBI2tsWc_-PStIClEFqwxyI6zmus/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-11-05"">Source</a>]",,"<b>Project proposal due</b>
+<br><br><b>Sprint planning due</b>
+<br><br><b>Homework 4 in</b>",,
+Thursday 11/7,Threads,None,,,,
+Tuesday 11/12,GCD,"[<a href=""https://docs.google.com/presentation/d/1X8lEWH5kJkG2JRrcZrZ0FAwANSQXCXt8M6dQLwVHElE/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-11-13"">Source</a>]",,<b>Sprint planning due</b>,,
+Thursday 11/14,,None,Project meetings,<b>Milestone 1 due (due on 11/13)</b>,,
+Tuesday 11/19,AsyncTask + Process Abstraction + VC and App lifecycle,"[<a href=""https://docs.google.com/presentation/d/1r2JFNnaD9iVCVI3850Gn6UIQ4nbUsKrOpMhONTLSOVo/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-11-19"">Source</a>]",,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications<br>
+<br>
+<br><b>Sprint planning due</b>",,
+Thursday 11/21,,,Project meetings,<b>Milestone 2 due (11/20)</b>,,
+Tuesday 11/26,info about project demo + final project + advanced topics,"[<a href=""https://docs.google.com/presentation/d/1Hy4t9ZwIdwhVj7ynsmbSnCZTHvK2sOdRQvR8VO-TWGw/edit?usp=sharing"">Slides<a/>]",,<b>Sprint planning due</b>,,
+Thursday 11/28,no class,,,,,table-danger
+Tuesday 12/3,,,Optional meetings,<b>Sprint planning due</b>,,
+Thursday 12/5,Demos,,,,,
