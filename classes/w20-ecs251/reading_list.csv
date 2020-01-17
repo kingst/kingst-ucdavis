@@ -1,4 +1,4 @@
-,topic,slides,required_reading,optional_reading,disc_leaders,row_class
+date,topic,slides,required_reading,optional_reading,disc_leaders,row_class
 1/6,Intro,"[<a href=""https://docs.google.com/presentation/d/1H3uTuBMDpcQixlDxz0ifJEVqSvtNS_mQYksHEa5aUcw/edit?usp=sharing"">gdoc</a>]",None,,Sam,
 1/8,Core OS,"[<a href=""https://docs.google.com/presentation/d/1y4IaghREmPtqKFcas2T-cEcKXW5fzqAHW-pxdioI7tc/edit?usp=sharing"">gdoc</a>]","<a href=""/assets/ecs251/kaashoek97.pdf"">Application performance and flexibility on exokernel systems</a>. M. Frans Kaashoek, Dawson R. Engler, Gregory R. Ganger, Héctor M. Briceño, Russell Hunt, David Mazières, Thomas Pinckney, Robert Grimm, John Jannotti, and Kenneth Mackenzie. In the Proceedings of the 16th ACM Symposium on Operating Systems Principles (SOSP '97), Saint-Malô, France, October 1997. <br> <b>Research topic: how to read a paper</b>",,Sam,
 1/10,Core OS,"[<a href=""https://drive.google.com/file/d/1EWQ-DsrRfOnuJ9f_u3kJBkblQX5fiAzB/view?usp=sharing"">Slides</a>]",OS Fundamentals: VMMs. Optional readig: OSTEP Appendix B,,Sam,
