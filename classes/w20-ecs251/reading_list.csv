@@ -9,12 +9,12 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,row_class
 1/17,Core OS,"[<a href=""https://docs.google.com/presentation/d/142EgMb4cARh7FjUQ9WkRCMreINRfU2OAP35rZmzLRpc/edit?usp=sharing"">Slides</a>]","<a href=""https://dl.acm.org/doi/pdf/10.1145/3341301.3359659"">ShortCut: accelerating mostly-deterministic code regions</a>, X Dou, PM Chen, J Flinn
 Proceedings of the 27th ACM Symposium on Operating Systems Principles, 2019",,"Shiven Mian, Sandra Bae, Zee, Nan, Haixin, Kathleen Blanck, Shawn Qiu",
 1/20,NO CLASS,,,,N/A,table-danger
-1/22,Quiz 2,,<b>Research topic: How to think of new ideas</b>,,Sam,
-1/24,Modern OS,,"Saba Eskandarian, Jonathan Cogan, Sawyer Birnbaum, Peh Chang Wei Brandon, Dillon Franke, Forest Fraser, Gaspar Garcia Jr., Eric Gong, Hung T. Nguyen, Taresh K. Sethi, Vishal Subbiah, Michael Backes, Giancarlo Pellegrino, Dan Boneh, <a href=""https://ieeexplore.ieee.org/abstract/document/8835331"">Fidelius: Protecting User Secrets from Compromised Browsers</a>. IEEE Symposium on Security and Privacy 2019: 264-280",,"Yunqiu, Tony, keyi wu, Binshuai Wang, Aron Sarmasi, Pengcheng Ding",
+1/22,Quiz 2,"[<a href=""https://docs.google.com/presentation/d/1YWPx9ln5-NMhUJ-Tn0y1s5rn5QQbPknlOImslcSIfew/edit?usp=sharing"">Slides</a>]",<b>Research topic: How to think of new ideas</b>,,Sam,
+1/24,Modern OS,,"Saba Eskandarian, Jonathan Cogan, Sawyer Birnbaum, Peh Chang Wei Brandon, Dillon Franke, Forest Fraser, Gaspar Garcia Jr., Eric Gong, Hung T. Nguyen, Taresh K. Sethi, Vishal Subbiah, Michael Backes, Giancarlo Pellegrino, Dan Boneh, <a href=""https://ieeexplore.ieee.org/abstract/document/8835331"">Fidelius: Protecting User Secrets from Compromised Browsers</a>. IEEE Symposium on Security and Privacy 2019: 264-280",,"Yunqiu, Tony, keyi wu, Binshuai Wang, Pengcheng Ding",
 1/27,Modern OS,,"<a href=""https://www.usenix.org/system/files/sec19-reardon.pdf"">50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System</a>
 Joel Reardon, University of Calgary / AppCensus Inc.; Álvaro Feal, IMDEA Networks Institute / Universidad Carlos III Madrid; Primal Wijesekera, U.C. Berkeley / ICSI; Amit Elazari Bar On, U.C. Berkeley; Narseo Vallina-Rodriguez, IMDEA Networks Institute / ICSI / AppCensus Inc.; Serge Egelman, U.C. Berkeley / ICSI / AppCensus Inc. Usenix Security 2019",,"Dhruvatara Bhogishetty, Jayneel Vora, Shubham Pandey, Anusha Bangi, Jailan Sabet",
 1/29,Quiz 3,,Research topic TBD,,Sam,
-1/31,Cryptocurrencies,,"<a href=""https://bitcoin.org/bitcoin.pdf"">Bitcoin: A Peer-to-Peer Electronic Cash System</a>",,"Nikhil Wadhwa, Prashanth Duggirala, Dhruv Krishnan, Priya Holani, Sajjad Rahnama",
+1/31,Cryptocurrencies,,"<a href=""https://bitcoin.org/bitcoin.pdf"">Bitcoin: A Peer-to-Peer Electronic Cash System</a>",,"Nikhil Wadhwa, Prashanth Duggirala, Dhruv Krishnan, Priya Holani",
 2/3,Cryptocurrencies,,"<a href=""https://pdos.csail.mit.edu/papers/notary:sosp19.pdf"">Notary: a device for secure transaction approval</a> Anish Athalye,
 Adam  Belay, M. Frans Kaashoek, Robert T Morris, Nickolai  Zeldovich, SOSP 2019",,"Jia-Wei Liang, Yi-Chen Liu, Yue Wu, Che-Yu Liu, Juanyi Xu, Muting Wu",
 2/5,Quiz 4,,What to expect when you get a job + how to get a job,,Sam,
@@ -23,7 +23,7 @@ Seattle, WA, November, 2006.""",,"Sicheng Mu, Yalin Zhang, Neil Arakkal, Aakaash
 2/10,Distributed Storage,,"<a href=""https://www.usenix.org/system/files/conference/atc14/atc14-paper-ongaro.pdf"">In Search of an Understandable Consensus Algorithm</a> by Diego Ongaro and John Ousterhout. 2014 USENIX Annual Technical Conference. [<a href=""https://www.usenix.org/node/184041"">Conference video</a>]",,"lihang pan， Tao Wang, Sajjad Rahnama, Rohan Sogani,Jiaqi Liu",
 2/12,Quiz 5,,Meetings,,Sam,
 2/14,SPAM,,"<a href=""https://www.icsi.berkeley.edu/pubs/networking/traffickingfraudulent13.pdf"">Trafficking Fraudulent Accounts: The Role of the Underground Market in Twitter Spam and Abuse</a> Kurt Thomas,Damon McCoy, Chris Grier, Alek Kolcz,
-Vern Paxson, In 22th USENIX Security Symposium (USENIX Security 13), 2013",,"Julian Angeles, Matthew Farrer, Wenjing Fan, Zhuoer Tong, Alfred Liu",
+Vern Paxson, In 22th USENIX Security Symposium (USENIX Security 13), 2013",,"Julian Angeles, Matthew Farrer, Wenjing Fan, Zhuoer Tong, Alfred Liu, Shidi Yu",
 2/17,NO CLASS,,,,N/A,table-danger
 2/19,Quiz 6,,Meetings,,Sam,
 2/21,Authentication,,"N. Karapanos, C. Marforio, C. Soriente, and S. Capkun. <a href=""https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-karapanos.pdf"">Sound-proof: Usable two-factor authentication based on ambient sound</a>. In 24th USENIX Security Symposium (USENIX Security 15), pages 483–498, Washington, D.C., 2015. USENIX Association.",,"Kun Qian, Yu Li, Qiangyang Wu, Mingyang Zhou, Yuheng Li",
@@ -31,7 +31,7 @@ Vern Paxson, In 22th USENIX Security Symposium (USENIX Security 13), 2013",,"Jul
 Oriana Riva, Chuan Qin, Karin Strauss, Dimitrios Lymberopoulos
 21st USENIX Security Symposium | August 2012",,"Xiaorui Wang, Mengxiao Lin, Chuyuan Qu,Jiemin Wu, Yubo Wang, Haitian Chen",
 2/26,Quiz 7,,Meetings,,Sam,
-2/28,Authentication,,"B. Reaves, L. Blue, H. Abdullah, L. Vargas, P. Traynor and T. Shrimpton. <a href=""https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-reaves_paper.pdf"">AuthentiCall: Efficient Identity and Content Authentication for Phone Calls</a>, In Proceedings of the USENIX Security Symposium (SECURITY), 2017.",,"Shreyas Hosamane, Peter Rong, Jingyuan Li,Zixin Chi,Sutej Kulkarni",
+2/28,Authentication,,"B. Reaves, L. Blue, H. Abdullah, L. Vargas, P. Traynor and T. Shrimpton. <a href=""https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-reaves_paper.pdf"">AuthentiCall: Efficient Identity and Content Authentication for Phone Calls</a>, In Proceedings of the USENIX Security Symposium (SECURITY), 2017.",,"Peter Rong, Jingyuan Li,Zixin Chi,Sutej Kulkarni",
 3/2,Authentication,,TBD (will announce the paper by Feb 1st),,,
 3/4,Quiz 8,,Meetings,,Sam,
 3/6,NO CLASS,,,,,table-danger
