@@ -18,7 +18,7 @@ Joel Reardon, University of Calgary / AppCensus Inc.; Álvaro Feal, IMDEA Networ
 2/3,Cryptocurrencies,"[<a href=""https://drive.google.com/file/d/0B1JFXw3EleJwMWhGazZBS1V2TkdIV0xSOTgtaVhuQ2JjM204/view?usp=sharing"">Slides</a>]","<a href=""https://pdos.csail.mit.edu/papers/notary:sosp19.pdf"">Notary: a device for secure transaction approval</a> Anish Athalye,
 Adam  Belay, M. Frans Kaashoek, Robert T Morris, Nickolai  Zeldovich, SOSP 2019",,"Jia-Wei Liang, Yi-Chen Liu, Yue Wu, Che-Yu Liu, Juanyi Xu, Muting Wu",
 2/5,Quiz 4,,What to expect when you get a job + how to get a job,,Sam,
-2/7,Distributed Storage,"[<a href=""https://docs.google.com/presentation/d/1IIok4nd3-8AD-Qet28uMD3wYM1ytXLKtHA85-1ZB0L8/edit?usp=sharing"">Slides</a>","""<a href=""""https://research.google.com/archive/bigtable-osdi06.pdf"""">Bigtable: A Distributed Storage System for Structured Data.</a>  Fay Chang , Jeffrey Dean , Sanjay Ghemawat , Wilson C. Hsieh , Deborah A. Wallach , Mike Burrows , Tushar Chandra , Andrew Fikes , Robert E. Gruber, OSDI'06: Seventh Symposium on Operating System Design and Implementation,
+2/7,Distributed Storage,"[<a href=""https://docs.google.com/presentation/d/1IIok4nd3-8AD-Qet28uMD3wYM1ytXLKtHA85-1ZB0L8/edit?usp=sharing"">Slides</a>]","""<a href=""""https://research.google.com/archive/bigtable-osdi06.pdf"""">Bigtable: A Distributed Storage System for Structured Data.</a>  Fay Chang , Jeffrey Dean , Sanjay Ghemawat , Wilson C. Hsieh , Deborah A. Wallach , Mike Burrows , Tushar Chandra , Andrew Fikes , Robert E. Gruber, OSDI'06: Seventh Symposium on Operating System Design and Implementation,
 Seattle, WA, November, 2006.""",,"Sicheng Mu, Yalin Zhang, Neil Arakkal, Aakaash Kapoor",
 2/10,Distributed Storage,"[<a href=""https://docs.google.com/presentation/d/1GlKI543cJKziIRNIAA-aYAryrg1t6Z-JyEmN1fMTOR8/edit#slide=id.p"">Slides</a>]","<a href=""https://www.usenix.org/system/files/conference/atc14/atc14-paper-ongaro.pdf"">In Search of an Understandable Consensus Algorithm</a> by Diego Ongaro and John Ousterhout. 2014 USENIX Annual Technical Conference. [<a href=""https://www.usenix.org/node/184041"">Conference video</a>]",,"lihang pan， Tao Wang, Sajjad Rahnama, Rohan Sogani,Jiaqi Liu, Jared Li",
 2/12,Quiz 5,,Meetings,,Sam,
@@ -26,13 +26,13 @@ Seattle, WA, November, 2006.""",,"Sicheng Mu, Yalin Zhang, Neil Arakkal, Aakaash
 Vern Paxson, In 22th USENIX Security Symposium (USENIX Security 13), 2013",,"Julian Angeles, Matthew Farrer, Wenjing Fan, Zhuoer Tong, Alfred Liu, Shidi Yu",
 2/17,NO CLASS,,,,N/A,table-danger
 2/19,Quiz 6,,Meetings,,Sam,
-2/21,Authentication,,"N. Karapanos, C. Marforio, C. Soriente, and S. Capkun. <a href=""https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-karapanos.pdf"">Sound-proof: Usable two-factor authentication based on ambient sound</a>. In 24th USENIX Security Symposium (USENIX Security 15), pages 483–498, Washington, D.C., 2015. USENIX Association.",,"Kun Qian, Yu Li, Qiangyang Wu, Mingyang Zhou, Yuheng Li",
+2/21,Authentication,"[<a href=""https://docs.google.com/presentation/d/1mnlBKpj0e8rflBnUSv4mkOwllIO0CdEMYgDlp0jMxHw/edit?ts=5e5017f3"">Slides</a>]","N. Karapanos, C. Marforio, C. Soriente, and S. Capkun. <a href=""https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-karapanos.pdf"">Sound-proof: Usable two-factor authentication based on ambient sound</a>. In 24th USENIX Security Symposium (USENIX Security 15), pages 483–498, Washington, D.C., 2015. USENIX Association.",,"Kun Qian, Yu Li, Qiangyang Wu, Mingyang Zhou, Yuheng Li",
 2/24,Authentication,,"<a href=""https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final154.pdf"">Progressive authentication: deciding when to authenticate on mobile phones</a>
 Oriana Riva, Chuan Qin, Karin Strauss, Dimitrios Lymberopoulos
 21st USENIX Security Symposium | August 2012",,"Xiaorui Wang, Mengxiao Lin, Chuyuan Qu,Jiemin Wu, Yubo Wang, Haitian Chen",
 2/26,Quiz 7,,Meetings,,Sam,
 2/28,Authentication,,"B. Reaves, L. Blue, H. Abdullah, L. Vargas, P. Traynor and T. Shrimpton. <a href=""https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-reaves_paper.pdf"">AuthentiCall: Efficient Identity and Content Authentication for Phone Calls</a>, In Proceedings of the USENIX Security Symposium (SECURITY), 2017.",,"Peter Rong, Jingyuan Li,Zixin Chi,Sutej Kulkarni",
-3/2,Authentication,,TBD (will announce the paper by Feb 1st),,,
+3/2,NO CLASS,,,,N/A,table-danger
 3/4,Quiz 8,,Meetings,,Sam,
 3/6,NO CLASS,,,,,table-danger
 3/9,Presentations,,,,,table-warning
