@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+  </head>
+
+  <body>
+
+    {% include 'templates/nav.html' %}
+
+    <main role="main">
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              I populate this table from this <a href="https://docs.google.com/spreadsheets/d/1wl_c0tuM7KWMPyDEo-RWu6A9CGD72XtVGacjwo63dgM/edit?usp=sharing">Google
+              Doc</a>, in case you are interested.
+            </p>
+
+	    <p>
+	      The basic idea this quarter is that you're going to
+	      watch videos of research research projects before
+	      lecture, then during lecture we'll talk about the basics
+	      and try to help you understand the key concepts in the
+	      paper.
+	    </p>
+	    <p>
+	      During lecture we will meet via Zoom and periodically
+	      discuss ideas in addition to listening to me explain the
+	      basics. These discussions will help solidify your
+	      understanding of the material.
+	    </p>
+	    
+            <table class="table table-striped table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Date</th>
+                  <th>Lecture media</th>
+                  <th>Topic</th>
+                  <th>Papers and videos</th>
+                </tr>
+              </thead>
+
+              <tbody>
+		{% for row in reading_list %}
+		<tr class="{{row.row_class}}">
+		  <td>{{row.date}}</td>
+		  <td>{{row.slides|string|safe}}</td>
+		  <td>{{row.topic|string|safe}}</td>
+		  <td>{{row.required_reading|string|safe}}</td>
+		</tr>
+		{% endfor %}
+              </tbody>
+
+            </table>
+
+          </div>
+        </div>
+
+        <hr>
+      </div> <!-- /container -->
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>
