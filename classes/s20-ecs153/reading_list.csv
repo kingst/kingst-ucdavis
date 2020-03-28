@@ -3,7 +3,14 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,row_class
 4/1/2020,<b>Big idea: privacy as a human right</b>,,,,,
 4/3/2020,Privacy,,"<a href=""https://www.usenix.org/system/files/sec19-reardon.pdf"">50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System</a>
 Joel Reardon, University of Calgary / AppCensus Inc.; Álvaro Feal, IMDEA Networks Institute / Universidad Carlos III Madrid; Primal Wijesekera, U.C. Berkeley / ICSI; Amit Elazari Bar On, U.C. Berkeley; Narseo Vallina-Rodriguez, IMDEA Networks Institute / ICSI / AppCensus Inc.; Serge Egelman, U.C. Berkeley / ICSI / AppCensus Inc. Usenix Security 2019 (<a href=""https://www.usenix.org/conference/usenixsecurity19/presentation/reardon"">Video</a>)",,,
-4/6/2020,Privacy,,"Roger Dingledine - Next Generation Tor Onion Services (<a href=""https://www.youtube.com/watch?v=Di7qAVidy1Y"">video</a>)",,,
+4/6/2020,Privacy,,"Vuvuzela: scalable private messaging resistant to traffic analysis.
+SOSP '15: Proceedings of the 25th Symposium on Operating Systems Principles, October 2015,
+Jelle  Van Den Hooff, 
+David  Lazar, 
+Matei A Zaharia,
+Nickolai  Zeldovich
+(<a href=""https://www.youtube.com/watch?v=nGkfSn4N2Tk"">video</a>)
+(<a href=""https://pdos.csail.mit.edu/papers/vuvuzela:sosp15.pdf"">paper</a>)",,,
 4/8/2020,<b>Big idea: Computers are everywhere and they aren't very secure</b>,,,,,
 4/10/2020,Insecure computers everywhere,,"Comprehensive Experimental Analyses of Automotive Attack Surfaces
 Stephen Checkoway, Damon McCoy, Brian Kantor, Danny Anderson, Hovav Shacham, and Stefan Savage, University of California, San Diego; Karl Koscher, Alexei Czeskis, Franziska Roesner, and Tadayoshi Kohno, University of Washington (<a href=""https://www.usenix.org/legacy/events/sec11/tech/full_papers/Checkoway.pdf"">paper</a>)(<a href=""https://www.usenix.org/conference/usenix-security-11/comprehensive-experimental-analyses-automotive-attack-surfaces"">video</a>)",,,
