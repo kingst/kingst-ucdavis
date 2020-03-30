@@ -27,11 +27,11 @@ def main():
     service = build('sheets', 'v4', http=creds.authorize(Http()))
 
     # Call the Sheets API
-    SPREADSHEET_ID = '1HhYm-gA9ig6V-eHYhFhRdhYnLByLGqwZcV-QnfSYHfI'
+    SPREADSHEET_ID = '1wl_c0tuM7KWMPyDEo-RWu6A9CGD72XtVGacjwo63dgM'
     result = service.spreadsheets().get(spreadsheetId = SPREADSHEET_ID).execute()
     spreadsheetUrl = result['spreadsheetUrl']
 
-    values = [['[<a href="{0}">Slides</a>]'.format(
+    values = [['[<a href="{0}">Video</a>]'.format(
                 sys.argv[1])]]
     body = { 'values': values }
 
