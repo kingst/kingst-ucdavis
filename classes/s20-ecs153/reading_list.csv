@@ -1,35 +1,32 @@
 date,topic,slides,required_reading,optional_reading,disc_leaders,row_class
 3/30/2020,Welcome,"<a href=""https://docs.google.com/presentation/d/1gD2X-5zjBjJUFFhP2P16vdlOOiPPSdbabOYwCAZ-7Qk/edit?usp=sharing"">Slides</a> <a href=""https://youtu.be/IP0yQpdEDTY"">Video</a>",,,,
 4/1/2020,<b>Big idea: privacy as a human right</b>,"<a href=""https://docs.google.com/presentation/d/1rGz5fKILEpO7VYEdz1SpfjImDMZzlnyyEKrxdy1jPrI/edit?usp=sharing"">Slides</a> <a href=""https://canvas.ucdavis.edu/courses/452023/files/folder/lecture%2002%3A%20privacy%20background"">Video</a> Note: this video is on canvas beause it shows pictures of students. For future videos students will have been warned about this before we post to youtube",,,,
-4/3/2020,Privacy,,"<a href=""https://www.usenix.org/system/files/sec19-reardon.pdf"">50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System</a>
-Joel Reardon, University of Calgary / AppCensus Inc.; Álvaro Feal, IMDEA Networks Institute / Universidad Carlos III Madrid; Primal Wijesekera, U.C. Berkeley / ICSI; Amit Elazari Bar On, U.C. Berkeley; Narseo Vallina-Rodriguez, IMDEA Networks Institute / ICSI / AppCensus Inc.; Serge Egelman, U.C. Berkeley / ICSI / AppCensus Inc. Usenix Security 2019 (<a href=""https://www.usenix.org/conference/usenixsecurity19/presentation/reardon"">Video</a>)",,,
-4/6/2020,Privacy,,"Vuvuzela: scalable private messaging resistant to traffic analysis.
+4/3/2020,Privacy,,"<a href=""https://www.usenix.org/conference/usenixsecurity19/presentation/reardon"">50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System</a>
+Joel Reardon, University of Calgary / AppCensus Inc.; Álvaro Feal, IMDEA Networks Institute / Universidad Carlos III Madrid; Primal Wijesekera, U.C. Berkeley / ICSI; Amit Elazari Bar On, U.C. Berkeley; Narseo Vallina-Rodriguez, IMDEA Networks Institute / ICSI / AppCensus Inc.; Serge Egelman, U.C. Berkeley / ICSI / AppCensus Inc. Usenix Security 2019 (<a href=""https://www.usenix.org/system/files/sec19-reardon.pdf"">Optional paper</a>)",,,
+4/6/2020,Privacy,,"<a href=""https://www.youtube.com/watch?v=nGkfSn4N2Tk"">Vuvuzela: scalable private messaging resistant to traffic analysis.</a>
 SOSP '15: Proceedings of the 25th Symposium on Operating Systems Principles, October 2015,
 Jelle  Van Den Hooff, 
 David  Lazar, 
 Matei A Zaharia,
 Nickolai  Zeldovich
-(<a href=""https://www.youtube.com/watch?v=nGkfSn4N2Tk"">video</a>)
-(<a href=""https://pdos.csail.mit.edu/papers/vuvuzela:sosp15.pdf"">paper</a>)",,,
+(<a href=""https://pdos.csail.mit.edu/papers/vuvuzela:sosp15.pdf"">Optional paper</a>)",,,
 4/8/2020,<b>Big idea: Computers are everywhere and they aren't very secure</b>,,,,,
-4/10/2020,Insecure computers everywhere,,"Comprehensive Experimental Analyses of Automotive Attack Surfaces
-Stephen Checkoway, Damon McCoy, Brian Kantor, Danny Anderson, Hovav Shacham, and Stefan Savage, University of California, San Diego; Karl Koscher, Alexei Czeskis, Franziska Roesner, and Tadayoshi Kohno, University of Washington (<a href=""https://www.usenix.org/legacy/events/sec11/tech/full_papers/Checkoway.pdf"">paper</a>)(<a href=""https://www.usenix.org/conference/usenix-security-11/comprehensive-experimental-analyses-automotive-attack-surfaces"">video</a>)",,,
-4/13/2020,Insecure computers everywhere,,"Understanding the Mirai Botnet. Manos Antonakakis, Georgia Institute of Technology; Tim April, Akamai; Michael Bailey, University of Illinois, Urbana-Champaign; Matt Bernhard, University of Michigan, Ann Arbor; Elie Bursztein, Google; Jaime Cochran, Cloudflare; Zakir Durumeric and J. Alex Halderman, University of Michigan, Ann Arbor; Luca Invernizzi, Google; Michalis Kallitsis, Merit Network, Inc.; Deepak Kumar, University of Illinois, Urbana-Champaign; Chaz Lever, Georgia Institute of Technology; Zane Ma and Joshua Mason, University of Illinois, Urbana-Champaign; Damian Menscher, Google; Chad Seaman, Akamai; Nick Sullivan, Cloudflare; Kurt Thomas, Google; Yi Zhou, University of Illinois, Urbana-Champaign. (<a href=""https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf"">paper</a>)(<a href=""https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis"">video</a>)",,,
+4/10/2020,Insecure computers everywhere,,"<a href=""https://www.usenix.org/conference/usenix-security-11/comprehensive-experimental-analyses-automotive-attack-surfaces"">Comprehensive Experimental Analyses of Automotive Attack Surfaces</a>
+Stephen Checkoway, Damon McCoy, Brian Kantor, Danny Anderson, Hovav Shacham, and Stefan Savage, University of California, San Diego; Karl Koscher, Alexei Czeskis, Franziska Roesner, and Tadayoshi Kohno, University of Washington (<a href=""https://www.usenix.org/legacy/events/sec11/tech/full_papers/Checkoway.pdf"">Optional paper</a>)",,,
+4/13/2020,Insecure computers everywhere,,"<a href=""https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis"">Understanding the Mirai Botnet.</a> Manos Antonakakis, Georgia Institute of Technology; Tim April, Akamai; Michael Bailey, University of Illinois, Urbana-Champaign; Matt Bernhard, University of Michigan, Ann Arbor; Elie Bursztein, Google; Jaime Cochran, Cloudflare; Zakir Durumeric and J. Alex Halderman, University of Michigan, Ann Arbor; Luca Invernizzi, Google; Michalis Kallitsis, Merit Network, Inc.; Deepak Kumar, University of Illinois, Urbana-Champaign; Chaz Lever, Georgia Institute of Technology; Zane Ma and Joshua Mason, University of Illinois, Urbana-Champaign; Damian Menscher, Google; Chad Seaman, Akamai; Nick Sullivan, Cloudflare; Kurt Thomas, Google; Yi Zhou, University of Illinois, Urbana-Champaign. (<a href=""https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf"">Optional paper</a>)",,,
 4/15/2020,<b>Big idea: Machine learning and security</b>,,,,,
-4/17/2020,ML,,"Q: Why Do Keynote Speakers Keep Suggesting That Improving Security Is Possible?
+4/17/2020,ML,,"<a href=""https://www.usenix.org/conference/usenixsecurity18/presentation/mickens"">Q: Why Do Keynote Speakers Keep Suggesting That Improving Security Is Possible?</a>
 A: Because Keynote Speakers Make Bad Life Decisions and Are Poor Role Models
-James Mickens, Harvard University
-(<a href=""https://www.usenix.org/conference/usenixsecurity18/presentation/mickens"">video</a>)",,,
-4/20/2020,ML,,"Towards evaluating the robustness of neural networks
+James Mickens, Harvard University",,,
+4/20/2020,ML,,"<a href=""https://www.youtube.com/watch?v=yIXNL88JBWQ"">Towards evaluating the robustness of neural networks</a>
 N Carlini, D Wagner
-2017 IEEE Symposium on Security and Privacy (SP), 39-57 (<a href=""https://www.youtube.com/watch?v=yIXNL88JBWQ"">video</a>)(<a href=""https://arxiv.org/pdf/1608.04644.pdf"">paper</a>)",,,
+2017 IEEE Symposium on Security and Privacy (SP), 39-57 (<a href=""https://arxiv.org/pdf/1608.04644.pdf"">Optional paper</a>)",,,
 4/22/2020,<b>Big idea: trusted computing base</b>,,,,,
-4/24/2020,TCB,,"<a href=""https://pdos.csail.mit.edu/papers/notary:sosp19.pdf"">Notary: a device for secure transaction approval</a> Anish Athalye,
-Adam  Belay, M. Frans Kaashoek, Robert T Morris, Nickolai  Zeldovich, SOSP 2019 (<a href=""https://sosp19.rcs.uwaterloo.ca/videos/D1-S2-P3.mp4"">Video</a>)",,,
-4/27/2020,TCB,,"Saba Eskandarian, Jonathan Cogan, Sawyer Birnbaum, Peh Chang Wei Brandon, Dillon Franke, Forest Fraser, Gaspar Garcia Jr., Eric Gong, Hung T. Nguyen, Taresh K. Sethi, Vishal Subbiah, Michael Backes, Giancarlo Pellegrino, Dan Boneh, <a href=""https://ieeexplore.ieee.org/abstract/document/8835331"">Fidelius: Protecting User Secrets from Compromised Browsers</a>. IEEE Symposium on Security and Privacy 2019: 264-280 (<a href=""https://youtu.be/Dr14zTNCHzU"">Video</a>)",,,
+4/24/2020,TCB,,"<a href=""https://sosp19.rcs.uwaterloo.ca/videos/D1-S2-P3.mp4"">Notary: a device for secure transaction approval</a> Anish Athalye,
+Adam  Belay, M. Frans Kaashoek, Robert T Morris, Nickolai  Zeldovich, SOSP 2019 (<a href=""https://pdos.csail.mit.edu/papers/notary:sosp19.pdf"">Optional paper</a>)",,,
+4/27/2020,TCB,,"Saba Eskandarian, Jonathan Cogan, Sawyer Birnbaum, Peh Chang Wei Brandon, Dillon Franke, Forest Fraser, Gaspar Garcia Jr., Eric Gong, Hung T. Nguyen, Taresh K. Sethi, Vishal Subbiah, Michael Backes, Giancarlo Pellegrino, Dan Boneh, <a href=""<a href=""https://youtu.be/Dr14zTNCHzU"">Fidelius: Protecting User Secrets from Compromised Browsers</a>. IEEE Symposium on Security and Privacy 2019: 264-280 (<a href=""https://ieeexplore.ieee.org/abstract/document/8835331"">Optional paper</a>)",,,
 4/29/2020,<b>Big idea: Malicious computer systems</b>,,,,,
-5/1/2020,malicious,,"Samuel T. King, Joseph Tucek, Anthony Cozzie, Chris Grier, Weihang Jiang, Yuanyuan Zhou, ""Designing and implementing malicious hardware. Proceedings of the First USENIX Workshop on Large-Scale Exploits and Emergent Threats (LEET), April 2008. (<a href=""https://bob.cs.ucdavis.edu/assets/dl/king08.pdf"">paper</a>)
-(<a href=""https://vimeo.com/23836967"">video (first 30m only)</a>)",,,
+5/1/2020,malicious,,"Samuel T. King, Joseph Tucek, Anthony Cozzie, Chris Grier, Weihang Jiang, Yuanyuan Zhou, ""<a href=""https://vimeo.com/23836967"">(first 30 minutes only) Designing and implementing malicious hardware</a>. Proceedings of the First USENIX Workshop on Large-Scale Exploits and Emergent Threats (LEET), April 2008. (<a href=""https://bob.cs.ucdavis.edu/assets/dl/king08.pdf"">Optional paper</a>)",,,
 5/4/2020,malicious,,TBD,,,
 5/6/2020,<b>Big idea: Computers need to be able to identify humans,,,,,
 5/8/2020,identity,,TBD,,,
