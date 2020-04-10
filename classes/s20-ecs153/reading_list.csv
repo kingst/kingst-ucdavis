@@ -18,16 +18,16 @@ Stephen Checkoway, Damon McCoy, Brian Kantor, Danny Anderson, Hovav Shacham, and
 4/17/2020,TCB,,"<a href=""https://sosp19.rcs.uwaterloo.ca/videos/D1-S2-P3.mp4"">Notary: a device for secure transaction approval</a> Anish Athalye,
 Adam  Belay, M. Frans Kaashoek, Robert T Morris, Nickolai  Zeldovich, SOSP 2019 (<a href=""https://pdos.csail.mit.edu/papers/notary:sosp19.pdf"">Optional paper</a>)",,,
 4/20/2020,TCB,,"Saba Eskandarian, Jonathan Cogan, Sawyer Birnbaum, Peh Chang Wei Brandon, Dillon Franke, Forest Fraser, Gaspar Garcia Jr., Eric Gong, Hung T. Nguyen, Taresh K. Sethi, Vishal Subbiah, Michael Backes, Giancarlo Pellegrino, Dan Boneh, <a href=""<a href=""https://youtu.be/Dr14zTNCHzU"">Fidelius: Protecting User Secrets from Compromised Browsers</a>. IEEE Symposium on Security and Privacy 2019: 264-280 (<a href=""https://ieeexplore.ieee.org/abstract/document/8835331"">Optional paper</a>)",,,
-4/22/2020,<b>Big idea: Machine learning and security</b>,,,,,
-4/24/2020,ML,,"<a href=""https://www.usenix.org/conference/usenixsecurity18/presentation/mickens"">Q: Why Do Keynote Speakers Keep Suggesting That Improving Security Is Possible?</a>
+4/22/2020,<b>Big idea: Malicious computer systems</b>,,,,,
+4/24/2020,malicious,,"Samuel T. King, Joseph Tucek, Anthony Cozzie, Chris Grier, Weihang Jiang, Yuanyuan Zhou, ""<a href=""https://vimeo.com/23836967"">(first 30 minutes only) Designing and implementing malicious hardware</a>. Proceedings of the First USENIX Workshop on Large-Scale Exploits and Emergent Threats (LEET), April 2008. (<a href=""https://bob.cs.ucdavis.edu/assets/dl/king08.pdf"">Optional paper</a>)",,,
+4/27/2020,malicious,,TBD,,,
+4/29/2020,<b>Big idea: Machine learning and security</b>,,,,,
+5/1/2020,ML,,"<a href=""https://www.usenix.org/conference/usenixsecurity18/presentation/mickens"">Q: Why Do Keynote Speakers Keep Suggesting That Improving Security Is Possible?</a>
 A: Because Keynote Speakers Make Bad Life Decisions and Are Poor Role Models
 James Mickens, Harvard University",,,
-4/27/2020,ML,,"<a href=""https://www.youtube.com/watch?v=yIXNL88JBWQ"">Towards evaluating the robustness of neural networks</a>
+5/4/2020,ML,,"<a href=""https://www.youtube.com/watch?v=yIXNL88JBWQ"">Towards evaluating the robustness of neural networks</a>
 N Carlini, D Wagner
 2017 IEEE Symposium on Security and Privacy (SP), 39-57 (<a href=""https://arxiv.org/pdf/1608.04644.pdf"">Optional paper</a>)",,,
-4/29/2020,<b>Big idea: Malicious computer systems</b>,,,,,
-5/1/2020,malicious,,"Samuel T. King, Joseph Tucek, Anthony Cozzie, Chris Grier, Weihang Jiang, Yuanyuan Zhou, ""<a href=""https://vimeo.com/23836967"">(first 30 minutes only) Designing and implementing malicious hardware</a>. Proceedings of the First USENIX Workshop on Large-Scale Exploits and Emergent Threats (LEET), April 2008. (<a href=""https://bob.cs.ucdavis.edu/assets/dl/king08.pdf"">Optional paper</a>)",,,
-5/4/2020,malicious,,TBD,,,
 5/6/2020,<b>Big idea: Computers need to be able to identify humans,,,,,
 5/8/2020,identity,,TBD,,,
 5/11/2020,identity,,TBD,,,
