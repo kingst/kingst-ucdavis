@@ -14,4 +14,4 @@ fi
 git push
 #version=`git rev-parse HEAD`
 gcloud app deploy --project=kingst-ucd --promote
-./cleanup_old_version.sh kingst-ucd
+#./cleanup_old_version.sh kingst-ucd
