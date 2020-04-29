@@ -186,6 +186,7 @@ class S20Ecs153(webapp2.RequestHandler):
                {'page': 'lectures.html', 'label': 'Lectures'},
                {'page': 'quizzes.html', 'label': 'Quizzes'},
                {'page': 'research_project.html', 'label': 'Project'},
+               {'page': 'remote.html', 'label': 'Remote project'},
                {'page': 'homework.html', 'label': 'Homework'}]
         self.response.write(template.render({'nav_title': 'ECS 153',
                                              'page': page,
