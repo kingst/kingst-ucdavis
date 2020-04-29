@@ -21,18 +21,18 @@ Adam  Belay, M. Frans Kaashoek, Robert T Morris, Nickolai  Zeldovich, SOSP 2019 
 4/22/2020,No class,,,,,
 4/24/2020,How security thinking applies to real software,No lecture media,,,,
 4/27/2020,<b>Big idea: Malicious computer systems</b>,"[<a href=""https://docs.google.com/presentation/d/1yCnvcWkq_BmVnjofUuoKteK8nMrZiKM2fN8EvC0a0tk/edit?usp=sharing"">Slides</a>] [<a href=""https://www.youtube.com/watch?v=2KRc7t9ATgo"">Video</a>]","Samuel T. King, Joseph Tucek, Anthony Cozzie, Chris Grier, Weihang Jiang, Yuanyuan Zhou, ""<a href=""https://vimeo.com/23836967"">(first 30 minutes only) Designing and implementing malicious hardware</a>. Proceedings of the First USENIX Workshop on Large-Scale Exploits and Emergent Threats (LEET), April 2008. (<a href=""https://bob.cs.ucdavis.edu/assets/dl/king08.pdf"">Optional paper</a>)",,,
-4/29/2020,Introduce the project,,,,,
+4/29/2020,Introduce the project,"[<a href=""https://docs.google.com/presentation/d/1JoNdm8LpJm4-WQ3yRhrfnQ0FNSHPSpvDX0SPbimwEqA/edit?usp=sharing"">Slides</a>] [<a href=""#"">Video</a>]",,,,
 5/1/2020,<b>Big idea: Machine learning and security</b>,,"<a href=""https://www.usenix.org/conference/usenixsecurity18/presentation/mickens"">Q: Why Do Keynote Speakers Keep Suggesting That Improving Security Is Possible?</a>
 A: Because Keynote Speakers Make Bad Life Decisions and Are Poor Role Models
 James Mickens, Harvard University",,,
 5/4/2020,ML,,"<a href=""https://www.youtube.com/watch?v=yIXNL88JBWQ"">Towards evaluating the robustness of neural networks</a>
 N Carlini, D Wagner
 2017 IEEE Symposium on Security and Privacy (SP), 39-57 (<a href=""https://arxiv.org/pdf/1608.04644.pdf"">Optional paper</a>)",,,
-5/6/2020,<b>Big idea: Computers need to be able to identify humans,,,,,
-5/8/2020,identity,,TBD,,,
-5/11/2020,<b>Big idea: The human side of secure computer systems</b>,,,,,
+5/6/2020,Ask me anything,,,,,
+5/8/2020,<b>Big idea: Computers need to be able to identify humans,,,,,
+5/11/2020,Identity,,TBD,,,
 5/13/2020,Project meetings,,,,,
-5/15/2020,human,,TBD (Why johnny still can't encrypt?),,,
+5/15/2020,<b>Big idea: The human side of secure computer systems</b>,,TBD (Why johnny still can't encrypt?),,,
 5/18/2020,<b>Big idea: Computer security in non traditional areas</b>,,,,,
 5/20/2020,Project meetings,,,,,
 5/22/2020,spam,,TBD (Partner abuse?),,,
