@@ -7,10 +7,6 @@ import urllib
 import requests
 import sys
 
-if len(sys.argv) != 2:
-    print('Usage: {0} out_file.csv'.format(sys.argv[0]))
-    sys.exit(0)
-
 # If modifying these scopes, delete the file token.json.
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 
@@ -26,8 +22,12 @@ def main():
         creds = tools.run_flow(flow, store)
     service = build('sheets', 'v4', http=creds.authorize(Http()))
 
+    if len(sys.argv) != 2:
+        print('Usage: {0} out_file.csv'.format(sys.argv[0]))
+        sys.exit(0)
+    
     # Call the Sheets API
-    SPREADSHEET_ID = '1wl_c0tuM7KWMPyDEo-RWu6A9CGD72XtVGacjwo63dgM'
+    SPREADSHEET_ID = '1j5HC1N8WOp5AXM0TZuhLdUsWJjxzZchLxcIWJvj6hHI'
     result = service.spreadsheets().get(spreadsheetId = SPREADSHEET_ID).execute()
     spreadsheetUrl = result['spreadsheetUrl']
 
@@ -35,11 +35,12 @@ def main():
     headers = { 'Authorization': 'Bearer ' + creds.access_token }
     params = { 'format': 'csv',
                'gid': 0 } 
-    queryParams = urllib.urlencode(params)
+    queryParams = urllib.parse.urlencode(params)
     url = exportUrl + '?' + queryParams
     response = requests.get(url, headers = headers)
     with open(sys.argv[1], 'wb') as csvFile:
         csvFile.write(response.content)
+
 
 if __name__ == '__main__':
     main()
