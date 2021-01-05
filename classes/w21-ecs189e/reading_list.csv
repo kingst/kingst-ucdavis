@@ -1,0 +1,42 @@
+date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
+Thursday 9/26,Intro,"[<a href=""https://docs.google.com/presentation/d/18GsJ2j9n4LgB6Z3WckX1lX-G3tr9AgUQtuYcVTPGsqM/edit#slide=id.g2d40f2458a_0_966"">gdoc</a>]",,,,
+Tuesday 10/1,First iOS app,"[<a href=""https://docs.google.com/presentation/d/1uD6PtDjhdP9aa_IEYbXQYmfZl7sDEZrP5SPSaMt2OFE/edit#slide=id.g42fa3302a3_0_126"">slides</a>]",,,,
+Thursday 10/3,"UI Widgets, auto layout, Swift","[<a href=""https://docs.google.com/presentation/d/1Q649qLrzP6OkcL74w-_7Tp6i2Co59OOdIlGJwF3Xw24/edit?usp=sharing"">slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-03-lecture"">Source</a>]",,"<ul>
+<li><a href=""https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316"">Stanford CS193 Lecture 3 on Swift</a></li>
+<li><a href=""https://developer.apple.com/swift/"">Apple's Swift page</a></li>
+<li><a href=""https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/"">O'Reilly Swift book</a>. I haven't read this, but in general O'Reilly books tend to be quite good.</li>
+</ul>
+Plus, there are many many resources online for how to learn Swift.
+
+<br><br><b>Homework 1 out</b>",,
+Tuesday 10/8,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/19kq0O768vTPQQCNc40flPq340j1CHZrlpsvINEIOxbA/edit#slide=id.p"">slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-08"">source</a>]",,,,
+Thursday 10/10,Optionals high order functions and closures,"[<a href=""https://docs.google.com/presentation/d/1wJjlVpZBvi6eBXkuPz-m5k74USgI-nCv1vMCfq3zve0/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-10"">Source</a>]",,"
+<br><br><b>Homework 2 out, Homework 1 in</b>",,
+Tuesday 10/15,High order functions (redo lecture),"[<a href=""https://docs.google.com/presentation/d/1GBIHBOg9vOtnOy8zV-4kh-xKaEvoNO8b8wUYBUgwu0M/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-15"">Source</a>]",,,,
+Thursday 10/17,Closures,"[<a href=""https://docs.google.com/presentation/d/1caeQluOcUEhA3CCRp-q-xaXD7LFFFZ0Y2idzjorxwqw/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-17"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle.
+
+
+<br><br><b>Homework 3 out, Homework 2 in</b>",,
+Tuesday 10/22,Protocols and delegates,"[<a href=""https://docs.google.com/presentation/d/1iySREtjV-OMiaUF9vWSJEDvb7KIWk7rw4FopxYeErWg/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-22"">Source</a>]",,"<ul>
+<li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
+<li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
+<li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Extensions.html"">Extensions</a></li>
+</ul>
+",,
+Thursday 10/24,protocols and delegates,"[<a href=""https://docs.google.com/presentation/d/1d45ElBihPG2ThpHdx5JjOAX14_aJzp4WTZR6V1DyuFE/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-24"">Source</a>]",,,,
+Tuesday 10/29,Extensions,"[<a href=""#"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-29"">Source</a>]",,"<b>Homework 4 out, Homework 3 in</b>",,
+Thursday 10/31,Project intro,"[<a href=""https://docs.google.com/presentation/d/1S-syUxlcLVpYPdc94rgvoFtu2li7IsW28SRKX4qSo3I/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-10-31"">Source</a>]",,,,
+Tuesday 11/5,Threads,"[<a href=""https://docs.google.com/presentation/d/10Y6CzAsc_aZ8uo2IBI2tsWc_-PStIClEFqwxyI6zmus/edit?usp=sharing"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-11-05"">Source</a>]",,"<b>Project proposal due</b>
+<br><br><b>Sprint planning due</b>
+<br><br><b>Homework 4 in</b>",,
+Thursday 11/7,Threads,None,,,,
+Tuesday 11/12,GCD,"[<a href=""https://docs.google.com/presentation/d/1X8lEWH5kJkG2JRrcZrZ0FAwANSQXCXt8M6dQLwVHElE/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-11-13"">Source</a>]",,<b>Sprint planning due</b>,,
+Thursday 11/14,,None,Project meetings,<b>Milestone 1 due (due on 11/13)</b>,,
+Tuesday 11/19,AsyncTask + Process Abstraction + VC and App lifecycle,"[<a href=""https://docs.google.com/presentation/d/1r2JFNnaD9iVCVI3850Gn6UIQ4nbUsKrOpMhONTLSOVo/edit#slide=id.p"">Slides</a>][<a href=""https://github.com/kingst/LectureProgrammingFall2019/releases/tag/2019-11-19"">Source</a>]",,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications<br>
+<br>
+<br><b>Sprint planning due</b>",,
+Thursday 11/21,,,Project meetings,<b>Milestone 2 due (11/20)</b>,,
+Tuesday 11/26,info about project demo + final project + advanced topics,"[<a href=""https://docs.google.com/presentation/d/1Hy4t9ZwIdwhVj7ynsmbSnCZTHvK2sOdRQvR8VO-TWGw/edit?usp=sharing"">Slides<a/>]",,<b>Sprint planning due</b>,,
+Thursday 11/28,no class,,,,,table-danger
+Tuesday 12/3,,,Optional meetings,<b>Sprint planning due</b>,,
+Thursday 12/5,Demos,,,,,
