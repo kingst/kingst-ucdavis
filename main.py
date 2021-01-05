@@ -94,6 +94,26 @@ class F19Ecs189e(webapp2.RequestHandler):
                                              'reading_list': reading_list}))
 
 
+class W21cs189e(webapp2.RequestHandler):
+    def get(self, page):
+        if page is None or len(page) == 0:
+            page = 'index.html'
+
+        reading_list = csv.DictReader(open('classes/w21-ecs189e/reading_list.csv'))
+
+        template = JINJA_ENVIRONMENT.get_template('classes/w21-ecs189e/' + page)
+        nav = [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'project.html', 'label': 'Project'},
+               {'page': 'homework.html', 'label': 'Homework'}]
+        self.response.write(template.render({'nav_title': 'ECS 189e',
+                                             'page': page,
+                                             'nav': nav,
+                                             'reading_list': reading_list}))
+
+
 class W18Ecs251(webapp2.RequestHandler):
     def get(self, page):
         if page is None or len(page) == 0:
@@ -210,10 +230,13 @@ class Home(webapp2.RequestHandler):
         publications = [publication_to_listing(x) for x in publication_list]
 
         template = JINJA_ENVIRONMENT.get_template('home/' + page)
-        classes = [{'title': 'ECS 153',
-                    'quarter': 'Spring 20',
-                    'page': '/classes/s20-ecs153/index.html'}]
-        past_classes = [{'title': 'ECS 251',
+        classes = [{'title': 'ECS 189e',
+                    'quarter': 'Winter 21',
+                    'page': '/classes/w21-ecs189e/index.html'}]
+        past_classes = [{'title': 'ECS 153',
+                         'quarter': 'Spring 20',
+                         'page': '/classes/s20-ecs153/index.html'},
+                        {'title': 'ECS 251',
                          'quarter': 'Winter 20',
                          'page': '/classes/w20-ecs251/index.html'},
                         {'title': 'ECS 189e',
@@ -253,6 +276,7 @@ class Home(webapp2.RequestHandler):
 app = webapp2.WSGIApplication(
     [(r'/classes/f18-ecs189e/(.*)', F18Ecs189e),
      (r'/classes/f19-ecs189e/(.*)', F19Ecs189e),
+     (r'/classes/w21-ecs189e/(.*)', W21Ecs189e),
      (r'/classes/w18-ecs188/(.*)', W18Ecs188),
      (r'/classes/s18-ecs188/(.*)', S18Ecs188),
      (r'/classes/w18-ecs251/(.*)', W18Ecs251),
