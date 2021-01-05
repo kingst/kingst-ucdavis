@@ -94,7 +94,7 @@ class F19Ecs189e(webapp2.RequestHandler):
                                              'reading_list': reading_list}))
 
 
-class W21cs189e(webapp2.RequestHandler):
+class W21Ecs189e(webapp2.RequestHandler):
     def get(self, page):
         if page is None or len(page) == 0:
             page = 'index.html'
