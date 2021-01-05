@@ -34,6 +34,8 @@ def main():
     exportUrl = re.sub("\/edit$", '/export', spreadsheetUrl)
     headers = { 'Authorization': 'Bearer ' + creds.access_token }
     params = { 'format': 'csv',
+               'tqx': 'out:csv',
+               'sheet': 'reading-list',
                'gid': 0 } 
     queryParams = urllib.parse.urlencode(params)
     url = exportUrl + '?' + queryParams
