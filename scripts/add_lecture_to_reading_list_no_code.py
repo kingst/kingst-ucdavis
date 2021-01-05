@@ -7,9 +7,6 @@ import urllib
 import requests
 import sys
 
-if len(sys.argv) != 2:
-    print('Usage: {0} slide_url'.format(sys.argv[0]))
-    sys.exit(0)
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets'
@@ -26,13 +23,16 @@ def main():
         creds = tools.run_flow(flow, store)
     service = build('sheets', 'v4', http=creds.authorize(Http()))
 
+    if len(sys.argv) != 3:
+        print('Usage: {0} slide_url video_url'.format(sys.argv[0]))
+        sys.exit(0)
+    
     # Call the Sheets API
-    SPREADSHEET_ID = '1wl_c0tuM7KWMPyDEo-RWu6A9CGD72XtVGacjwo63dgM'
+    SPREADSHEET_ID = '1j5HC1N8WOp5AXM0TZuhLdUsWJjxzZchLxcIWJvj6hHI'
     result = service.spreadsheets().get(spreadsheetId = SPREADSHEET_ID).execute()
     spreadsheetUrl = result['spreadsheetUrl']
-
-    values = [['[<a href="{0}">Video</a>]'.format(
-                sys.argv[1])]]
+    values = [['[<a href="{0}">Slides</a>] [<a href="{1}">Video</a>]'.format(
+                sys.argv[1], sys.argv[2])]]
     body = { 'values': values }
 
     col = 'C'
