@@ -5,7 +5,7 @@ if [ "$1" == "" ]; then
     exit
 fi
 
-gcloud config set account kingst@gmail.com
+gcloud config set account kingst@ucdavis.edu
 
 slides_url=$1
 video_url=$2
