@@ -2,6 +2,7 @@ from __future__ import print_function
 from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
+import csv
 import re
 import urllib
 import requests
@@ -28,20 +29,13 @@ def main():
     
     # Call the Sheets API
     SPREADSHEET_ID = '1j5HC1N8WOp5AXM0TZuhLdUsWJjxzZchLxcIWJvj6hHI'
-    result = service.spreadsheets().get(spreadsheetId = SPREADSHEET_ID).execute()
-    spreadsheetUrl = result['spreadsheetUrl']
+    rangeValues = 'A1:G21'
+    result = service.spreadsheets().values().get(spreadsheetId = SPREADSHEET_ID, range=rangeValues).execute()
 
-    exportUrl = re.sub("\/edit$", '/export', spreadsheetUrl)
-    headers = { 'Authorization': 'Bearer ' + creds.access_token }
-    params = { 'format': 'csv',
-               'tqx': 'out:csv',
-               'sheet': 'reading-list',
-               'gid': 0 } 
-    queryParams = urllib.parse.urlencode(params)
-    url = exportUrl + '?' + queryParams
-    response = requests.get(url, headers = headers)
-    with open(sys.argv[1], 'wb') as csvFile:
-        csvFile.write(response.content)
+    with open(sys.argv[1], 'w') as csvFile:
+        writer = csv.writer(csvFile)
+        for row in result['values']:
+            writer.writerow(row)
 
 
 if __name__ == '__main__':
