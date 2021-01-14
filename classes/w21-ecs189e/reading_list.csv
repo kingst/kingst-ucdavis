@@ -10,7 +10,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 Plus, there are many many resources online for how to learn Swift.
 
 <br><br><b>Homework 1 out</b>"
-1/14/2021,Swift optionals,,,none
+1/14/2021,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/1Vj_xcId_9ERuhcl5FF6Ns5Lw_mUGup8X-Krp4NyxLGs/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/lsjbKXavWyo"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-14"">Source</a>]",,none
 1/19/2021,"Optionals, high order functions, and closures",,,"
 <br><br><b>Homework 2 out, Homework 1 in</b>"
 1/21/2021,"Optionals, high order functions, and closures",,,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle."
