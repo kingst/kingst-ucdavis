@@ -13,7 +13,7 @@ Plus, there are many many resources online for how to learn Swift.
 1/14/2021,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/1Vj_xcId_9ERuhcl5FF6Ns5Lw_mUGup8X-Krp4NyxLGs/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/lsjbKXavWyo"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-14"">Source</a>]",,none
 1/19/2021,"Optionals, high order functions, and closures","[<a href=""https://docs.google.com/presentation/d/1ytw04Co4k7dSJKIY9_N8do9dbPeehFo9DKm86ikVUW4/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/mvZ3HFE7Sqk"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-19"">Source</a>]",,"
 <br><br><b>Homework 2 out, Homework 1 in</b>"
-1/21/2021,"Optionals, high order functions, and closures",,,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle."
+1/21/2021,"Optionals, high order functions, and closures","[<a href=""https://docs.google.com/presentation/d/13hveGJ_T3v8ExkroBY732EriX9IWSBSxWmX5ZbOgboo/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/8Iv3lxtzvqU"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-21"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle."
 1/26/2021,Protocols and delegates,,,"<b>Homework 3 out, Homework 2 in</b>"
 1/28/2021,Extensions,,,"<ul>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
