@@ -11,10 +11,10 @@ Plus, there are many many resources online for how to learn Swift.
 
 <br><br><b>Homework 1 out</b>"
 1/14/2021,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/1Vj_xcId_9ERuhcl5FF6Ns5Lw_mUGup8X-Krp4NyxLGs/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/lsjbKXavWyo"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-14"">Source</a>]",,none
-1/19/2021,high order functions to unwrap optionals,"[<a href=""https://docs.google.com/presentation/d/1ytw04Co4k7dSJKIY9_N8do9dbPeehFo9DKm86ikVUW4/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/mvZ3HFE7Sqk"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-19"">Source</a>]",,"
+1/19/2021,higher order functions to unwrap optionals,"[<a href=""https://docs.google.com/presentation/d/1ytw04Co4k7dSJKIY9_N8do9dbPeehFo9DKm86ikVUW4/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/mvZ3HFE7Sqk"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-19"">Source</a>]",,"
 <br><br><b>Homework 2 out, Homework 1 in</b>"
 1/21/2021,Closures,"[<a href=""https://docs.google.com/presentation/d/13hveGJ_T3v8ExkroBY732EriX9IWSBSxWmX5ZbOgboo/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/8Iv3lxtzvqU"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-21"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle."
-1/26/2021,High order functions on arrays,,,"<b>Homework 3 out, Homework 2 in</b>"
+1/26/2021,Higher order functions on arrays,"[<a href=""https://docs.google.com/presentation/d/1EdZQjobV2UkbIXlb4X_8DLHJ5AZp1w3LT-hwuB9_tdI/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/l5bGFUmFa7s"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-26"">Source</a>]",,none
 1/28/2021,Protocols and delegates,,,"<ul>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
 <li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
