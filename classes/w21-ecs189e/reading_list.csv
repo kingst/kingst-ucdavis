@@ -11,28 +11,30 @@ Plus, there are many many resources online for how to learn Swift.
 
 <br><br><b>Homework 1 out</b>"
 1/14/2021,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/1Vj_xcId_9ERuhcl5FF6Ns5Lw_mUGup8X-Krp4NyxLGs/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/lsjbKXavWyo"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-14"">Source</a>]",,none
-1/19/2021,"Optionals, high order functions, and closures","[<a href=""https://docs.google.com/presentation/d/1ytw04Co4k7dSJKIY9_N8do9dbPeehFo9DKm86ikVUW4/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/mvZ3HFE7Sqk"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-19"">Source</a>]",,"
+1/19/2021,high order functions to unwrap optionals,"[<a href=""https://docs.google.com/presentation/d/1ytw04Co4k7dSJKIY9_N8do9dbPeehFo9DKm86ikVUW4/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/mvZ3HFE7Sqk"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-19"">Source</a>]",,"
 <br><br><b>Homework 2 out, Homework 1 in</b>"
-1/21/2021,"Optionals, high order functions, and closures","[<a href=""https://docs.google.com/presentation/d/13hveGJ_T3v8ExkroBY732EriX9IWSBSxWmX5ZbOgboo/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/8Iv3lxtzvqU"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-21"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle."
-1/26/2021,Protocols and delegates,,,"<b>Homework 3 out, Homework 2 in</b>"
-1/28/2021,Extensions,,,"<ul>
+1/21/2021,Closures,"[<a href=""https://docs.google.com/presentation/d/13hveGJ_T3v8ExkroBY732EriX9IWSBSxWmX5ZbOgboo/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/8Iv3lxtzvqU"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-21"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle."
+1/26/2021,High order functions on arrays,,,"<b>Homework 3 out, Homework 2 in</b>"
+1/28/2021,Protocols and delegates,,,"<ul>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
 <li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Extensions.html"">Extensions</a></li>
 </ul>
-"
-2/2/2021,API calls,,,"<b>Homework 4 out, Homework 3 in</b>"
-2/4/2021,(catch up lecture),,,none
-2/9/2021,Project intro,,,<b>Homework 4 in</b>
+<br>
+<b>Friday 1/29: Homework 3 out, Homework 2 in</b>"
+2/2/2021,Extensions,,,none
+2/4/2021,Project intro,,,"<b>Friday 2/5: Homework 4 out, Homework 3 in</b>"
+2/9/2021,API calls,,,none
 2/11/2021,Threads,,,"<b>Project proposal due</b>
-<br><br><b>Sprint planning due</b>"
+<br><br><b>Sprint planning due</b>
+<br><br><b>Friday 2/12: Homework 4 in</b>"
 2/16/2021,Threads,,,none
 2/18/2021,ARC,,,<b>Sprint planning due</b>
 2/23/2021,,,Project meetings,<b>Milestone 1 due (due on 2/22)</b>
-2/25/2021,AsyncTask + Process Abstraction + VC and App lifecycle,,,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications<br>
+2/25/2021,VC and App lifecycle + advanced topics I,,,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications<br>
 <br>
 <br><b>Sprint planning due</b>"
 3/2/2021,,,Project meetings,<b>Milestone 2 due (3/1)</b>
-3/4/2021,info about project demo + final project + advanced topics,,,<b>Sprint planning due</b>
+3/4/2021,info about project demo + final project + advanced topics II,,,<b>Sprint planning due</b>
 3/9/2021,,,Optional meetings,none
 3/11/2021,Demos,,,<b>Sprint planning due</b>
