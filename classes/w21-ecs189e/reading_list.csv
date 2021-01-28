@@ -15,7 +15,7 @@ Plus, there are many many resources online for how to learn Swift.
 <br><br><b>Homework 2 out, Homework 1 in</b>"
 1/21/2021,Closures,"[<a href=""https://docs.google.com/presentation/d/13hveGJ_T3v8ExkroBY732EriX9IWSBSxWmX5ZbOgboo/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/8Iv3lxtzvqU"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-21"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle."
 1/26/2021,Higher order functions on arrays,"[<a href=""https://docs.google.com/presentation/d/1EdZQjobV2UkbIXlb4X_8DLHJ5AZp1w3LT-hwuB9_tdI/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/l5bGFUmFa7s"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-26"">Source</a>]",,none
-1/28/2021,Protocols and delegates,,,"<ul>
+1/28/2021,Protocols and delegates,"[<a href=""https://docs.google.com/presentation/d/1MEGm2Ck-bWL5V0pcAM3ILu23ss7KzDbS-_co6AZ2Vr0/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/Me1p6K_lWmQ"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-28"">Source</a>]",,"<ul>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
 <li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
 <li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Extensions.html"">Extensions</a></li>
