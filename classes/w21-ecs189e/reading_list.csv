@@ -24,7 +24,8 @@ Plus, there are many many resources online for how to learn Swift.
 <b>Friday 1/29: Homework 3 out, Homework 2 in</b>"
 2/2/2021,Extensions and UITableView,"[<a href=""https://docs.google.com/presentation/d/1Jv6d0cY6EJ-LCqMhCNg3kj8O4aaC7kS2Pu_jcGnm9qU/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/h_voHsaTtxA"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-02"">Source</a>]",,"<a href=""https://medium.com/palantir/code-review-best-practices-19e02780015f"">A note on code review</a>"
 2/4/2021,Project intro,"[<a href=""https://docs.google.com/presentation/d/1pmuLS1Qo_aAHg6MWdvfGP3lDH5rcsaxQ6DUYICBY-5k/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/Q7yyX_63Ack"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-04"">Source</a>]",,"<b>Friday 2/5: Homework 4 out, Homework 3 in</b>"
-2/9/2021,API calls,,,"<ul>
+2/9/2021,API calls,"[<a href=""https://docs.google.com/presentation/d/1YcColMo-iKeVMyujOqMlzdYgKW2rEG_Llh4xwUHmMRc/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/CXv3_41uwQk"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-09"">Source</a>]",,"<ul>
+<li><a href=""https://pages.cs.wisc.edu/~remzi/OSTEP/"">OSTEP textbook chapter 48: Distributed systems</a></li>
 <li><a href=""https://developer.apple.com/documentation/foundation/archives_and_serialization/encoding_and_decoding_custom_types"">Serializing data in Swift</a></li>
 <li><a href=""https://developer.apple.com/documentation/foundation/archives_and_serialization/using_json_with_custom_types"">Serializing JSON</a></li>
 </ul>"
