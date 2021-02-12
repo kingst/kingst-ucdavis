@@ -29,7 +29,12 @@ Plus, there are many many resources online for how to learn Swift.
 <li><a href=""https://developer.apple.com/documentation/foundation/archives_and_serialization/encoding_and_decoding_custom_types"">Serializing data in Swift</a></li>
 <li><a href=""https://developer.apple.com/documentation/foundation/archives_and_serialization/using_json_with_custom_types"">Serializing JSON</a></li>
 </ul>"
-2/11/2021,Threads,,,"<b>Project proposal due</b>
+2/11/2021,Threads,"[<a href=""https://docs.google.com/presentation/d/1zMiRxoRdjHPHNEdtGuB2YoxuC2Z66cGFjOcv5UnHAvs/edit?usp=sharing"">Slides</a>] [<a href=""https://www.youtube.com/watch?v=c8uxCNSMvII"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-12"">Source</a>]",,"<ul>
+<li><a href=""https://pages.cs.wisc.edu/~remzi/OSTEP/"">OSTEP textbook chapter 26: Threads and cocurrency</a></li>
+<li><a href=""https://pages.cs.wisc.edu/~remzi/OSTEP/"">OSTEP textbook chapter 33: Event driven concurrency</a></li>
+</ul>
+
+<b>Project proposal due</b>
 <br><br><b>Sprint planning due</b>
 <br><br><b>Friday 2/12: Homework 4 in</b>"
 2/16/2021,Threads,,,none
