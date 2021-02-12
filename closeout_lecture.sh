@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 if [ "$1" == "" ]; then
     echo "Usage: $0 lecture_slides_url video_slides_url"
     exit
