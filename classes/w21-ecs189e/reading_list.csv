@@ -37,8 +37,10 @@ Plus, there are many many resources online for how to learn Swift.
 <b>Project proposal due</b>
 <br><br><b>Sprint planning due</b>
 <br><br><b>Friday 2/12: Homework 4 in</b>"
-2/16/2021,Threads,,,none
-2/18/2021,ARC,,,<b>Sprint planning due</b>
+2/16/2021,Threads,"[<a href=""https://docs.google.com/presentation/d/1k6UKpN2_9v-CCCoOgHFegAn12QlQBHKLQBuWYhY2_5g/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/WPlUUd9qOv0"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-16"">Source</a>]",,none
+2/18/2021,ARC,,,"<a href=""https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html"">iOS Memory Management</a>
+<br>
+<b>Sprint planning due</b>"
 2/23/2021,,,Project meetings,<b>Milestone 1 due (due on 2/22)</b>
 2/25/2021,VC and App lifecycle + advanced topics I,,,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications<br>
 <br>
