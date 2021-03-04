@@ -38,14 +38,14 @@ Plus, there are many many resources online for how to learn Swift.
 <br><br><b>Sprint planning due</b>
 <br><br><b>Friday 2/12: Homework 4 in</b>"
 2/16/2021,Threads,"[<a href=""https://docs.google.com/presentation/d/1k6UKpN2_9v-CCCoOgHFegAn12QlQBHKLQBuWYhY2_5g/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/WPlUUd9qOv0"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-16"">Source</a>]",,none
-2/18/2021,ARC,"[<a href=""https://docs.google.com/presentation/d/1mV5jfJVHR82_emC_vfajGDGAdQsZ4b1YsBK0OSGr0vw/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/G6-5au-dPRE"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-18"">Source</a>]",,"<a href=""https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html"">iOS Memory Management</a>
+2/18/2021,DispatchQueues in practice,"[<a href=""https://docs.google.com/presentation/d/1mV5jfJVHR82_emC_vfajGDGAdQsZ4b1YsBK0OSGr0vw/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/G6-5au-dPRE"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-18"">Source</a>]",,"<a href=""https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html"">iOS Memory Management</a>
 <br>
 <b>Sprint planning due</b>"
-2/23/2021,,,Project meetings,<b>Milestone 1 due (due on 2/22)</b>
-2/25/2021,VC and App lifecycle + advanced topics I,,,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications<br>
+2/23/2021,,None,Project meetings,<b>Milestone 1 due (due on 2/22)</b>
+2/25/2021,VC and App lifecycle + advanced topics I,None,,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications<br>
 <br>
 <br><b>Sprint planning due</b>"
-3/2/2021,,,Project meetings,<b>Milestone 2 due (3/1)</b>
-3/4/2021,info about project demo + final project + advanced topics II,,,<b>Sprint planning due</b>
-3/9/2021,,,Optional meetings,none
-3/11/2021,Demos,,,<b>Sprint planning due</b>
+3/2/2021,,None,Project meetings,<b>Milestone 2 due (3/1)</b>
+3/4/2021,info about project demo + final project + advanced topics II,"[<a href=""https://docs.google.com/presentation/d/1kjqrVVHDthHj7OwC1UvXQptLEPCl3FYSkCsnxQFbkRQ/edit?usp=sharing"">Slides</a>] [<a href=""https://www.youtube.com/watch?v=qrzH51vh5Qo"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-03-04"">Source</a>]",,<b>Sprint planning due</b>
+3/9/2021,,,No class -- focus on your projects,none
+3/11/2021,Demo Day!,,,<b>Sprint planning due</b>
