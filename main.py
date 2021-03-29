@@ -250,7 +250,7 @@ class Home(webapp2.RequestHandler):
         template = JINJA_ENVIRONMENT.get_template('home/' + page)
         classes = [{'title': 'ECS 150',
                     'quarter': 'Spring 21',
-                    'page': '/classes/s20-ecs150/index.html'}]
+                    'page': '/classes/s21-ecs150/index.html'}]
         past_classes = [{'title': 'ECS 189e',
                          'quarter': 'Winter 21',
                          'page': '/classes/w21-ecs189e/index.html'},
