@@ -28,8 +28,8 @@ def main():
         sys.exit(0)
     
     # Call the Sheets API
-    SPREADSHEET_ID = '1j5HC1N8WOp5AXM0TZuhLdUsWJjxzZchLxcIWJvj6hHI'
-    rangeValues = 'A1:G21'
+    SPREADSHEET_ID = '14DFp5B5zfdZpieLyHl1hY8KQ_CF_Bzj4eDixqRfVNbY'
+    rangeValues = 'A1:G30'
     result = service.spreadsheets().values().get(spreadsheetId = SPREADSHEET_ID, range=rangeValues).execute()
 
     with open(sys.argv[1], 'w') as csvFile:

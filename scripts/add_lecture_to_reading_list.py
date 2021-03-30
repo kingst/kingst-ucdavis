@@ -28,7 +28,7 @@ def main():
         sys.exit(0)
     
     # Call the Sheets API
-    SPREADSHEET_ID = '1j5HC1N8WOp5AXM0TZuhLdUsWJjxzZchLxcIWJvj6hHI'
+    SPREADSHEET_ID = '14DFp5B5zfdZpieLyHl1hY8KQ_CF_Bzj4eDixqRfVNbY'
     result = service.spreadsheets().get(spreadsheetId = SPREADSHEET_ID).execute()
     spreadsheetUrl = result['spreadsheetUrl']
 

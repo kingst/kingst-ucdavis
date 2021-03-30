@@ -13,7 +13,12 @@ cwd=`pwd`
 
 cd ${cwd}/scripts
 source venv/bin/activate
-python add_lecture_to_reading_list_no_code.py "${slides_url}" "${video_url}"
+python add_lecture_to_reading_list.py "${slides_url}" "${video_url}"
+
+python download_reading_list.py ../classes/s21-ecs150/reading_list.csv
+cd ..
+git commit -a -m "Bump reading list"
+./deploy.sh
 
 #python download_reading_list.py ../classes/w20-ecs251/reading_list.csv
 #cd ..
