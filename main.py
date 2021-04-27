@@ -241,7 +241,7 @@ class Home(webapp2.RequestHandler):
 
         def publication_to_listing(publication):
             url = '/assets/dl/' + publication['paper']
-            anchor = '<a href="' + url + '">"'
+            anchor = '<a href="' + url + '">'
             end_anchor = '</a>'
             return publication['publication'].replace('{start_title}', anchor).replace('{end_title}', end_anchor)
 
