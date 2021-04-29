@@ -12,7 +12,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 4/21/2021,T: Locks,"[<a href=""https://drive.google.com/file/d/1ijXZfBDBe3ET-WaOHEtDQi2UShDfKT5X/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/8-wSDji1RkQ"">Video</a>]",,OSTEP: Locks
 4/23/2021,T: Monitors & condition variables,"[<a href=""https://drive.google.com/file/d/1ijXZfBDBe3ET-WaOHEtDQi2UShDfKT5X/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/p77ZHOPk3uA"">Video</a>]",,OSTEP: Locked data structures
 4/26/2021,T: Monitors & condition variables,"[<a href=""https://drive.google.com/file/d/1DnGnetyxSLtRPDwhpaIsi4h7uKG_cw1D/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/6bXJkkodKk4"">Video</a>]",,OSTEP: Condition variables
-4/28/2021,T: Monitors & condition variables,,,OSTEP: Concurrency bugs
+4/28/2021,T: Monitors & condition variables,"[<a href=""https://drive.google.com/file/d/1DnGnetyxSLtRPDwhpaIsi4h7uKG_cw1D/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/mfTp_wNGJfE"">Video</a>]",,OSTEP: Concurrency bugs
 4/30/2021,,,,TBD
 5/3/2021,Midterm 1,,,TBD
 5/5/2021,T: Thread implementation,,,TBD
