@@ -14,8 +14,8 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 4/26/2021,T: Monitors & condition variables,"[<a href=""https://drive.google.com/file/d/1DnGnetyxSLtRPDwhpaIsi4h7uKG_cw1D/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/6bXJkkodKk4"">Video</a>]",,OSTEP: Condition variables
 4/28/2021,T: Monitors & condition variables,"[<a href=""https://drive.google.com/file/d/1DnGnetyxSLtRPDwhpaIsi4h7uKG_cw1D/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/mfTp_wNGJfE"">Video</a>]",,OSTEP: Concurrency bugs
 4/30/2021,Midterm review,"[<a href=""https://docs.google.com/presentation/d/1Lw5JW-nllz6gZHOAHzdQiIVTPl1k1tnSnG96Ed40oHU/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/fdBbVxhj0b8"">Video</a>]",,TBD
-5/3/2021,Midterm 1,,,TBD
-5/5/2021,T: Thread implementation,,,TBD
+5/3/2021,Midterm 1,No Slides or video,,TBD
+5/5/2021,T: Semaphores,"[<a href=""https://drive.google.com/file/d/1ZZ78tdB3WkHDCVAAequp2maHAsKe2gNF/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/kPm5jBXlogY"">Video</a>]",,OSTEP: Semaphores
 5/7/2021,T: Thread implementation,,,TBD
 5/10/2021,T: Lock implementation,,,TBD
 5/12/2021,Network programming,,,TBD
