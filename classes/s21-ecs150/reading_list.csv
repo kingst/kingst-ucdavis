@@ -17,8 +17,8 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 5/3/2021,Midterm 1,No Slides or video,,None
 5/5/2021,T: Semaphores,"[<a href=""https://drive.google.com/file/d/1ZZ78tdB3WkHDCVAAequp2maHAsKe2gNF/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/kPm5jBXlogY"">Video</a>]",,OSTEP: Semaphores
 5/7/2021,T: Thread implementation,"[<a href=""https://docs.google.com/presentation/d/1FCkpGubsGbOUUPoqVeSgLpqiiBP-DKMlvRckGIBpwyw/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/F2wIBMepY3k"">Video</a>]",,TBD
-5/10/2021,T: Lock implementation,,,TBD
-5/12/2021,Network programming,,,TBD
+5/10/2021,No class,No Slides or video,,None
+5/12/2021,Network programming,"[<a href=""https://drive.google.com/file/d/1EgarJZLZi6ivZB9UWCxpcBMfEe6Yds6P/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/oY3RY3W5nWg"">Video</a>]",,TBD
 5/14/2021,Network programming,,,TBD
 5/17/2021,APIs and distributed systems,,,TBD
 5/19/2021,APIs and distributed systems,,,TBD
