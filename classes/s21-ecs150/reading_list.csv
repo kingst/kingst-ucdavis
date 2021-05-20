@@ -21,7 +21,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 5/12/2021,Network programming,"[<a href=""https://drive.google.com/file/d/1EgarJZLZi6ivZB9UWCxpcBMfEe6Yds6P/view?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/oY3RY3W5nWg"">Video</a>]",,None
 5/14/2021,Network APIs,"[<a href=""https://docs.google.com/presentation/d/19gEfZ_YhksphPR9kq9xs-P3bp19-ULlZd_WIqHrLzkI/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/961l08xvvhk"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingSpring2021/releases/tag/2021-05-15"">Source</a>]",,https://beej.us/guide/bgnet/html/
 5/17/2021,HTTP and URLs,"[<a href=""https://docs.google.com/presentation/d/1OZikEd7Jhj5lx6IU98bV7Fv6a5Vtrqx7sFBvYDa_HVo/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/SBcXqu26KhE"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingSpring2021/releases/tag/2021-05-17"">Source</a>]",,https://datatracker.ietf.org/doc/html/rfc2616
-5/19/2021,REST and JSON,,,"https://www.json.org/json-en.html
+5/19/2021,REST and JSON,"[<a href=""https://docs.google.com/presentation/d/1OZikEd7Jhj5lx6IU98bV7Fv6a5Vtrqx7sFBvYDa_HVo/edit#slide=id.gd683423404_0_259"">Slides</a>] [<a href=""https://youtu.be/xA1ChVueaBs"">Video</a>]",,"https://www.json.org/json-en.html
 
 and
 
