@@ -293,6 +293,12 @@ class Home(webapp2.RequestHandler):
                                              'page': page}))
 
 
+class RobotsAll(webapp2.RequestHandler):
+    def get(self, page):
+        robots_txt_content = "User-agent: *\nDisallow:"
+        self.response.headers['Content-Type'] = 'text/plain'
+        self.response.write(robots_txt_content)        
+        
 
 app = webapp2.WSGIApplication(
     [(r'/classes/f18-ecs189e/(.*)', F18Ecs189e),
@@ -306,6 +312,7 @@ app = webapp2.WSGIApplication(
      (r'/classes/s19-ecs153/(.*)', S19Ecs153),
      (r'/classes/s20-ecs153/(.*)', S20Ecs153),
      (r'/classes/s21-ecs150/(.*)', S21Ecs150),
+     (r'/robots.txt', RobotsAll),
      (r'/(.*)', Home)],
      debug=False)
 
