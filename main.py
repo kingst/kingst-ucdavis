@@ -294,7 +294,7 @@ class Home(webapp2.RequestHandler):
 
 
 class RobotsAll(webapp2.RequestHandler):
-    def get(self, page):
+    def get(self):
         robots_txt_content = "User-agent: *\nDisallow:"
         self.response.headers['Content-Type'] = 'text/plain'
         self.response.write(robots_txt_content)        
