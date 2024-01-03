@@ -9,6 +9,94 @@ def read_csv(file_path):
         reader = csv.DictReader(file)
         return list(reader)
 
+
+def nav_for_class(class_name):
+    if class_name == 's18-ecs188':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes and reports'},
+               {'page': 'final_paper.html', 'label': 'Final paper'},
+               {'page': 'presentations.html', 'label': 'Presentations'}]
+    elif class_name == 's21-ecs150':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Midterms'},
+               {'page': 'project.html', 'label': 'Project'}]
+    elif class_name == 'w18-ecs188':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes and reports'},
+               {'page': 'final_paper.html', 'label': 'Final paper'},
+               {'page': 'presentations.html', 'label': 'Presentations'}]
+    elif class_name == 'f18-ecs189e':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'project.html', 'label': 'Project'},
+               {'page': 'homework.html', 'label': 'Homework'}]
+    elif class_name == 'f19-ecs189e':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'project.html', 'label': 'Project'},
+               {'page': 'homework.html', 'label': 'Homework'}]
+    elif class_name == 'w21-ecs189e':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'project.html', 'label': 'Project'},
+               {'page': 'homework.html', 'label': 'Homework'}]
+    elif class_name == 'w24-ecs189e':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'project.html', 'label': 'Project'},
+               {'page': 'homework.html', 'label': 'Homework'}]
+    elif class_name == 'w18-ecs251':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'research_project.html', 'label': 'Research project'},
+               {'page': 'presentations.html', 'label': 'Presentations'}]
+    elif class_name == 'w19-ecs251':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'research_project.html', 'label': 'Research project'},
+               {'page': 'homework.html', 'label': 'Homework'}]
+    elif class_name == 'w20-ecs251':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'research_project.html', 'label': 'Research project'},
+               {'page': 'presentations.html', 'label': 'Lead a lecture'}]
+    elif class_name == 's19-ecs153':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'research_project.html', 'label': 'Project'},
+               {'page': 'homework.html', 'label': 'Homework'}]
+    elif class_name == 's20-ecs153':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Quizzes'},
+               {'page': 'research_project.html', 'label': 'Project'},
+               {'page': 'remote.html', 'label': 'Remote project'},
+               {'page': 'homework.html', 'label': 'Homework'}]
+
+
 @app.route('/classes/<class_name>/<page>')
 def render_class_page(class_name, page):
     if not page or len(page) == 0:
@@ -16,17 +104,12 @@ def render_class_page(class_name, page):
 
     reading_list = read_csv(f'classes/{class_name}/reading_list.csv')
 
+    nav = nav_for_class(class_name)
+    
     return render_template(f'classes/{class_name}/{page}',
                            nav_title=class_name.upper(),
                            page=page,
-                           nav=[
-                               {'page': 'index.html', 'label': 'Home'},
-                               {'page': 'grading.html', 'label': 'Grading'},
-                               {'page': 'lectures.html', 'label': 'Lectures'},
-                               {'page': 'quizzes.html', 'label': 'Quizzes and reports'},
-                               {'page': 'final_paper.html', 'label': 'Final paper'},
-                               {'page': 'presentations.html', 'label': 'Presentations'}
-                           ],
+                           nav=nav,
                            reading_list=reading_list)
 
 

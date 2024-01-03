@@ -1,51 +1,31 @@
 date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
-1/5/2021,Intro,"[<a href=""https://docs.google.com/presentation/d/1KqKc_tC06F9WY09T3w7Zk9P33wRdVJ6mGNyGB8vd0-s/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/uBpXgmd5FVY"">Video</a>]",,none
-1/7/2021,First iOS app,"[<a href=""https://docs.google.com/presentation/d/16BJYi3y_ZIGHFP_sIBu_8Ek2-yuf7t09D1INtEf3uGo/edit?usp=sharing"">Slides</a>] [<a href=""https://www.youtube.com/watch?v=mhtW7Q8em9k"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-07"">Source</a>]",,none
-1/12/2021,"UI Widgets, auto layout, Swift","[<a href=""https://docs.google.com/presentation/d/1sv6SjlCxC7nL_8ke_ep9JqXK7-iFPyfqX_m23nFxiQk/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/ZpCaRQ1Mjwo"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-13"">Source</a>]",,"<ul>
-<li><a href=""https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316"">Stanford CS193 Lecture 3 on Swift</a></li>
-<li><a href=""https://developer.apple.com/swift/"">Apple's Swift page</a></li>
-<li><a href=""https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/"">O'Reilly Swift book</a>. I haven't read this, but in general O'Reilly books tend to be quite good.</li>
-<li><a href=""https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html#//apple_ref/doc/uid/TP40010853-CH7-SW1"">Autolayout Guide (from Apple)</a></li>
-</ul>
-Plus, there are many many resources online for how to learn Swift.
-
-<br><br><b>Homework 1 out</b>"
-1/14/2021,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/1Vj_xcId_9ERuhcl5FF6Ns5Lw_mUGup8X-Krp4NyxLGs/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/lsjbKXavWyo"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-14"">Source</a>]",,none
-1/19/2021,higher order functions to unwrap optionals,"[<a href=""https://docs.google.com/presentation/d/1ytw04Co4k7dSJKIY9_N8do9dbPeehFo9DKm86ikVUW4/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/mvZ3HFE7Sqk"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-19"">Source</a>]",,"
-<br><br><b>Homework 2 out, Homework 1 in</b>"
-1/21/2021,Closures,"[<a href=""https://docs.google.com/presentation/d/13hveGJ_T3v8ExkroBY732EriX9IWSBSxWmX5ZbOgboo/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/8Iv3lxtzvqU"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-21"">Source</a>]",,"<a href=""https://docs.swift.org/swift-book/LanguageGuide/Closures.html"">Apple's docs on closures</a>. Read the section on ""Capturing values"" carefully as it is subtle."
-1/26/2021,Higher order functions on arrays,"[<a href=""https://docs.google.com/presentation/d/1EdZQjobV2UkbIXlb4X_8DLHJ5AZp1w3LT-hwuB9_tdI/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/l5bGFUmFa7s"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-26"">Source</a>]",,none
-1/28/2021,Protocols and delegates,"[<a href=""https://docs.google.com/presentation/d/1MEGm2Ck-bWL5V0pcAM3ILu23ss7KzDbS-_co6AZ2Vr0/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/Me1p6K_lWmQ"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-01-28"">Source</a>]",,"<ul>
-<li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Protocols.html"">Protocols</a></li>
-<li><a href=""https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_delegates_to_customize_object_behavior"">Delegates</a></li>
-<li><a href=""https://docs.swift.org/swift-book/LanguageGuide/Extensions.html"">Extensions</a></li>
-</ul>
-<br>
-<b>Friday 1/29: Homework 3 out, Homework 2 in</b>"
-2/2/2021,Extensions and UITableView,"[<a href=""https://docs.google.com/presentation/d/1Jv6d0cY6EJ-LCqMhCNg3kj8O4aaC7kS2Pu_jcGnm9qU/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/h_voHsaTtxA"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-02"">Source</a>]",,"<a href=""https://medium.com/palantir/code-review-best-practices-19e02780015f"">A note on code review</a>"
-2/4/2021,Project intro,"[<a href=""https://docs.google.com/presentation/d/1pmuLS1Qo_aAHg6MWdvfGP3lDH5rcsaxQ6DUYICBY-5k/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/Q7yyX_63Ack"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-04"">Source</a>]",,"<b>Friday 2/5: Homework 4 out, Homework 3 in</b>"
-2/9/2021,API calls,"[<a href=""https://docs.google.com/presentation/d/1YcColMo-iKeVMyujOqMlzdYgKW2rEG_Llh4xwUHmMRc/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/CXv3_41uwQk"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-09"">Source</a>]",,"<ul>
-<li><a href=""https://pages.cs.wisc.edu/~remzi/OSTEP/"">OSTEP textbook chapter 48: Distributed systems</a></li>
-<li><a href=""https://developer.apple.com/documentation/foundation/archives_and_serialization/encoding_and_decoding_custom_types"">Serializing data in Swift</a></li>
-<li><a href=""https://developer.apple.com/documentation/foundation/archives_and_serialization/using_json_with_custom_types"">Serializing JSON</a></li>
-</ul>"
-2/11/2021,Threads,"[<a href=""https://docs.google.com/presentation/d/1zMiRxoRdjHPHNEdtGuB2YoxuC2Z66cGFjOcv5UnHAvs/edit?usp=sharing"">Slides</a>] [<a href=""https://www.youtube.com/watch?v=c8uxCNSMvII"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-12"">Source</a>]",,"<ul>
-<li><a href=""https://pages.cs.wisc.edu/~remzi/OSTEP/"">OSTEP textbook chapter 26: Threads and cocurrency</a></li>
-<li><a href=""https://pages.cs.wisc.edu/~remzi/OSTEP/"">OSTEP textbook chapter 33: Event driven concurrency</a></li>
-</ul>
-
-<b>Project proposal due</b>
-<br><br><b>Sprint planning due</b>
-<br><br><b>Friday 2/12: Homework 4 in</b>"
-2/16/2021,Threads,"[<a href=""https://docs.google.com/presentation/d/1k6UKpN2_9v-CCCoOgHFegAn12QlQBHKLQBuWYhY2_5g/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/WPlUUd9qOv0"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-16"">Source</a>]",,none
-2/18/2021,DispatchQueues in practice,"[<a href=""https://docs.google.com/presentation/d/1mV5jfJVHR82_emC_vfajGDGAdQsZ4b1YsBK0OSGr0vw/edit?usp=sharing"">Slides</a>] [<a href=""https://youtu.be/G6-5au-dPRE"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-02-18"">Source</a>]",,"<a href=""https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html"">iOS Memory Management</a>
-<br>
-<b>Sprint planning due</b>"
-2/23/2021,,None,Project meetings,<b>Milestone 1 due (due on 2/22)</b>
-2/25/2021,VC and App lifecycle + advanced topics I,None,,"Potential topics include: storage, security, Networking and APIs, Ethics, Notifications<br>
-<br>
-<br><b>Sprint planning due</b>"
-3/2/2021,,None,Project meetings,<b>Milestone 2 due (3/1)</b>
-3/4/2021,info about project demo + final project + advanced topics II,"[<a href=""https://docs.google.com/presentation/d/1kjqrVVHDthHj7OwC1UvXQptLEPCl3FYSkCsnxQFbkRQ/edit?usp=sharing"">Slides</a>] [<a href=""https://www.youtube.com/watch?v=qrzH51vh5Qo"">Video</a>] [<a href=""https://github.com/kingst/LectureProgrammingWinter2021/releases/tag/2021-03-04"">Source</a>]",,<b>Sprint planning due</b>
-3/9/2021,,,No class -- focus on your projects,none
-3/11/2021,Demo Day!,,,<b>Sprint planning due</b>
+1/8/2024,Intro,,,,,
+1/10/2024,First iOS app,,,,,
+1/12/2024,"UI Widgets, Swift, and Swift UI",,,Homework 1 out,,
+1/15/2024,No class,,,,,table-danger
+1/17/2024,"UI Widgets, Swift, and Swift UI",,,,,
+1/19/2024,Swift optionals,,,"Homework 2 out, Homework 1 due",,
+1/22/2024,Higher order functions to unwrap optionals,,,,,
+1/24/2024,Closures,,,,,
+1/26/2024,Higher order functions on arrays,,,"Homework 3 out, Homework 2 due",,
+1/29/2024,Protocols and delegates,,,,,
+1/31/2024,(buffer),,,,,
+2/2/2024,Navigation and modals,,,"Homework 4 out, Homework 3 due",,
+2/5/2024,Project intro,,,,,
+2/7/2024,API Calls,,,,,
+2/9/2024,No class,,,,,table-danger
+2/12/2024,Threads,,,Homework 4 due,,
+2/14/2024,Dispatch queues,,,,,
+2/16/2024,Dispatch queues,,,Sprint planning due,,
+2/19/2024,Monitors,,,,,
+2/21/2024,Async / await,,,,,
+2/23/2024,Milestone 1 meetings,,,Milestone 1 and sprint planning due (2/22),,
+2/26/2024,Actors,,,,,
+2/28/2024,Actors,,,,,
+3/1/2024,Milestone 2 meetings,,,Milestone 2 and sprint planning due (2/29),,
+3/4/2024,Info about project demo + final project + advanced topics,,,,,
+3/6/2024,VC and app ilfecycle + advanced topics,,,,,
+3/8/2024,"No class, work on your projects",,,Sprint planning due,,
+3/11/2024,Demos,,,,,
+3/13/2024,Demos,,,,,
+3/15/2024,Demos,,,,,
