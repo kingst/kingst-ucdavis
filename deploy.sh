@@ -14,4 +14,4 @@ fi
 git push
 
 gcloud config set account kingst@ucdavis.edu
-gcloud app deploy --project=kingst-ucdavis --promote
+gcloud app deploy --project=kingst-ucd --promote
