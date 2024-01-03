@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ "$(git symbolic-ref --short HEAD)" != "main" ]; then
-    echo 'will only deploy from main, bailing'
+if [ "$(git symbolic-ref --short HEAD)" != "master" ]; then
+    echo 'will only deploy from master, bailing'
     exit
 fi
 
