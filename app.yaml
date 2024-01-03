@@ -1,15 +1,4 @@
-runtime: python27
-api_version: 1
-threadsafe: true
+runtime: python310
+service: default
 
-libraries:
-- name: jinja2
-  version: latest
-
-handlers:
-- url: /assets
-  static_dir: assets
-
-- url: /.*
-  script: main.app
-  secure: always
+instance_class: F1
