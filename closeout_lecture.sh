@@ -21,6 +21,5 @@ github_url="https://github.com/kingst/kingst-ucdavis/releases/tag/${today}"
 
 python3.10 add_lecture_to_reading_list.py  "${today}" "${reading_list}" "${slides_url}" "${github_url}"
 
-cd ..
 git commit -a -m "Bump reading list"
 ./deploy.sh
