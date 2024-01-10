@@ -9,7 +9,7 @@ fi
 gcloud config set account kingst@ucdavis.edu
 
 slides_url=$1
-reading_list="class/w24-ecs189e/reading_list.csv"
+reading_list="classes/w24-ecs189e/reading_list.csv"
 
 git commit -a -m "End of lecture"
 today=`date +"%Y-%m-%d"`
