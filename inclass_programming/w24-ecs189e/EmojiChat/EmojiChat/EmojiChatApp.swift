@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct EmojiChatApp: App {
+    @StateObject var messagesViewModel = MessageViewModel()
+    
     var body: some Scene {
         WindowGroup {
             MainChatView()
+                .environmentObject(messagesViewModel)
         }
     }
 }
