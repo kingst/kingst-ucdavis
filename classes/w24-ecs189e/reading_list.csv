@@ -1,9 +1,9 @@
 date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 1/8/2024,Intro,"[<a href=""https://docs.google.com/presentation/d/1tG0_-AMGMWl9NmLMJQjIQ4794kW1H3HzyMXaRcR-xBE/edit?usp=sharing"">Slides</a>]",,,,
 1/10/2024,First iOS app,"[<a href=""https://docs.google.com/presentation/d/1awLtUqdCVVUcN-zfaqEdwFF3kDVTTqM5kZf-z4_Beq0/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/b6fb92c114834a772f69da4f78ec0f5a3a23c9de/inclass_programming/w24-ecs189e"">Source</a>]",,,,
-1/12/2024,"UI Widgets, Swift, and Swift UI",,,Homework 1 out,,
+1/12/2024,"UI Widgets, Swift, and Swift UI",,,Managing UI state [<a href="https://developer.apple.com/documentation/swiftui/managing-user-interface-state">Apple</a>]<br>Monitoring data changes [<a href="https://developer.apple.com/documentation/swiftui/monitoring-model-data-changes-in-your-app">Apple</a>]<br><br><b>Homework 1 out</b>,,
 1/15/2024,No class,,,,,table-danger
-1/17/2024,"UI Widgets, Swift, and Swift UI",,,,,
+1/17/2024,"Discussion: Homework 1 intro + q/a",,,,,
 1/19/2024,Swift optionals,,,"Homework 2 out, Homework 1 due",,
 1/22/2024,Higher order functions to unwrap optionals,,,,,
 1/24/2024,Closures,,,,,
