@@ -4,7 +4,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 1/12/2024,"UI Widgets, Swift, and Swift UI","[<a href=""https://docs.google.com/presentation/d/1x1CTZ9EqclWeUSZRWFnDuEAkQ7lEkTarV01458W2HlA/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/299d6bfdd7a32c863e00a6611cff4a9c13ae54b1/inclass_programming/w24-ecs189e"">Source</a>]",,"Managing UI state [<a href=""https://developer.apple.com/documentation/swiftui/managing-user-interface-state"">Apple</a>]<br>Monitoring data changes [<a href=""https://developer.apple.com/documentation/swiftui/monitoring-model-data-changes-in-your-app"">Apple</a>]<br><br><b>Homework 1 out</b>",,
 1/15/2024,No class,,,,,table-danger
 1/17/2024,Discussion: Homework 1 intro + q/a,,,,,
-1/19/2024,Swift optionals,,,"Homework 2 out, Homework 1 due",,
+1/19/2024,Swift optionals,"[<a href=""https://docs.google.com/presentation/d/17Sjv_jDb1PX614RM04O5__VjmUK1M5wZhGufWvrP3xM/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/810e31490532aca81111fa82de290ebb19965335/inclass_programming/w24-ecs189e"">Source</a>]",,"Homework 2 out, Homework 1 due",,
 1/22/2024,Higher order functions to unwrap optionals,,,,,
 1/24/2024,Closures,,,,,
 1/26/2024,Higher order functions on arrays,,,"Homework 3 out, Homework 2 due",,
