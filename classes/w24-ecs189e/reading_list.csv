@@ -5,7 +5,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 1/15/2024,No class,,,,,table-danger
 1/17/2024,Discussion: Homework 1 intro + q/a,,,,,
 1/19/2024,Multiple Views,"[<a href=""https://docs.google.com/presentation/d/17Sjv_jDb1PX614RM04O5__VjmUK1M5wZhGufWvrP3xM/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/810e31490532aca81111fa82de290ebb19965335/inclass_programming/w24-ecs189e"">Source</a>]",,"Homework 2 out, Homework 1 due",,
-1/22/2024,Multiple Views,,,,,
+1/22/2024,Multiple Views,"[<a href=""https://docs.google.com/presentation/d/1yihCp4QRYQZ-UE98RnIXWzpVuNnwEBpB9-omyg-8u5Q/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/82db71bbd2b83b4d5f00a0aeeadff66e06656a9e/inclass_programming/w24-ecs189e"">Source</a>]",,,,
 1/24/2024,Swift Optionals,,,,,
 1/26/2024,High order functions to unwrap optionals,,,"Homework 3 out, Homework 2 due",,
 1/29/2024,Closures,,,,,
