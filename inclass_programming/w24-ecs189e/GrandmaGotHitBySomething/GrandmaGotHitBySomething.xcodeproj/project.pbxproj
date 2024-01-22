@@ -14,6 +14,8 @@
 		3B6064052B5AD965009D9CBC /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6064042B5AD965009D9CBC /* TimerView.swift */; };
 		3B6064072B5AD974009D9CBC /* CyclingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6064062B5AD974009D9CBC /* CyclingView.swift */; };
 		3B6064092B5ADD68009D9CBC /* RootSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6064082B5ADD68009D9CBC /* RootSelectionView.swift */; };
+		3BDB51132B5ECFDE000230E7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB51122B5ECFDE000230E7 /* SettingsView.swift */; };
+		3BDB51162B5ED289000230E7 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB51152B5ED289000230E7 /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		3B6064042B5AD965009D9CBC /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		3B6064062B5AD974009D9CBC /* CyclingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingView.swift; sourceTree = "<group>"; };
 		3B6064082B5ADD68009D9CBC /* RootSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSelectionView.swift; sourceTree = "<group>"; };
+		3BDB51122B5ECFDE000230E7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3BDB51152B5ED289000230E7 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				3B6064082B5ADD68009D9CBC /* RootSelectionView.swift */,
 				3B6063F82B5AD851009D9CBC /* RootView.swift */,
 				3B6064042B5AD965009D9CBC /* TimerView.swift */,
+				3BDB51122B5ECFDE000230E7 /* SettingsView.swift */,
+				3BDB51152B5ED289000230E7 /* SettingsViewModel.swift */,
 			);
 			path = GrandmaGotHitBySomething;
 			sourceTree = "<group>";
@@ -149,8 +155,10 @@
 				3B6064072B5AD974009D9CBC /* CyclingView.swift in Sources */,
 				3B6064052B5AD965009D9CBC /* TimerView.swift in Sources */,
 				3B6063F92B5AD851009D9CBC /* RootView.swift in Sources */,
+				3BDB51132B5ECFDE000230E7 /* SettingsView.swift in Sources */,
 				3B6064092B5ADD68009D9CBC /* RootSelectionView.swift in Sources */,
 				3B6063F72B5AD851009D9CBC /* GrandmaGotHitBySomethingApp.swift in Sources */,
+				3BDB51162B5ED289000230E7 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,11 +9,15 @@ import SwiftUI
 
 struct TimerView: View {
     @Binding var rootViewType: RootViewType
+    @EnvironmentObject var viewModel: SettingsViewModel
     
     var body: some View {
         VStack {
             VStack {
                 Text("08:50:00")
+                    .font(.largeTitle)
+                    .bold()
+                    .foregroundStyle(viewModel.textColor)
             }
             .frame(maxHeight: .infinity)
             HStack {
@@ -47,9 +51,23 @@ struct TimerView: View {
             RootSelectionView(rootViewType: $rootViewType)
         }
         .padding()
+        .navigationTitle("Timer")
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem {
+                NavigationLink {
+                    SettingsView()
+                } label: {
+                    Image(systemName: "gear")
+                }
+            }
+        }
+        
     }
 }
 
 #Preview {
-    TimerView(rootViewType: .constant(.timerView))
+    NavigationStack {
+        TimerView(rootViewType: .constant(.timerView))
+    }
 }

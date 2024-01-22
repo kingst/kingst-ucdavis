@@ -14,11 +14,15 @@ enum RootViewType {
 
 struct RootView: View {
     @State var rootViewType: RootViewType = .timerView
+    @StateObject var settingsViewModel = SettingsViewModel()
     
     var body: some View {
         switch rootViewType {
         case .timerView:
-            TimerView(rootViewType: $rootViewType)
+            NavigationStack {
+                TimerView(rootViewType: $rootViewType)
+            }
+            .environmentObject(settingsViewModel)
         case .cyclingView:
             CyclingView(rootViewType: $rootViewType)
         }
