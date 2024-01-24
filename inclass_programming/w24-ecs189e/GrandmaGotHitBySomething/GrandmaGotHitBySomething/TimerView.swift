@@ -56,7 +56,7 @@ struct TimerView: View {
         .toolbar {
             ToolbarItem {
                 NavigationLink {
-                    SettingsView()
+                    SettingsView(isInNavigationStack: true)
                 } label: {
                     Image(systemName: "gear")
                 }
@@ -69,5 +69,6 @@ struct TimerView: View {
 #Preview {
     NavigationStack {
         TimerView(rootViewType: .constant(.timerView))
+            .environmentObject(SettingsViewModel())
     }
 }

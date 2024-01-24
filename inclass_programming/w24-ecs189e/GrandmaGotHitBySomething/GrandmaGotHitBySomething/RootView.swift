@@ -25,6 +25,7 @@ struct RootView: View {
             .environmentObject(settingsViewModel)
         case .cyclingView:
             CyclingView(rootViewType: $rootViewType)
+                .environmentObject(settingsViewModel)
         }
     }
 }
