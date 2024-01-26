@@ -7,7 +7,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 1/19/2024,Multiple Views,"[<a href=""https://docs.google.com/presentation/d/17Sjv_jDb1PX614RM04O5__VjmUK1M5wZhGufWvrP3xM/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/810e31490532aca81111fa82de290ebb19965335/inclass_programming/w24-ecs189e"">Source</a>]",,"Homework 2 out, Homework 1 due",,
 1/22/2024,Multiple Views,"[<a href=""https://docs.google.com/presentation/d/1yihCp4QRYQZ-UE98RnIXWzpVuNnwEBpB9-omyg-8u5Q/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/82db71bbd2b83b4d5f00a0aeeadff66e06656a9e/inclass_programming/w24-ecs189e"">Source</a>]",,,,
 1/24/2024,Swift Optionals,"[<a href=""https://docs.google.com/presentation/d/1m6kWAX9sLnCEDwwdp3waaB9g4NxENLsTCY5BZ4jVnj8/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/c6a36aeb9d11106165081d0a6e6b67664a897b9a/inclass_programming/w24-ecs189e"">Source</a>]",,,,
-1/26/2024,High order functions to unwrap optionals,,,"Homework 3 out, Homework 2 due",,
+1/26/2024,High order functions to unwrap optionals,"[<a href=""https://docs.google.com/presentation/d/1_McnkNl1KM_o0M3VER_YVpl9XMJkNXIWjEnsIiIN150/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/768eca7b1fe1a8f0f24d79c9a741ef89d62fc88c/inclass_programming/w24-ecs189e"">Source</a>]",,"Homework 3 out, Homework 2 due",,
 1/29/2024,Closures,,,,,
 1/31/2024,Higher order functions on arrays,,,,,
 2/2/2024,(buffer),,,"Homework 4 out, Homework 3 due",,
