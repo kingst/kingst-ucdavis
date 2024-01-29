@@ -93,9 +93,9 @@ struct JsonHttp {
     
     private func httpMethod<ResponseType>(method: String, url: String, data: Encodable?, headers: [String : String]) async throws -> ResponseType where ResponseType : Decodable {
         
-        guard let url = URL(string: url) else { throw ApiError.urlError }
+        guard let realUrl = URL(string: url) else { throw ApiError.urlError }
 
-        var request = URLRequest(url: url)
+        var request = URLRequest(url: realUrl)
         if let data = data {
             let encoder = JSONEncoder()
             encoder.dateEncodingStrategy = .secondsSince1970
