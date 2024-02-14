@@ -13,8 +13,22 @@ class MachineLearning: ObservableObject {
     @Published var ddOcrResult = "Not run"
     @Published var finalResult = "Not run"
     
+    let mlQueue = DispatchQueue(label: "mlQueue")
+    
     func extractCreditCardNumber() {
-        
+        mlQueue.async {
+            guard let image = UIImage(named: "sams_bofa").flatMap({ self.crop(image: $0) }) else {
+                print("Image not found")
+                return
+            }
+            
+            let apple = self.appleOcr(croppedImage: image)
+            let dd = self.ddOcr(croppedImage: image)
+            
+            self.appleOcrResult = apple ?? "Not found"
+            self.ddOcrResult = dd ?? "Not found"
+            self.finalResult = dd ?? apple ?? "Not found"
+        }
     }
 }
 
