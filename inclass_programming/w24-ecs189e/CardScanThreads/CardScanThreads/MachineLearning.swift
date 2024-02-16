@@ -22,12 +22,26 @@ class MachineLearning: ObservableObject {
                 return
             }
             
-            let apple = self.appleOcr(croppedImage: image)
-            let dd = self.ddOcr(croppedImage: image)
+            var apple: String?
+            var dd: String?
+            let semaphore = DispatchSemaphore(value: 0)
             
-            self.appleOcrResult = apple ?? "Not found"
-            self.ddOcrResult = dd ?? "Not found"
-            self.finalResult = dd ?? apple ?? "Not found"
+            DispatchQueue.global(qos: .userInitiated).async {
+                apple = self.appleOcr(croppedImage: image)
+                semaphore.signal()
+            }
+            DispatchQueue.global(qos: .userInitiated).async {
+                dd = self.ddOcr(croppedImage: image)
+                semaphore.signal()
+            }
+            
+            semaphore.wait()
+            semaphore.wait()
+            DispatchQueue.main.async {
+                self.appleOcrResult = apple ?? "Not found"
+                self.ddOcrResult = dd ?? "Not found"
+                self.finalResult = dd ?? apple ?? "Not found"
+            }
         }
     }
 }
