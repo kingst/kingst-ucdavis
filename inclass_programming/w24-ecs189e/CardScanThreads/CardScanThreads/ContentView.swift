@@ -32,7 +32,9 @@ struct ContentView: View {
             Spacer()
             Toggle("Turbo mode", isOn: $turboMode)
             Button {
-                machineLearning.extractCreditCardNumber()
+                Task {
+                    await machineLearning.extractCreditCardNumber()
+                }
             } label: {
                 Text("Run OCR")
                     .frame(maxWidth: .infinity)

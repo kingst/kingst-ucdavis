@@ -13,35 +13,23 @@ class MachineLearning: ObservableObject {
     @Published var ddOcrResult = "Not run"
     @Published var finalResult = "Not run"
     
-    let mlQueue = DispatchQueue(label: "mlQueue")
-    
-    func extractCreditCardNumber() {
-        mlQueue.async {
-            guard let image = UIImage(named: "sams_bofa").flatMap({ self.crop(image: $0) }) else {
-                print("Image not found")
-                return
-            }
-            
-            var apple: String?
-            var dd: String?
-            let semaphore = DispatchSemaphore(value: 0)
-            
-            DispatchQueue.global(qos: .userInitiated).async {
-                apple = self.appleOcr(croppedImage: image)
-                semaphore.signal()
-            }
-            DispatchQueue.global(qos: .userInitiated).async {
-                dd = self.ddOcr(croppedImage: image)
-                semaphore.signal()
-            }
-            
-            semaphore.wait()
-            semaphore.wait()
-            DispatchQueue.main.async {
-                self.appleOcrResult = apple ?? "Not found"
-                self.ddOcrResult = dd ?? "Not found"
-                self.finalResult = dd ?? apple ?? "Not found"
-            }
+    func extractCreditCardNumber() async {
+        guard let image = UIImage(named: "sams_bofa").flatMap({ self.crop(image: $0) }) else {
+            print("Image not found")
+            return
+        }
+        
+        let startTime = Date()
+        async let appleOptional = self.appleOcr(croppedImage: image)
+        async let ddOptional = self.ddOcr(croppedImage: image)
+        let apple = await appleOptional
+        let dd = await ddOptional
+        print("ML Time: \(Date().timeIntervalSince(startTime))")
+        
+        Task { @MainActor in
+            self.appleOcrResult = apple ?? "Not found"
+            self.ddOcrResult = dd ?? "Not found"
+            self.finalResult = dd ?? apple ?? "Not found"
         }
     }
 }
@@ -56,17 +44,17 @@ extension MachineLearning {
         return image.cgImage?.cropping(to: rect)
     }
     
-    func appleOcr(croppedImage: CGImage) -> String? {
+    func appleOcr(croppedImage: CGImage) async -> String? {
         let appleOcr = CardScan.AppleCreditCardOcr(dispatchQueueLabel: "apple ocr")
         let result = appleOcr.recognizeCard(in: croppedImage, roiRectangle: CGRect(x: 0, y: 0, width: croppedImage.width, height: croppedImage.height))
-        sleep(5)
+        try? await Task.sleep(for: .seconds(5))
         return result.number
     }
     
-    func ddOcr(croppedImage: CGImage) -> String? {
+    func ddOcr(croppedImage: CGImage) async -> String? {
         let ddOcr = CardScan.SSDCreditCardOcr(dispatchQueueLabel: "dd ocr")
         let result = ddOcr.recognizeCard(in: croppedImage, roiRectangle: CGRect(x: 0, y: 0, width: croppedImage.width, height: croppedImage.height))
-        sleep(3)
+        try? await Task.sleep(for: .seconds(3))
         return result.number
     }
 }
