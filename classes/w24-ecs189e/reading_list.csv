@@ -24,7 +24,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 2/26/24,Dispatch Queue programming,"[<a href=""https://docs.google.com/presentation/d/1bCTbI0jGwDhKX9Iu9k3c37j53M5SNLv89W30NY1t0c0/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/ea584f64b5cbb551881dfc30df2a26de7377a00a/inclass_programming/w24-ecs189e"">Source</a>]",,,,
 2/28/24,DispatchQueue quiz,,,,,
 3/1/24,Milestone 2 meetings,,,Milestone 2 and sprint planning due (2/29),,
-3/4/24,Info about project demo + final project,,,,,
+3/4/24,Info about project demo + final project,"[<a href=""https://docs.google.com/presentation/d/1L9Cf90jxMDJZuOS3I5oMxHeDrka7sFj958QR6YThqik/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/2ae8480c95d5c8cba7e8b7353577898bb5afff26/inclass_programming/w24-ecs189e"">Source</a>]",,,,
 3/6/24,Actors,"[<a href=""https://docs.google.com/presentation/d/1Yoy9e_W89QjLzftxu90ANb69czTf6hdjZqSQ_FEYgnU/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/0b8dcd86b6a4a63f92c5dfdc388e2395c46ae295/inclass_programming/w24-ecs189e"">Source</a>]",,"<a href=""https://developer.apple.com/videos/play/wwdc2021/10133/"">WWDC video on Actors</a> ",,
 3/8/24,"Lecture: Live Activities with Ashley, Discussion: Research + AMA with Sam",,,Sprint planning due,,
 3/11/24,[Optional] Demo practice for feedback (in Sam's office from 8-10am),,,,,
