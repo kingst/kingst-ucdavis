@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+    <style> body { padding-top: 3.5rem; } </style>
+  </head>
+
+  <body>
+
+    {% include 'templates/nav.html' %}
+
+    <main role="main">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+            <br>
+            <h2>Grading</h2>
+            <p>
+              <h5>Turning in work and late policy</h5> Late work will
+              receive no credit. However, you have two free "late days"
+              that you can use at anytime during the quarter on a
+              project. A late day gives you one extra day
+              to turn in your homework without penalty. The purpose of
+              these late days is to help you deal with unexpected
+              events, including getting sick, going to the doctor, or
+              any other events that might cause you to turn in your
+              homework late.
+	    </p>
+
+	    <p>We will track late days automatically, but if you use
+	    late days but don't have any available (e.g., you submit a
+	    project late but you don't have any late days left) we
+	    will give you a 0 on the project. Unfortunately, we don't
+	    have a way to encode the late day policy in the autograder
+	    currently.</p>
+
+
+            <p>
+            <h5>Cheating policy</h5>
+              I have a no tolerance policy on cheating, which includes
+              copying from friends and plagarism. If you get caught
+              cheating, you will get an F in this class and I will
+              turn you into the univerisity's academic integrity
+              group.
+            </p>
+
+            <p>
+            <h5>Grade breakdown</h5> Your grade will be composed of
+            the following items:
+            </p>
+            <table class="table table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Item</th>
+                  <th>Percent</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="quizzes.html">Midterm</a></td><td>20%</td>
+                  <td>
+		    We will have one midterm this quarter worth 20% of
+		    your final grade.
+                  </td>
+                </tr>
+		<tr>
+                  <td><a href="quizzes.html">Final</a></td><td>30%</td>
+                  <td>
+		    The final this quarter is worth 30% of
+		    your final grade.
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="project.html">Projects</a></td><td>50%</td>
+                  <td>
+		    The three processes, system APIs, threads, and
+		    concurrency projects will be worth 20% of your
+		    grade (5% each for the first two and 10% for the
+		    third) and the thread implementation and file
+		    systems projects will be worth 30% of your grade
+		    (15% for each).
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p>
+            <h5>Grade scale</h5> I grade on a straight grade scale,
+              but will adjust midterm and final scores if the
+              distribution is too low.
+            </p>
+            <table class="table table-bordered table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Grade</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>A</td><td>[93, 100]</td></tr>
+                <tr><td>A-</td><td>[90, 93)</td></tr>
+                <tr><td>B+</td><td>[87, 90)</td></tr>
+                <tr><td>B</td><td>[83, 87)</td></tr>
+                <tr><td>B-</td><td>[80, 83)</td></tr>
+                <tr><td>C+</td><td>[77, 80)</td></tr>
+                <tr><td>C</td><td>[73, 77)</td></tr>
+                <tr><td>C-</td><td>[70, 73)</td></tr>
+                <tr><td>D</td><td>[60, 70)</td></tr>
+                <tr><td>F</td><td>[0, 60)</td></tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+
+
+        <hr>
+      </div> <!-- /container -->
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>
