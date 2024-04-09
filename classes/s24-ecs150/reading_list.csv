@@ -2,7 +2,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 4/1/24,Welcome,"[<a href=""https://docs.google.com/presentation/d/110WlfF3BYesoHTMrKjWc_9OuHJeH3TRbVfXt578vRvE/edit?usp=sharing"">Slides</a>]",,None,,
 4/3/24,P: Processes,"[<a href=""https://docs.google.com/presentation/d/12cTjvIonN4LSA3C4CiI-g92kCRAkegaG/edit#slide=id.p1"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/d56cd92614b485ad551b3bfe900b441504de3121/inclass_programming/s24-ecs150"">Source</a>]",,OSTEP: Processes,,
 4/5/24,P: Process API,,,OSTEP: Process API,,
-4/8/24,P: Direct Execution,"[<a href=""https://docs.google.com/presentation/d/1VC_EN9CccoUC-69nSlGxNx2dbbh7ZPh7lf0zD5pFk28/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/1c5d792361391d8fd1ad4038750e4bd092c84993/inclass_programming/s24-ecs150"">Source</a>]",,OSTEP: Direct Execution,,
+4/8/24,P: Direct Execution,"[<a href=""https://docs.google.com/presentation/d/1VC_EN9CccoUC-69nSlGxNx2dbbh7ZPh7lf0zD5pFk28/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/488c64bf3fe062006866391f710420b15fc06042/inclass_programming/s24-ecs150"">Source</a>]",,OSTEP: Direct Execution,,
 4/10/24,A: Address space and translation,,,"OSTEP: Address Space, Address translation",,
 4/12/24,A: Introduction to paging,,,OSTEP: Introduction to paging,,
 4/15/24,T: Concurrency and threads,,,OSTEP: Concurrency and threads,,
