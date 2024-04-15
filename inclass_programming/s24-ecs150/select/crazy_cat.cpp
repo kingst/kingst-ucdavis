@@ -17,5 +17,24 @@ using namespace std;
 // to actually use the software.
 
 int main(int argc, char *argv[]) {
-  
+  vector<int> fdVector;
+  fdVector.push_back(STDIN_FILENO);
+
+  for (int idx = 1; idx < argc; idx++) {
+    int fd = open(argv[idx], O_RDONLY);
+    fdVector.push_back(fd);
+  }
+
+  for (int idx = 0; idx < fdVector.size(); idx++) {
+    int fd = fdVector[idx];
+    unsigned char buffer[4096];
+    cout << "size of buffer " << sizeof(buffer) << endl;
+    int ret;
+    while ((ret = read(fd, buffer, sizeof(buffer))) > 0) {
+      write(STDOUT_FILENO, buffer, ret);
+    }
+    close(fd);
+  }
+
+  return 0;
 }
