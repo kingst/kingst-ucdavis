@@ -13,6 +13,8 @@ struct ThreadArgs {
   int fd;
 };
 
+pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
+
 void write_contents_of_file(int fd) {
     unsigned char buffer[4096];
     int ret;
@@ -20,7 +22,11 @@ void write_contents_of_file(int fd) {
     // read the file until it's done
     while ((ret = read(fd, buffer, sizeof(buffer))) > 0) {
       // you should check for errors!!!
+      // threads can do other work outside of this critical section
+      // don't assume anything about the order that threads aquire the lock
+      pthread_mutex_lock(&lock);
       write(STDOUT_FILENO, buffer, ret);
+      pthread_mutex_unlock(&lock);
     }
 
     close(fd);  
