@@ -12,7 +12,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 4/24/24,T: Locks,"[<a href=""https://docs.google.com/presentation/d/1buvNnLgVv-LrJpPq1RktiGaposmt7Fb8Wq2R2OorpH4/edit#slide=id.p"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/1a2232c62eff2d6ff93fd74306b67301c2b23aef/inclass_programming/s24-ecs150"">Source</a>]",,OSTEP: Locks,,
 4/26/24,T: Monitors & condition variables,"[<a href=""https://docs.google.com/presentation/d/15Sqeyrjd343PJl_wKXpaDHN3GJ4-w43Tv5IE4bGp-tY/edit?usp=sharing"">Slides</a>]",,OSTEP: Locked data structures,,
 4/29/24,T: Monitors & condition variables,"[<a href=""https://docs.google.com/presentation/d/1zF54GYLsF8rR_7hlvvuSjYrnvOckeZpxmlROzenhrDs/edit?usp=sharing"">Slides</a>]",,OSTEP: Condition variables,,
-5/1/24,T: Monitors & condition variables,,,OSTEP: Concurrency bugs,,
+5/1/24,T: Monitors & condition variables,"[<a href=""https://docs.google.com/presentation/d/1gkFmCIXpWTORkSWbY-54ybfQgpS-OP9Xt5h5Pltloco/edit?usp=sharing"">Slides</a>]",,OSTEP: Concurrency bugs,,
 5/3/24,Midterm review,,,,,
 5/6/24,Midterm 1,,,,,
 5/8/24,No Class,,,,,
