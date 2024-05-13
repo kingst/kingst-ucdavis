@@ -17,7 +17,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 5/6/24,Midterm 1,,,,,
 5/8/24,No Class,,,,,
 5/10/24,Midterm results,,,,,
-5/13/24,F: File system structure,,,OSTEP: File system implementation,,
+5/13/24,F: File system structure,"[<a href=""https://docs.google.com/presentation/d/1DER-DFFylCS03IGrBsNAsKMSTeks6qq4Fd0YPaUDKWs/edit?usp=sharing"">Slides</a>]",,OSTEP: File system implementation,,
 5/15/24,F: File system implementation,,,OSTEP: File system implementation,,
 5/17/24,F: File system naming,,,OSTEP: File system implementation,,
 5/20/24,F: File system write ordering,,,OSTEP: Fast file system (FFS),,
