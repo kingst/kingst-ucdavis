@@ -10,6 +10,19 @@ typedef struct {
 void readBlock(int blockNum, void *buffer);
 inode_t inodeTable[NUM_INODES];
 
+// ignore error checking
 int read(int inodeNum, void *buffer, int size=1, int pos=5000) {
+  inode_t inode = inodeTable[inodeNum];
 
+  int index = pos / UFS_BLOCK_SIZE;
+  int offset = pos % UFS_BLOCK_SIZE;
+  
+  int blockNum = inode.direct[index];
+
+  // let's assume that size does not cross block boundaries
+  char block[UFS_BLOCK_SIZE];
+  readBlock(blockNum, block);
+  memcpy(buffer, block + offset, size)
+
+  return size;
 }
