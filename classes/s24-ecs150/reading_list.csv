@@ -18,7 +18,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 5/8/24,No Class,,,,,
 5/10/24,Midterm results,,,,,
 5/13/24,F: File system structure,"[<a href=""https://docs.google.com/presentation/d/1DER-DFFylCS03IGrBsNAsKMSTeks6qq4Fd0YPaUDKWs/edit?usp=sharing"">Slides</a>]",,OSTEP: File system implementation,,
-5/15/24,F: File system implementation,"[<a href=""https://docs.google.com/presentation/d/1xD0otkag5lrzhELOfeqQE9y4K8WHnPgKsuAn_LTUm04/edit?usp=sharing"">Slides</a>]",,OSTEP: File system implementation,,
+5/15/24,F: File system implementation,"[<a href=""https://docs.google.com/presentation/d/1xD0otkag5lrzhELOfeqQE9y4K8WHnPgKsuAn_LTUm04/edit#slide=id.p"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/60c614024bb2d2db9f8d2ae56fbaebcc14481df8/inclass_programming/s24-ecs150"">Source</a>]",,OSTEP: File system implementation,,
 5/17/24,F: File system naming,,,OSTEP: File system implementation,,
 5/20/24,F: File system write ordering,,,OSTEP: Fast file system (FFS),,
 5/22/24,Networking and APIs,,,,,
