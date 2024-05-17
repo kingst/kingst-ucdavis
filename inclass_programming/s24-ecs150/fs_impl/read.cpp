@@ -7,7 +7,7 @@ typedef struct {
    int direct[DIRECT_PTRS];
 } inode_t;
 
-void readBlock(int blockNum, void *buffer);
+void readDiskBlock(int blockNum, void *buffer);
 inode_t inodeTable[NUM_INODES];
 
 // ignore error checking
@@ -21,7 +21,7 @@ int read(int inodeNum, void *buffer, int size=1, int pos=5000) {
 
   // let's assume that size does not cross block boundaries
   char block[UFS_BLOCK_SIZE];
-  readBlock(blockNum, block);
+  readDiskBlock(blockNum, block);
   memcpy(buffer, block + offset, size)
 
   return size;
