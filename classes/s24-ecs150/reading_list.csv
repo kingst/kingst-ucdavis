@@ -22,7 +22,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 5/17/24,F: File system naming,"[<a href=""https://docs.google.com/presentation/d/1fVCmjaFMOgnbvEVfSnfyty6gjkrn2IgQHkag4w_XrL4/edit?usp=sharing"">Slides</a>]",,OSTEP: File system implementation,,
 5/20/24,F: File system write ordering,"[<a href=""https://docs.google.com/presentation/d/1eAt9-nvh2T7cUI7dGhf33mACizDCCIQLHLJ2HBBu_B0/edit?usp=sharing"">Slides</a>]",,OSTEP: Fast file system (FFS),,
 5/22/24,Networking and APIs,"[<a href=""https://docs.google.com/presentation/d/1emh9OpusUPjMpJLr1cdfnKvGNZYb142AWk6q-sPaUio/edit?usp=sharing"">Slides</a>]",,,,
-5/24/24,Networking and APIs,,,,,
+5/24/24,Networking and APIs,"[<a href=""https://docs.google.com/presentation/d/1dLdWNXUUZUy0PJIgyXwUkQCbBzypUbSZYebA--3Cdkg/edit?usp=sharing"">Slides</a>]",,,,
 5/27/24,No class -- memorial day,,,,,danger
 5/29/24,T: Semaphores and Actors,,,,,
 5/31/24,T: Reader / writer locks,,,,,
