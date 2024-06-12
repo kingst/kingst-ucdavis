@@ -126,7 +126,10 @@ def home(path):
     publication_list = read_csv('home/publications.csv')
 
     def publication_to_listing(publication):
-        url = '/assets/dl/' + publication['paper']
+        if publication['paper'].startswith('https://'):
+            url = publication['paper']
+        else:
+            url = '/assets/dl/' + publication['paper']
         anchor = f'<a href="{url}">'
         end_anchor = '</a>'
         return publication['publication'].replace('{start_title}', anchor).replace('{end_title}', end_anchor)
