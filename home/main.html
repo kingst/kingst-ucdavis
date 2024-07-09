@@ -4,17 +4,7 @@
   <head>
     {% include 'templates/head.html' %}
     <style> body { padding-top: 3.5rem; } </style>
-
-    <style>
-      .jumbotron {
-        background-image: url(/assets/background.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        color: white;
-        border-radius: 0;
-      }
-    </style>
-
+    <link href="/assets/custom.css" rel="stylesheet">
   </head>
 
   <body>
@@ -23,62 +13,68 @@
 
       {% include 'templates/nav.html' %}
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container text-center">
-          <h1 class="display-3">Sam King</h1>
-          <h2>Computer Science @ UC Davis</h2>
-        </div>
-      </div>
-
       <div class="container">
 	<div class="col-md-12">
+	  <div style="height: 12px;"></div>
           <div class="row">
-	    <div class="col-md-4">
+	    <div class="col-sm-6 col-md-6 col-lg-4 align-items-center d-flex">
 	      <img src="/assets/sam.jpg" class="img-fluid"/>
 	    </div>
-	    <div class="col-md-8">
-              <h3 class="text-center">Overview information</h3>
+	    <div class="col-sm-6 col-md-6 col-lg-8 mycol">
+              <h3 class="text-center">Sam King (<a href="mailto:kingst@ucdavis.edu">email</a>)</h3>
+	      <h4 class="text-center">Computer Science @ UC Davis</h4>
 
 	      <p>
 		My research focus is on technology to manage Type 1
 		Diabetes. Managing Type 1 Diabetes is hard, and I
-		believe that novel software and AI can help make it
-		easier. This research area is relatively new for me,
-		and I'll post more details here soon.
+		believe that novel software, hardware, and AI can help
+		make it easier.
 	      </p>
 
 	      <p>
-		I spent nearly seven years in industry with two of
-		them as the Head of Accounts at Twitter and two as
-		Head of Fraud and Identity at Lyft, and 2.5 as the
-		Head of Fraud and ML at Stripe, but now I'm back in
-		academia at UC Davis. If you're interested, I wrote
-		a <a href="https://eng.lyft.com/stopping-fraudsters-by-changing-products-452240f2d2cc">blog
-		post</a> that talks about some of the lessons learned
-		from my time in industry. I also wrote a blog post
-		about why I
+		I spent eight years in industry including time at two
+		startups that I founded, Twitter, Lyft, and Stripe. I
+		wrote a blog post about why I
 		moved <a href="http://blogs.nature.com/naturejobs/2018/04/30/from-academia-to-silicon-valley-and-back/">from
 		academia to industry and back</a>.
 	      </p>
 
 	      <p>
-		Previously I worked on digital identities, fraud,
-		fake accounts, and computer security broadly
-		speaking. My <a href="research.html">Research</a> page
+		Previously I worked on computer
+		security. My <a href="research.html">Research</a> page
 		shows a nice summary of some of my past projects, and
 		my <a href="publications.html">Publications</a> page
 		shows a full list of my publications.
 	      </p>
-
-	      <p>
-		You can reach me
-		via <a href="mailto:kingst@ucdavis.edu">email
-		  (kingst@ucdavis.edu)</a>.
-	      </p>
 	    </div>
 	  </div>
         </div>
+	<div class="row">
+	  <div class="col-md-12 mycol">
+            <h3 class="text-center">Recent research highlights</h3>
+            <ul>
+	      <li><b>Video:</b> This <a href="https://www.youtube.com/watch?v=0SAoigEHjJ4&list=PLS7sMlgd1pNM0KIKUQ-3y0_NRBU6Q-64h&index=3">10 minute YouTube video</a> provides
+	      an overview of our research program on how CS can help
+	      improve the lives of people living with Type 1 Diabetes.
+	      </li>
+	      <li><b>Paper:</b> Here is our first <a href="/assets/dl/glucos.pdf">paper on Type 1
+	      Diabetes</a>! We go deep on security for automated insulin
+	      delivery systems.
+	      </li>
+	      <li><b>Impact:</b> Our humble UC Davis research software
+		for scanning credit cards to prevent fraud has run on
+		over <b>1 billion (!) devices</b>. Some of the largest
+		and most popular apps have used it for areas like food
+		delivery, vacation rentals, mobile payments, grocery
+		delivery, e-commerce, fashion, restaurants, and
+		more. In the
+		press <a href="https://tcrn.ch/3y8pr7Q">here</a>, and
+		the papers about the systems that led directly to this impact are here
+		(<a href="/assets/dl/sec20-din.pdf">Boxer</a>, <a href="/assets/dl/daredevil_oakland2021.pdf">DareDevil</a>).
+	      </li>
+            </ul>
+          </div>
+	</div>
       </div>
       </div>
 
