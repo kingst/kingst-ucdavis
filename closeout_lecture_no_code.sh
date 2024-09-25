@@ -9,7 +9,7 @@ fi
 gcloud config set account kingst@ucdavis.edu
 
 slides_url=$1
-reading_list="classes/s24-ecs150/reading_list.csv"
+reading_list="classes/f24-ecs150/reading_list.csv"
 
 today=`date +"%Y-%m-%d"`
 
