@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
   }
 
   if (fileDescriptor != STDIN_FILENO) {
-    close(fileDecriptor);
+    close(fileDescriptor);
   }
 
   cout << "Bytes read: " << bytesRead << endl;
