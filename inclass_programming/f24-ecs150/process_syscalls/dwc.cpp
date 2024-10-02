@@ -7,6 +7,8 @@
 #include <sys/uio.h>
 #include <unistd.h>
 
+#include <sstream>
+
 using namespace std;
 
 int main(int argc, char *argv[]) {
@@ -27,6 +29,7 @@ int main(int argc, char *argv[]) {
   int bytesRead = 0;
   char buffer[4096];
 
+  // what's going on with the while loop and buffer[4096]
   while ((ret = read(fileDescriptor, buffer, sizeof(buffer))) > 0) {
     bytesRead += ret;
   }
@@ -35,7 +38,13 @@ int main(int argc, char *argv[]) {
     close(fileDescriptor);
   }
 
-  cout << "Bytes read: " << bytesRead << endl;
+  // Break into groups! Replace cout with a call to `write`
+  stringstream stringOut;
+  stringOut << "Bytes read: " << bytesRead << endl;
+  string str = stringOut.str();
+
+  write(STDOUT_FILENO, str.c_str(), str.length());
+  
   return 0;
   
   
