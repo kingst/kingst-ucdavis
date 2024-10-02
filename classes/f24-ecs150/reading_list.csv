@@ -1,7 +1,7 @@
 date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 9/25/24,Welcome,"[<a href=""https://docs.google.com/presentation/d/1sXg2kV6LZKWq8nIdLR8YAhJZevumjMdf8WAbHTnqG7M/edit?usp=sharing"">Slides</a>]",,None,,
 9/27/24,P: Processes,"[<a href=""https://docs.google.com/presentation/d/1vduP8Mu8yusULgdUINdW5wLnz8egOKaS/edit?usp=sharing&ouid=101454584770337253991&rtpof=true&sd=true"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/ce1b6a977efbb0180cc53a80776f0604d59d40cd/inclass_programming/f24-ecs150"">Source</a>]",,OSTEP: Processes,,
-9/30/24,P: OS Architectures,"[<a href=""https://docs.google.com/presentation/d/1eJf944Aj1bLQXIlpbjAixTnTgg1VlgJHFfDCl2nTLQQ/edit?usp=sharing"">Slides</a>]",,"OSTEP: Process API
+9/30/24,P: OS Architectures,"[<a href=""https://docs.google.com/presentation/d/1eJf944Aj1bLQXIlpbjAixTnTgg1VlgJHFfDCl2nTLQQ/edit#slide=id.p"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/de9316f4ecd768da0ef9b846d62ab69f4a4d001d/inclass_programming/f24-ecs150"">Source</a>]",,"OSTEP: Process API
 <br><b>Project 1 out</b>",,
 10/2/24,P: Direct Execution,,,OSTEP: Direct Execution,,
 10/4/24,A: Address space and translation,,,"OSTEP: Address Space, Address translation",,
