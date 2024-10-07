@@ -16,6 +16,12 @@ int main(int argc, char *argv[]) {
     cerr << "Error calling fork" << endl;
     return 1;
   } else if (ret == 0) {
+    char *args[3];
+    args[0] = (char *) "ls";
+    args[1] = (char *) "-a";
+    args[2] = NULL;
+    execvp(args[0], args);
+    // you know you have an error
     // child
     a = 4321;
     cout << "child a = " << a << ", b = " << b << ", my pid is " << getpid() << endl;
