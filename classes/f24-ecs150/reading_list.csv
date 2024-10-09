@@ -8,7 +8,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 10/7/24,A: Introduction to paging,"[<a href=""https://docs.google.com/presentation/d/1bNlrJ929O_BEWAUrT9tsXo4M6Y-jwi5HEQGjYxYZ3vw/edit?usp=sharing"">Slides</a>]",,"OSTEP: Introduction to paging
 <br><b>Project 1 due</b>
 <br><b>Project 2 out</b>",,
-10/9/24,T: Concurrency and threads,,,OSTEP: Concurrency and threads,,
+10/9/24,T: Concurrency and threads,"[<a href=""https://docs.google.com/presentation/d/1A75xdRDBkKAjB45ZGZmQlQp6Xr9437siisgJtUMythQ/edit?usp=sharing"">Slides</a>]",,OSTEP: Concurrency and threads,,
 10/11/24,T: Concurrency and threads,,,OSTEP: Thread API,,
 10/14/24,T: Atomicity,,,OSTEP: Concurrency and threads,,
 10/16/24,T: Synchronization,,,OSTEP: Concurrency and threads,,
