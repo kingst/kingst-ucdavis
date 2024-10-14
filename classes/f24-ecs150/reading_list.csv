@@ -9,7 +9,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 <br><b>Project 1 due</b>
 <br><b>Project 2 out</b>",,
 10/9/24,T: Concurrency and threads,"[<a href=""https://docs.google.com/presentation/d/1A75xdRDBkKAjB45ZGZmQlQp6Xr9437siisgJtUMythQ/edit#slide=id.p"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/617a8f4c37d99674b28b83149c6592233c97d5c8/inclass_programming/f24-ecs150"">Source</a>]",,OSTEP: Concurrency and threads,,
-10/11/24,T: Concurrency and threads,"[<a href=""https://docs.google.com/presentation/d/1seP_TRa2vwkzD2qMa0dfCxQSODok2oKVqtfUEenueCM/edit?usp=sharing"">Slides</a>]",,OSTEP: Thread API,,
+10/11/24,T: Concurrency and threads,"[<a href=""https://docs.google.com/presentation/d/1seP_TRa2vwkzD2qMa0dfCxQSODok2oKVqtfUEenueCM/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/2d7f267b855324d2023834aefd02c8b23ee54973/inclass_programming/f24-ecs150"">Source</a>]",,OSTEP: Thread API,,
 10/14/24,T: Atomicity,,,OSTEP: Concurrency and threads,,
 10/16/24,T: Synchronization,,,OSTEP: Concurrency and threads,,
 10/18/24,T: Locks,,,"OSTEP: Locks
