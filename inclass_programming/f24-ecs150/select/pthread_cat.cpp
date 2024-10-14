@@ -7,6 +7,7 @@
 #include <sys/select.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <pthread.h>
 
 using namespace std;
 
@@ -27,6 +28,19 @@ void write_file_to_stdout(int fd) {
   close(fd);
 }
 
+struct ThreadArgs {
+  int fd;
+};
+
+void *threadHandler(void * arg) {
+  //struct ThreadArgs *threadArgs = (struct ThreadArgs *) arg;
+  //int fd = threadArgs->fd;
+  //delete threadArgs;
+  int fd = *((int *) arg);
+  write_file_to_stdout(fd);
+  return NULL;
+}
+
 int main(int argc, char *argv[]) {
   vector<int> fdVec;
   fdVec.push_back(STDIN_FILENO);
@@ -37,9 +51,19 @@ int main(int argc, char *argv[]) {
   }
 
   // loop through each fd one-by-one and print out the contents
-  vector<pid_t> children;
+  vector<pthread_t> children;
   for (int idx = 0; idx < fdVec.size(); idx++) {
     int fd = fdVec[idx];
-    write_file_to_stdout(fd);
+    //struct ThreadArgs *threadArgs = new struct ThreadArgs;
+    pthread_t threadId;
+    //threadArgs->fd = fd;
+    pthread_create(&threadId, NULL, threadHandler, fd);
+    children.push_back(threadId);
+    //threadArgs = NULL;
   }
+
+  for (int idx = 0; idx < children.size(); idx++) {
+    pthread_join(children[idx], NULL);
+  }
+  
 }
