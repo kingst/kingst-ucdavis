@@ -12,7 +12,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 10/11/24,T: Concurrency and threads,"[<a href=""https://docs.google.com/presentation/d/1seP_TRa2vwkzD2qMa0dfCxQSODok2oKVqtfUEenueCM/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/2d7f267b855324d2023834aefd02c8b23ee54973/inclass_programming/f24-ecs150"">Source</a>]",,OSTEP: Thread API,,
 10/14/24,T: Pthreads,"[<a href=""https://github.com/kingst/kingst-ucdavis/tree/5f083163cd74862b4b7aa4197fb315d574f63e06/inclass_programming/f24-ecs150"">Source</a>]",,OSTEP: Thread API,,
 10/16/24,T: Atomicity,"[<a href=""https://docs.google.com/presentation/d/1ux9JZi95Mwh-6a30GMI0f4pm-ssDmK4b8dIXqLgYTdo/edit?usp=sharing"">Slides</a>] ",,OSTEP: Concurrency and threads,,
-10/18/24,T: Synchronization,,,"OSTEP: Concurrency and threads
+10/18/24,T: Synchronization,"[<a href=""https://docs.google.com/presentation/d/1xw4Nsy14z32DswqAkSx1P33aalN1Ahz7EFLPDRoQ-Oc/edit?usp=sharing"">Slides</a>]",,"OSTEP: Concurrency and threads
 <br><b>Project 2 due</b>
 <br><b>Project 3 out</b>",,
 10/21/24,T: Locks,,,OSTEP: Locks,,
