@@ -33,10 +33,9 @@ struct ThreadArgs {
 };
 
 void *threadHandler(void * arg) {
-  //struct ThreadArgs *threadArgs = (struct ThreadArgs *) arg;
-  //int fd = threadArgs->fd;
-  //delete threadArgs;
-  int fd = *((int *) arg);
+  struct ThreadArgs *threadArgs = (struct ThreadArgs *) arg;
+  int fd = threadArgs->fd;
+  delete threadArgs;
   write_file_to_stdout(fd);
   return NULL;
 }
@@ -54,12 +53,12 @@ int main(int argc, char *argv[]) {
   vector<pthread_t> children;
   for (int idx = 0; idx < fdVec.size(); idx++) {
     int fd = fdVec[idx];
-    //struct ThreadArgs *threadArgs = new struct ThreadArgs;
+    struct ThreadArgs *threadArgs = new struct ThreadArgs;
     pthread_t threadId;
-    //threadArgs->fd = fd;
-    pthread_create(&threadId, NULL, threadHandler, fd);
+    threadArgs->fd = fd;
+    pthread_create(&threadId, NULL, threadHandler, threadArgs);
     children.push_back(threadId);
-    //threadArgs = NULL;
+    threadArgs = NULL;
   }
 
   for (int idx = 0; idx < children.size(); idx++) {
