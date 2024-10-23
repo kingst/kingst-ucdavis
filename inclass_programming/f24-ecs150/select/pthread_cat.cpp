@@ -11,6 +11,8 @@
 
 using namespace std;
 
+pthread_mutex_t stdoutLock = PTHREAD_MUTEX_INITIALIZER;
+
 // we're going to ignore error checking to keep this
 // example simple, but make sure that you do full
 // error checking in any code that you write for
@@ -22,7 +24,9 @@ void write_file_to_stdout(int fd) {
   int ret;
 
   while ((ret = read(fd, buffer, sizeof(buffer))) > 0) {
+    pthread_mutex_lock(&stdoutLock);
     write(STDOUT_FILENO, buffer, ret);
+    pthread_mutex_unlock(&stdoutLock);
   }
 
   close(fd);
