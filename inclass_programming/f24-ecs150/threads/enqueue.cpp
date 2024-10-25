@@ -1,3 +1,9 @@
+
+
+
+
+
+
 void enqueue() {
   lock(queueLock);
   ptr = findTailOfQueue();
