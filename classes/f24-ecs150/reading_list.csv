@@ -18,7 +18,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 10/21/24,T: Locks,"[<a href=""https://docs.google.com/presentation/d/10-8lElQOAGALyta-ESoGldOgj7Fc2hgFiCuYSM6Jvus/edit?usp=sharing"">Slides</a>]",,OSTEP: Locks,,
 10/23/24,T: Monitors & condition variables,"[<a href=""https://docs.google.com/presentation/d/1FbwTcJXD486wXpd5JON2BvFzio_ztP0vwvj6xZu7eFA/edit?usp=sharing"">Slides</a>]",,OSTEP: Locked data structures,,
 10/25/24,T: Monitors & condition variables,"[<a href=""https://docs.google.com/presentation/d/15elMN5BFxqsM9aarlu1Qw1gxe3WuthOTegRNb6IitGY/edit#slide=id.g30e5fcd59f5_0_354"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/36c32b3d22ae6a61e35f9325c40ff1dd6ee559e0/inclass_programming/f24-ecs150"">Source</a>]",,OSTEP: Condition variables,,
-10/28/24,T: Monitors & condition variables,,,OSTEP: Concurrency bugs,,
+10/28/24,T: Monitors & condition variables,"[<a href=""https://docs.google.com/presentation/d/1XiO3QZ_NqGm6jlex1ZM6WcPJlp9uYZANszy0Zxu4WZw/edit#slide=id.g30f73f1e0ca_0_166"">Slides</a>]",,OSTEP: Concurrency bugs,,
 10/30/24,T: Classic synchronization problems,,,,,
 11/1/24,F: File system structure,,,OSTEP: File system implementation,,
 11/4/24,Midterm review,,,,,
