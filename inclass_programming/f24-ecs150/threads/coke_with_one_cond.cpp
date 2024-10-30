@@ -1,4 +1,5 @@
 int numCokes = 0;
+int maxCokes = 1;
 // assume our capacity is 1 coke
 mutex_t cokeLock;
 cond_t hasRoomOrCoke;
@@ -6,7 +7,7 @@ CokeMachine machine;
 
 void consumer() {
   cokeLock.lock();
-  while(!machine.hasCoke()) {
+  while(numCokes == 0) {
     wait(hasRoomOrCoke, cokeLock);
   }
   machine.removeCoke();
@@ -17,7 +18,7 @@ void consumer() {
 
 void producer() {
   cokeLock.lock();
-  while(!machine.hasRoom()) {
+  while(numCokes == maxCokes) {
     wait(hasRoomOrCoke, cokeLock);
   }
   machine.addCoke();
