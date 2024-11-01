@@ -1,0 +1,43 @@
+Threads 0 - 4
+initial chopstickInUse = [false, false, false, false, false]
+
+Thread 0:
+  - grab left chopstick
+  - grab right chopstick
+  - [true, true, false, false, false]
+
+Thread 4:
+  - grab left chopstick
+  - wait for right chopstick
+  - [true, true, false, false, true]
+
+Thread 3:
+  - grab left chopstick
+  - wait for right chopstick
+  - [true, true, false, true, true]
+
+Thread 2:
+  - grab left chopstick
+  - wait for right chopstick
+  - [true, true, true, true, true]
+
+Thread 0:
+  - finishes eating
+  - broadcast
+  - [false, false, true, true, true]
+
+Thread 1:
+  - grabs left chopstick
+  - wait for right chopstick
+  - [false, true, true, true, true]
+
+Thread 0:
+  - grabs left chopstick
+  - wait for right chopstick
+  - [true, true, true, true, true]
+
+Deadlock!
+
+The key is that Threads 0 and 1 sneak in and grab the lock before
+Thread 4 has a chance to grab the lock and run after being woken up by
+the broadcast call.
