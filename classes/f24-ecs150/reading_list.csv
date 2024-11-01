@@ -23,12 +23,12 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 11/1/24,T: Classic synchronization problems,"[<a href=""https://docs.google.com/presentation/d/1KS5LCyN2MQ-QdVkPinhSYaBzrKI2rJ2AxZwFsUeJmFg/edit#slide=id.g310526591cc_0_237"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/efd98c35decece5d96abd5c402d9a8518e6a7ba0/inclass_programming/f24-ecs150"">Source</a>]",,,,
 11/4/24,Midterm review,,,,,
 11/6/24,Midterm,,,,,
-11/8/24,No class,,,"<b>Project 3 due</b>
+11/8/24,Midterm results,,,"<b>Project 3 due</b>
 <b>Project 4 out</b>",,
 11/11/24,No class: holiday,,,,,danger
-11/13/24,Midterm results,,,,,
-11/15/24,F: File system introduction,,,OSTEP: File system implementation,,
-11/18/24,F: TBD,,,OSTEP: Fast file system (FFS),,
+11/13/24,F: File system introduction,,,OSTEP: File system implementation,,
+11/15/24,F: TBD,,,OSTEP: Fast file system (FFS),,
+11/18/24,F: TBD,,,,,
 11/20/24,F: TBD,,,,,
 11/22/24,F: TBD,,,,,
 11/25/24,Networking and APIs,,,,,
