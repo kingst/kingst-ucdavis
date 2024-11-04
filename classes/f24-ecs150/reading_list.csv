@@ -21,7 +21,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 10/28/24,T: Monitors & condition variables,"[<a href=""https://docs.google.com/presentation/d/1XiO3QZ_NqGm6jlex1ZM6WcPJlp9uYZANszy0Zxu4WZw/edit#slide=id.g30f73f1e0ca_0_166"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/00c4f133d90a74319abe76bb9ee126db9a362412/inclass_programming/f24-ecs150"">Source</a>]",,OSTEP: Concurrency bugs,,
 10/30/24,T: Classic synchronization problems,"[<a href=""https://docs.google.com/presentation/d/1KS5LCyN2MQ-QdVkPinhSYaBzrKI2rJ2AxZwFsUeJmFg/edit#slide=id.g310526591cc_0_237"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/a0fa3fe48d2a9201913d900fa389027d3d25407f/inclass_programming/f24-ecs150"">Source</a>]",,,,
 11/1/24,T: Classic synchronization problems,"[<a href=""https://docs.google.com/presentation/d/1KS5LCyN2MQ-QdVkPinhSYaBzrKI2rJ2AxZwFsUeJmFg/edit#slide=id.g310526591cc_0_237"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/efd98c35decece5d96abd5c402d9a8518e6a7ba0/inclass_programming/f24-ecs150"">Source</a>]",,,,
-11/4/24,Midterm review,,,,,
+11/4/24,Midterm review,"[<a href=""https://docs.google.com/presentation/d/1p4dqOx-Xih8Karyzc9Pqen5HuDs2reIgh4Wsxfpi4Sg/edit?usp=sharing"">Slides</a>]",,,,
 11/6/24,Midterm,,,,,
 11/8/24,Midterm results,,,"<b>Project 3 due</b>,,
 11/11/24,No class: holiday,,,<b>Project 4 out</b>",,danger
