@@ -25,7 +25,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 11/6/24,Midterm,,,,,
 11/8/24,Midterm results,,,<b>Project 3 due</b>,,danger
 11/11/24,No class: Holiday,,,<b>Project 4 out</b>,,
-11/13/24,F: File system introduction,,,OSTEP: File system implementation,,
+11/13/24,F: File system introduction,"[<a href=""https://docs.google.com/presentation/d/1gu1lHJhbI0TvfDwYAneHBNgbmoms-Ws0W95lLIE8L74/edit?usp=sharing"">Slides</a>]",,OSTEP: File system implementation,,
 11/15/24,F: TBD,,,OSTEP: Fast file system (FFS),,
 11/18/24,F: TBD,,,,,
 11/20/24,F: TBD,,,,,
