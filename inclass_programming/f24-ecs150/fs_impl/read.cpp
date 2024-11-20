@@ -24,7 +24,9 @@ int read(int inodeNum, void *buffer, int size=1, int pos=5000) {
   //   file in whatever disk blocks we want
   int blockNum = inode.direct[index];
 
-  // let's assume that size does not cross block boundaries
+  // WARNING: let's assume that size does not cross block boundaries to simplify
+  //          our implementation
+
   // why do we need a local variable for block? Why not just use buffer directly?
   char block[UFS_BLOCK_SIZE];
   readDiskBlock(blockNum, block);
