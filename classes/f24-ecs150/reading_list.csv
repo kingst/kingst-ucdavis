@@ -29,7 +29,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 11/15/24,F: Introducing project 4,"[<a href=""https://docs.google.com/presentation/d/1Mc7XiXBvPKgJyblDjSMN6odksQSUmZh1c7oTy8-Crl0/edit?usp=sharing"">Slides</a>]",,,,
 11/18/24,F: File system implementation,"[<a href=""https://docs.google.com/presentation/d/1XJCdXkCsL5H1QAJX9rodnu-hHbbbneSgFXmG_a0vunY/edit?usp=sharing"">Slides</a>]",,OSTEP: File system implementation,,
 11/20/24,F:  File system implementation,"[<a href=""https://docs.google.com/presentation/d/1-0dc1ify4WC4S3qRjueEgULc36x14VchyEkCIpiJaHA/edit?usp=sharing"">Slides</a>]",,OSTEP: File system implementation,,
-11/22/24,F: File system implementation,,,OSTEP: Fast file system (FFS),,
+11/22/24,F: File system implementation,"[<a href=""https://docs.google.com/presentation/d/1JJBaiTRt_GcPvtj45My9kFjHf45i3jFzDKTAvLraIpA/edit?usp=sharing"">Slides</a>]",,OSTEP: Fast file system (FFS),,
 11/25/24,Networking and APIs,,,,,
 11/27/24,Networking and APIs,,,,,
 11/29/24,No class: Holiday,,,,,danger
