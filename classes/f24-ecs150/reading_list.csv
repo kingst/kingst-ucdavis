@@ -31,8 +31,8 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 11/20/24,F:  File system implementation,"[<a href=""https://docs.google.com/presentation/d/1-0dc1ify4WC4S3qRjueEgULc36x14VchyEkCIpiJaHA/edit?usp=sharing"">Slides</a>]",,OSTEP: File system implementation,,
 11/22/24,F: File system implementation,"[<a href=""https://docs.google.com/presentation/d/1JJBaiTRt_GcPvtj45My9kFjHf45i3jFzDKTAvLraIpA/edit?usp=sharing"">Slides</a>]",,OSTEP: Fast file system (FFS),,
 11/25/24,Networking and APIs,"[<a href=""https://docs.google.com/presentation/d/1WvG8gGzLVahfQWTBaqvcwL5dkpgG_Cpk5An3jZ29wZw/edit?usp=sharing"">Slides</a>]",,,,
-11/27/24,Networking and APIs,,,,,
+11/27/24,(Optional) Research,,,,,
 11/29/24,No class: Holiday,,,,,danger
-12/2/24,TBD,,,,,
-12/4/24,TBD,,,,,
-12/6/24,Final review,,,<b>Project 4 due</b>,,
+12/2/24,Final review part 1,,,,,
+12/4/24,(Optional) Advice and ask Sam anything,,,,,
+12/6/24,Final review part 2,,,<b>Project 4 due</b>,,
