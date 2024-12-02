@@ -16,6 +16,10 @@ int main(int argc, char *argv[]) {
   char *domain = argv[1];
   stringstream stream(argv[2]);
   stream >> port;
+
+  MySocket socket = MySocket(domain, port);
+  socket.write("Hello ecs 150!");
+  cout << "Response: " << socket.read() << endl;
   
   return 0;
 }
