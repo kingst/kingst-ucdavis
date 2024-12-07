@@ -1,9 +1,29 @@
 #define UCD      0
 #define SACSTATE 1
 
+mutex_t lock;
+cond_t bathroomFree;
+int currentTeam = UCD;
+int bathroomCount = 0;
 
 void goToRestroom(int myTeam, string studentId) {
-  toilet.use()
+  lock.lock();
+  while (bathroomCount > 0 && currentTeam != myTeam) {
+    wait(lock, bathroomFree);
+  }
+  currentTeam = myTeam;
+  bathroomCount += 1;
+  
+  lock.unlock();
+  toilet.use();
+  lock.lock();
+
+  bathroomCount -= 1;
+  if (bathroomCount == 0) {
+    broadcast(bathroomFree);
+  }
+
+  lock.unlock();
 }
 
 ////////////////////////////////////
