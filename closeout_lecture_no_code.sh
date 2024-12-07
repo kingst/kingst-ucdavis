@@ -12,7 +12,7 @@ slides_url=$1
 reading_list="classes/f24-ecs150/reading_list.csv"
 
 #today=`date +"%Y-%m-%d"`
-today="20241206"
+today="20241204"
 
 python3.10 add_lecture_to_reading_list.py  "${today}" "${reading_list}" "${slides_url}"
 
