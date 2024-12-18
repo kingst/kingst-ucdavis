@@ -1,86 +1,145 @@
 <!DOCTYPE html>
-<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/jumbotron/ -->
 <html lang="en">
   <head>
-    {% include 'templates/head.html' %}
-    <style> body { padding-top: 3.5rem; } </style>
-    <link href="/assets/custom.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+
+    <title>Sam King</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    
+    <style>
+      body { 
+        padding-top: 3.5rem;
+        background-color: #e9ecef;  /* Adjusted to match your screenshot */
+      }
+      
+      .content-container {
+        margin-top: 2rem;
+      }
+      
+      .content-section {
+        background-color: white;
+        border-radius: 8px;
+        padding: 2rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        margin-bottom: 2rem;
+      }
+      
+      .research-highlights {
+        margin-top: 2rem;
+      }
+      
+      .research-highlights li {
+        margin-bottom: 1rem;
+      }
+    </style>
   </head>
 
   <body>
-
     <main role="main">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Sam King</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      {% include 'templates/nav.html' %}
-
-      <div class="container">
-	<div class="col-md-12">
-	  <div style="height: 12px;"></div>
-          <div class="row">
-	    <div class="col-sm-6 col-md-6 col-lg-4 align-items-center d-flex">
-	      <img src="/assets/sam.jpg" class="img-fluid"/>
-	    </div>
-	    <div class="col-sm-6 col-md-6 col-lg-8 mycol">
-              <h3 class="text-center">Sam King (<a href="mailto:kingst@ucdavis.edu">email</a>)</h3>
-	      <h4 class="text-center">Computer Science @ UC Davis</h4>
-
-	      <p>
-		My research focus is on technology to manage Type 1
-		Diabetes. Managing Type 1 Diabetes is hard, and I
-		believe that novel software, hardware, and AI can help
-		make it easier.
-	      </p>
-
-	      <p>
-		I spent eight years in industry including time at two
-		startups that I founded, Twitter, Lyft, and Stripe. I
-		wrote a blog post about why I
-		moved <a href="http://blogs.nature.com/naturejobs/2018/04/30/from-academia-to-silicon-valley-and-back/">from
-		academia to industry and back</a>.
-	      </p>
-
-	      <p>
-		Previously I worked on computer
-		security. My <a href="research.html">Research</a> page
-		shows a nice summary of some of my past projects, and
-		my <a href="publications.html">Publications</a> page
-		shows a full list of my publications.
-	      </p>
-	    </div>
-	  </div>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="publications.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teaching.html">Teaching</a>
+            </li>
+          </ul>
         </div>
-	<div class="row">
-	  <div class="col-md-12 mycol">
-            <h3 class="text-center">Recent research highlights</h3>
-            <ul>
-	      <li><b>Video:</b> This <a href="https://www.youtube.com/watch?v=0SAoigEHjJ4&list=PLS7sMlgd1pNM0KIKUQ-3y0_NRBU6Q-64h&index=3">10 minute YouTube video</a> provides
-	      an overview of our research program on how CS can help
-	      improve the lives of people living with Type 1 Diabetes.
-	      </li>
-	      <li><b>Paper:</b> Here is our first <a href="/assets/dl/glucos.pdf">paper on Type 1
-	      Diabetes</a>! We go deep on security for automated insulin
-	      delivery systems.
-	      </li>
-	      <li><b>Impact:</b> Our humble UC Davis research software
-		for scanning credit cards to prevent fraud has run on
-		over <b>1 billion (!) devices</b>. Some of the largest
-		and most popular apps have used it for areas like food
-		delivery, vacation rentals, mobile payments, grocery
-		delivery, e-commerce, fashion, restaurants, and
-		more. In the
-		press <a href="https://tcrn.ch/3y8pr7Q">here</a> and <a href="https://research.ucdavis.edu/uc-davis-affiliated-startup-developing-ecommerce-fraud-prevention-solutions-acquired-by-stripe/">here</a>, and
-		the papers about the systems that led directly to this impact are here
-		(<a href="/assets/dl/sec20-din.pdf">Boxer</a>, <a href="/assets/dl/daredevil_oakland2021.pdf">DareDevil</a>).
-	      </li>
-            </ul>
-          </div>
-	</div>
-      </div>
-      </div>
+      </nav>
 
+      <div class="container content-container">
+        <div class="content-section">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4 align-items-center d-flex">
+              <img src="/assets/sam.jpg" class="img-fluid"/>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-8">
+              <h3 class="text-center">Sam King (<a href="mailto:kingst@ucdavis.edu">email</a>)</h3>
+              <h4 class="text-center">Computer Science @ UC Davis</h4>
+
+              <p>
+                My research focus is on technology to manage Type 1
+                Diabetes. Managing Type 1 Diabetes is hard, and I
+                believe that novel software, hardware, and AI can help
+                make it easier.
+              </p>
+
+              <p>
+                I spent eight years in industry including time at two
+                startups that I founded, Twitter, Lyft, and Stripe. I
+                wrote a blog post about why I
+                moved <a href="http://blogs.nature.com/naturejobs/2018/04/30/from-academia-to-silicon-valley-and-back/">from
+                academia to industry and back</a>.
+              </p>
+
+              <p>
+                <b>Fun fact:</b> I'm the most hard-core biohacker at
+                UC Davis, bar none. No, I don't microdose or take
+                drugs and I barely even take supplements. Yet, it's
+                not even close. I'm by far the most hard-core
+                biohacker on campus.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section">
+          <h3 class="text-center">Recent research highlights</h3>
+          <ul>
+            <li><b>Video:</b> This <a href="https://www.youtube.com/watch?v=0SAoigEHjJ4&list=PLS7sMlgd1pNM0KIKUQ-3y0_NRBU6Q-64h&index=3">10 minute YouTube video</a> provides
+            an overview of our research program on how CS can help
+            improve the lives of people living with Type 1 Diabetes.
+            </li>
+            <li><b>Paper:</b> Here is our first <a href="/assets/dl/glucos.pdf">paper on Type 1
+            Diabetes</a>! We go deep on security for automated insulin
+            delivery systems.
+            </li>
+            <li><b>Impact:</b> Our humble UC Davis research software
+              for scanning credit cards to prevent fraud has run on
+              over <b>1 billion (!) devices</b>. Some of the largest
+              and most popular apps have used it for areas like food
+              delivery, vacation rentals, mobile payments, grocery
+              delivery, e-commerce, fashion, restaurants, and
+              more. In the
+              press <a href="https://tcrn.ch/3y8pr7Q">here</a> and <a href="https://research.ucdavis.edu/uc-davis-affiliated-startup-developing-ecommerce-fraud-prevention-solutions-acquired-by-stripe/">here</a>, and
+              the papers about the systems that led directly to this impact are here
+              (<a href="/assets/dl/sec20-din.pdf">Boxer</a>, <a href="/assets/dl/daredevil_oakland2021.pdf">DareDevil</a>).
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
 
-    {% include 'templates/footer.html' %}
-
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+            integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+            crossorigin="anonymous"></script>
   </body>
 </html>
