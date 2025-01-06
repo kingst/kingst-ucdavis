@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+    <style> body { padding-top: 3.5rem; } </style>
+  </head>
+
+  <body>
+
+    {% include 'templates/nav.html' %}
+
+    <main role="main">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+            <br>
+            <h2>Grading</h2>
+            <p>
+              <h5>Turning in work and late policy</h5> Late work will
+              receive no credit. However, you have two free "late
+              days" that you can use at anytime during the quarter on
+              a project. Pragmatically, we give you 48 hours of late
+              time total over the quarter that you can use on your
+              projects. The purpose of these late days is to help you
+              deal with unexpected events, including getting sick,
+              going to the doctor, or any other events that might
+              cause you to turn in your homework late.
+	    </p>
+
+	    <p>
+	      Since we have a formal late day policy that provides students with flexibility, we will not make any other exceptions to our due date policies, even if you get sick or have a doctor's note.
+	    </p>
+
+	    <p>We will track late days automatically, and the
+	    autograder will give you a "0" if you submit without any
+	    late time left. With each submission we let you know how
+	    much late time you have remaining, so keep an eye on
+	    this.</p>
+
+
+            <p>
+            <h5>Cheating policy</h5>
+              I have a no tolerance policy on cheating, which includes
+              copying from friends and plagarism. If you get caught
+              cheating, you will get an F in this class and I will
+              turn you into the univerisity's academic integrity
+              group.
+            </p>
+
+            <p>
+            <h5>Grade breakdown</h5> Your grade will be composed of
+            the following items:
+            </p>
+            <table class="table table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Item</th>
+                  <th>Percent</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="quizzes.html">Midterm</a></td><td>20%</td>
+                  <td>
+		    We will have one midterm this quarter worth 20% of
+		    your final grade.
+                  </td>
+                </tr>
+		<tr>
+                  <td><a href="quizzes.html">Final</a></td><td>30%</td>
+                  <td>
+		    The final this quarter is worth 30% of
+		    your final grade.
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="project.html">Projects</a></td><td>50%</td>
+                  <td>
+		    You will have four programming projects this
+		    quarter that are increasing in difficulty, for a
+		    total of 50% of your grade. The first project is
+		    on the process abstraction (5%), the second is on
+		    system APIs (10%), the third is on threads and
+		    concurrency (15%) and the fourth is a distributed
+		    file system (20%).
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p>
+              <h5>Adjusting grades for tests and assignments</h5> If
+	      there is a test or assignment with an average that is
+	      low (e.g., below 75%) we will consider curving it. There
+	      are two points during the quarter when we apply curves:
+	      after we grade the midterm and after we grade the
+	      final. After the midterm, we will apply curves using
+	      a <a href="https://divisbyzero.com/2008/12/22/how-to-curve-an-exam-and-assign-grades/">root
+	      curve</a> to adjust up the average for that test or
+	      assignment. We will curve so that the weighted average
+	      of the first three projects and the midterm is around
+	      85%. Once we set a curve for a test or assignment, it is
+	      fixed for the remainder of the quarter. We repeat this
+	      process after the final, looking at Project 4 and the
+	      final for potential curving. At the end of the class,
+	      our expectation is that the average and median for the
+	      class will be around 85% overall.
+	    </p>
+	    <p>
+	      At the end of the quarter, we will set the breakpoints
+	      for A/B/C etc after we review all of the grades in the
+	      class. We will <i>not</i> make them higher than the
+	      traditional 90/80/70 levels, but we may make them
+	      lower. We will leave the default breakpoints from Canvas
+	      in place until the end, so please don't be surprised if
+	      these change after we review all of the final grades
+	      from the class.
+	    </p>
+	    <p>
+	      Our goal with this grade adjustment policy is to be
+	      consistent with grading best practices in upper-division
+	      classes taught in the CS department here at UC Davis.
+	    </p>
+
+	    <p>
+              <h5>Grade rounding policy</h5> Final grades in this
+	      course are calculated precisely according to the grading
+	      scheme outlined in the syllabus, and these grades are
+	      final. The course does not round up grades or make
+	      individual adjustments, regardless of how close a
+	      student may be to the next grade threshold.
+	    </p>
+	    <p>
+	      This policy is designed to ensure:
+	      <ul>
+		<li><b>Fairness and Consistency:</b> Every student's
+		grade is calculated using the same mathematical
+		criteria. Making individual adjustments would
+		inevitably create inequities between students who ask
+		for grade changes and those who don't.</li>
+		<li><b>Transparency:</b> The grading criteria are
+		clearly defined at the beginning of the quarter and
+		applied uniformly to all students.</li>
+		<li><b>Academic Integrity:</b> Grade thresholds are
+		meaningful boundaries that reflect specific levels of
+		course achievement. Moving these boundaries for
+		individual students would compromise the integrity of
+		our grading system.</li>
+	      </ul>
+	    </p>
+	    <p>
+	      <b>What if I'm only 0.1% away from the next
+	      grade?</b><br>  The policy applies equally to all grade margins,
+	      whether 0.1% or 1% away from the threshold.  Any cutoff point will
+	      naturally have students just below it.<br><br>
+
+	      <b>Can I do extra credit to raise my grade after the
+	      quarter ends?</b><br>  No. All opportunities for earning
+	      course credit are outlined in the syllabus and must be
+	      completed during the quarter.<br><br>
+
+	      <b>What if I need a certain grade for my
+	      major/scholarship/etc.?</b><br>  While I understand
+	      these concerns, maintaining consistent grading standards
+	      is essential for the integrity of the course. I
+	      encourage you to work towards your grade goals
+	      throughout the quarter rather than seeking adjustments
+	      after final grades are calculated.<br><br>
+	    </p>
+	    <p>
+	      <b>Additional Support</b><br>
+    
+	      If you are concerned about your grade during the quarter, please:
+	      <ul>
+		<li>Review your current standing regularly in the course management system</li>
+		<li>Attend office hours for additional help</li>
+		<li>Seek assistance early if you're struggling with course material</li>
+		<li>Take advantage of all learning opportunities and assignments when they are offered</li>
+	      </ul>
+
+	      Your success in this course is important to me, which is why I maintain clear, consistent, and fair grading practices for all students.
+	    </p>
+	      
+          </div>
+        </div>
+
+
+        <hr>
+      </div> <!-- /container -->
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>
