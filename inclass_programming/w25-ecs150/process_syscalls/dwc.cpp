@@ -12,5 +12,12 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
+  int fd;
 
+  if (argc == 1) {
+    fd = STDIN_FILENO;
+  } else {
+    fd = open(argv[1], O_RDONLY);
+  }
+  
 }
