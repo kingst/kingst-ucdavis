@@ -4,7 +4,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 1/10/25,P: OS Architectures,"[<a href=""https://docs.google.com/presentation/d/1ZZWFDs55Exfk3s5cjRMyuMRaGbf3oNrpHYh5YlDft_o/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/409f0506a7947d313fc5807730465a11fca4b18d/inclass_programming/w25-ecs150"">Source</a>]",,"OSTEP: Process APIs
 <br><b>Project 1 out</b>",,
 1/13/25,P: Process APIs,"[<a href=""https://docs.google.com/presentation/d/1ZZWFDs55Exfk3s5cjRMyuMRaGbf3oNrpHYh5YlDft_o/edit?usp=sharing"">Slides</a>]",,OSTEP: Process APIs,,
-1/15/25,A: Address space and translation,,,"OSTEP: Address Space, Address translation and OSTEP: Direct Execution",,
+1/15/25,A: Address space and translation,"[<a href=""https://docs.google.com/presentation/d/1HIsp7soyBpVBJjwp3WDYqHwr1G1EF9HjA3OWV9axAYo/edit?usp=sharing"">Slides</a>]",,"OSTEP: Address Space, Address translation and OSTEP: Direct Execution",,
 1/17/25,T: Concurrency and threads,,,"OSTEP: Concurrency and threads
 <br><b>Project 1 due</b>
 <br><b>Project 2 out</b>",,
