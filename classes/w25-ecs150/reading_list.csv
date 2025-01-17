@@ -12,10 +12,9 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 1/22/25,T: Concurrency and threads,,,OSTEP: Thread API,,
 1/24/25,T: Pthreads,,,OSTEP: Thread API,,
 1/27/25,T: Atomicity,,,OSTEP: Concurrency and threads,,
-1/29/25,T: Synchronization,,,"OSTEP: Concurrency and threads
-<br><b>Project 2 due</b>
+1/29/25,T: Synchronization,,,"OSTEP: Concurrency and threads",,
+1/31/25,T: Locks,,,"OSTEP: Locks<br><b>Project 2 due</b>
 <br><b>Project 3 out</b>",,
-1/31/25,T: Locks,,,OSTEP: Locks,,
 2/3/25,T: Monitors & condition variables,,,OSTEP: Locked data structures,,
 2/5/25,T: Monitors & condition variables,,,OSTEP: Condition variables,,
 2/7/25,T: Monitors & condition variables,,,OSTEP: Concurrency bugs,,

@@ -13,10 +13,8 @@ reading_list="classes/w25-ecs150/reading_list.csv"
 
 git commit -a -m "End of lecture"
 git push
-#today=`date +"%Y-%m-%d"`
-today="2025-01-10"
-#sha=`git rev-parse HEAD`
-sha="1bc0fbd577f849a6f5d3afe37645475ed18a3dce"
+today=`date +"%Y-%m-%d"`
+sha=`git rev-parse HEAD`
 github_url="https://github.com/kingst/kingst-ucdavis/tree/${sha}/inclass_programming/w25-ecs150"
 
 python3.10 add_lecture_to_reading_list.py  "${today}" "${reading_list}" "${slides_url}" "${github_url}"
