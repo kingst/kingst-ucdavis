@@ -17,5 +17,25 @@ using namespace std;
 // to actually use the software.
 
 int main(int argc, char *argv[]) {
-  
+  vector<int> fdVec;
+  fdVec.push_back(STDIN_FILENO);
+
+  for(int idx = 1; idx < argc; idx++) {
+    int fd = open(argv[idx], O_RDONLY);
+    fdVec.push_back(fd);
+  }
+
+  // loop through each fd one-by-one and print out the contents
+  for (int idx = 0; idx < fdVec.size(); idx++) {
+    int fd = fdVec[idx];
+    char buffer[4096];
+    int ret;
+
+    while ((ret = read(fd, buffer, sizeof(buffer))) > 0) {
+      write(STDOUT_FILENO, buffer, ret);
+    }
+
+    close(fd);
+  }
+  return 0;
 }
