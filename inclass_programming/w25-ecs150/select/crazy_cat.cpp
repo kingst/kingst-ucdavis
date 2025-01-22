@@ -27,15 +27,29 @@ int main(int argc, char *argv[]) {
 
   // loop through each fd one-by-one and print out the contents
   for (int idx = 0; idx < fdVec.size(); idx++) {
-    int fd = fdVec[idx];
-    char buffer[4096];
-    int ret;
+    int forkRet = fork();
+    if (forkRet == 0) {
+      // child
+      int fd = fdVec[idx];
+      char buffer[4096];
+      int ret;
 
-    while ((ret = read(fd, buffer, sizeof(buffer))) > 0) {
-      write(STDOUT_FILENO, buffer, ret);
+      while ((ret = read(fd, buffer, sizeof(buffer))) > 0) {
+	write(STDOUT_FILENO, buffer, ret);
+      }
+
+      close(fd);
+      return 0;
+    } else {
+      // parent
     }
-
-    close(fd);
   }
+
+  for (int idx = 0; idx < fdVec.size(); idx++) {
+    wait(NULL);
+  }
+
+  cout << "all done!" << endl;
+  
   return 0;
 }
