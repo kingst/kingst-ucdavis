@@ -27,6 +27,20 @@ void write_file_to_stdout(int fd) {
   close(fd);
 }
 
+struct ThreadArgs {
+  int fd;
+  // int maxBytes
+  // double maxTime
+};
+
+void *fileThread(void *arg) {
+  struct ThreadArgs *threadArgs = (struct ThreadArgs *) arg;
+  int fd = threadArgs->fd;
+  write_file_to_stdout(fd);
+  delete threadArgs;
+  return NULL;
+}
+
 int main(int argc, char *argv[]) {
   vector<int> fdVec;
   fdVec.push_back(STDIN_FILENO);
@@ -37,9 +51,19 @@ int main(int argc, char *argv[]) {
   }
 
   // loop through each fd one-by-one and print out the contents
+  vector<pthread_t> threads;
   for (int idx = 0; idx < fdVec.size(); idx++) {
     int fd = fdVec[idx];
-    write_file_to_stdout(fd);
+    struct ThreadArgs *threadArgs = new struct ThreadArgs;
+    threadArgs->fd = fd;
+    pthread_t threadId;
+    pthread_create(&threadId, NULL, fileThread, threadArgs);
+    threads.push_back(threadId);
+    threadArgs = NULL;
+  }
+
+  for (int idx = 0; idx < threads.size(); idx++) {
+    pthread_join(threads[idx], NULL);
   }
   
   cout << "All done!" << endl;
