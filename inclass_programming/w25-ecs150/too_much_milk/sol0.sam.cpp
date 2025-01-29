@@ -1,4 +1,4 @@
 // Sam thread
-if (noMilk) {  //
-  buyMilk();   //
+if (noMilk) {  // (1)
+  buyMilk();   // (3)
 }

@@ -1,7 +1,7 @@
 // Sam thread
-if (!note) {     //
+if (!note) {     // (1)
   // leave note
-  note = true;   //
+  note = true;   // (3)
   if (noMilk) {  //
     buyMilk();   //
   }

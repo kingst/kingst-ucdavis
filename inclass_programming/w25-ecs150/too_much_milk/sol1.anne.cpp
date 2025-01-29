@@ -1,7 +1,7 @@
 // Anne thread
-if (!note) {     //
+if (!note) {     // (2)
   // leave note
-  note = true;   //
+  note = true;   // (4)
   if (noMilk) {  //
     buyMilk();   //
   }
