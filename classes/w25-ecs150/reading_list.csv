@@ -12,7 +12,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 1/22/25,T: Concurrency and threads,"[<a href=""https://docs.google.com/presentation/d/13Lxsm51Cl7hbowe-lwGrNr-s6O387MGkTtW7bjIx7Bs/edit#slide=id.g2fa0d5366fd_0_28"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/f59e3b5b0170dbf23a4f4ed86dff18375a949334/inclass_programming/w25-ecs150"">Source</a>]",,OSTEP: Thread API,,
 1/24/25,T: Pthreads,"[<a href=""https://docs.google.com/presentation/d/1ypSbCSiu8CONw9y6K68l-wQG2qHiiBw58KHx-gu4p0w/edit#slide=id.p"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/f62d894b358d455e4396209fff24a413409d18f4/inclass_programming/w25-ecs150"">Source</a>]",,OSTEP: Thread API,,
 1/27/25,T: Atomicity,"[<a href=""https://docs.google.com/presentation/d/1zrvzKn5ec8uRnsSXhdQ5YzNyDc-WQ46mTMv41lfVzto/edit#slide=id.p"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/72ebe1f44e3794c6addcbcc091fb3722a8701962/inclass_programming/w25-ecs150"">Source</a>]",,OSTEP: Concurrency and threads,,
-1/29/25,T: Synchronization,"[<a href=""https://docs.google.com/presentation/d/1oLQobevhz-tgHdXpleStC5p-9BvUh2ydsTkSgAUiw8Q/edit?usp=sharing"">Slides</a>]",,OSTEP: Concurrency and threads,,
+1/29/25,T: Synchronization,"[<a href=""https://docs.google.com/presentation/d/1oLQobevhz-tgHdXpleStC5p-9BvUh2ydsTkSgAUiw8Q/edit#slide=id.g30c3fc1de3a_0_251"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/3b458e87249bbe6b370f84759be866d3e4aabc5b/inclass_programming/w25-ecs150"">Source</a>]",,OSTEP: Concurrency and threads,,
 1/31/25,T: Locks,,,"OSTEP: Locks<br><b>Project 2 due</b>
 <br><b>Project 3 out</b>",,
 2/3/25,T: Monitors & condition variables,,,OSTEP: Locked data structures,,
