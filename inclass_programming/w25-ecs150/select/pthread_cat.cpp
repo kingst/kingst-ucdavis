@@ -17,12 +17,16 @@ using namespace std;
 // projects in this class and in general if you want
 // to actually use the software.
 
+pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
+
 void write_file_to_stdout(int fd) {
   char buffer[4096];
   int ret;
 
   while ((ret = read(fd, buffer, sizeof(buffer))) > 0) {
+    pthread_mutex_lock(&lock);
     write(STDOUT_FILENO, buffer, ret);
+    pthread_mutex_unlock(&lock);
   }
   close(fd);
 }

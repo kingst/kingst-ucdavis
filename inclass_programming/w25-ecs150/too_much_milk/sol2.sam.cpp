@@ -1,9 +1,11 @@
 // Sam thread
-samNote = true;  //
-if (!anneNote) { //
+samNote = true;  // (1)
+if (!anneNote) { // (3)
   if (noMilk) {  //
     buyMilk();   //
   }
 }
 // remove note
-samNote = false; //
+samNote = false; // (6)
+
+// no milk!!!
