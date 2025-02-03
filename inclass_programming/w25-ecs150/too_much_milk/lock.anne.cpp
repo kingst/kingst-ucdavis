@@ -1,8 +1,8 @@
 
 
 
-lock()            // 
-if(noMilk && noNote) {
+lock()            // (5)
+if(noMilk /* (6) */ && noNote /*(9)*/ ) {
   noNote = false; // 
   unlock();       // 
   buyMilk();      // 
