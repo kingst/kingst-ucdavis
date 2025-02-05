@@ -16,7 +16,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 1/31/25,T: Locks,"[<a href=""https://docs.google.com/presentation/d/1Uvofmyu8smo0vclx0VZipVyuB1A0PHhONrBCm5d6Pkk/edit#slide=id.g30d19ea78c7_0_418"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/0f230e27e2d429fbe646eae37312c106505ca5c3/inclass_programming/w25-ecs150"">Source</a>]",,"OSTEP: Locks<br><b>Project 2 due</b>
 <br><b>Project 3 out</b>",,
 2/3/25,T: Monitors & condition variables,"[<a href=""https://docs.google.com/presentation/d/1S_Yw9rGXEOZgzIbiutIUOVYhIp9ma9VqVs1QgW_8mGY/edit#slide=id.g30de90f3aa0_0_307"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/a9d1dddcaa054d625f45df1a479ccd098e92ca35/inclass_programming/w25-ecs150"">Source</a>]",,OSTEP: Locked data structures,,
-2/5/25,T: Monitors & condition variables,,,OSTEP: Condition variables,,
+2/5/25,T: Monitors & condition variables,"[<a href=""https://docs.google.com/presentation/d/15a02kiHRvsbZOFDV8LgaQzw6eQ3kcVgf56kIxepdTv4/edit?usp=sharing"">Slides</a>]",,OSTEP: Condition variables,,
 2/7/25,T: Monitors & condition variables,,,OSTEP: Concurrency bugs,,
 2/10/25,T: Classic synchronization problems,,,,,
 2/12/25,T: Classic synchronization problems,,,,,
