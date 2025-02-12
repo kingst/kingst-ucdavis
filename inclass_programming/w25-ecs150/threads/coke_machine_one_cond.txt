@@ -1,0 +1,24 @@
+// assume numCokes==0, maxCokes==1
+cons1:
+  - wait
+
+cons2:
+  - wait
+
+prod1:
+  - adds coke
+  - signal, wake up cons2
+
+prod2:
+  - grabs lock before cons2
+  - wait
+
+cons2:
+  - grabs coke
+  - signal, wait up cons1
+
+cons1:
+  - no cokes
+  - wait
+
+cons1 and prod2 both waiting but prod2 can run since there is room
