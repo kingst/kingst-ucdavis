@@ -27,7 +27,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 2/24/25,F: Introducing project 4,"[<a href=""https://docs.google.com/presentation/d/1GkuWx9zOkRj5oDUneLomIWCu477uPozP78PtfvAhsDs/edit?usp=sharing"">Slides</a>]",,,,
 2/26/25,F: File system implementation,"[<a href=""https://docs.google.com/presentation/d/1TeZzP5mJbKxB8PUriuDkVAKm6Ha6QYr27Vgjt142esw/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/aa84f68730673c5d15787b764d3e7b16cf4d5c3c/inclass_programming/w25-ecs150"">Source</a>]",,OSTEP: File system implementation,,
 2/28/25,F:  File system implementation,"[<a href=""https://docs.google.com/presentation/d/1Hzd7K1AqXeQQzkwDitvx233WMbsG9LkCbWlVb-tCRb0/edit#slide=id.g316d09aaa7c_0_721"">Slides</a>]",,OSTEP: File system implementation,,
-3/3/25,F: File system implementation,,,OSTEP: Fast file system (FFS),,
+3/3/25,F: File system implementation,"[<a href=""https://docs.google.com/presentation/d/1MlTKy7GR8WdhIOw5JcsgPWWgmmByXdAeBx7LOcleo2w/edit?usp=sharing"">Slides</a>]",,OSTEP: Fast file system (FFS),,
 3/5/25,(Optional) Research talk,,,,,
 3/7/25,(Optional) Hacking in class: Project 4,,,,,
 3/10/25,Final review part 1,,,,,
