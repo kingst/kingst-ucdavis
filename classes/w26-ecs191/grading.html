@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'templates/head.html' %}
+    <style> body { padding-top: 3.5rem; } </style>
+  </head>
+
+  <body>
+
+    {% include 'templates/nav.html' %}
+
+    <main role="main">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+            <br>
+            <h2>Grading</h2>
+
+            <p>
+            <h5>Grade breakdown</h5> Your grade will be composed of
+            the following items:
+            </p>
+            <table class="table table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Item</th>
+                  <th>Percent</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="homework.html">Homework</a></td><td>15%</td>
+                  <td>
+                    Two individual homework assignments worth 7.5% each
+                  </td>
+                </tr>
+		<tr>
+		  <td>Participation</td><td>10%</td>
+		  <td>Exact mechanism TBD</td>
+		</tr>
+                <tr>
+                  <td><a href="project.html">Project</a></td><td>75%</td>
+                  <td>
+                    Proposal 5%, milestone 0 10%, milestone 1 10%, milestone 2 10%, demo
+                    15%, pitch 5%, final project 20%
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p>
+            <h5>Grade scale</h5>
+              I grade on a straight grade scale. Although most of the
+              points in this class will come towards the end of the
+              quarter, the milestones will help give you a sense of
+              how well you are doing on the final project.
+            </p>
+            <table class="table table-bordered table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Grade</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>A</td><td>[93, 100]</td></tr>
+                <tr><td>A-</td><td>[90, 93)</td></tr>
+                <tr><td>B+</td><td>[87, 90)</td></tr>
+                <tr><td>B</td><td>[83, 87)</td></tr>
+                <tr><td>B-</td><td>[80, 83)</td></tr>
+                <tr><td>C+</td><td>[77, 80)</td></tr>
+                <tr><td>C</td><td>[73, 77)</td></tr>
+                <tr><td>C-</td><td>[70, 73)</td></tr>
+                <tr><td>D</td><td>[60, 70)</td></tr>
+                <tr><td>F</td><td>[0, 60)</td></tr>
+              </tbody>
+            </table>
+
+	    <p>
+              <h5>Turning in work and late policy</h5> Late work will
+              receive no credit.
+	    </p>
+
+            <p>
+            <h5>Cheating policy</h5>
+              I have a no tolerance policy on cheating, which includes
+              copying from friends and plagarism. If you get caught
+              cheating, you will get an F in this class and I will
+              turn you into the univerisity's academic integrity
+              group.
+            </p>
+	    
+          </div>
+        </div>
+
+
+        <hr>
+      </div> <!-- /container -->
+    </main>
+
+    {% include 'templates/footer.html' %}
+
+  </body>
+</html>
