@@ -11,35 +11,168 @@
     <main role="main">
 
       <div class="container">
-        <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-12">
             <h2>Homework</h2>
-	    
-	    <p>
-	      During this quarter we are going to have 2 individual
-	      programming assignments where you get experience with AI
-	      programming tools and come up with app ideas.
-	    </p>
 
-	    <p>
-	      Although each student is responsible for turning in
-	      their own homework, we strongly encourage students to
-	      work together. Everyone has to come up with their own
-	      solution, but we want people to talk about concepts
-	      together and help each other out when stuck.
-	    </p>
+            <p>
+              During this quarter we are going to have 2 individual homework
+              assignments where you get experience with AI programming tools and
+              come up with app ideas.
+            </p>
 
-	    <p>
-	      You are required to use Claude Code (Opus 4.5) for the
-	      programming assignment and encouraged to use AI tools if
-	      their helpful for coming up with ideas for your app.
-	    </p>
-	    
-	    <p>
-	      We will use Canvas to distribute and submit the four
-	      programming assingments this quarter.
-	    </p>
+            <ul>
+              <li><a href="#homework1">Homework 1</a></li>
+              <li><a href="#homework2">Homework 2</a></li>
+            </ul>
+
+            <p>
+              Although each student is responsible for turning in their own
+              homework, we strongly encourage students to work together. Everyone
+              has to come up with their own solution, but we want people to talk
+              about concepts together and help each other out when stuck.
+            </p>
+
+            <p>
+              We will use Canvas to submit homework assignments this quarter.
+            </p>
+
+            <hr>
+
+            <h3 id="homework1">ECS 191: Homework 1 &mdash; Unix Utilities with AI-Assisted Development</h3>
+
+            <h4>Overview</h4>
+
+            <p>
+              In this assignment, you'll use <strong>Claude Code</strong> (an AI-powered coding
+              assistant) to build simplified versions of common Unix utilities, then
+              extend one of them with a new feature. This assignment introduces you
+              to AI-assisted development.
+            </p>
+
+            <p><strong>What you'll build:</strong></p>
+            <ul>
+              <li>Four Unix utilities: <code>wcat</code>, <code>wgrep</code>, <code>wzip</code>, and <code>wunzip</code></li>
+              <li>A line numbering feature (<code>-n</code> flag) for <code>wcat</code></li>
+              <li>Test cases for your new feature</li>
+            </ul>
+
+            <p><strong>What you'll submit:</strong></p>
+            <ul>
+              <li>Your specification for the <code>-n</code> feature that you use as an input to Claude Code</li>
+              <li><code>wcat.cpp</code> (with the <code>-n</code> flag implemented)</li>
+              <li>Appropriate test files for your feature</li>
+              <li>A brief reflection (see below)</li>
+            </ul>
+
+            <p><strong>Prerequisites:</strong></p>
+            <ul>
+              <li>Download the repo to your machine from <a href="https://github.com/kingst/ecs150-projects">ECS 150 Projects on GitHub</a> and read the <a href="https://github.com/kingst/ecs150-projects/tree/main/project1">README for Project 1</a></li>
+            </ul>
+
+            <pre><code>$ git clone https://github.com/kingst/ecs150-projects.git</code></pre>
+
+            <h4>Part 1: Build the Base Utilities</h4>
+
+            <h5>Your Task</h5>
+            <p>Use Claude Code to implement all four utilities from the ECS 150 Project 1 specification:</p>
+            <ul>
+              <li><code>wcat.cpp</code> - concatenate and print files</li>
+              <li><code>wgrep.cpp</code> - search for patterns in files</li>
+              <li><code>wzip.cpp</code> - compress files using run-length encoding</li>
+              <li><code>wunzip.cpp</code> - decompress files</li>
+            </ul>
+
+            <h5>Requirements</h5>
+            <ul>
+              <li>All utilities must use <code>open()</code>, <code>read()</code>, <code>write()</code>, and <code>close()</code> for I/O</li>
+              <li>Code must compile with <code>g++ -g -o &lt;program&gt; &lt;program&gt;.cpp -Wall -Werror</code></li>
+              <li>All utilities must pass the ECS 150 test cases (available in the repo)</li>
+            </ul>
+
+            <h5>Using Claude Code</h5>
+            <p>
+              Claude Code is a terminal-based AI coding assistant. The README.md we
+              provide plus the test cases should be enough for Claude Code to
+              complete project 1. Provide a prompt to let Claude Code know about the
+              spec and how to run the test cases and have it solve each of the
+              utilities one-by-one.
+            </p>
+
+            <h4>Part 2: Add Line Numbering to wcat</h4>
+
+            <h5>Feature Specification</h5>
+            <p>
+              Extend your <code>wcat</code> implementation to support an optional <code>-n</code> flag
+              that prepends line numbers to each line of output, matching the
+              behavior of standard Unix <code>cat -n</code>.
+            </p>
+
+            <p>
+              We are leaving the specification fairly sparse because having you
+              create a spec is part of the assignment.
+            </p>
+
+            <h5>Writing Test Cases</h5>
+            <p>
+              You need to add test cases to the standard testing framework for
+              project 1. You should have test cases to test out the basic feature
+              plus any edge cases (e.g., multiple files). When in doubt, match the
+              behavior of Unix <code>cat</code>. <em>Hint:</em> Claude Code can help you understand
+              how the test cases work and create new ones, with some guidance.
+            </p>
+
+            <h5>Development Approach</h5>
+            <ol>
+              <li><strong>Write a specification:</strong> Write a simple prompt that explains the feature. You'll use this to get Claude Code to generate your implementation.</li>
+              <li><strong>Write your tests:</strong> Create comprehensive test cases for the new feature</li>
+              <li><strong>Write your code:</strong> Use Claude Code to create the new feature and test it, fixing issues that arise</li>
+              <li><strong>Verify:</strong> Ensure all original tests still pass</li>
+            </ol>
+
+            <h4>Submission Requirements</h4>
+            <p>Submit the following files via Gradescope:</p>
+            <ol>
+              <li><strong>wcat.md</strong> &mdash; Your specification for the <code>-n</code> flag feature, used as an input to Claude Code</li>
+              <li><strong>wcat.cpp</strong> &mdash; Your implementation with the <code>-n</code> flag</li>
+              <li><strong>test files</strong> &mdash; Your test files (must be loadable in the standard Project 1 test suite)</li>
+              <li><strong>reflection.md</strong> &mdash; A brief reflection (300 words max) addressing:
+                <ul>
+                  <li>How did using Claude Code change your development process?</li>
+                  <li>What challenges did you encounter with AI-assisted development?</li>
+                  <li>Did you understand the code Claude Code generated? How did you verify this?</li>
+                  <li>How did you decide what tests to write?</li>
+                </ul>
+              </li>
+            </ol>
+
+            <h4>Grading Criteria</h4>
+            <ul>
+              <li><strong>Line numbering feature (80%):</strong> <code>-n</code> flag works correctly</li>
+              <li><strong>Code quality (10%):</strong> Clean, readable, properly commented</li>
+              <li><strong>Reflection (10%):</strong> Thoughtful analysis of AI-assisted development</li>
+            </ul>
+
+            <h4>Academic Integrity</h4>
+            <ul>
+              <li>You are required to use Claude Code for this assignment &mdash; no manually written code is allowed</li>
+              <li>You must understand all code you submit</li>
+              <li>You may discuss approaches with classmates but not share code, tests, or specifications</li>
+              <li>Your reflection must be your own original writing</li>
+            </ul>
+
+            <p>Good luck!</p>
+
+            <hr>
+
+            <h3 id="homework2">ECS 191: Homework 2 &mdash; Coming up with ideas</h3>
+
+            <p>Details TBD</p>
+
+            <h4>Part 1 &mdash; Ideas</h4>
+
+            <h4>Part 2 &mdash; Present the idea you want to work on to the class</h4>
+
           </div>
         </div>
         <hr>

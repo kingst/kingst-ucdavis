@@ -52,7 +52,7 @@ Use Claude Code to implement all four utilities from the ECS 150 Project 1 speci
 ### Requirements
 - All utilities must use `open()`, `read()`, `write()`, and `close()` for I/O
 - Code must compile with `g++ -g -o <program> <program>.cpp -Wall -Werror`
-- All utilities must pass the ECS 150 test cases (available on Gradescope)
+- All utilities must pass the ECS 150 test cases (available in the repo)
 
 ### Using Claude Code
 
