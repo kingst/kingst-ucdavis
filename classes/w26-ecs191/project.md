@@ -242,6 +242,29 @@ can test out how well it solves the problem you're working on for
 these people. Since classmates will be using it, your app can have
 some rough edges as they will be understanding.
 
+**What to turn in:**
+
+- A link to your github repo that includes all of the documents +
+  source code that you have thus far, including `classmate_summary.md`
+  and `classmate_details.md`.
+
+- A `classmate_summary.md` file that concisely summarizes what you
+  learned from your classmates using your app
+
+- A `classmate_details.md` file that shows the raw notes from your
+  conversations. _Hint:_ Take notes as you talk to people and this
+  requirement should be easy.
+
+**When we meet:**
+
+- Be ready to show us your app working either on a simulator or a real
+  device.
+
+- Have a two sentence description of your app.
+
+- Be ready to talk about what you learned from your classmates using
+  your app _and_ what you thought of their app.
+
 #### Final project
 
 At the end of the quarter, you will submit your final project. This
@@ -258,13 +281,6 @@ that people are unable to use due to bugs or difficult UI/UX will
 result in a significant loss in points. Having a smooth experience
 that people hate will make you eligible for full credit.
 
-#### Pitch and demo
-
-During the final timeslot, you will give a pitch for your app and
-demonstrate what you have so far. The details for what we're expecting
-here will be convered in dedicated lectures during the quarter, please
-see the slides/vidoes from these classes for more information.
-
 **What to turn in:**
 
 - A link to your github repo that includes all of the documents +
@@ -277,3 +293,10 @@ see the slides/vidoes from these classes for more information.
 
 - A `final_details.md` document that outlines the raw feedback from
   your users that you use as the basis for your synthesis.
+
+#### Pitch and demo
+
+During the final timeslot, you will give a pitch for your app and
+demonstrate what you have so far. The details for what we're expecting
+here will be convered in dedicated lectures during the quarter, please
+see the slides/vidoes from these classes for more information.
