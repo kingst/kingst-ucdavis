@@ -9,13 +9,13 @@ fi
 gcloud config set account kingst@ucdavis.edu
 
 slides_url=$1
-reading_list="classes/w25-ecs150/reading_list.csv"
+reading_list="classes/w26-ecs191/reading_list.csv"
 
 git commit -a -m "End of lecture"
 git push
 today=`date +"%Y-%m-%d"`
 sha=`git rev-parse HEAD`
-github_url="https://github.com/kingst/kingst-ucdavis/tree/${sha}/inclass_programming/w25-ecs150"
+github_url="https://github.com/kingst/kingst-ucdavis/tree/${sha}/inclass_programming/w26-ecs191"
 
 python3.10 add_lecture_to_reading_list.py  "${today}" "${reading_list}" "${slides_url}" "${github_url}"
 
