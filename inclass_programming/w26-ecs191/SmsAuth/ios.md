@@ -1,9 +1,9 @@
-# iOS SmsAuth
+# iOS SMSAuthApp
 
-Using the API from @API.md we're going to create an iOS app
+Using the API from @server/API.md we're going to create an iOS app
 that demonstrates authentication using SMS.
 
-There will be three main views:
+The views:
 
   - EnterPhoneNumberView: where the users enters their phone number when authenticating
  
@@ -12,6 +12,15 @@ There will be three main views:
   - HomeView: The view that we show for authenticated users
 
   - MainView: The base view that cooridnates everything
+
+The viewmodel:
+
+  - UserService: Responsible for maintaining core User state
+
+The model:
+
+  - UserModel: Responsible for persisting auth tokens and accessing
+    APIs to interact with the server
 
 We will use the `PhoneNumberKit` Swift Package, which is at:
 
@@ -43,9 +52,8 @@ simulator. We should use code that looks something like this:
 
 ## Model + ViewModel
 
-Our core model and viewmodel will be a UserService observable
-object. This object is where we'll keep track of the current state of
-the user.
+Our core viewmodel will be a UserService observable object. This
+object is where we'll keep track of the current state of the user.
 
 Properties include:
 
@@ -73,6 +81,9 @@ To track authenticated users, this object will use UserDefaults to
 store the `token` they get from the server, and you can check if the
 token is valid using an API call. You can logout by deleting the
 token from memory and disk.
+
+We will also have a separate UserModel for accessing APIs and
+persisting the auth token.
 
 ## MainView
 
