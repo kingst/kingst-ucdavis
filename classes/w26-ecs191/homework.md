@@ -118,8 +118,45 @@ Good luck!
 
 # ECS 191: Homework 2 -- Coming up with ideas
 
-Details TBD
+In homework 2, you will apply the lessons learned from lecture and
+come up with ideas. You are encouraged to use LLMs to help with this
+process, but it's up to you to pick your favorite ideas.
+
+Picking ideas is always hard, so as a suggestion think about ideas
+that hit all three properties: (1) solves a problem that you have
+personally and you want to solve it, (2) you think solves a problem
+that other college students, and (3) requires using technology that
+you're interested in learning about.
 
 ## Part 1 -- ideas
 
 ## Part 2 -- Present the idea you want to work on to the class
+
+You will present your favorite idea to the class by answering the
+question: What does your app do?
+
+One important aspect of this class is being able to explain to other
+people what it is that you're building. As a first step, you'll need
+to explain to the class what you're building in a way that makes
+sense.
+
+We suggest that you use the [Y
+Combinator](https://www.ycombinator.com/blog/how-to-pitch-your-company/)
+guidance on how to answer the question of "What do you do?". Please
+make sure to see their suggestions for how to formulate your answer
+and look at the end of the blog post for guidance on improving your
+answer.
+
+The first thing I'm going to ask you in all of our face-to-face
+meetings is "what does your app do?" so this exercise is good practice
+for an activity that you're going to do a lot this quarter.
+
+In class, after presenting your idea, you will have an opportunity to
+find classmates to work with. You can try to recruit others to work on
+your idea, or if you really like someone else's idea you can approach
+them and see if it's a match.
+
+For grading, you are graded solely on participation: As long as you
+provide an answer to the question "what does your app do" you will get
+full credit. You will be given a maximum of 1 minute to give your
+pitch.
