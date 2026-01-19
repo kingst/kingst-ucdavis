@@ -157,10 +157,15 @@ know what's going well and your areas of improvement.
 
 #### Project proposal
 
-The project proposal is simple: a two sentence description of your app
-and a list of group members. This milestone serves as a forcing
-function to get you to form a team and to have an initial idea of what
-you're going to work on.
+The project proposal is simple: an elevator pitch for your app, a list
+of group members, and a name for your group. This milestone serves as
+a forcing function to get you to form a team and to have an initial
+idea of what you're going to work on.
+
+**What to turn in:**
+
+- A `proposal.md` file that includes the information from your
+  proposal.
 
 #### Milestone 0: One app view + API call
 
