@@ -128,17 +128,10 @@ personally and you want to solve it, (2) you think solves a problem
 that other college students, and (3) requires using technology that
 you're interested in learning about.
 
-## Part 1 -- ideas
-
-## Part 2 -- Present the idea you want to work on to the class
-
-You will present your favorite idea to the class by answering the
-question: What does your app do?
-
 One important aspect of this class is being able to explain to other
-people what it is that you're building. As a first step, you'll need
-to explain to the class what you're building in a way that makes
-sense.
+people what it is that you're building -- an elevator pitch. As a
+first step, you'll need to explain to the class what you're building
+in a way that makes sense.
 
 We suggest that you use the [Y
 Combinator](https://www.ycombinator.com/blog/how-to-pitch-your-company/)
@@ -150,6 +143,23 @@ answer.
 The first thing I'm going to ask you in all of our face-to-face
 meetings is "what does your app do?" so this exercise is good practice
 for an activity that you're going to do a lot this quarter.
+
+## Part 1 -- Elevator pitches
+
+You will turn in 10 elevator pitches via Canvas. These elevator
+pitches should be 280 characters or less and of the format:
+
+> We [your "what" offering] for [your "who" target customer] that
+> [your "why" value proposition].
+
+Refer back to your notes from the "Innovation" lecture for more
+details on how to come up with an appropriate elevator pitch.
+
+## Part 2 -- Present the idea you want to work on to the class
+
+You will present your favorite idea to the class by answering the
+question: What does your app do? You will have one minute to present
+during the lecture period to present your elevator pitch.
 
 In class, after presenting your idea, you will have an opportunity to
 find classmates to work with. You can try to recruit others to work on
