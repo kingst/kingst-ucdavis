@@ -73,6 +73,32 @@ struct EnterPhoneNumberView: View {
         return e164PhoneNumber != nil
     }
 
+    private func formatPhoneNumber(_ input: String) {
+        let digits = input.filter { $0.isNumber }
+
+        guard !digits.isEmpty else {
+            phoneNumberText = ""
+            return
+        }
+
+        let fullNumber = selectedCountry.code + digits
+
+        do {
+            let parsed = try phoneNumberUtility.parse(fullNumber, withRegion: selectedCountry.regionCode)
+            let formatted = phoneNumberUtility.format(parsed, toType: .national)
+
+            // Only update if different to avoid infinite loop
+            if formatted != phoneNumberText {
+                phoneNumberText = formatted
+            }
+        } catch {
+            // If parsing fails, just show digits
+            if digits != phoneNumberText {
+                phoneNumberText = digits
+            }
+        }
+    }
+
     var body: some View {
         VStack(spacing: 24) {
             Spacer()
@@ -112,12 +138,14 @@ struct EnterPhoneNumberView: View {
 
                 TextField("Phone number", text: $phoneNumberText)
                     .keyboardType(.phonePad)
+                    .textContentType(.telephoneNumber)
                     .padding(.horizontal, 12)
                     .padding(.vertical, 10)
                     .background(Color(.systemGray6))
                     .cornerRadius(8)
-                    .onChange(of: phoneNumberText) { _, _ in
+                    .onChange(of: phoneNumberText) { _, newValue in
                         userService.clearAuthError()
+                        formatPhoneNumber(newValue)
                     }
             }
             .padding(.horizontal)
