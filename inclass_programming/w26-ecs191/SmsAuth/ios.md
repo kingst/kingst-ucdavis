@@ -11,7 +11,7 @@ The views:
  
   - HomeView: The view that we show for authenticated users
 
-  - MainView: The base view that cooridnates everything
+  - MainView: The base view that coordinates everything
 
 The viewmodel:
 
@@ -50,7 +50,7 @@ simulator. We should use code that looks something like this:
     }()
 ```
 
-## Model + ViewModel
+## ViewModel
 
 Our core viewmodel will be a UserService observable object. This
 object is where we'll keep track of the current state of the user.
@@ -76,6 +76,8 @@ Functions include:
   - logout
 
   - clearAuthError
+
+## Model
 
 To track authenticated users, this object will use UserDefaults to
 store the `token` they get from the server, and you can check if the
@@ -109,9 +111,9 @@ This View will have:
   - Text: We'll text you a code to verify your phone
   - PhoneEntry: Flag selector (US, MX, CA, India, and China only) | country code for the phone | the view where the user enters their phone number
   - Error text: Only shows when there is an authError
-  - A button to advnace
+  - A button to advance
 
-From a UX pespective, I have PhoneNumberKit loaded, so use it to
+From a UX prespective, I have PhoneNumberKit loaded, so use it to
 format the phone number as they type, ensure that it's valid client
 side, and format it as an E.164 number before sending it to the
 server.
@@ -119,6 +121,8 @@ server.
 Clear the error once the user edits the phone
 
 When they press the "next" button, show a loading animation
+
+Make sure that you mark the edit with the `telephoneNumber` type so that it will offer to autofill phone numbers.
 
 # VerifyCodeView
 
@@ -130,5 +134,7 @@ This view will have
   - Error text: Only shows when there is an authError
 
 This view should automatically advance once the user enters the code
+
+Make sure that when iOS gives the option to autofill the one time code that it works when the user clicks on it.
 
 Clear the error once the user edits the code or they press the `back` button

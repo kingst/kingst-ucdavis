@@ -186,3 +186,118 @@ All errors return a JSON object with an `error` field:
 ## Rate Limits
 
 Currently no rate limits are enforced. For production use, consider implementing rate limiting on the `/v1/send_sms_code` endpoint to prevent SMS abuse.
+
+---
+
+## Food Analysis APIs
+
+These endpoints allow authenticated users to upload food images and receive nutritional estimates.
+
+### GET /v1/food/upload_url
+
+Get a signed URL for uploading a food image to Google Cloud Storage.
+
+**Headers**
+
+| Header | Required | Description |
+|--------|----------|-------------|
+| Authorization | Yes | Bearer token from verify_code response |
+
+**Response**
+
+Success (200):
+```json
+{
+  "upload_url": "https://storage.googleapis.com/ecs191-login-bucket/...",
+  "image_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg"
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| upload_url | string | Signed URL for PUT request to upload image (valid for 10 minutes) |
+| image_id | string | URL-safe unique identifier for the image (UUID format with .jpg extension) |
+
+Errors:
+
+| Status | Response | Description |
+|--------|----------|-------------|
+| 401 | `{"error": "Authorization header required"}` | Missing or malformed Authorization header |
+| 401 | `{"error": "Invalid token"}` | Token not found or expired |
+
+**Example**
+
+```bash
+curl http://localhost:5001/v1/food/upload_url \
+  -H "Authorization: Bearer abc123..."
+```
+
+**Uploading the Image**
+
+After receiving the signed URL, upload your JPEG image using a PUT request:
+
+```bash
+curl -X PUT \
+  -H "Content-Type: image/jpeg" \
+  --data-binary @food_photo.jpg \
+  "https://storage.googleapis.com/ecs191-login-bucket/..."
+```
+
+---
+
+### GET /v1/food/analyze/{image_id}
+
+Analyze a previously uploaded food image and return nutritional estimates.
+
+**Headers**
+
+| Header | Required | Description |
+|--------|----------|-------------|
+| Authorization | Yes | Bearer token from verify_code response |
+
+**Path Parameters**
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| image_id | string | The URL-safe image ID returned from the upload_url endpoint |
+
+**Response**
+
+Success (200):
+```json
+{
+  "calories": 650,
+  "carbohydrates_grams": 45,
+  "protein_grams": 35,
+  "description": "Burger and fries",
+  "image_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg",
+  "confidence": "high"
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| calories | integer | Estimated calories in the meal |
+| carbohydrates_grams | integer | Estimated carbohydrates in grams |
+| protein_grams | integer | Estimated protein in grams |
+| description | string | Brief description of the food identified |
+| image_id | string | The image ID that was analyzed |
+| confidence | string | Confidence level in the estimate: "high", "medium", or "low" |
+
+Errors:
+
+| Status | Response | Description |
+|--------|----------|-------------|
+| 401 | `{"error": "Authorization header required"}` | Missing or malformed Authorization header |
+| 401 | `{"error": "Invalid token"}` | Token not found or expired |
+| 404 | `{"error": "Image not found"}` | Image ID does not exist in storage |
+| 400 | `{"error": "Invalid image format"}` | Uploaded file is not a valid JPEG image |
+| 400 | `{"error": "Could not analyze image: <reason>"}` | Image does not contain food, is too blurry, or food is too obscured |
+| 502 | `{"error": "Analysis service error: <details>"}` | Anthropic API returned an error |
+
+**Example**
+
+```bash
+curl "http://localhost:5001/v1/food/analyze/a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg" \
+  -H "Authorization: Bearer abc123..."
+```
