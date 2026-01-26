@@ -13,8 +13,7 @@ reading_list="classes/w26-ecs191/reading_list.csv"
 
 git commit -a -m "End of lecture"
 git push
-#today=`date +"%Y-%m-%d"`
-today="2026-01-27"
+today=`date +"%Y-%m-%d"`
 sha=`git rev-parse HEAD`
 github_url="https://github.com/kingst/kingst-ucdavis/tree/${sha}/inclass_programming/w26-ecs191"
 
