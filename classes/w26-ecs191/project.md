@@ -1,6 +1,6 @@
 # Project
 
-This quarter you will design and ship and app. The goal is for you to
+This quarter you will design and ship an app. The goal is for you to
 get experience with modern AI tools for rapid prototyping of realistic
 applications suitable for people to use. As a part of this project,
 you will build a usable app, get people to use it, and learn something
@@ -20,7 +20,7 @@ Your project must include:
 - **A server.** Your server will provide APIs for your app to use and
   must be written in Python and run in Google's App Engine.
 
-- **A differentiated feature.** Your app has to do something that
+- **A differentiated feature.** Your app has to do something that is
   better / different from apps today. Differentiation doesn't mean no
   one has ever done anything like it -- it means your specific
   combination of features, UX, or target users creates something
@@ -132,7 +132,7 @@ main technical artifacts are:
   logic in your client. With this scope of feature, write a detailed
   document (e.g., `myfeature.md`) to explain to the AI tools what you
   want it to implement. This description tends to be fairly detailed
-  and includes (1) A description of the feature, (2) an explaination
+  and includes (1) A description of the feature, (2) an explanation
   of how it fits within the architecture of your app and for the
   subcomponents of your feature (3) key data structures and functions,
   and (4) a description of each of the features and data structures
@@ -185,12 +185,23 @@ point.
 - A link to your github repo that includes all of the documents +
   source code that you have thus far.
 
+  - All group members need to contribute code
+
+  - The code you demo needs to be on your `main` branch, fully
+    integrated, in github
+
 **When we meet:**
 
 - Be ready to show us your app working either on a simulator or a real
   device.
 
+  - **Minimum:** Have one feature working, client/server communication
+
+  - **Expected:** A version of your app working, but without any polish
+
 - Have a two sentence description of your app.
+
+- Have 2-3 high priority questions that you want to ask the course staff
 
 #### Milestone 1: One AI feature
 
