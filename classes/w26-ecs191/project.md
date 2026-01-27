@@ -26,13 +26,17 @@ Your project must include:
   combination of features, UX, or target users creates something
   different from what's available today.
 
-- **Include an AI feature.** Your app must include at least one AI
+- **An AI feature.** Your app must include at least one AI
   feature, and the interface to this feature must _not_ be chat. We
   use a broad definition of "AI" that includes ML running on your
   phone or API calls out to services that provide AI features. The AI
   feature can either be the main feature for your app, or it can be
   subtle part of it that is outside of the main value your app
   provides, but it must include one AI feature.
+
+- **A surprising feature.** Your app needs to have one aspect about it
+  that is surprising (in a good way) to your users. Sometimes we call
+  this our "magic moment".
 
 ## Problem selection
 
@@ -238,10 +242,15 @@ what you learned. Human insight here is key.
 
 **When we meet:**
 
-- Be ready to show us your app working either on a simulator or a real
-  device.
-
 - Have a two sentence description of your app.
+
+- Be ready to show us your app working either on a simulator or a
+  real device.
+
+- Have 2-3 high priority questions that you want to ask the course staff
+
+- Demonstrate your AI feature and your "magic moment" (these can be
+  the same for some apps).
 
 - Be ready to talk about what you learned from talking to potential
   users.
@@ -273,10 +282,12 @@ some rough edges as they will be understanding.
 
 **When we meet:**
 
-- Be ready to show us your app working either on a simulator or a real
-  device.
-
 - Have a two sentence description of your app.
+
+- Be ready to show us your full app working either on a simulator or a
+  real device.
+
+- Have 2-3 high priority questions that you want to ask the course staff
 
 - Be ready to talk about what you learned from your classmates using
   your app _and_ what you thought of their app.
