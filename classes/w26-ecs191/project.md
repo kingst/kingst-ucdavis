@@ -143,6 +143,31 @@ main technical artifacts are:
   you outline. From this, plus test cases, agentic programming tools
   should be able to provide a reasonable implementation.
 
+### Google App Engine requirements
+
+For your server portion of the project, you are required to use a
+Google App Engine Python project. Within this project you **must**
+use:
+
+- Google App Engine's Standard Environment with Python 3.10 - 3.13 runtime
+
+- A `.gcloudignore` file to omit extra files from your server (like
+  your `venv` directory)
+
+- For storing data you must use `Firestore in Datastore Mode`. The
+  python package for this is: `google-cloud-datastore`
+
+- Google Cloud Storage buckets to store images or big files if needed
+
+- Flask web service, Blueprint for decomposed API handling
+
+- Your repo should have api/, services/, and models.py organization
+  for your API handlers, services and data models
+
+- For an example to help get you started, you can use the "SMS
+  authentication"
+  [example](https://github.com/kingst/ecs191-authentication)
+
 ### User artifacts
 
 To measure if your app is solving the problem you set out to solve,

@@ -216,6 +216,33 @@
               </ul>
             </p>
 
+	    <a id="gae"></a>
+            <h3>Google App Engine requirements</h3>
+            <p>
+              For your server portion of the project, you are required to use a
+              Google App Engine Python project. Within this project you
+              <b>must</b> use:
+              <ul>
+                <li>Google App Engine's Standard Environment with Python 3.10 -
+                3.13 runtime</li>
+                <li>A <code>.gcloudignore</code> file to omit extra files from
+                your server (like your <code>venv</code> directory)</li>
+                <li>For storing data you must use <code>Firestore in Datastore
+                Mode</code>. The python package for this is:
+                <code>google-cloud-datastore</code></li>
+                <li>Google Cloud Storage buckets to store images or big files
+                if needed</li>
+                <li>Flask web service, Blueprint for decomposed API
+                handling</li>
+                <li>Your repo should have <code>api/</code>,
+                <code>services/</code>, and <code>models.py</code> organization
+                for your API handlers, services and data models</li>
+                <li>For an example to help get you started, you can use the
+                "SMS authentication"
+                <a href="https://github.com/kingst/ecs191-authentication">example</a></li>
+              </ul>
+            </p>
+
 	    <a id="user"></a>
             <h3>User artifacts</h3>
             <p>
