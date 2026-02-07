@@ -232,7 +232,7 @@ point.
 
 - Have 2-3 high priority questions that you want to ask the course staff
 
-#### Milestone 1: One AI feature
+#### Milestone 1: One AI feature + customer discovery
 
 Milestone 1 is about getting the beginnings of your app working. You
 should have several views working and integrated with the server to do
@@ -244,7 +244,29 @@ For this milestone, you need to have something AI related integrated
 into your app and be ready to demonstrate it at our meeting.
 
 At this milestone, you should also have talked to 10 potential users
-of your app to learn about what they might want.
+of your app to learn about what problems they have that you might be
+able to solve.
+
+In your discovery conversations you aren't trying to get people to use
+your product -- you are simply trying to understand the problems that
+they have. Also, ask people about past experiences, not speculation on
+the future. Here is an example script that you can use to get started
+on your discovery interviews:
+
+  - Tell me about the last time you <fill in>
+
+  - What was hard about that?
+
+  - Why was it hard?
+
+  - How do you solve that now?
+
+  - Why is that solution not good enough?
+
+**Requirement:** Each group member is required to conduct at least one
+of the 10 interviews. It's fine to have multiple members at interviews
+(and in fact helps for note taking) but each member needs to lead at
+least one of them.
 
 **What to turn in:**
 
@@ -253,7 +275,10 @@ of your app to learn about what they might want.
   and `discovery_details.md`.
 
 - A `discovery_summary.md` file that concisely summarizes what you
-  learned from your 10 discovery conversations.
+  learned from your 10 discovery conversations. The emphasis here is
+  on problems you discover, but include some early ideas on ways that
+  your product might help with these problems. How has your thinking
+  changed after conducting these interviews?
 
 - A `discovery_details.md` file that shows the raw notes from your
   conversations. _Hint:_ Take notes as you talk to people and this
@@ -262,8 +287,9 @@ of your app to learn about what they might want.
 **Important:** For the two discovery docs, make sure that these are
 _not_ written by an LLM. You can use an LLM to clean up grammar, make
 it more concise, etc, but I want you to _think_ about the sythesis of
-these conversations yourself, don't just rely on ChatGPT to tell you
-what you learned. Human insight here is key.
+these conversations yourself and talk about it as a group, don't just
+rely on ChatGPT to tell you what you learned. Human insight here is
+key.
 
 **When we meet:**
 
