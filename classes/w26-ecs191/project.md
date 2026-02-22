@@ -306,28 +306,49 @@ key.
 - Be ready to talk about what you learned from talking to potential
   users.
 
-#### Milestone 2: Main feature working, classmates use your app
+#### Milestone 2: Main feature working, testing the new user experience
 
-In this milestone, you will have your main feature working and swap
-apps with a different group in the class. In other words, you use
-their app and they use your app and you provide each other with
-feedback.
+In this milestone, you will have your main feature working and test
+out how effectively people can go from being new users to experiencing
+the main benefit of your product (your magic moment).
 
-Fundamentally, you have to have enough of your app working so that you
-can test out how well it solves the problem you're working on for
-these people. Since classmates will be using it, your app can have
-some rough edges as they will be understanding.
+You need to have at least 9 user interviews for this milestone. These
+interviews are broken down into (1) initial testing with three users,
+(2) iterating based on what you learn and testing on three users, (3)
+repeat the iterating and testing cycle on three users. The three users
+need to be different humans and there are three distinct rounds of
+testing + iteration, so 9 unique humans total.
+
+For your user interviews, use the script that we introduce in the
+"Product engineering" lecture. At a high level, the experiment
+consists of having people complete a task using your app. This
+represents a shift from "tell me" to "show me" as we engage with
+people who use your app. The five phases of the exeriment are:
+
+  - Phase 1: The Setup (lower the stakes)
+  - Phase 2: The "First Glance" (The 5-Second Test)
+  - Phase 3: The Task (The Core Loop)
+  - Phase 4: The AI "Vibe Check"
+  - Phase 5: The Debrief
+
+For more details and examples of this flow, see the "Product
+engineering" lecture.
+
+To help you get practice with user interviews, we will provide time in
+class for you to test out your new user experience on your classmates
+and the course staff will provide feedback on your interviews.
 
 **What to turn in:**
 
 - A link to your github repo that includes all of the documents +
-  source code that you have thus far, including `classmate_summary.md`
-  and `classmate_details.md`.
+  source code that you have thus far, including `new_user_summary.md`
+  and `new_user_details.md`.
 
-- A `classmate_summary.md` file that concisely summarizes what you
-  learned from your classmates using your app
+- A `new_user_summary.md` file that concisely summarizes what you
+  learned from people using your app and what you changed with each
+  iteration.
 
-- A `classmate_details.md` file that shows the raw notes from your
+- A `new_user_details.md` file that shows the raw notes from your
   conversations. _Hint:_ Take notes as you talk to people and this
   requirement should be easy.
 
@@ -340,8 +361,58 @@ some rough edges as they will be understanding.
 
 - Have 2-3 high priority questions that you want to ask the course staff
 
-- Be ready to talk about what you learned from your classmates using
-  your app _and_ what you thought of their app.
+- Be ready to talk about what you learned from people using
+  your app _and_ what you changed as a result.
+
+#### Milestone 3: App done, tested on 10 users, feedback collected
+
+By this milestone, you will have completed your app, convinced 10
+people to use it, and collected feedback from all of them. For many
+groups, Milestone 3 will be the end of the technical work for your
+project this quarter. For other groups, Milestone 3 represents a last
+opportunity to get feedback from the course staff whlie you still have
+time to adjust before the final project is due during finals week.
+
+**What to turn in:**
+
+- A link to your github repo that includes all of the documents +
+  source code that you have thus far, including `user_experience_summary.md`
+  and `user_experience_details.md`.
+
+- A `user_experience_summary.md` file that concisely summarizes what
+  you learned from people using your app both in terms of quantitative
+  metrics and qualitative interviews.
+
+- A `user_experience_details.md` file that shows the raw notes from
+  your conversations and detailed quantitative metrics from your
+  app. _Hint:_ Take notes as you talk to people and this requirement
+  should be easy.
+
+**When we meet:**
+
+- Have a two sentence description of your app.
+
+- Be ready to show us your full app working either on a simulator or a
+  real device.
+
+- Have 2-3 high priority questions that you want to ask the course staff
+
+- Be ready to talk about what you learned from people using
+  your app _and_ what you changed as a result.
+
+  - You need to understand if your app is actually solving a problem
+    for people. Whether it is or not doesn't matter, but the fact that
+    you know the answer does.
+
+  - **Minimum:** You should have had at least one person use your app
+      and collected feedback from them.
+
+  - **Expected:** You should have had at least 10 people use your app,
+      collected feedback from them, and iterated on the feedback.
+
+  - **Above and beyond:** Everything from Expected and for at least
+      two of your users you are solving a real problem for them, and
+      they are enthusiastic about your app.
 
 #### Final project
 
