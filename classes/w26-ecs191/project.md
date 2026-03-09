@@ -373,6 +373,24 @@ project this quarter. For other groups, Milestone 3 represents a last
 opportunity to get feedback from the course staff whlie you still have
 time to adjust before the final project is due during finals week.
 
+In addition to getting 10 people to use your app, you will conduct
+post-usage interviews with all of them to see if your app is solving
+real pain for them. For your post-usage interviews, see the content
+from the "qualitative user feedback" lecture for more details. At a
+high level, your goal is to learn about your user's:
+
+ - Pain
+
+ - Promise
+
+ - Anxiety
+
+ - Intertia
+
+In your interview, your goal is to learn as much as you can about
+these properties of the people using your product and assess how well
+your product is solving their fundamental problem.
+
 **What to turn in:**
 
 - A link to your github repo that includes all of the documents +
@@ -387,6 +405,11 @@ time to adjust before the final project is due during finals week.
   your conversations and detailed quantitative metrics from your
   app. _Hint:_ Take notes as you talk to people and this requirement
   should be easy.
+
+- **Important:** You need to make sure that both Jun and Sam have your
+    app installed and can use it along with the rest of your
+    users. Failure to do so will result in a significant loss of
+    points.
 
 **When we meet:**
 
@@ -423,12 +446,14 @@ test out your app (TestFlight link, build instructions, App store
 link, etc.). Your instructions need to be clear so that we can run and
 test your app.
 
-In this final phase, you will get 5 people from outside of the class
+In this final phase, you will get 10 people from outside of the class
 to use your app and give you feedback. Learning something from this
 feedback is the goal, even if the feedback is negative. Having an app
 that people are unable to use due to bugs or difficult UI/UX will
 result in a significant loss in points. Having a smooth experience
-that people hate will make you eligible for full credit.
+that people hate will make you eligible for full credit. **Note:** For
+some groups the 10 user feedback requirement will be satisfied at
+Milestone 3.
 
 **What to turn in:**
 
@@ -438,7 +463,7 @@ that people hate will make you eligible for full credit.
 - Instructions on how to run and test your app.
 
 - A `final_summary.md` document that summarizes what you learned from
-  having 5 people use your app.
+  having 10 people use your app.
 
 - A `final_details.md` document that outlines the raw feedback from
   your users that you use as the basis for your synthesis.
