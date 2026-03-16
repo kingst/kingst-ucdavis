@@ -437,40 +437,39 @@ your product is solving their fundamental problem.
       two of your users you are solving a real problem for them, and
       they are enthusiastic about your app.
 
-#### Final project
+## Final Project & Presentation Guidelines
 
-At the end of the quarter, you will submit your final project. This
-project will include all documentation from the quarter, updated to
-reflect the final state of your app, and some way for the staff to
-test out your app (TestFlight link, build instructions, App store
-link, etc.). Your instructions need to be clear so that we can run and
-test your app.
+The goal of this final milestone is to prove that you can not only build functional software, but that you can build a **product that solves a real problem for real users**. Your grade is split into two parts: the actual product you built (The Final Project) and how well you pitch and demonstrate it (The Demo).
 
-In this final phase, you will get 10 people from outside of the class
-to use your app and give you feedback. Learning something from this
-feedback is the goal, even if the feedback is negative. Having an app
-that people are unable to use due to bugs or difficult UI/UX will
-result in a significant loss in points. Having a smooth experience
-that people hate will make you eligible for full credit. **Note:** For
-some groups the 10 user feedback requirement will be satisfied at
-Milestone 3.
+You can find the rubric we will use to grade your project and presentation [here](https://docs.google.com/spreadsheets/d/1qRXb72nMy6yJS2WJphZ3fp3cTF3Plsl20vTqc2LRUnE/edit?usp=sharing) and you can get some hints about your presentation and demo from the "Pitching and demos" lecture on 3/10.
 
-**What to turn in:**
+### Part 1: The Final Project (The Artifact)
+Your final codebase and application will be evaluated on how well it executes its core value proposition. We are looking for quality, reliability, and user-centric design over a massive list of half-finished features. 
 
-- A link to your github repo that includes all of the documents +
-  source code for your final project.
+Your product must excel in these four areas:
 
-- Instructions on how to run and test your app.
+* **Problem / Solution Fit & Iteration:** Does your product actually solve the problem you set out to solve? More importantly, did you build this in a vacuum? **To get full points here, you must prove that you put your product in front of real users, collected feedback, and actively iterated on your app based on what they told you.**
+* **Execution & Reliability:** Your app needs to be robust. All core flows should work flawlessly. We will be looking at how gracefully you handle edge cases (like missing data or empty states). Apps that crash during normal use or consist mostly of non-functional mockups will be heavily penalized.
+* **The "Core Loop":** Focus your energy on the primary action your user takes. Feature creep is your enemy. Your "core loop" should be so polished, clear, and intuitive that a new user does not need a tutorial to understand the value of your app. 
+* **UX & Flow:** We are looking for a frictionless user experience. Navigation should make sense, call-to-action buttons should be obvious, and the UI should be actively helpful. If a user needs to read a manual to figure out how to use your product, your UX needs work.
 
-- A `final_summary.md` document that summarizes what you learned from
-  having 10 people use your app.
+### Part 2: The Final Presentation / Demo (The Pitch)
+Building a great product is only half the battle; you also have to communicate its value. Your final demo should feel like a professional product pitch. Do not just read off a script—practice your timing and flow. 
 
-- A `final_details.md` document that outlines the raw feedback from
-  your users that you use as the basis for your synthesis.
+Your presentation will be graded on:
 
-#### Pitch and demo
+* **The Explanation:** Start strong. Give a crystal-clear, concise explanation of the exact problem you are solving and how your product fixes it. Do not wing this; practice your pitch!
+* **The "Magic Moment":** Every great product has an "aha!" moment. We want to see yours. To score maximum points, your demo needs a highlight that is genuinely surprising, delightful, and leverages some advanced technology to make it happen. 
+* **A Smooth Flow:** Your live demo should follow a logical sequence of steps. Don't jump randomly between screens. Show us a realistic user journey through an interface that looks and feels like a real, market-ready app.
+* **User Feedback & Traction:** Dedicate part of your presentation to the "human side." Articulate a strong summary of the user feedback you gathered during development. What did you learn? What conclusions did you draw, and how did that reality check shape the final product you are showing us today?
 
-During the final timeslot, you will give a pitch for your app and
-demonstrate what you have so far. The details for what we're expecting
-here will be convered in dedicated lectures during the quarter, please
-see the slides/vidoes from these classes for more information.
+Details on your presentations:
+* Don't show your entire app! Just focus on the parts that are most interesting.
+* Not all group members need to speak during your presentation, I leave it up to you to determine how to provide the most compelling presentation.
+* Presentations are 5 minutes long with 2 minutes for Q&A after.
+
+### Participation
+
+You must show up to our presentations on time and be present for all
+presentations. Failure to do so will result in losing points on your
+participation grade.
