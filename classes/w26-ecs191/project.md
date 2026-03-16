@@ -439,7 +439,7 @@ your product is solving their fundamental problem.
 
 ## Final Project & Presentation Guidelines
 
-The goal of this final milestone is to prove that you can not only build functional software, but that you can build a **product that solves a real problem for real users**. Your grade is split into two parts: the actual product you built (The Final Project) and how well you pitch and demonstrate it (The Demo).
+The goal of this final milestone is to prove that you can not only build functional software, but that you can build a **product that attempts to solve a real problem for real users**. Your grade is split into two parts: the actual product you built (The Final Project) and how well you pitch and demonstrate it (The Demo).
 
 You can find the rubric we will use to grade your project and presentation [here](https://docs.google.com/spreadsheets/d/1qRXb72nMy6yJS2WJphZ3fp3cTF3Plsl20vTqc2LRUnE/edit?usp=sharing) and you can get some hints about your presentation and demo from the "Pitching and demos" lecture on 3/10.
 
@@ -467,9 +467,13 @@ Details on your presentations:
 * Don't show your entire app! Just focus on the parts that are most interesting.
 * Not all group members need to speak during your presentation, I leave it up to you to determine how to provide the most compelling presentation.
 * Presentations are 5 minutes long with 2 minutes for Q&A after.
+* You must do a practice talk with Prof King. These are done in his office on either Wedensday 3/18 between 2-4pm or Thursday 3/19 between 12-2pm.
 
 ### Participation
 
 You must show up to our presentations on time and be present for all
 presentations. Failure to do so will result in losing points on your
 participation grade.
+
+Also, you will lose points on your participation grade if you fail to
+give a practice talk.
