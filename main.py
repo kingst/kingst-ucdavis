@@ -42,6 +42,12 @@ def nav_for_class(class_name):
                {'page': 'lectures.html', 'label': 'Lectures'},
                {'page': 'quizzes.html', 'label': 'Midterms'},
                {'page': 'project.html', 'label': 'Project'}]
+    elif class_name == 's26-ecs150':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'quizzes.html', 'label': 'Midterms'},
+               {'page': 'project.html', 'label': 'Project'}]
     elif class_name == 'w18-ecs188':
         return [{'page': 'index.html', 'label': 'Home'},
                {'page': 'grading.html', 'label': 'Grading'},
@@ -155,10 +161,11 @@ def home(path):
     publications = [publication_to_listing(x) for x in publication_list]
 
     classes = [
-        {'title': 'ECS 191', 'quarter': 'Winter 26', 'page': '/classes/w26-ecs191/index.html'}
+        {'title': 'ECS 150', 'quarter': 'Spring 26', 'page': '/classes/s26-ecs150/index.html'}
     ]
 
     past_classes = [
+        {'title': 'ECS 191', 'quarter': 'Winter 26', 'page': '/classes/w26-ecs191/index.html'},
         {'title': 'ECS 150', 'quarter': 'Winter 25', 'page': '/classes/w25-ecs150/index.html'},
         {'title': 'ECS 150', 'quarter': 'Fall 24', 'page': '/classes/f24-ecs150/index.html'},
         {'title': 'ECS 150', 'quarter': 'Spring 24', 'page': '/classes/s24-ecs150/index.html'},
