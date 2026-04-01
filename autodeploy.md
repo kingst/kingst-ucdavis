@@ -20,3 +20,10 @@ going to be a command line application running in a terminal.
 
 If there is an error an it's not able to deploy, I'd love for the
 system to email: kingst@ucdavis.edu if possible.
+
+## Errors
+
+For now we can use a mismatch between the local github branch and
+remote to trigger a reploy, but this doesn't work if there is an error
+in the middle of a deploy. So for a future version we should keep
+track of commits locally outside of git.
