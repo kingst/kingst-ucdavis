@@ -6,8 +6,6 @@ if [ "$1" == "" ]; then
     exit
 fi
 
-gcloud config set account kingst@ucdavis.edu
-
 slides_url=$1
 reading_list="classes/s26-ecs150/reading_list.csv"
 
@@ -20,4 +18,4 @@ github_url="https://github.com/kingst/kingst-ucdavis/tree/${sha}/inclass_program
 python3.10 add_lecture_to_reading_list.py  "${today}" "${reading_list}" "${slides_url}" "${github_url}"
 
 git commit -a -m "Bump reading list"
-./deploy.sh
+git push
