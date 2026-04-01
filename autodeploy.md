@@ -33,9 +33,13 @@ going to be a command line application running in a terminal.
 If there is an error an it's not able to deploy, I'd love for the
 system to email: kingst@ucdavis.edu if possible.
 
-## Errors
+If there is a successful deploy, provide some details about the new
+commits that were included in a file called `deploys.txt`
 
-For now we can use a mismatch between the local github branch and
-remote to trigger a reploy, but this doesn't work if there is an error
-in the middle of a deploy. So for a future version we should keep
-track of commits locally outside of git.
+## Error Recovery
+
+The last successfully deployed SHA is stored in `.last_deployed_sha`.
+On each poll, the script compares this value against the remote HEAD
+rather than relying on the local git branch. If a deploy fails, the
+SHA is not updated, so the next poll will retry automatically. This
+also survives script restarts.

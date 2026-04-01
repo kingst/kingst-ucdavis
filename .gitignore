@@ -109,3 +109,6 @@ ENV/
 
 scripts/credentials.json
 scripts/token.json
+
+deploys.txt
+.last_deployed_sha
