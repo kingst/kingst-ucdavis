@@ -5,7 +5,7 @@ repo and when there are any new commits to the `master` branch do a
 new Google App Engine deploy.
 
 To keep things simple, this script will run in a tmux terminal on a
-mac mini.
+mac mini, but we can make it more sophisticated as needed.
 
 ## Details
 
