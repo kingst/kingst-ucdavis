@@ -55,7 +55,7 @@ while true; do
         echo "$(date): New commits detected (deployed: ${LAST_DEPLOYED_SHA:0:7}, remote: ${REMOTE_SHA:0:7})"
 
         # Collect commit details before pulling
-        COMMIT_LOG=$(git log --oneline "$LAST_DEPLOYED_SHA".."origin/$BRANCH")
+        COMMIT_LOG=$(git log --format="%h %an: %s" "$LAST_DEPLOYED_SHA".."origin/$BRANCH")
         echo "$(date): Commits to deploy:"
         echo "$COMMIT_LOG"
 
