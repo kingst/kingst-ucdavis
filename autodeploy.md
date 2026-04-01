@@ -7,6 +7,18 @@ new Google App Engine deploy.
 To keep things simple, this script will run in a tmux terminal on a
 mac mini, but we can make it more sophisticated as needed.
 
+## Running it
+
+To run it:
+
+```bash
+$ tmux new -s autodeploy
+# ./autodeploy.sh
+```
+
+Then detach with `Ctrl-b d`. Reattach later with `tmux attach -t
+autodeploy`.
+
 ## Details
 
 Repo: https://github.com/kingst/kingst-ucdavis
