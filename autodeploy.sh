@@ -10,6 +10,7 @@ POLL_INTERVAL=60  # seconds between checks
 EMAIL="kingst@ucdavis.edu"
 LAST_DEPLOYED_FILE="$REPO_DIR/.last_deployed_sha"
 DEPLOYS_LOG="$REPO_DIR/deploys.txt"
+FORCE_DEPLOY_FILE="$REPO_DIR/.force_deploy"
 
 cd "$REPO_DIR" || exit 1
 
@@ -42,7 +43,15 @@ while true; do
 
     REMOTE_SHA=$(git rev-parse "origin/$BRANCH")
 
-    if [ "$LAST_DEPLOYED_SHA" != "$REMOTE_SHA" ]; then
+    # Check for force deploy trigger
+    FORCE_DEPLOY=false
+    if [ -f "$FORCE_DEPLOY_FILE" ]; then
+        echo "$(date): Force deploy triggered"
+        rm "$FORCE_DEPLOY_FILE"
+        FORCE_DEPLOY=true
+    fi
+
+    if [ "$LAST_DEPLOYED_SHA" != "$REMOTE_SHA" ] || [ "$FORCE_DEPLOY" = true ]; then
         echo "$(date): New commits detected (deployed: ${LAST_DEPLOYED_SHA:0:7}, remote: ${REMOTE_SHA:0:7})"
 
         # Collect commit details before pulling

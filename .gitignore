@@ -112,3 +112,4 @@ scripts/token.json
 
 deploys.txt
 .last_deployed_sha
+.force_deploy

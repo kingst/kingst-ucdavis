@@ -36,6 +36,17 @@ system to email: kingst@ucdavis.edu if possible.
 If there is a successful deploy, provide some details about the new
 commits that were included in a file called `deploys.txt`
 
+## Force Deploy
+
+To trigger a deploy without pushing a new commit:
+
+```bash
+$ touch .force_deploy
+```
+
+The script picks this up on the next poll cycle (within 60 seconds),
+deploys the current state, and removes the file.
+
 ## Error Recovery
 
 The last successfully deployed SHA is stored in `.last_deployed_sha`.
