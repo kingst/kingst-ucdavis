@@ -28,5 +28,17 @@ int main(int argc, char *argv[]) {
         byteRead += ret;
     }
 
-    cout << "Byte count: " << byteRead << endl;
+    // cout << "Byte count: " << byteRead << endl;
+    stringstream ss;
+    ss << "Byte count: " << byteRead << endl;
+    string str = ss.str();
+
+    ret = write(STDOUT_FILENO, str.c_str(), str.size());
+
+    if (ret == -1) {
+        cerr << "Could not write to stdout" << endl;
+        return 1;
+    }
+
+    return 0;
 }
