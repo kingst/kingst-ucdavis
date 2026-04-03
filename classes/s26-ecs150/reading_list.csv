@@ -1,7 +1,7 @@
 date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 3/30/2026,Welcome,"[<a href=""https://docs.google.com/presentation/d/1M0I9vPn52jCTgQ8MN2UT1v47S7wnf5KLFwKv66AK7PY/edit?usp=sharing"">Slides</a>]",,None,,
-4/1/2026,P: Processes,,,OSTEP: Processes,,
-4/3/2026,P: OS Architectures,,,"OSTEP: Process APIs
+4/1/2026,P: Processes,"[<a href=""https://docs.google.com/presentation/d/1UJIN4iDNAuuyXfpnLKhhwM5L09c8vLFe/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/df0e9545fe452529051757e36e202e0851189685/inclass_programming/s26-ecs150"">Source</a>]",,OSTEP: Processes,,
+4/3/2026,P: OS Architectures,"[<a href=""https://docs.google.com/presentation/d/1dirIfqHEViyvt2HNLRb7cIRMZl3sTflsyI1Gd-mhZ8s/edit?usp=sharing"">Slides</a>]",,"OSTEP: Process APIs
 <br><b>Project 1 out</b>",,
 4/6/2026,P: Process APIs,,,OSTEP: Process APIs,,
 4/8/2026,A: Address space and translation,,,"OSTEP: Address Space, Address translation and OSTEP: Direct Execution",,
