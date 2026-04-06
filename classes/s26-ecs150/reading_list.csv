@@ -3,9 +3,9 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 4/1/2026,P: Processes,"[<a href=""https://docs.google.com/presentation/d/1UJIN4iDNAuuyXfpnLKhhwM5L09c8vLFe/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/df0e9545fe452529051757e36e202e0851189685/inclass_programming/s26-ecs150"">Source</a>]",,OSTEP: Processes,,
 4/3/2026,P: OS Architectures,"[<a href=""https://docs.google.com/presentation/d/1dirIfqHEViyvt2HNLRb7cIRMZl3sTflsyI1Gd-mhZ8s/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/798c1613a86384614fce1f529547319fa7f5c5b0/inclass_programming/s26-ecs150"">Source</a>]",,"OSTEP: Process APIs
 <br><b>Project 1 out</b>",,
-4/6/2026,P: Process APIs,,,OSTEP: Process APIs,,
-4/8/2026,A: Address space and translation,,,"OSTEP: Address Space, Address translation and OSTEP: Direct Execution",,
-4/10/2026,A: Virtual memory and paging,,,,,
+4/6/2026,P: Process APIs,"[<a href=""https://docs.google.com/presentation/d/10RFxARkAP-T0l2hvUmTMjoxfM9Gv6zMByF_eZwwXAZI/edit?usp=sharing"">Slides</a>]",,OSTEP: Process APIs,,
+4/8/2026,A: Address space and translation,"[<a href=""https://docs.google.com/presentation/d/1EOlXXCn5Czm-N7DG3iHj8pCxJG2C0K7ZWCX-TiRSkl8/edit?usp=sharing"">Slides</a>]",,"OSTEP: Address Space, Address translation and OSTEP: Direct Execution",,
+4/10/2026,A: Virtual memory and paging,"[<a href=""https://docs.google.com/presentation/d/1jAujr2KytqksrduO3Xk5QZO6RVOHBA3F/edit?usp=sharing"">Slides</a>]",,,,
 4/13/2026,T: Concurrency and threads,,,"OSTEP: Concurrency and threads
 <br><b>Project 1 due</b>
 <br><b>Project 2 out</b>",,
