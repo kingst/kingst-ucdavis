@@ -44,7 +44,24 @@ int main(int argc, char *argv[]) {
     select(maxFd + 1, &readSet, NULL, NULL, NULL);
 
     // find the FD that has data and process it
+    // important: we can set policies on priorities
+    // Question: Could you implement a policy that reads files
+    // completely before moving on?
+    for (int idx = 0; idx < fdVec.size(); idx++) {
+      int fd = fdVec[idx];
+      if (FD_ISSET(fd, &readSet)) {
+	char buffer[4096];
+	int ret = read(fd, buffer, sizeof(buffer));
 
+	if (ret == 0) {
+	  close(fd);
+	  fdVec.erase(fdVec.begin() + idx);
+	  break;
+	} else {
+	  write(STDOUT_FILENO, buffer, ret);
+	}	
+      }
+    }
   }
     
   cout << "all done!" << endl;
