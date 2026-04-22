@@ -1,10 +1,12 @@
 // Sam thread
-if (!note) {     //
+if (!note) {     // (1)
   // leave note
-  note = true;   //
-  if (noMilk) {  //
+  note = true;   // (3)
+  if (noMilk) {  // (5)
     buyMilk();   //
   }
   // remove note
   note = false;  //
 }
+
+// Too much milk!!!
