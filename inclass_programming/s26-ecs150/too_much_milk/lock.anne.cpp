@@ -1,8 +1,8 @@
 
 
 
-lock()            //
-if(noMilk && noNote ) {
+lock()            // (6)
+if(noMilk /* (7) */ && noNote /* 10 */ ) {
   noNote = false; // 
   unlock();       // 
   buyMilk();      // 
@@ -11,3 +11,5 @@ if(noMilk && noNote ) {
 } else {
   unlock();
 }
+
+// too much milk

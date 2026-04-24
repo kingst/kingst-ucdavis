@@ -17,7 +17,7 @@ using namespace std;
 // projects in this class and in general if you want
 // to actually use the software.
 
-// PTHREAD_MUTEX_INITIALIZER
+pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
 
 void write_file_to_stdout(int fd) {
   char buffer[4096];
@@ -30,7 +30,9 @@ void write_file_to_stdout(int fd) {
     // other work?
     // Can we make any assumptions about the order threads
     // will acquire the lock?
+    pthread_mutex_lock(&lock);
     write(STDOUT_FILENO, buffer, ret);
+    pthread_mutex_unlock(&lock);
   }
   close(fd);
 }
