@@ -17,11 +17,19 @@ using namespace std;
 // projects in this class and in general if you want
 // to actually use the software.
 
+// PTHREAD_MUTEX_INITIALIZER
+
 void write_file_to_stdout(int fd) {
   char buffer[4096];
   int ret;
 
+  // Is this an effective way to ensure that the entire
+  // contents of the file is written out?
   while ((ret = read(fd, buffer, sizeof(buffer))) > 0) {
+    // When a thread is waiting on the lock, can they do
+    // other work?
+    // Can we make any assumptions about the order threads
+    // will acquire the lock?
     write(STDOUT_FILENO, buffer, ret);
   }
   close(fd);

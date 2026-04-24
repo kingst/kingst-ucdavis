@@ -15,7 +15,7 @@ date,topic,slides,required_reading,optional_reading,disc_leaders,table_class
 4/22/2026,T: Synchronization,"[<a href=""https://docs.google.com/presentation/d/1Rhd9g-P7q_lXOyHcrSz_wln0S_9GjAuWrYS2u9Vm340/edit?usp=sharing"">Slides</a>] [<a href=""https://github.com/kingst/kingst-ucdavis/tree/a4718378ac9ab587bf0f9f0fe9b8f3fce0e6775e/inclass_programming/s26-ecs150"">Source</a>]",,"OSTEP: Concurrency and threads
 <br><b>Project 2 due</b>
 <br><b>Project 3 out</b>",,
-4/24/2026,T: Locks,,,OSTEP: Locks,,
+4/24/2026,T: Locks,"[<a href=""https://docs.google.com/presentation/d/1-Bs1fPQ4R6FHiL869NMPHR05v4HLXpE6clC2JcRRJ3w/edit?usp=sharing"">Slides</a>]",,OSTEP: Locks,,
 4/27/2026,T: Monitors & condition variables,,,OSTEP: Locked data structures,,
 4/29/2026,T: Monitors & condition variables,,,OSTEP: Condition variables,,
 5/1/2026,T: Monitors & condition variables,,,OSTEP: Concurrency bugs,,
