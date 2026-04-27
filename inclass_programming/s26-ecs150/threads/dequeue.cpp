@@ -2,9 +2,9 @@ element_t dequeue() {
   lock(queueLock);
   element = NULL;
   if(head->next == NULL) {
-    unlock(queueLock);
     waitList.add(getThreadId());
-    sleep();
+    block();
+    unlock(queueLock);
     lock(queueLock);
   }    
   element = head->next;
