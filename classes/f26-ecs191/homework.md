@@ -1,172 +1,154 @@
 # Homework
 
-During this quarter we are going to have 2 individual homework
-assignments where you get experience with AI programming tools and
-come up with app ideas.
-- [Homework 1](add a link to it from this page)
-- [Homework 2](add a link to it from this page)
+This quarter's homework is an individual assignment where you clone
+an existing app, putting your own spin on it. The goal is to get
+experience with AI programming tools, practice thinking about the
+problem an app solves (rather than the features it has), and run your
+first user tests before starting on your project.
 
-Although each student is responsible for turning in their own
-homework, we strongly encourage students to work together. Everyone
-has to come up with their own solution, but we want people to talk
-about concepts together and help each other out when stuck.
+This is an individual assignment: everyone needs to build and turn in
+their own app. That said, we strongly encourage students to help each
+other. We want people to talk about concepts together and help each
+other out when stuck, but the app you submit must be your own.
 
-We will use Canvas to submit homework assingments this quarter.
+We will use Canvas to submit homework assignments this quarter.
 
-# ECS 191: Homework 1 -- Unix Utilities with AI-Assisted Development
+# ECS 191: Homework -- Clone an app
 
 ## Overview
 
-In this assignment, you'll use **Claude Code** (an AI-powered coding
-assistant) to build simplified versions of common Unix utilities, then
-extend one of them with a new feature. This assignment introduces you
-to AI-assisted development.
+In this assignment, you'll pick an existing app and build your own
+version of it. Your clone should **not** be a pixel-for-pixel copy.
+Instead, it should solve the same fundamental problem as the original
+app, but using your own design. Keep the parts that you think work
+well, change the parts that you think could be better, and give it
+some of your own flair.
 
-**What you'll build:**
-- Four Unix utilities: `wcat`, `wgrep`, `wzip`, and `wunzip`
-- A line numbering feature (`-n` flag) for `wcat`
-- Test cases for your new feature
+Picking an app you already use and like is a great place to
+start. You'll have your own opinions about what it does well and what
+frustrates you, and those opinions are exactly what should drive your
+design.
 
 **What you'll submit:**
-- Your specification for the `-n` feature that you use as an input to Claude Code
-- `wcat.cpp` (with the `-n` flag implemented)
-- Appropriate test files for your feature
-- A brief reflection (see below)
+- Part 1: A proposal describing the app you're cloning and your plan
+- Part 2: A first cut of your app
+- Part 3: Results from user testing with 5 people
 
-**Prerequisites:**
-- Download the repo to your machine from [ECS 150 Projects on GitHub](https://github.com/kingst/ecs150-projects) and read the [README for Project 1](https://github.com/kingst/ecs150-projects/tree/main/project1)
+## Part 1 -- Proposal
 
-```bash
-$ git clone https://github.com/kingst/ecs150-projects.git
-```
+Pick the app you want to clone and write a short proposal (1 page max)
+that includes:
 
-## Part 1: Build the Base Utilities
+1. **The app.** Which app are you cloning?
+2. **The fundamental problem.** What is the core problem that this app
+   solves for its users? Focus on the problem, not the feature
+   list. For example, the problem a ride sharing app solves isn't
+   "showing cars on a map," it's getting from point A to point B
+   without owning a car or finding a taxi.
+3. **What you'll keep.** What do you plan to do similarly to the
+   original app, and why?
+4. **What you'll change.** What do you plan to do differently, and
+   why do you think your version will be better?
 
-### Your Task
-Use Claude Code to implement all four utilities from the ECS 150 Project 1 specification:
-- `wcat.cpp` - concatenate and print files
-- `wgrep.cpp` - search for patterns in files  
-- `wzip.cpp` - compress files using run-length encoding
-- `wunzip.cpp` - decompress files
+Remember that complexity is a UX bug, not a set of features. You don't
+need to clone every feature of the original app. Pick the core loop
+-- the one thing your app has to do really well -- and focus on
+that. Everything else should be spartan.
 
-### Requirements
-- All utilities must use `open()`, `read()`, `write()`, and `close()` for I/O
-- Code must compile with `g++ -g -o <program> <program>.cpp -Wall -Werror`
-- All utilities must pass the ECS 150 test cases (available in the repo)
+## Part 2 -- First cut of your app
 
-### Using Claude Code
+Build a working first cut of your app. It doesn't need to be polished,
+but someone should be able to pick it up and use it to accomplish the
+core task you described in your proposal.
 
-Claude Code is a terminal-based AI coding assistant. The README.md we
-provide plus the test cases should be enough for Claude Code to
-complete project 1. Provide a prompt to let Claude Code know about the
-spec and how to run the test cases and have it solve each of the
-utilities one-by-on.
+Your app must be a **native mobile app**. Either iOS (written in
+Swift) or Android (written in Kotlin) are fine. No Javascript, react
+native, web, flutter, or other cross platform tools can be used.
 
-## Part 2: Add Line Numbering to wcat
+We strongly encourage you to use agentic programming tools, like
+Claude Code, to build your app. Speed matters here: the faster you get
+something working, the sooner you can put it in front of people and
+learn from them.
 
-### Feature Specification
+**What to submit:**
+- A link to your source code on GitHub
+- A short video (2 minutes max) demoing the core loop of your app
 
-Extend your `wcat` implementation to support an optional `-n` flag
-that prepends line numbers to each line of output, matching the
-behavior of standard Unix `cat -n`.
+## Part 3 -- User testing
 
-We are leaving the specification fairly sparse because having you
-create a spec is part of the assignment.
+Get 5 people to use your app and write up what you learned. These
+should be people who aren't you, and ideally people who would
+actually use an app like this.
 
-### Writing Test Cases
+Run each session using the "Show Me" script below. The three main
+rules are:
 
-You need to add test cases to the standard testing framework for
-project 1. You should have test cases to test out the basic feature
-plus any edge cases (e.g., multiple files). When in doubt, match the
-behavior of Unix `cat`. _Hint:_ Claude Code can help you understand
-how the test cases work and create new ones, with some guidance.
+- **Shut up.** You are observing, not selling.
+- **Tasks, not tours.** Don't give a tour. Give them a goal ("Book a
+  flight") and observe.
+- **Watch the struggle.** The exact moment they get confused is the
+  exact place you need to simplify your app.
 
-### Development Approach
+### The "Show Me" script
 
-1. **Write a specification:** Write a simple prompt that explains the feature. You'll use this to get Claude Code to generate your implementation.
-2. **Write your tests:** Create comprehensive test cases for the new feature
-3. **Write your code:** Use Claude Code create the new feature and test it, fixing issues that arise
-4. **Verify:** Ensure all original tests still pass
+**Phase 1: The setup (lower the stakes).** Start with something like:
 
-## Submission Requirements
+> I'm going to show you a rough prototype I'm working on. I want to be
+> clear: I am testing the app, I am not testing you. If you get stuck
+> or confused, that is great -- it helps me fix the design. Please be
+> honest; you won't hurt my feelings.
 
-Submit the following files via Gradescope:
+**Phase 2: The first glance (the 5-second test).** Hand them the
+device on the home screen. Do _not_ give them a task yet.
 
-1. **wcat.md** -- Your specification for the `-n` flag feature, used as an input to Claude Code
-1. **wcat.cpp** - Your implementation with the `-n` flag
-2. **test files** - Your test files (must be loadable in the standard Project 1 test suite)
-3. **reflection.md** - A brief reflection (300 words max) addressing:
-   - How did using Claude Code change your development process?
-   - What challenges did you encounter with AI-assisted development?
-   - Did you understand the code Claude Code generated? How did you verify this?
-   - How did you decide what tests to write?
+> Take a look at this screen for a few seconds. Without clicking
+> anything yet... what do you think this app does?
 
-## Grading Criteria
+If they say "It looks like a calendar" and you built a diet tracker,
+you have failed before they even started.
 
-- **Line numbering feature (80%):** `-n` flag works correctly
-- **Code quality (10%):** Clean, readable, properly commented
-- **Reflection (10%):** Thoughtful analysis of AI-assisted development
+**Phase 3: The task (the core loop).** Give them a scenario, not
+instructions. For example:
+
+> Imagine you are planning a trip for next weekend. Show me how you
+> would use this tool to get a list of restaurants.
+
+Silently pay attention to how they use the app. Confusion is where you
+need to focus your attention.
+
+**Phase 4: The AI "vibe check" (if your app has an AI feature).**
+Test the quality of the AI response, not just the buttons.
+
+> Look at the answer the AI just gave you. Is this useful? Do you
+> trust it? What would you do with this information next?
+
+**Phase 5: The debrief.**
+
+> On a scale of 1 to 5, how difficult was that?
+>
+> If you had a magic wand, what is the one thing you would change to
+> make this easier?
+>
+> How would you describe this app to a friend in one sentence?
+
+### What to submit
+
+A write-up (2 pages max) that includes:
+
+- For each of your 5 users: their answer to the 5-second test, where
+  they got stuck during the task, and their answers to the debrief
+  questions
+- The patterns you saw across users. Where did multiple people get
+  confused?
+- What you would change about your app based on what you learned
 
 ## Academic Integrity
 
-- You are required to use Claude Code for this assignment -- no manually written code is allowed
 - You must understand all code you submit
-- You may discuss approaches with classmates but not share code, tests, or specifications
-- Your reflection must be your own original writing
+- You must write your own app. You may discuss approaches and help
+  classmates when they're stuck, but you may not share code
+- Your proposal and user testing write-up must be your own original
+  writing, and your user testing results must come from real sessions
+  with real people
 
 Good luck!
-
-# ECS 191: Homework 2 -- Coming up with ideas
-
-In homework 2, you will apply the lessons learned from lecture and
-come up with ideas. You are encouraged to use LLMs to help with this
-process, but it's up to you to pick your favorite ideas.
-
-Picking ideas is always hard, so as a suggestion think about ideas
-that hit all three properties: (1) solves a problem that you have
-personally and you want to solve it, (2) you think solves a problem
-that other college students, and (3) requires using technology that
-you're interested in learning about.
-
-One important aspect of this class is being able to explain to other
-people what it is that you're building -- an elevator pitch. As a
-first step, you'll need to explain to the class what you're building
-in a way that makes sense.
-
-We suggest that you use the [Y
-Combinator](https://www.ycombinator.com/blog/how-to-pitch-your-company/)
-guidance on how to answer the question of "What do you do?". Please
-make sure to see their suggestions for how to formulate your answer
-and look at the end of the blog post for guidance on improving your
-answer.
-
-The first thing I'm going to ask you in all of our face-to-face
-meetings is "what does your app do?" so this exercise is good practice
-for an activity that you're going to do a lot this quarter.
-
-## Part 1 -- Elevator pitches
-
-You will turn in 10 elevator pitches via Canvas. These elevator
-pitches should be 280 characters or less and of the format:
-
-> We [your "what" offering] for [your "who" target customer] that
-> [your "why" value proposition].
-
-Refer back to your notes from the "Innovation" lecture for more
-details on how to come up with an appropriate elevator pitch.
-
-## Part 2 -- Present the idea you want to work on to the class
-
-You will present your favorite idea to the class by answering the
-question: What does your app do? You will have one minute to present
-during the lecture period to present your elevator pitch.
-
-In class, after presenting your idea, you will have an opportunity to
-find classmates to work with. You can try to recruit others to work on
-your idea, or if you really like someone else's idea you can approach
-them and see if it's a match.
-
-For grading, you are graded solely on participation: As long as you
-provide an answer to the question "what does your app do" you will get
-full credit. You will be given a maximum of 1 minute to give your
-pitch.

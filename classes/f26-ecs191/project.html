@@ -27,7 +27,7 @@
             </p>
 
             <p>
-              Project groups should be 4-5 members. Any other group size
+              Project groups should be 2-4 members. Any other group size
               needs explicit approval by the professor.
             </p>
 
@@ -82,8 +82,8 @@
 	    <a id="problem"></a>
             <h3>Problem selection</h3>
             <p>
-              We will spend time in class and provide a homework
-              assignment to help you think of an idea. Coming up with an
+              We will spend time in class and provide a framework to
+              come up with ideas. Coming up with an
               idea that you are excited about is important because this
               class is a lot of work, and if you're genuinely excited
               about the idea then it'll make your experience in the
@@ -164,7 +164,7 @@
                 <li>Some way for the staff to run your app, ideally in
                 the app store or TestFlight.</li>
 
-                <li>An <code>overview.md</code> file. This is a high
+                <li>A <b>human authored</b> <code>overview.md</code> file. This is a high
                 level document that describes the fundamentals of your
                 app and includes (1) what problem are you solving and
                 why is it important, (2) how have others solved this
@@ -174,7 +174,7 @@
                 success for your app (or in other words, how will you
                 know that it actually solves the problem).</li>
 
-                <li>A <code>client_architecture.md</code> and
+                <li>A <b>human authored</b> <code>client_architecture.md</code> and
                 <code>server_architecture.md</code> file that explain
                 your high level architecture. These architecture
                 documents should explain the main components of your
@@ -186,17 +186,14 @@
                 that you will expose from your server for your client to
                 call.</li>
 
-                <li>Test cases and scripts to run your test cases from
-                the command line. These are critical because agentic
-                programming tools will use these to know if their
-                implementation is correct and fix any mistakes that it
-                makes. Having scripts to run test cases from the command
-                line enables your AI tools to run test cases
-                automatically as it implements features. <i>Hint:</i>
-                Agentic programming tools are <i>very good</i> at
-                creating test cases automatically, just make sure that
-                you check them by hand to confirm that they're testing
-                what they should be testing.</li>
+                <li>An <b>llm authored</b> file called
+                <code>llm.md</code> where the LLM can keep notes about
+                the app as it evolves. This file is meant only as state
+                for the LLM, we don't expect humans to read this
+                file.</li>
+
+                <li>A <code>CLAUDE.md</code> file that explains these
+                details for Claude Code.</li>
 
                 <li>Specs for all features. For each feature that you
                 implement, make sure to pick something relatively small

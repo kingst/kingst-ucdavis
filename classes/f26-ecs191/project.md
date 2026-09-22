@@ -123,7 +123,7 @@ main technical artifacts are:
   your server for your client to call.
 
 - An **llm authored** file called `llm.md` where the LLM can keep
-  notes about the app as it evolves. This file is mean only as state
+  notes about the app as it evolves. This file is meant only as state
   for the LLM, we don't expect humans to read this file.
 
 - A `CLAUDE.md` file that explains these details for Claude Code.

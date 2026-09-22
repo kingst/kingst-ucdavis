@@ -16,21 +16,18 @@
             <h2>Homework</h2>
 
             <p>
-              During this quarter we are going to have 2 individual homework
-              assignments where you get experience with AI programming tools and
-              come up with app ideas.
+              This quarter's homework is an individual assignment where you clone
+              an existing app, putting your own spin on it. The goal is to get
+              experience with AI programming tools, practice thinking about the
+              problem an app solves (rather than the features it has), and run your
+              first user tests before starting on your project.
             </p>
 
-            <ul>
-              <li><a href="#homework1">Homework 1</a></li>
-              <li><a href="#homework2">Homework 2</a></li>
-            </ul>
-
             <p>
-              Although each student is responsible for turning in their own
-              homework, we strongly encourage students to work together. Everyone
-              has to come up with their own solution, but we want people to talk
-              about concepts together and help each other out when stuck.
+              This is an individual assignment: everyone needs to build and turn in
+              their own app. That said, we strongly encourage students to help each
+              other. We want people to talk about concepts together and help each
+              other out when stuck, but the app you submit must be your own.
             </p>
 
             <p>
@@ -39,207 +36,193 @@
 
             <hr>
 
-            <h3 id="homework1">ECS 191: Homework 1 &mdash; Unix Utilities with AI-Assisted Development</h3>
+            <h3 id="homework">ECS 191: Homework &mdash; Clone an app</h3>
 
             <h4>Overview</h4>
 
             <p>
-              In this assignment, you'll use <strong>Claude Code</strong> (an AI-powered coding
-              assistant) to build simplified versions of common Unix utilities, then
-              extend one of them with a new feature. This assignment introduces you
-              to AI-assisted development.
+              In this assignment, you'll pick an existing app and build your own
+              version of it. Your clone should <strong>not</strong> be a pixel-for-pixel copy.
+              Instead, it should solve the same fundamental problem as the original
+              app, but using your own design. Keep the parts that you think work
+              well, change the parts that you think could be better, and give it
+              some of your own flair.
             </p>
 
-            <p><strong>What you'll build:</strong></p>
-            <ul>
-              <li>Four Unix utilities: <code>wcat</code>, <code>wgrep</code>, <code>wzip</code>, and <code>wunzip</code></li>
-              <li>A line numbering feature (<code>-n</code> flag) for <code>wcat</code></li>
-              <li>Test cases for your new feature</li>
-            </ul>
+            <p>
+              Picking an app you already use and like is a great place to
+              start. You'll have your own opinions about what it does well and what
+              frustrates you, and those opinions are exactly what should drive your
+              design.
+            </p>
 
             <p><strong>What you'll submit:</strong></p>
             <ul>
-              <li>Your specification for the <code>-n</code> feature that you use as an input to Claude Code</li>
-              <li><code>wcat.cpp</code> (with the <code>-n</code> flag implemented)</li>
-              <li>Appropriate test files for your feature</li>
-              <li>A brief reflection (see below)</li>
+              <li>Part 1: A proposal describing the app you're cloning and your plan</li>
+              <li>Part 2: A first cut of your app</li>
+              <li>Part 3: Results from user testing with 5 people</li>
             </ul>
 
-            <p><strong>Prerequisites:</strong></p>
-            <ul>
-              <li>Download the repo to your machine from <a href="https://github.com/kingst/ecs150-projects">ECS 150 Projects on GitHub</a> and read the <a href="https://github.com/kingst/ecs150-projects/tree/main/project1">README for Project 1</a></li>
-            </ul>
-
-            <pre><code>$ git clone https://github.com/kingst/ecs150-projects.git</code></pre>
-
-            <h4>Part 1: Build the Base Utilities</h4>
-
-            <h5>Your Task</h5>
-            <p>Use Claude Code to implement all four utilities from the ECS 150 Project 1 specification:</p>
-            <ul>
-              <li><code>wcat.cpp</code> - concatenate and print files</li>
-              <li><code>wgrep.cpp</code> - search for patterns in files</li>
-              <li><code>wzip.cpp</code> - compress files using run-length encoding</li>
-              <li><code>wunzip.cpp</code> - decompress files</li>
-            </ul>
-
-            <h5>Requirements</h5>
-            <ul>
-              <li>All utilities must use <code>open()</code>, <code>read()</code>, <code>write()</code>, and <code>close()</code> for I/O</li>
-              <li>Code must compile with <code>g++ -g -o &lt;program&gt; &lt;program&gt;.cpp -Wall -Werror</code></li>
-              <li>All utilities must pass the ECS 150 test cases (available in the repo)</li>
-            </ul>
-
-            <h5>Using Claude Code</h5>
-            <p>
-              Claude Code is a terminal-based AI coding assistant. The README.md we
-              provide plus the test cases should be enough for Claude Code to
-              complete project 1. Provide a prompt to let Claude Code know about the
-              spec and how to run the test cases and have it solve each of the
-              utilities one-by-one.
-            </p>
-
-            <h4>Part 2: Add Line Numbering to wcat</h4>
-
-            <h5>Feature Specification</h5>
-            <p>
-              Extend your <code>wcat</code> implementation to support an optional <code>-n</code> flag
-              that prepends line numbers to each line of output, matching the
-              behavior of standard Unix <code>cat -n</code>.
-            </p>
+            <h4 id="part1">Part 1 &mdash; Proposal</h4>
 
             <p>
-              We are leaving the specification fairly sparse because having you
-              create a spec is part of the assignment.
+              Pick the app you want to clone and write a short proposal (1 page max)
+              that includes:
             </p>
-
-            <h5>Writing Test Cases</h5>
-            <p>
-              You need to add test cases to the standard testing framework for
-              project 1. You should have test cases to test out the basic feature
-              plus any edge cases (e.g., multiple files). When in doubt, match the
-              behavior of Unix <code>cat</code>. <em>Hint:</em> Claude Code can help you understand
-              how the test cases work and create new ones, with some guidance.
-            </p>
-
-            <h5>Development Approach</h5>
             <ol>
-              <li><strong>Write a specification:</strong> Write a simple prompt that explains the feature. You'll use this to get Claude Code to generate your implementation.</li>
-              <li><strong>Write your tests:</strong> Create comprehensive test cases for the new feature</li>
-              <li><strong>Write your code:</strong> Use Claude Code to create the new feature and test it, fixing issues that arise</li>
-              <li><strong>Verify:</strong> Ensure all original tests still pass</li>
+              <li><strong>The app.</strong> Which app are you cloning?</li>
+              <li><strong>The fundamental problem.</strong> What is the core problem that this app
+                solves for its users? Focus on the problem, not the feature
+                list. For example, the problem a ride sharing app solves isn't
+                "showing cars on a map," it's getting from point A to point B
+                without owning a car or finding a taxi.</li>
+              <li><strong>What you'll keep.</strong> What do you plan to do similarly to the
+                original app, and why?</li>
+              <li><strong>What you'll change.</strong> What do you plan to do differently, and
+                why do you think your version will be better?</li>
             </ol>
 
-            <h4>Submission Requirements</h4>
-            <p>Submit the following files via Gradescope:</p>
-            <ol>
-              <li><strong>wcat.md</strong> &mdash; Your specification for the <code>-n</code> flag feature, used as an input to Claude Code</li>
-              <li><strong>wcat.cpp</strong> &mdash; Your implementation with the <code>-n</code> flag</li>
-              <li><strong>test files</strong> &mdash; Your test files (must be loadable in the standard Project 1 test suite)</li>
-              <li><strong>reflection.md</strong> &mdash; A brief reflection (300 words max) addressing:
-                <ul>
-                  <li>How did using Claude Code change your development process?</li>
-                  <li>What challenges did you encounter with AI-assisted development?</li>
-                  <li>Did you understand the code Claude Code generated? How did you verify this?</li>
-                  <li>How did you decide what tests to write?</li>
-                </ul>
-              </li>
-            </ol>
+            <p>
+              Remember that complexity is a UX bug, not a set of features. You don't
+              need to clone every feature of the original app. Pick the core loop
+              &mdash; the one thing your app has to do really well &mdash; and focus on
+              that. Everything else should be spartan.
+            </p>
 
-            <h4>Grading Criteria</h4>
+            <h4 id="part2">Part 2 &mdash; First cut of your app</h4>
+
+            <p>
+              Build a working first cut of your app. It doesn't need to be polished,
+              but someone should be able to pick it up and use it to accomplish the
+              core task you described in your proposal.
+            </p>
+
+            <p>
+              Your app must be a <strong>native mobile app</strong>. Either iOS (written in
+              Swift) or Android (written in Kotlin) are fine. No Javascript, react
+              native, web, flutter, or other cross platform tools can be used.
+            </p>
+
+            <p>
+              We strongly encourage you to use agentic programming tools, like
+              Claude Code, to build your app. Speed matters here: the faster you get
+              something working, the sooner you can put it in front of people and
+              learn from them.
+            </p>
+
+            <p><strong>What to submit:</strong></p>
             <ul>
-              <li><strong>Line numbering feature (80%):</strong> <code>-n</code> flag works correctly</li>
-              <li><strong>Code quality (10%):</strong> Clean, readable, properly commented</li>
-              <li><strong>Reflection (10%):</strong> Thoughtful analysis of AI-assisted development</li>
+              <li>A link to your source code on GitHub</li>
+              <li>A short video (2 minutes max) demoing the core loop of your app</li>
+            </ul>
+
+            <h4 id="part3">Part 3 &mdash; User testing</h4>
+
+            <p>
+              Get 5 people to use your app and write up what you learned. These
+              should be people who aren't you, and ideally people who would
+              actually use an app like this.
+            </p>
+
+            <p>
+              Run each session using the "Show Me" script below. The three main
+              rules are:
+            </p>
+            <ul>
+              <li><strong>Shut up.</strong> You are observing, not selling.</li>
+              <li><strong>Tasks, not tours.</strong> Don't give a tour. Give them a goal ("Book a
+                flight") and observe.</li>
+              <li><strong>Watch the struggle.</strong> The exact moment they get confused is the
+                exact place you need to simplify your app.</li>
+            </ul>
+
+            <h5>The "Show Me" script</h5>
+
+            <p>
+              <strong>Phase 1: The setup (lower the stakes).</strong> Start with something like:
+            </p>
+
+            <blockquote>
+              I'm going to show you a rough prototype I'm working on. I want to be
+              clear: I am testing the app, I am not testing you. If you get stuck
+              or confused, that is great &mdash; it helps me fix the design. Please be
+              honest; you won't hurt my feelings.
+            </blockquote>
+
+            <p>
+              <strong>Phase 2: The first glance (the 5-second test).</strong> Hand them the
+              device on the home screen. Do <em>not</em> give them a task yet.
+            </p>
+
+            <blockquote>
+              Take a look at this screen for a few seconds. Without clicking
+              anything yet... what do you think this app does?
+            </blockquote>
+
+            <p>
+              If they say "It looks like a calendar" and you built a diet tracker,
+              you have failed before they even started.
+            </p>
+
+            <p>
+              <strong>Phase 3: The task (the core loop).</strong> Give them a scenario, not
+              instructions. For example:
+            </p>
+
+            <blockquote>
+              Imagine you are planning a trip for next weekend. Show me how you
+              would use this tool to get a list of restaurants.
+            </blockquote>
+
+            <p>
+              Silently pay attention to how they use the app. Confusion is where you
+              need to focus your attention.
+            </p>
+
+            <p>
+              <strong>Phase 4: The AI "vibe check" (if your app has an AI feature).</strong>
+              Test the quality of the AI response, not just the buttons.
+            </p>
+
+            <blockquote>
+              Look at the answer the AI just gave you. Is this useful? Do you
+              trust it? What would you do with this information next?
+            </blockquote>
+
+            <p>
+              <strong>Phase 5: The debrief.</strong>
+            </p>
+
+            <blockquote>
+              <p>On a scale of 1 to 5, how difficult was that?</p>
+              <p>If you had a magic wand, what is the one thing you would change to
+              make this easier?</p>
+              <p>How would you describe this app to a friend in one sentence?</p>
+            </blockquote>
+
+            <h5>What to submit</h5>
+
+            <p>A write-up (2 pages max) that includes:</p>
+            <ul>
+              <li>For each of your 5 users: their answer to the 5-second test, where
+                they got stuck during the task, and their answers to the debrief
+                questions</li>
+              <li>The patterns you saw across users. Where did multiple people get
+                confused?</li>
+              <li>What you would change about your app based on what you learned</li>
             </ul>
 
             <h4>Academic Integrity</h4>
             <ul>
-              <li>You are required to use Claude Code for this assignment &mdash; no manually written code is allowed</li>
               <li>You must understand all code you submit</li>
-              <li>You may discuss approaches with classmates but not share code, tests, or specifications</li>
-              <li>Your reflection must be your own original writing</li>
+              <li>You must write your own app. You may discuss approaches and help
+                classmates when they're stuck, but you may not share code</li>
+              <li>Your proposal and user testing write-up must be your own original
+                writing, and your user testing results must come from real sessions
+                with real people</li>
             </ul>
 
             <p>Good luck!</p>
-
-            <hr>
-
-            <h3 id="homework2">ECS 191: Homework 2 &mdash; Coming up with ideas</h3>
-
-            <p>
-              In homework 2, you will apply the lessons learned from lecture and
-              come up with ideas. You are encouraged to use LLMs to help with this
-              process, but it's up to you to pick your favorite ideas.
-            </p>
-
-            <p>
-              Picking ideas is always hard, so as a suggestion think about ideas
-              that hit all three properties: (1) solves a problem that you have
-              personally and you want to solve it, (2) you think solves a problem
-              that other college students, and (3) requires using technology that
-              you're interested in learning about.
-            </p>
-
-            <p>
-              One important aspect of this class is being able to explain to other
-              people what it is that you're building &mdash; an elevator pitch. As a
-              first step, you'll need to explain to the class what you're building
-              in a way that makes sense.
-            </p>
-
-            <p>
-              We suggest that you use the <a href="https://www.ycombinator.com/blog/how-to-pitch-your-company/">Y
-              Combinator</a> guidance on how to answer the
-              question of "What do you do?". Please make sure to see their
-              suggestions for how to formulate your answer and look at the end of
-              the blog post for guidance on improving your answer.
-            </p>
-
-            <p>
-              The first thing I'm going to ask you in all of our face-to-face
-              meetings is "what does your app do?" so this exercise is good practice
-              for an activity that you're going to do a lot this quarter.
-            </p>
-
-            <h4>Part 1 &mdash; Elevator pitches</h4>
-
-            <p>
-              You will turn in 10 elevator pitches via Canvas. These elevator
-              pitches should be 280 characters or less and of the format:
-            </p>
-
-            <blockquote>
-              We [your "what" offering] for [your "who" target customer] that
-              [your "why" value proposition].
-            </blockquote>
-
-            <p>
-              Refer back to your notes from the "Innovation" lecture for more
-              details on how to come up with an appropriate elevator pitch.
-            </p>
-
-            <h4>Part 2 &mdash; Present the idea you want to work on to the class</h4>
-
-            <p>
-              You will present your favorite idea to the class by answering the
-              question: What does your app do? You will have one minute to present
-              during the lecture period to present your elevator pitch.
-            </p>
-
-            <p>
-              In class, after presenting your idea, you will have an opportunity to
-              find classmates to work with. You can try to recruit others to work on
-              your idea, or if you really like someone else's idea you can approach
-              them and see if it's a match.
-            </p>
-
-            <p>
-              For grading, you are graded solely on participation: As long as you
-              provide an answer to the question "what does your app do" you will get
-              full credit. You will be given a maximum of 1 minute to give your
-              pitch.
-            </p>
 
           </div>
         </div>
