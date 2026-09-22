@@ -6,7 +6,7 @@ applications suitable for people to use. As a part of this project,
 you will build a usable app, get people to use it, and learn something
 about their use of your product.
 
-Project groups should be 4-5 members. Any other group size needs
+Project groups should be 2-4 members. Any other group size needs
 explicit approval by the professor.
 
 ## Requirements
@@ -40,11 +40,11 @@ Your project must include:
 
 ## Problem selection
 
-We will spend time in class and provide a homework assignment to help
-you think of an idea. Coming up with an idea that you are excited
-about is important because this class is a lot of work, and if you're
-genuinely excited about the idea then it'll make your experience in
-the class much better.
+We will spend time in class and provide a framework to come up with
+ideas. Coming up with an idea that you are excited about is important
+because this class is a lot of work, and if you're genuinely excited
+about the idea then it'll make your experience in the class much
+better.
 
 We _strongly suggest_, but don't require, that you pick a problem that
 college students have. This type of problem has two advantages: (1) as
@@ -103,32 +103,30 @@ main technical artifacts are:
 - Some way for the staff to run your app, ideally in the app store or
   TestFlight.
 
-- An `overview.md` file. This is a high level document that describes
-  the fundamentals of your app and includes (1) what problem are you
-  solving and why is it important, (2) how have others solved this
-  problem and what is wrong with these solutions, (3) what is
-  different about your solution and why does it solve the problem, and
-  (4) what are the key measures of success for your app (or in other
-  words, how will you know that it actually solves the problem).
+- A **human authored** `overview.md` file. This is a high level
+  document that describes the fundamentals of your app and includes
+  (1) what problem are you solving and why is it important, (2) how
+  have others solved this problem and what is wrong with these
+  solutions, (3) what is different about your solution and why does it
+  solve the problem, and (4) what are the key measures of success for
+  your app (or in other words, how will you know that it actually
+  solves the problem).
 
-- A `client_architecture.md` and `server_architecture.md` file that
-  explain your high level architecture. These architecture documents
-  should explain the main components of your client or server (the
-  most important 5-10 modules), the key data structures, and the main
-  interfaces within your application.
+- A **human authored** `client_architecture.md` and
+  `server_architecture.md` file that explain your high level
+  architecture. These architecture documents should explain the main
+  components of your client or server (the most important 5-10
+  modules), the key data structures, and the main interfaces within
+  your application.
 
 - An `API.md` file that defines the APIs that you will expose from
   your server for your client to call.
 
-- Test cases and scripts to run your test cases from the command
-  line. These are critical because agentic programming tools will use
-  these to know if their implementation is correct and fix any
-  mistakes that it makes. Having scripts to run test cases from the
-  command line enables your AI tools to run test cases automatically
-  as it implements features. _Hint:_ Agentic programming tools are
-  _very good_ at creating test cases automatically, just make sure
-  that you check them by hand to confirm that they're testing what
-  they should be testing.
+- An **llm authored** file called `llm.md` where the LLM can keep
+  notes about the app as it evolves. This file is mean only as state
+  for the LLM, we don't expect humans to read this file.
+
+- A `CLAUDE.md` file that explains these details for Claude Code.
 
 - Specs for all features. For each feature that you implement, make
   sure to pick something relatively small in size. Examples include a
