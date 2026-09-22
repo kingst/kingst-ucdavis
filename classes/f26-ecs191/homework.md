@@ -21,8 +21,9 @@ In this assignment, you'll pick an existing app and build your own
 version of it. Your clone should **not** be a pixel-for-pixel copy.
 Instead, it should solve the same fundamental problem as the original
 app, but using your own design. Keep the parts that you think work
-well, change the parts that you think could be better, and give it
-some of your own flair.
+well, change or remove the parts that you think could be better, and
+give it some of your own flair. Your app does need to be complete, but
+focus on the parts of your app that solve the problem you identified.
 
 Picking an app you already use and like is a great place to
 start. You'll have your own opinions about what it does well and what
@@ -47,8 +48,8 @@ that includes:
    without owning a car or finding a taxi.
 3. **What you'll keep.** What do you plan to do similarly to the
    original app, and why?
-4. **What you'll change.** What do you plan to do differently, and
-   why do you think your version will be better?
+4. **What you'll change or remove.** What do you plan to do differently,
+   and why do you think your version will be better?
 
 Remember that complexity is a UX bug, not a set of features. You don't
 need to clone every feature of the original app. Pick the core loop
@@ -76,9 +77,7 @@ learn from them.
 
 ## Part 3 -- User testing
 
-Get 5 people to use your app and write up what you learned. These
-should be people who aren't you, and ideally people who would
-actually use an app like this.
+Get 5 people to use your app and write up what you learned.
 
 Run each session using the "Show Me" script below. The three main
 rules are:
