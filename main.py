@@ -89,6 +89,12 @@ def nav_for_class(class_name):
                {'page': 'lectures.html', 'label': 'Lectures'},
                {'page': 'project.html', 'label': 'Project'},
                {'page': 'homework.html', 'label': 'Homework'}]
+    elif class_name == 'f26-ecs191':
+        return [{'page': 'index.html', 'label': 'Home'},
+               {'page': 'grading.html', 'label': 'Grading'},
+               {'page': 'lectures.html', 'label': 'Lectures'},
+               {'page': 'project.html', 'label': 'Project'},
+               {'page': 'homework.html', 'label': 'Homework'}]
     elif class_name == 'w18-ecs251':
         return [{'page': 'index.html', 'label': 'Home'},
                {'page': 'grading.html', 'label': 'Grading'},
@@ -161,10 +167,11 @@ def home(path):
     publications = [publication_to_listing(x) for x in publication_list]
 
     classes = [
-        {'title': 'ECS 150', 'quarter': 'Spring 26', 'page': '/classes/s26-ecs150/index.html'}
+        {'title': 'ECS 191', 'quarter': 'Fall 26', 'page': '/classes/f26-ecs191/index.html'}
     ]
 
     past_classes = [
+        {'title': 'ECS 150', 'quarter': 'Spring 26', 'page': '/classes/s26-ecs150/index.html'},
         {'title': 'ECS 191', 'quarter': 'Winter 26', 'page': '/classes/w26-ecs191/index.html'},
         {'title': 'ECS 150', 'quarter': 'Winter 25', 'page': '/classes/w25-ecs150/index.html'},
         {'title': 'ECS 150', 'quarter': 'Fall 24', 'page': '/classes/f24-ecs150/index.html'},
@@ -203,5 +210,5 @@ def robots_txt():
     return "User-agent: *\nDisallow:"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8080)
 

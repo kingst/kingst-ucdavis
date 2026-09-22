@@ -7,7 +7,7 @@ if [ "$1" == "" ]; then
 fi
 
 slides_url=$1
-reading_list="classes/s26-ecs150/reading_list.csv"
+reading_list="classes/f26-ecs191/reading_list.csv"
 
 today=`date +"%Y-%m-%d"`
 
