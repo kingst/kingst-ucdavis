@@ -1,4 +1,4 @@
-# Homework
+# ECS 191: Homework -- Clone an app
 
 This quarter's homework is an individual assignment where you clone
 an existing app, putting your own spin on it. The goal is to get
@@ -12,8 +12,6 @@ other. We want people to talk about concepts together and help each
 other out when stuck, but the app you submit must be your own.
 
 We will use Canvas to submit homework assignments this quarter.
-
-# ECS 191: Homework -- Clone an app
 
 ## Overview
 
@@ -37,10 +35,11 @@ design.
 
 ## Part 1 -- Proposal
 
-Pick the app you want to clone and write a short proposal (1 page max)
-that includes:
+Pick the app you want to clone and write a _human generated_ short
+proposal (1 page max) that includes:
 
-1. **The app.** Which app are you cloning?
+1. **The app.** Which app are you cloning and what does this app do?
+   Why are you choosing it?
 2. **The fundamental problem.** What is the core problem that this app
    solves for its users? Focus on the problem, not the feature
    list. For example, the problem a ride sharing app solves isn't
@@ -49,12 +48,18 @@ that includes:
 3. **What you'll keep.** What do you plan to do similarly to the
    original app, and why?
 4. **What you'll change or remove.** What do you plan to do differently,
-   and why do you think your version will be better?
+   and why?
 
 Remember that complexity is a UX bug, not a set of features. You don't
 need to clone every feature of the original app. Pick the core loop
 -- the one thing your app has to do really well -- and focus on
 that. Everything else should be spartan.
+
+**What to submit:**
+- A link to the GitHub repo for your homework. If it's a private repo,
+  make sure that GitHub user `@kingst` has access.
+- A `proposal.md` file in the repo that includes all of the required
+  information for this part of the assignment.
 
 ## Part 2 -- First cut of your app
 
@@ -72,8 +77,10 @@ something working, the sooner you can put it in front of people and
 learn from them.
 
 **What to submit:**
-- A link to your source code on GitHub
-- A short video (2 minutes max) demoing the core loop of your app
+- A link to your source code on GitHub. It must build using Xcode 27
+  or Android Studio Quail 4.
+- A README.md file with clear instructions for how to build your app
+  and information about how to use the main features.
 
 ## Part 3 -- User testing
 
@@ -130,16 +137,21 @@ Test the quality of the AI response, not just the buttons.
 >
 > How would you describe this app to a friend in one sentence?
 
-### What to submit
+**What to submit:**
 
-A write-up (2 pages max) that includes:
+- A link to your source code on GitHub.
 
-- For each of your 5 users: their answer to the 5-second test, where
-  they got stuck during the task, and their answers to the debrief
-  questions
-- The patterns you saw across users. Where did multiple people get
-  confused?
-- What you would change about your app based on what you learned
+- A _human generated_ write-up (2 pages max, `user_testing.md`) that includes:
+
+  - For each of your 5 users: their answer to the 5-second test, where
+    they got stuck during the task, and their answers to the debrief
+    questions
+  - The patterns you saw across users. Where did multiple people get
+    confused?
+  - What you would change about your app based on what you learned
+
+- Videos of each of your five interviews. These videos will help me
+provide you with feedback on your interviewing techniques.
 
 ## Academic Integrity
 

@@ -1,8 +1,23 @@
 import csv
 import os
-from flask import Flask, render_template, request
+from pathlib import Path
+from flask import Flask, abort, render_template, request, send_from_directory
+from jinja2 import TemplateNotFound
 
 app = Flask(__name__, template_folder='.', static_folder='assets', static_url_path='/assets')
+
+WIREFRAME = Path(__file__).parent / 'wireframe'
+
+def render_page(template_name, **context):
+    # Unknown URLs map to templates that don't exist: answer 404, not 500.
+    # Only the page itself counts; a missing include is still a real error.
+    try:
+        return render_template(template_name, **context)
+    except TemplateNotFound as e:
+        if e.name == template_name:
+            abort(404)
+        raise
+
 
 def read_csv(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -138,15 +153,18 @@ def render_class_page(class_name, page):
     if not page or len(page) == 0:
         page = 'index.html'
 
-    reading_list = read_csv(f'classes/{class_name}/reading_list.csv')
+    try:
+        reading_list = read_csv(f'classes/{class_name}/reading_list.csv')
+    except FileNotFoundError:
+        abort(404)
 
     nav = nav_for_class(class_name)
     
-    return render_template(f'classes/{class_name}/{page}',
-                           nav_title=class_name.upper(),
-                           page=page,
-                           nav=nav,
-                           reading_list=reading_list)
+    return render_page(f'classes/{class_name}/{page}',
+                       nav_title=class_name.upper(),
+                       page=page,
+                       nav=nav,
+                       reading_list=reading_list)
 
 
 @app.route('/', defaults={'path': 'main.html'})
@@ -197,13 +215,20 @@ def home(path):
         {'page': 'teaching.html', 'label': 'Teaching'}
     ]
 
-    return render_template('home/' + page,
-                           classes=classes,
-                           past_classes=past_classes,
-                           publications=publications,
-                           nav_title='Sam King',
-                           nav=nav,
-                           page=page)
+    return render_page('home/' + page,
+                       classes=classes,
+                       past_classes=past_classes,
+                       publications=publications,
+                       nav_title='Sam King',
+                       nav=nav,
+                       page=page)
+
+# Wireframe is a self-contained app exported from github.com/kingst/Wireframe.
+# Serve the file as-is: render_template would run it through Jinja.
+@app.route('/apps/wireframe')
+@app.route('/apps/wireframe/')
+def wireframe():
+    return send_from_directory(WIREFRAME, 'index.html')
 
 @app.route('/robots.txt')
 def robots_txt():
