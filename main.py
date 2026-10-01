@@ -1,7 +1,12 @@
 import csv
 import os
+import re
+from datetime import datetime
 from pathlib import Path
-from flask import Flask, abort, render_template, request, send_from_directory
+from zoneinfo import ZoneInfo
+import google.auth
+from flask import Flask, abort, jsonify, render_template, request, send_from_directory
+from googleapiclient.discovery import build
 from jinja2 import TemplateNotFound
 
 app = Flask(__name__, template_folder='.', static_folder='assets', static_url_path='/assets')
@@ -229,6 +234,61 @@ def home(path):
 @app.route('/apps/wireframe/')
 def wireframe():
     return send_from_directory(WIREFRAME, 'index.html')
+
+# Attendance check-in. Spec: attendance.md. Setup notes: attendance/README.md.
+# Tokens are not validated, only recorded; the sheet is the only place the
+# name and email go, so they must never end up in the logs.
+ATTENDANCE = Path(__file__).parent / 'attendance'
+ATTENDANCE_TZ = ZoneInfo('America/Los_Angeles')
+SHEETS_SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+UCD_EMAIL = re.compile(r'^[a-z0-9._%+-]+@ucdavis\.edu$')
+MAX_FIELD_LEN = 200
+
+
+def append_attendance_row(row):
+    spreadsheet_id = os.environ.get('ATTENDANCE_SPREADSHEET_ID')
+    if not spreadsheet_id:
+        raise RuntimeError('ATTENDANCE_SPREADSHEET_ID is not set')
+    # On App Engine this is the app's default service account, so the sheet
+    # has to be shared with it. Locally it is whatever ADC is logged in as.
+    credentials, _ = google.auth.default(scopes=SHEETS_SCOPES)
+    sheets = build('sheets', 'v4', credentials=credentials, cache_discovery=False)
+    # RAW keeps the strings as typed, so "=1+1" in a name stays text rather
+    # than becoming a formula. A range with no tab name means the first tab.
+    sheets.spreadsheets().values().append(
+        spreadsheetId=spreadsheet_id,
+        range='A:D',
+        valueInputOption='RAW',
+        insertDataOption='INSERT_ROWS',
+        body={'values': [row]}).execute()
+
+
+@app.route('/apps/attendance/<token>', methods=['GET'])
+def attendance_page(token):
+    # Served as-is like wireframe: the page has no template variables and
+    # its JavaScript would trip over Jinja.
+    return send_from_directory(ATTENDANCE, 'index.html')
+
+
+@app.route('/apps/attendance/<token>', methods=['POST'])
+def attendance_submit(token):
+    name = request.form.get('name', '').strip()
+    email = request.form.get('email', '').strip().lower()
+    if not name or not email:
+        return jsonify(ok=False, error='Please fill in both your name and your email.'), 400
+    if len(name) > MAX_FIELD_LEN or len(email) > MAX_FIELD_LEN:
+        return jsonify(ok=False, error='That name or email is too long.'), 400
+    if not UCD_EMAIL.match(email):
+        return jsonify(ok=False, error='Please use your @ucdavis.edu email address.'), 400
+
+    timestamp = datetime.now(ATTENDANCE_TZ).isoformat(timespec='seconds')
+    try:
+        append_attendance_row([timestamp, token, name, email])
+    except Exception:
+        app.logger.exception('attendance: could not append to the sheet')
+        return jsonify(ok=False, error='Could not record your attendance. Please try again.'), 500
+    return jsonify(ok=True)
+
 
 @app.route('/robots.txt')
 def robots_txt():

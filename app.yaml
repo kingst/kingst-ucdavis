@@ -5,3 +5,7 @@ instance_class: F1
 
 automatic_scaling:
   max_instances: 1
+
+# Attendance check-in config. See attendance/README.md.
+env_variables:
+  ATTENDANCE_SPREADSHEET_ID: "1zWb5_36j_kJxECmNUgMO2zOUuW1uMFpi1Nglo4WtFfI"
