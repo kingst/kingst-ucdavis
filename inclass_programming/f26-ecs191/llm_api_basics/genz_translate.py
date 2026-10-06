@@ -2,16 +2,19 @@
 Gen-Z translator: a minimal example of calling an LLM through an API.
 
 Each sentence in SENTENCES is sent to Claude with a system prompt that
-asks for a Gen-Z rewrite. One sentence in, one request out, one reply
-back. See llm_api_basics_overview.md for setup and the ideas behind it.
+asks for a Gen-Z rewrite. One sentence in, one request out, one JSON
+reply back. See llm_api_basics_overview.md for setup and the ideas
+behind it.
 
 Run with:  python genz_translate.py
 Needs:     creds.py with your API key (copy creds_example.py to make it)
 """
 
+import json
 import sys
 
 import anthropic
+from anthropic.types import Message
 
 MODEL = "claude-opus-5-5"
 
@@ -22,9 +25,20 @@ SYSTEM_PROMPT = """You are a translator from standard English to Gen-Z English.
 
 The user will send one sentence. Rewrite it so it sounds like a Gen-Z
 person wrote it: casual tone, current slang, lowercase is fine, emoji
-are optional. Keep the original meaning intact.
+are optional. Keep the original meaning intact."""
 
-Reply with only the rewritten sentence, nothing else."""
+# The shape of the JSON we want back, written as a JSON schema. The API
+# constrains the reply to match it, so every field listed as required is
+# always present and nothing else is. Structured output requires
+# "additionalProperties": False on every object.
+TRANSLATION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "translation": {"type": "string"},
+    },
+    "required": ["translation"],
+    "additionalProperties": False,
+}
 
 SENTENCES = [
     "I am very tired today and would prefer not to attend the meeting.",
@@ -40,27 +54,23 @@ PRICE_PER_MTOK_INPUT = 4.00
 PRICE_PER_MTOK_OUTPUT = 20.00
 
 
-def translate(client: anthropic.Anthropic, sentence: str) -> tuple[str, int, int]:
-    """Send one sentence to Claude. Returns (reply, input_tokens, output_tokens)."""
-    response = client.messages.create(
+def translate(client: anthropic.Anthropic, sentence: str) -> Message:
+    """Send one sentence to Claude and return the full response."""
+    return client.messages.create(
         model=MODEL,
         max_tokens=1024,  # a ceiling on the reply length, not a target
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": sentence}],
-        # This is a simple task, so ask the model not to think hard about it.
-        # Lower effort means a faster and cheaper reply. The default is "medium".
-        output_config={"effort": "low"},
+        output_config={
+            # Ask for JSON matching TRANSLATION_SCHEMA. The reply's text block
+            # is then guaranteed to be valid JSON of exactly that shape.
+            "format": {"type": "json_schema", "schema": TRANSLATION_SCHEMA},
+            # This is a simple task, so ask the model not to think hard about
+            # it. Lower effort means a faster and cheaper reply. The default
+            # is "medium".
+            "effort": "low",
+        },
     )
-
-    # The reply is a list of content blocks, not a single string. Current
-    # models can include a "thinking" block before the "text" block, so
-    # never assume response.content[0] is the text.
-    if response.stop_reason != "end_turn":
-        reply = f"[no translation, stop_reason={response.stop_reason}]"
-    else:
-        reply = "".join(block.text for block in response.content if block.type == "text")
-
-    return reply.strip(), response.usage.input_tokens, response.usage.output_tokens
 
 
 def main() -> int:
@@ -83,7 +93,7 @@ def main() -> int:
     for sentence in SENTENCES:
         print(f"original: {sentence}")
         try:
-            reply, input_tokens, output_tokens = translate(client, sentence)
+            response = translate(client, sentence)
         except anthropic.AuthenticationError:
             print("The API rejected the key. Check the key in creds.py and try again.")
             return 1
@@ -94,7 +104,24 @@ def main() -> int:
             print(f"API error {error.status_code}: {error.message}")
             return 1
 
-        print(f"gen-z:    {reply}")
+        # The reply is a list of content blocks, not a single string. Current
+        # models can include a "thinking" block before the "text" block, so
+        # never assume response.content[0] is the text. The text is raw JSON.
+        raw_json = "".join(block.text for block in response.content if block.type == "text")
+        print(f"json:     {raw_json}")
+
+        # Only parse if the model finished cleanly. If it hit max_tokens or
+        # refused, the text may be empty or cut off in the middle of the JSON.
+        if response.stop_reason != "end_turn":
+            print(f"          [no translation, stop_reason={response.stop_reason}]")
+        else:
+            # json.loads turns the text into a plain dict. The schema
+            # guarantees the key exists, so indexing it directly is safe.
+            result = json.loads(raw_json)
+            print(f"gen-z:    {result['translation']}")
+
+        input_tokens = response.usage.input_tokens
+        output_tokens = response.usage.output_tokens
         print(f"          ({input_tokens} tokens in, {output_tokens} tokens out)")
         print()
         total_input += input_tokens
