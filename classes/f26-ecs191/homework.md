@@ -82,6 +82,10 @@ learn from them.
 - A README.md file with clear instructions for how to build your app
   and information about how to use the main features.
 
+**When we meet:**
+- During your meeting be prepared to walk Prof. King through a "Show
+  me" interview (see Part 3 for the script).
+
 ## Part 3 -- User testing
 
 Get 5 people to use your app and write up what you learned.
