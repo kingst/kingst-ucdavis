@@ -202,6 +202,19 @@ implementing your app. It includes having a first cut of all of your
 `API.md` files. It also includes one feature (`somefeature.md`), test
 cases, and a demonstration of your app talking to your server.
 
+**Important:** Your `overview.md`, `client_architecture.md`,
+`server_architecture.md` and all feature md files must be human
+authored. Grammatical mistakes, spelling errors, etc are all fine. I
+want you to put the mental time into thinking through these details of
+your design. You should add rules to your `CLAUDE.md` file that
+specifies that the LLM is not allowed to modify these files, they're
+edited by the human only.
+
+You should have some LLM generated files as well for Claude Code to
+keep track of the design as it evolves. For example a reasonable
+approach is to have a `client_architecture.llm.md` file that the LLM
+is allowed to write.
+
 Your architecture and API files do not need to be complete as these
 will evolve as you make progress on your app, but you should have
 these for at least the parts of your app you are working on at this
@@ -216,6 +229,12 @@ point.
 
   - The code you demo needs to be on your `main` branch, fully
     integrated, in github
+
+  - You need to include a `README.md` file with instructions for
+    building and running the code. Instructions can be simple or can
+    include notes about needing API keys (but not the keys themselves)
+    or anything else I need to know to build and fully run your
+    app. If there are test user credentials I should use, let me know.
 
 **When we meet:**
 

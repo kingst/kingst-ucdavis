@@ -294,6 +294,26 @@
             </p>
 
             <p>
+              <b>Important:</b> Your <code>overview.md</code>,
+              <code>client_architecture.md</code>,
+              <code>server_architecture.md</code> and all feature md
+              files must be human authored. Grammatical mistakes,
+              spelling errors, etc are all fine. I want you to put the
+              mental time into thinking through these details of your
+              design. You should add rules to your <code>CLAUDE.md</code>
+              file that specifies that the LLM is not allowed to modify
+              these files, they're edited by the human only.
+            </p>
+
+            <p>
+              You should have some LLM generated files as well for Claude
+              Code to keep track of the design as it evolves. For example
+              a reasonable approach is to have a
+              <code>client_architecture.llm.md</code> file that the LLM
+              is allowed to write.
+            </p>
+
+            <p>
               Your architecture and API files do not need to be complete
               as these will evolve as you make progress on your app, but
               you should have these for at least the parts of your app
@@ -310,6 +330,13 @@
                     <li>The code you demo needs to be on your
                     <code>main</code> branch, fully integrated, in
                     github</li>
+                    <li>You need to include a <code>README.md</code> file
+                    with instructions for building and running the
+                    code. Instructions can be simple or can include notes
+                    about needing API keys (but not the keys themselves)
+                    or anything else I need to know to build and fully
+                    run your app. If there are test user credentials I
+                    should use, let me know.</li>
                   </ul>
                 </li>
               </ul>
