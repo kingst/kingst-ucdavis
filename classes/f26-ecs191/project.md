@@ -260,15 +260,16 @@ a login page.
 For this milestone, you need to have something AI related integrated
 into your app and be ready to demonstrate it at our meeting.
 
-At this milestone, you should also have talked to 10 potential users
-of your app to learn about what problems they have that you might be
+At this milestone, you should also have talked to potential users of
+your app to learn about what problems they have that you might be
 able to solve.
 
 In your discovery conversations you aren't trying to get people to use
 your product -- you are simply trying to understand the problems that
 they have. Also, ask people about past experiences, not speculation on
-the future. Here is an example script that you can use to get started
-on your discovery interviews:
+the future. See the "Customer discovery" lecture for more details. Here
+is an example script that you can use to get started on your discovery
+interviews:
 
   - Tell me about the last time you <fill in>
 
@@ -280,33 +281,63 @@ on your discovery interviews:
 
   - Why is that solution not good enough?
 
-**Requirement:** Each group member is required to conduct at least one
-of the 10 interviews. It's fine to have multiple members at interviews
-(and in fact helps for note taking) but each member needs to lead at
-least one of them.
+**Requirement:** Conduct 10 discovery interviews. All interviews will
+include one group member who is conducting the interview and a
+second group member who is there to take notes. You are welcome to
+and encouraged to include more group members in interviews.
+
+  - Every member must lead at least one interview
+
+  - Every member must observe at least one interview
+
+  - Before each interview, write down your pre-interview hypotheses:
+    what problem you think this person has and what you might hear
+    that would invalidate your hypotheses. Your hypotheses should evolve as
+    you learn from each interview, and we want to see that evolution.
+
+  - Immediately after the interview do a post-interview debrief with
+    the group members who were at the interview and write down your
+    post-interview synthesis. You'll turn this in for each interview
+    (and it's a good practice)
+
+  - All interviews need to be recorded, audio is preferred but video
+    is fine as well. **Ask for permission to record** at the start of
+    the interview and let them know that the recording will only be
+    shared with the course staff. If they don't want to be recorded,
+    thank them for their time and find someone else. Unrecorded
+    interviews don't count toward your 10.
+
+  - Interviews should be in person unless there is a compelling reason
+    to use Zoom
+
+  - Don't interview your friends and family! Focus on finding people
+    who are likely to have the problem you're looking to solve.
+
+Aim for interviews in the 5 to 10 minute range. Remember, you're not
+going through a script, you want to learn as much as possible about
+the problem that this individual has and why. You are looking for
+insight. Feel free to go off script as you uncover new and interesting
+details but focus on learning about their past lived experiences.
 
 **What to turn in:**
 
+- Audio recordings of your interviews submitted via Canvas
+
 - A link to your github repo that includes all of the documents +
-  source code that you have thus far, including `discovery_summary.md`
-  and `discovery_details.md`.
+  source code that you have thus far, including `discovery.md`
 
-- A `discovery_summary.md` file that concisely summarizes what you
-  learned from your 10 discovery conversations. The emphasis here is
-  on problems you discover, but include some early ideas on ways that
-  your product might help with these problems. How has your thinking
-  changed after conducting these interviews?
+- A `discovery.md` file that includes for each interview: (1)
+  pre-interview hypotheses and (2) post-interview synthesis. Also
+  include an overall summary of your findings and how this changes
+  your project.
 
-- A `discovery_details.md` file that shows the raw notes from your
-  conversations. _Hint:_ Take notes as you talk to people and this
-  requirement should be easy.
-
-**Important:** For the two discovery docs, make sure that these are
-_not_ written by an LLM. You can use an LLM to clean up grammar, make
-it more concise, etc, but I want you to _think_ about the sythesis of
+**Important:** Your `discovery.md` file must be human authored, just
+like your design docs from Milestone 0. Grammatical mistakes, spelling
+errors, etc are all fine. I want you to _think_ about the synthesis of
 these conversations yourself and talk about it as a group, don't just
 rely on ChatGPT to tell you what you learned. Human insight here is
-key.
+key. Add `discovery.md` to the list of human-only files in your
+`CLAUDE.md`.
 
 **When we meet:**
 
@@ -321,7 +352,7 @@ key.
   the same for some apps).
 
 - Be ready to talk about what you learned from talking to potential
-  users.
+  users and how it changed your project.
 
 #### Milestone 2: Main feature working, testing the new user experience
 
@@ -329,18 +360,19 @@ In this milestone, you will have your main feature working and test
 out how effectively people can go from being new users to experiencing
 the main benefit of your product (your magic moment).
 
-You need to have at least 9 user interviews for this milestone. These
-interviews are broken down into (1) initial testing with three users,
-(2) iterating based on what you learn and testing on three users, (3)
-repeat the iterating and testing cycle on three users. The three users
-need to be different humans and there are three distinct rounds of
-testing + iteration, so 9 unique humans total.
+You need to have at least 10 new user interviews for this
+milestone. A new user is someone who has never used your app
+before. These interviews are broken down into (1) initial testing with
+five new users, (2) iterating based on what you learn and testing on
+five additional new users. The second round of interviews must use
+the updated version of your app.
 
 For your user interviews, use the script that we introduce in the
-"Product engineering" lecture. At a high level, the experiment
-consists of having people complete a task using your app. This
-represents a shift from "tell me" to "show me" as we engage with
-people who use your app. The five phases of the exeriment are:
+"Product engineering" lecture. These are the same interviews you did
+for the homework. At a high level, the experiment consists of having
+people complete a task using your app. This represents a shift from
+"tell me" to "show me" as we engage with people who use your app. The
+five phases of the experiment are:
 
   - Phase 1: The Setup (lower the stakes)
   - Phase 2: The "First Glance" (The 5-Second Test)
@@ -349,32 +381,80 @@ people who use your app. The five phases of the exeriment are:
   - Phase 5: The Debrief
 
 For more details and examples of this flow, see the "Product
-engineering" lecture.
+engineering" lecture. Unlike your discovery interviews, you don't need
+to write pre-interview hypotheses for these. The "show me" script
+already builds them in.
 
-To help you get practice with user interviews, we will provide time in
-class for you to test out your new user experience on your classmates
-and the course staff will provide feedback on your interviews.
+**Requirement:** Conduct 10 new user "show me" interviews. All
+interviews will include one group member who is conducting the
+interview and a second group member who is there to take notes. You
+are welcome to and encouraged to include more group members in
+interviews.
+
+  - Every member must lead at least one interview
+
+  - Every member must observe at least one interview
+
+  - Immediately after the interview do a post-interview debrief with
+    the group members who were at the interview and write down your
+    post-interview synthesis. You'll turn this in for each interview
+    (and it's a good practice)
+
+  - All interviews need to be recorded. For these interviews video is
+    preferred, since the important data is where people tap and where
+    they pause, but audio is fine as well. **Ask for permission to
+    record** at the start of the interview and let them know that the
+    recording will only be shared with the course staff. If they don't
+    want to be recorded, thank them for their time and find someone
+    else. Unrecorded interviews don't count toward your 10.
+
+  - Interviews should be in person unless there is a compelling reason
+    to use Zoom
+
+  - Don't interview your friends and family! Focus on finding people
+    who are likely to have the problem you're looking to solve. It's
+    ok to have some overlap with the people you interviewed during
+    discovery if you identified a problem they have that your product
+    solves.
 
 **What to turn in:**
 
+- Recordings of your interviews submitted via Canvas
+
 - A link to your github repo that includes all of the documents +
-  source code that you have thus far, including `new_user_summary.md`
-  and `new_user_details.md`.
+  source code that you have thus far, including
+  `new_user_interviews.md`
 
-- A `new_user_summary.md` file that concisely summarizes what you
-  learned from people using your app and what you changed with each
-  iteration.
+- A `new_user_interviews.md` file with four sections: your first round
+  of five interviews, what you changed after the first round and why,
+  your second round of five interviews, and an overall summary of what
+  you learned and how it changes your project. For each interview
+  include:
 
-- A `new_user_details.md` file that shows the raw notes from your
-  conversations. _Hint:_ Take notes as you talk to people and this
-  requirement should be easy.
+  - Their answer to the 5-second test
+
+  - Where they got stuck during the task
+
+  - Their reaction to your AI feature
+
+  - Their answers to the debrief questions
+
+  - Your post-interview synthesis
+
+**Important:** Your `new_user_interviews.md` file must be human
+authored, just like your design docs and `discovery.md`. Grammatical
+mistakes, spelling errors, etc are all fine. I want you to _think_
+deeply about what you learn from people using your app and write it
+down yourself, don't just rely on ChatGPT to tell you what you
+learned. Add `new_user_interviews.md` to the list of human-only files
+in your `CLAUDE.md`.
 
 **When we meet:**
 
 - Have a two sentence description of your app.
 
-- Be ready to show us your full app working either on a simulator or a
-  real device.
+- Be ready to show us your main feature working end to end either on a
+  simulator or a real device.
 
 - Have 2-3 high priority questions that you want to ask the course staff
 
@@ -387,7 +467,7 @@ By this milestone, you will have completed your app, convinced 10
 people to use it, and collected feedback from all of them. For many
 groups, Milestone 3 will be the end of the technical work for your
 project this quarter. For other groups, Milestone 3 represents a last
-opportunity to get feedback from the course staff whlie you still have
+opportunity to get feedback from the course staff while you still have
 time to adjust before the final project is due during finals week.
 
 In addition to getting 10 people to use your app, you will conduct
@@ -402,7 +482,7 @@ high level, your goal is to learn about your user's:
 
  - Anxiety
 
- - Intertia
+ - Inertia
 
 In your interview, your goal is to learn as much as you can about
 these properties of the people using your product and assess how well
@@ -423,10 +503,9 @@ your product is solving their fundamental problem.
   app. _Hint:_ Take notes as you talk to people and this requirement
   should be easy.
 
-- **Important:** You need to make sure that both Jun and Sam have your
-    app installed and can use it along with the rest of your
-    users. Failure to do so will result in a significant loss of
-    points.
+- **Important:** You need to make sure that the course staff have your
+  app installed and can use it along with the rest of your
+  users. Failure to do so will result in a significant loss of points.
 
 **When we meet:**
 
@@ -456,12 +535,24 @@ your product is solving their fundamental problem.
 
 ## Final Project & Presentation Guidelines
 
-The goal of this final milestone is to prove that you can not only build functional software, but that you can build a **product that attempts to solve a real problem for real users**. Your grade is split into two parts: the actual product you built (The Final Project) and how well you pitch and demonstrate it (The Demo).
+The goal of this final milestone is to prove that you can not only
+build functional software, but that you can build a **product that
+attempts to solve a real problem for real users**. Your grade is split
+into two parts: the actual product you built (The Final Project) and
+how well you pitch and demonstrate it (The Demo).
 
-You can find the rubric we will use to grade your project and presentation [here](https://docs.google.com/spreadsheets/d/1qRXb72nMy6yJS2WJphZ3fp3cTF3Plsl20vTqc2LRUnE/edit?usp=sharing) and you can get some hints about your presentation and demo from the "Demos and presentations" lecture on 12/1.
+You can find the rubric we will use to grade your project and
+presentation
+[here](https://docs.google.com/spreadsheets/d/1qRXb72nMy6yJS2WJphZ3fp3cTF3Plsl20vTqc2LRUnE/edit?usp=sharing)
+and you can get some hints about your presentation and demo from the
+"Demos and presentations" lecture on 12/1.
 
 ### Part 1: The Final Project (The Artifact)
-Your final codebase and application will be evaluated on how well it executes its core value proposition. We are looking for quality, reliability, and user-centric design over a massive list of half-finished features. 
+
+Your final codebase and application will be evaluated on how well it
+executes its core value proposition. We are looking for quality,
+reliability, and user-centric design over a massive list of
+half-finished features.
 
 Your product must excel in these four areas:
 
