@@ -461,51 +461,159 @@ in your `CLAUDE.md`.
 - Be ready to talk about what you learned from people using
   your app _and_ what you changed as a result.
 
-#### Milestone 3: App done, tested on 10 users, feedback collected
+#### Milestone 3: Is your app solving a problem? 10 users + post-usage interviews
 
-By this milestone, you will have completed your app, convinced 10
-people to use it, and collected feedback from all of them. For many
+By this milestone, you will have completed your app, gotten 10 people
+to use it for at least three days each, and interviewed all of them
+to learn if your app is solving a real problem for them. For many
 groups, Milestone 3 will be the end of the technical work for your
 project this quarter. For other groups, Milestone 3 represents a last
 opportunity to get feedback from the course staff while you still have
 time to adjust before the final project is due during finals week.
 
-In addition to getting 10 people to use your app, you will conduct
-post-usage interviews with all of them to see if your app is solving
-real pain for them. For your post-usage interviews, see the content
-from the "qualitative user feedback" lecture for more details. At a
-high level, your goal is to learn about your user's:
+Nobody wants your app, they want their problem solved. Your goal for
+this milestone is not to find out if your app is pretty or makes
+sense, it is to find out if your app is solving a problem for the
+people using it and why or why not. I expect that most of you will
+find that you are _not_ solving a problem, and that is fine. Whether
+you are or not doesn't matter for your grade, but understanding why
+does.
 
- - Pain
+**Timing:** Your users need at least three days with your app before
+you can interview them, and Thanksgiving falls in the middle of this
+milestone. Have your app in your users' hands by 11/23 at the
+latest. If you are distributing through TestFlight, start early since
+getting a build approved for external testers can take a few days.
 
- - Promise
+**Metrics:** Pick one or two quantitative metrics that tell you if
+people are getting value from your app, and log them per user. One or
+two is both the minimum and the maximum. You need this data before
+you interview someone because people won't remember how much they
+actually used your app.
 
- - Anxiety
+For your post-usage interviews, use the framework from the
+"Post-usage interviews" lecture. For each user you are trying to
+uncover four things:
 
- - Inertia
+  - Pain (the push): the problem that makes them look for a solution
 
-In your interview, your goal is to learn as much as you can about
-these properties of the people using your product and assess how well
-your product is solving their fundamental problem.
+  - Promise (the pull): what they hoped your app would do for them
+
+  - Anxiety (the friction): what made them hesitate to use your app
+
+  - Inertia (the status quo): what they do today instead
+
+Each interview has three steps:
+
+  - Step 1: The Hypothesis. Before the interview, look at this user's
+    data and write down your prediction for their pain, promise,
+    anxiety, and inertia.
+
+  - Step 2: The Extraction. During the interview, uncover what each
+    of these actually is for this person.
+
+  - Step 3: The Delta. After the interview, compare your hypotheses
+    to what you learned and draw a conclusion: is your app solving a
+    problem for this user? Why or why not?
+
+Here are some example questions to get you started, but unlike the
+first two milestones you can't just go through a script. You will
+need to adapt these for your product and keep digging:
+
+  - Pain: Walk me through the last time you dealt with <fill
+    in>. What was the worst part about it?
+
+  - Promise: When you first opened our app, what specific outcome
+    were you hoping it would do for you?
+
+  - Anxiety: When you saw <the AI's output>, what made you hesitate?
+
+  - Inertia: Walk me through the moment you decided to close our app
+    and do it the old way. Why was the old way easier?
+
+Focus on actual usage. Have them open your app and show you the last
+time they did something, then ask about that specific example. Avoid
+questions like "do you like my app?" or "would you use a feature that
+does X?", people are nice and the answers will mislead you. If
+someone stopped using your app, don't make them feel bad about it,
+just learn why.
+
+**Requirement:** Get 10 people to use your app for at least three
+days each and conduct a post-usage interview with all of them. All
+interviews will include one group member who is conducting the
+interview and a second group member who is there to take notes. You
+are welcome to and encouraged to include more group members in
+interviews.
+
+  - Every member must lead at least one interview
+
+  - Every member must observe at least one interview
+
+  - Let your users know up front that you will interview them after
+    they use your app, and make sure you have their contact
+    information.
+
+  - Before each interview, look at that user's data and write down
+    your hypotheses for their pain, promise, anxiety, and inertia.
+
+  - Immediately after the interview do a post-interview debrief with
+    the group members who were at the interview and write down your
+    post-interview synthesis. You'll turn this in for each interview
+    (and it's a good practice)
+
+  - All interviews need to be audio recorded. **Ask for permission to
+    record** at the start of the interview and let them know that the
+    recording will only be shared with the course staff. Unrecorded
+    interviews don't count toward your 10.
+
+  - Interviews should be in person unless there is a compelling reason
+    to use Zoom
+
+  - Friends and family are fine for this milestone, but remember that
+    they want to be nice to you, so stick to questions about what
+    they actually did.
+
+  - It's ok to include people you interviewed for Milestones 1 or 2,
+    as long as your discovery uncovered that they have the problem
+    you want to solve.
+
+  - The course staff will use your app, but we don't count toward
+    your 10.
 
 **What to turn in:**
 
+- Audio recordings of your interviews submitted via Canvas
+
 - A link to your github repo that includes all of the documents +
-  source code that you have thus far, including `user_experience_summary.md`
-  and `user_experience_details.md`.
+  source code that you have thus far, including
+  `post_usage_interviews.md`
 
-- A `user_experience_summary.md` file that concisely summarizes what
-  you learned from people using your app both in terms of quantitative
-  metrics and qualitative interviews.
+- A `post_usage_interviews.md` file that includes your one or two
+  metrics and how you measure them, an entry for each user, and an
+  overall summary of what you learned and how it changes your
+  project. For each user include:
 
-- A `user_experience_details.md` file that shows the raw notes from
-  your conversations and detailed quantitative metrics from your
-  app. _Hint:_ Take notes as you talk to people and this requirement
-  should be easy.
+  - Their usage data for your metrics
+
+  - Your pre-interview hypotheses for their pain, promise, anxiety,
+    and inertia
+
+  - What you learned about each of these in the interview
+
+  - The delta between your hypotheses and what you learned
+
+  - Your conclusion: is your app solving a problem for this user?
+    Why or why not?
 
 - **Important:** You need to make sure that the course staff have your
   app installed and can use it along with the rest of your
   users. Failure to do so will result in a significant loss of points.
+
+**Important:** Your `post_usage_interviews.md` file must be human
+authored, just like your design docs, `discovery.md`, and
+`new_user_interviews.md`. Grammatical mistakes, spelling errors, etc
+are all fine. Add `post_usage_interviews.md` to the list of
+human-only files in your `CLAUDE.md`.
 
 **When we meet:**
 
@@ -516,22 +624,11 @@ your product is solving their fundamental problem.
 
 - Have 2-3 high priority questions that you want to ask the course staff
 
-- Be ready to talk about what you learned from people using
-  your app _and_ what you changed as a result.
-
-  - You need to understand if your app is actually solving a problem
-    for people. Whether it is or not doesn't matter, but the fact that
-    you know the answer does.
-
-  - **Minimum:** You should have had at least one person use your app
-      and collected feedback from them.
-
-  - **Expected:** You should have had at least 10 people use your app,
-      collected feedback from them, and iterated on the feedback.
-
-  - **Above and beyond:** Everything from Expected and for at least
-      two of your users you are solving a real problem for them, and
-      they are enthusiastic about your app.
+- Be ready to tell us if your app is solving a problem for people and
+  how you know. If you believe it is, expect us to dig into your
+  evidence. If it isn't, be ready to explain why not: too much
+  inertia, too much anxiety, too little value, or a problem that
+  wasn't that big.
 
 ## Final Project & Presentation Guidelines
 
